@@ -578,7 +578,7 @@ tr.us td{background:var(--red-soft)!important}
 .co .tm .days{display:flex;gap:4px}
 .co .tm .days b{min-width:0;display:inline-grid;place-items:center;width:28px;height:24px;border-radius:5px;background:var(--red-soft);color:var(--red);font-size:.85rem}
 .co .tm span{text-align:right}
-.ld.nop{background:linear-gradient(0deg,rgba(29,10,13,.95) 0%,rgba(140,0,25,.55) 55%,rgba(224,56,63,.25) 100%),var(--bg) center 30%/cover}
+.ld.nop{background:linear-gradient(0deg,rgba(29,10,13,.95) 0%,rgba(140,0,25,.55) 55%,rgba(224,56,63,.25) 100%),var(--bg) 50% 25%/cover}
 .ld.nop::before{opacity:0}
 </style>
 
@@ -840,7 +840,7 @@ function topBy(list,i){ return list.filter(function(p){return p.st;}).sort(funct
 function renderLeaders(){
   var pl=curRoster.players, b=topBy(pl,3), g=topBy(pl,1), a=topBy(pl,2);
   var gk=pl.filter(function(p){return p.x.gk&&p.x.gk.gp&&p.x.gk.sv!=='0,00 %';}).sort(function(x,y){return parseFloat(y.x.gk.sv.replace(',','.'))-parseFloat(x.x.gk.sv.replace(',','.'));})[0];
-  var LDBG=['img/a/lido-59.jpg','img/a/lido-31.jpg','img/a/lido-39.jpg','img/a/lido-164.jpg'], ldi=0;
+  var LDBG=['uploads/clanky/ondrasik-3.jpg','uploads/clanky/ondrasik-1.jpg','uploads/clanky/davidek-1.jpg','uploads/clanky/ondrasik-2.jpg'], ldi=0;
   function card(lbl,val,p,unit){ if(!p) return ''; var bg=LDBG[ldi++%4]; return '<button type="button" class="ld'+(p.photo?'':' nop')+'" style="--bg:url('+bg+')" data-big="'+(p.no||'')+'" data-name="'+esc(p.name)+'">'+(p.photo?'<img src="'+pimg(p.photo)+'" alt="">':'')+'<span class="t"><small>'+lbl+'</small><b class="num">'+val+'</b><span>'+esc(p.name)+'</span>'+(unit?'<em>'+unit+'</em>':'')+'</span></button>'; }
   document.getElementById('leaders').innerHTML=card('Najviac bodov',b.st[3],b,b.st[1]+'+'+b.st[2])+card('Najviac gólov',g.st[1],g,g.st[0]+' zápasy')+card('Najviac asistencií',a.st[2],a,'')+card('Brankár · úspešnosť',gk?gk.x.gk.sv.replace(' ',''):'–',gk,gk?gk.x.gk.gp+' zápasy':'');
   [].forEach.call(document.querySelectorAll('.ld'),function(el){ el.addEventListener('click',function(){ openPlayer(el.getAttribute('data-name')); }); });
