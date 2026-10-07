@@ -138,6 +138,7 @@ collections:
                   - { label: Meno a priezvisko, name: name, widget: string, hint: 'Presne ako na szfb.sk (kvôli spárovaniu štatistík)' }
                   - { label: Post, name: pos, widget: select, options: [ { label: Brankár, value: B }, { label: Obranca, value: O }, { label: Útočník, value: Ú } ] }
                   - { label: Ročník, name: yr, widget: number, value_type: int }
+                  - { label: "Dátum narodenia (napr. 12.3.2006)", name: born, widget: string, required: false }
                   - { label: Fotka, name: photo, widget: image, required: false }
                   - { label: Kapitán, name: captain, widget: boolean, required: false, default: false }
                   - { label: Zobraziť aj bez odohraného zápasu, name: show_without_games, widget: boolean, required: false, default: false }
