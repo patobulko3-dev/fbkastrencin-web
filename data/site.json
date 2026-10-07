@@ -61,7 +61,7 @@
  "trainings": [
   {
    "category": "Muži",
-   "photo": "img/b/muzi.jpg",
+   "photo": "img/c/muzi.jpg",
    "badge": "Extraliga",
    "times": [
     {
@@ -81,7 +81,7 @@
   },
   {
    "category": "Juniori",
-   "photo": "img/b/juniori.jpg",
+   "photo": "img/c/juniori.jpg",
    "badge": "U19",
    "times": [
     {
@@ -106,7 +106,7 @@
   },
   {
    "category": "Dorastenci",
-   "photo": "img/b/dorast.jpg",
+   "photo": "img/c/dorast.jpg",
    "badge": "U17",
    "times": [
     {
@@ -135,7 +135,7 @@
   },
   {
    "category": "Starší žiaci",
-   "photo": "img/b/sz.jpg",
+   "photo": "img/c/starsi-ziaci.jpg",
    "badge": "2012 – 2013",
    "times": [
     {
@@ -153,7 +153,7 @@
   },
   {
    "category": "Mladší žiaci",
-   "photo": "img/b/mz.jpg",
+   "photo": "img/c/mladsi-ziaci.jpg",
    "badge": "2014 – 2015",
    "times": [
     {
@@ -171,7 +171,7 @@
   },
   {
    "category": "Staršia prípravka",
-   "photo": "img/b/pripravka.jpg",
+   "photo": "img/c/starsia-pripravka.jpg",
    "badge": "2016 – 2017",
    "times": [
     {
@@ -189,7 +189,7 @@
   },
   {
    "category": "Mladšia prípravka",
-   "photo": "img/h/nabor.jpg",
+   "photo": "img/c/mladsia-pripravka.jpg",
    "badge": "2018 – 2019",
    "times": [
     {

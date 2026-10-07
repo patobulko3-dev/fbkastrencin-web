@@ -67,7 +67,12 @@ export function parseLineup(doc, teamName) {
 /** Profil hráča → formát [MENO, sezóna[], kariéra[], posledné zápasy[]] */
 export function parsePlayer(doc) {
   const h = doc.querySelector('h2.tt-uppercase');
-  const name = h ? h.childNodes[0].textContent.replace(/\s+/g, ' ').trim() : '';
+  // meno = všetky textové uzly pred prvým elementom (linkedom delí text pri HTML entitách, napr. &Aacute;)
+  let name = '';
+  if (h) {
+    for (const n of h.childNodes) { if (n.nodeType === 1) break; name += n.textContent; }
+  }
+  name = name.replace(/\s+/g, ' ').trim();
   const pos = T(doc.querySelector('.playa-position'));
   const isG = /Brank/i.test(pos);
   const cnt = {};
