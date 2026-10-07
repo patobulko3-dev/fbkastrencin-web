@@ -837,7 +837,7 @@ tr.us .mini-crest{border-color:transparent}
 
 <script>var DATA={order:['muzi','juniori','mb','dorast','sz','mz','pripravka']};
 function fetchJSON(u){ return fetch(u,{cache:'no-cache'}).then(function(r){ if(!r.ok) throw new Error(u); return r.json(); }); }
-Promise.all([fetchJSON('data/szfb.json'),fetchJSON('data/rosters.json'),fetchJSON('data/site.json'),fetchJSON('data/news.json')]).then(function(a){
+Promise.all([fetchJSON('https://raw.githubusercontent.com/patobulko3-dev/fbkastrencin-web/main/data/szfb.json').catch(function(){return fetchJSON('data/szfb.json');}),fetchJSON('data/rosters.json'),fetchJSON('data/site.json'),fetchJSON('data/news.json')]).then(function(a){
 DATA.szfb=a[0]; DATA.rosters=a[1]; DATA.site=a[2]; DATA.news=a[3];
 
 var US=/AS Trenčín/;
@@ -937,7 +937,7 @@ function renderRoster(){
     if(p.x.gk) line='<div class="line'+(p.x.gk.gp?'':' zero')+'"><div><b>'+p.x.gk.gp+'</b><span>Z</span></div><div style="grid-column:span 2"><b>'+(p.x.gk.gp&&p.x.gk.sv!=='0,00 %'?p.x.gk.sv.replace(' ',''):'–')+'</b><span>úspešnosť</span></div><div><b>'+(p.x.gk.gp&&p.x.gk.gaa!=='0,00'?p.x.gk.gaa:'–')+'</b><span>GAA</span></div></div>';
     else if(p.st) line='<div class="line'+(p.st[0]?'':' zero')+'"><div><b>'+p.st[0]+'</b><span>Z</span></div><div><b>'+p.st[1]+'</b><span>G</span></div><div><b>'+p.st[2]+'</b><span>A</span></div><div><b>'+p.st[3]+'</b><span>B</span></div></div>';
     else line='<div class="line zero"><div><b>0</b><span>Z</span></div><div><b>–</b><span>G</span></div><div><b>–</b><span>A</span></div><div><b>–</b><span>B</span></div></div>';
-    return hd+'<button type="button" class="pl" id="pl-'+curRoster.id+'-'+i+'" data-name="'+esc(p.name)+'"><div class="ph">'+photoTag(p)+(best===p?'<span class="hot">Top strelec</span>':'')+'</div><span class="no num">'+(p.no||'–')+'</span><span class="pos">'+POSN[p.pos]+'</span>'+(p.x.c?'<span class="cap" title="Kapitán">C</span>':'')+'<div class="meta"><b>'+esc(p.name)+'</b><span>'+(p.born?'nar. '+fmtBorn(p.born):'ročník '+p.yr)+'</span>'+line+'</div></button>';
+    return hd+'<button type="button" class="pl" id="pl-'+curRoster.id+'-'+i+'" data-name="'+esc(p.name)+'"><div class="ph">'+photoTag(p)+(best===p?'<span class="hot">Top strelec</span>':'')+'</div><span class="no num">'+(p.no||'–')+'</span><span class="pos">'+POSN[p.pos]+'</span>'+(p.x.c?'<span class="cap" title="Kapitán">C</span>':'')+'<div class="meta"><b>'+esc(p.name)+'</b><span>ročník '+p.yr+(p.born?' · '+fmtDM(p.born):'')+'</span>'+line+'</div></button>';
   }).join('');
   [].forEach.call(document.querySelectorAll('.pl'),function(el){ el.addEventListener('click',function(){ openPlayer(el.getAttribute('data-name')); }); });
   var pl=curRoster.players, yrs=pl.map(function(p){return p.yr;}), avg=(2026-yrs.reduce(function(a,b){return a+b;},0)/yrs.length).toFixed(1);
@@ -958,7 +958,7 @@ function openPlayer(name){
   var gkp=!!p.x.gk, car='', last='';
   if(p.car&&p.car.length) car='<div><h4 class="mh">Kariéra v SZFB</h4><table class="mt num"><thead><tr><th></th><th>Z</th>'+(gkp?'<th>GA</th><th>GAA</th><th>%</th>':'<th>G</th><th>A</th><th>B</th>')+'</tr></thead><tbody>'+p.car.map(function(r){var c=r.split('|'); return gkp?'<tr><td>'+c[0]+'</td><td>'+c[1]+'</td><td>'+c[3]+'</td><td>'+c[4]+'</td><td>'+(c[5]||'')+'</td></tr>':'<tr><td>'+c[0]+'</td><td>'+c[1]+'</td><td>'+c[2]+'</td><td>'+c[3]+'</td><td><b>'+c[4]+'</b></td></tr>';}).join('')+'</tbody></table></div>';
   if(p.last&&p.last.length) last='<div><h4 class="mh">Posledné zápasy</h4><ul class="ml">'+p.last.map(function(m){var home=/^vs\./.test(m[0]); return '<li><span class="md num">'+m[1]+'.</span>'+crest(m[0].replace(/^(vs\. |@ )/,''))+'<span class="mo">'+(home?'':'@ ')+esc(m[0].replace(/^(vs\. |@ )/,''))+'<small class="num">'+m[2]+'</small></span><b class="num">'+(gkp?m[3].replace(' ',''):(m[3]==='0+0'?'–':m[3].replace('+',' G + ')+' A'))+'</b></li>';}).join('')+'</ul></div>';
-  document.getElementById('pmc').innerHTML='<button type="button" class="x" id="pmx" aria-label="Zavrieť">×</button><div class="ph2">'+photoTag(p)+'<span class="big num">'+(p.no||'')+'</span></div><div class="bd"><div><span class="eyebrow">'+esc(curRoster.name)+' · '+esc(curRoster.league)+'</span><h3>'+esc(p.name)+'</h3></div><div class="chipsr"><span>'+POSN[p.pos]+'</span><span>'+(p.born?'nar. '+fmtBorn(p.born):'ročník '+p.yr)+'</span>'+(p.x.c?'<span>Kapitán</span>':'')+others.map(function(o){return '<span>hrá aj za: '+esc(o)+'</span>';}).join('')+'</div><div class="sg num">'+sg+'</div>'+rank+car+last+'<p class="rk">Zdroj: szfb.sk, aktualizované '+UPDTXT+'.</p></div>';
+  document.getElementById('pmc').innerHTML='<button type="button" class="x" id="pmx" aria-label="Zavrieť">×</button><div class="ph2">'+photoTag(p)+'<span class="big num">'+(p.no||'')+'</span></div><div class="bd"><div><span class="eyebrow">'+esc(curRoster.name)+' · '+esc(curRoster.league)+'</span><h3>'+esc(p.name)+'</h3></div><div class="chipsr"><span>'+POSN[p.pos]+'</span><span>ročník '+p.yr+'</span>'+(p.born?'<span>🎂 '+fmtDM(p.born)+'</span>':'')+(p.x.c?'<span>Kapitán</span>':'')+others.map(function(o){return '<span>hrá aj za: '+esc(o)+'</span>';}).join('')+'</div><div class="sg num">'+sg+'</div>'+rank+car+last+'<p class="rk">Zdroj: szfb.sk, aktualizované '+UPDTXT+'.</p></div>';
   document.getElementById('pm').hidden=false;
   document.getElementById('pmx').addEventListener('click',function(){document.getElementById('pm').hidden=true;});
 }
@@ -995,6 +995,7 @@ go(0);
 
 /* ---------- narodeniny a meniny ---------- */
 function parseBorn(b){ var m=String(b).match(/(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})?|(\d{4})-(\d{2})-(\d{2})/); if(!m) return null; return m[4]?{d:+m[6],m:+m[5],y:+m[4]}:{d:+m[1],m:+m[2],y:m[3]?+m[3]:0}; }
+function fmtDM(b){ var x=parseBorn(b); return x?x.d+'. '+x.m+'.':''; }
 function fmtBorn(b){ var x=parseBorn(b); return x?x.d+'. '+x.m+'.'+(x.y?' '+x.y:''):b; }
 (function(){
   var box=document.getElementById('celebr'); if(!box) return;
@@ -1021,9 +1022,9 @@ function fmtBorn(b){ var x=parseBorn(b); return x?x.d+'. '+x.m+'.'+(x.y?' '+x.y:
 function fxKey(m){ if(m[6]) return +new Date(m[6]+'T'+(m[2]||'00:00').padStart(5,'0')+':00'); var dm=m[0].split('.'); return (+dm[1])*100+(+dm[0])+(dm[1]<6?1200:0)+parseFloat(m[2].replace(':','.'))/100; }
 var CDCATS={muzi:1,juniori:1,dorast:1};
 function fxCard(m,i){ var tm=m[2]&&m[2]!=='0:00'&&m[2]!=='00:00'?m[2]:''; return '<article class="fxc'+(m[5]?' h':' a')+'" title="'+esc(m[4])+'"><span class="dt">'+m[0].replace(/\.$/,'')+'<small>'+m[1]+(tm?' '+tm:'')+'</small></span>'+crest(m[3])+'<span class="op">'+esc(m[3])+'</span><em>'+(m[5]?'DOMA':'VONKU')+'</em></article>'; }
-var MCROWS=CATS.filter(function(c){return c.next.length;}).map(function(c){ var nx=c.next.slice().sort(function(a,b){return fxKey(a)-fxKey(b);}).slice(0,4); return {c:c,nx:nx,t:nx[0][6]?fxKey(nx[0]):0}; });
+var MCROWS=CATS.filter(function(c){return c.next.length&&c.id!=='mb';}).map(function(c){ var nx=c.next.slice().sort(function(a,b){return fxKey(a)-fxKey(b);}).slice(0,4); return {c:c,nx:nx,t:nx[0][6]?fxKey(nx[0]):0}; });
 document.getElementById('mcrows').innerHTML=MCROWS.map(function(r){ var cd=r.t?'<div class="cd" data-t="'+r.t+'"></div>':'';
-  if(!CDCATS[r.c.id]){ var m=r.nx[0], tm=m[2]&&m[2]!=='0:00'&&m[2]!=='00:00'?m[2]:'čas t.b.a.';
+  if(false){ var m=r.nx[0], tm=m[2]&&m[2]!=='0:00'&&m[2]!=='00:00'?m[2]:'čas t.b.a.';
     return '<div class="mcr mcs"><div class="mcr-l" title="'+esc(r.c.league)+'"><b>'+esc(r.c.name)+'</b>'+cd+'</div><div class="mcr-n'+(m[5]?' h':'')+'"><span class="dt">'+m[1]+' '+m[0]+' · '+tm+'</span>'+crest(m[3])+'<span class="op">'+esc(m[3])+'</span><em>'+(m[5]?'DOMA':'VONKU')+'</em><span class="vn">'+esc(m[4])+'</span></div></div>'; }
   var cards=r.nx.map(fxCard).join(''); var reps=Math.ceil(6/r.nx.length), one=''; for(var k=0;k<reps;k++) one+=cards;
   return '<div class="mcr"><div class="mcr-l" title="'+esc(r.c.league)+'"><b>'+esc(r.c.name)+'</b>'+cd+'</div><div class="mcr-t"><div class="mcr-track" style="--dur:'+(r.nx.length*reps*11)+'s">'+one+one+'</div></div></div>'; }).join('');

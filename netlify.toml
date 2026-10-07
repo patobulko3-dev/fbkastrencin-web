@@ -1,6 +1,8 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  # nestavať, keď sa zmenili iba dáta zo szfb.sk (web si ich ťahá priamo z GitHubu) – šetrí kredity
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)data/szfb.json'"
 
 [build.environment]
   NODE_VERSION = "20"
