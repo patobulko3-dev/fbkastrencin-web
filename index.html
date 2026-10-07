@@ -175,6 +175,16 @@ tr.us td:nth-child(2){color:var(--red)}
 .facts{display:flex;gap:18px;flex-wrap:wrap;font-size:.84rem;color:var(--muted)}
 .facts b{font-family:var(--display);font-size:1.4rem;color:var(--ink);margin-right:4px}
 .players{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.jg{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden;isolation:isolate;
+ background:repeating-linear-gradient(115deg,rgba(255,255,255,.04) 0 2px,transparent 2px 18px),radial-gradient(120% 100% at 100% 0%,#e0383f 0%,#a5141c 45%,#4a080d 100%)}
+.jg-O{background:repeating-linear-gradient(115deg,rgba(255,255,255,.04) 0 2px,transparent 2px 18px),radial-gradient(120% 100% at 100% 0%,#b51d24 0%,#6e0d14 50%,#250709 100%)}
+.jg-B{background:repeating-linear-gradient(115deg,rgba(255,255,255,.04) 0 2px,transparent 2px 18px),radial-gradient(120% 100% at 100% 0%,#4a3c3f 0%,#231a1c 55%,#0f0a0b 100%)}
+.jg::before{content:"";position:absolute;right:-18%;bottom:-14%;width:70%;aspect-ratio:1;background:url('img/l/astn-white.png') no-repeat center/contain;opacity:.08;z-index:-1}
+.jg b{font-family:var(--display);font-weight:900;font-size:clamp(5rem,9vw,7.5rem);line-height:.8;letter-spacing:-.02em;color:transparent;-webkit-text-stroke:2px rgba(255,255,255,.9)}
+.jg i{position:absolute;left:0;right:0;bottom:12px;text-align:center;font-style:normal;font-family:var(--display);font-weight:900;font-size:.95rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+.pl .no{display:none}
+.jg.noj b{font-size:3.6rem}
+.pm .ph2 .jg b{font-size:12rem}.pm .ph2 .big{display:none}
 .pl{position:relative;border-radius:10px;overflow:hidden;background:var(--surface);border:1px solid var(--line);transition:transform .2s ease,box-shadow .2s ease}
 .pl:hover{transform:translateY(-3px);box-shadow:0 14px 30px -18px rgba(0,0,0,.5)}
 .pl .ph{aspect-ratio:4/5;max-width:100%;background:linear-gradient(160deg,#3a2a2d,#141012);position:relative;overflow:hidden}
@@ -325,41 +335,33 @@ footer small{opacity:.85}
 
 /* match center strip */
 .mc{background:var(--ink);color:var(--bg);border-top:3px solid var(--red)}
-.mc .wrap{padding-block:22px 26px}
-.mc-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:14px}
-.mc h2{font-size:1.9rem;font-weight:900;text-transform:uppercase;line-height:.95;color:#fff}
-.mc h2 small{display:block;font-family:var(--body);font-size:.68rem;line-height:1.2;letter-spacing:.16em;color:#ff8a8f;font-weight:900;margin-bottom:6px}
-.mc-hint{font-size:.72rem;color:#8f8285}
-.mc-rows{display:grid;gap:10px}
-.mcr{display:grid;grid-template-columns:250px minmax(0,1fr);background:#1f1719;border:1px solid #33282b;border-radius:12px;overflow:hidden}
-.mcr-l{padding:12px 16px;background:linear-gradient(135deg,#2b1d20,#1f1719);border-right:1px solid #33282b;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
-.mcr-l::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--red)}
-.mcr-l b{font-family:var(--display);font-size:1.45rem;font-weight:900;text-transform:uppercase;line-height:1;color:#fff}
-.mcr-l small{font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:#a8999c}
-.cd{display:flex;gap:4px;align-items:flex-end}
-.cd span{display:grid;justify-items:center;min-width:38px;background:#0f0a0b;border:1px solid #3a2e31;border-radius:6px;padding:4px 4px 3px}
-.cd span i{font-style:normal;font-family:var(--display);font-weight:900;font-size:1.25rem;line-height:1;color:#fff;font-variant-numeric:tabular-nums}
-.cd span em{font-style:normal;font-size:.55rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#ff8a8f}
-.cd.live span i{color:#ff5a60}
-.mcr-t{overflow:hidden;position:relative;mask-image:linear-gradient(90deg,transparent,#000 3%,#000 94%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 3%,#000 94%,transparent)}
-.mcr-track{display:flex;gap:10px;width:max-content;padding:10px;animation:mcroll var(--dur,30s) linear infinite}
+.mc .wrap{padding-block:12px 14px}
+.mc-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:8px}
+.mc h2{font-size:1.05rem;font-weight:900;text-transform:uppercase;line-height:1;color:#fff;display:flex;gap:10px;align-items:baseline}
+.mc h2 small{font-family:var(--body);font-size:.62rem;letter-spacing:.16em;color:#ff8a8f;font-weight:900}
+.mc-hint{font-size:.66rem;color:#7d7073}
+.mc-rows{display:grid;gap:5px}
+.mcr{display:grid;grid-template-columns:240px minmax(0,1fr);align-items:stretch;background:#1f1719;border:1px solid #33282b;border-radius:8px;overflow:hidden;height:46px}
+.mcr-l{padding:0 10px 0 12px;border-right:1px solid #33282b;display:flex;align-items:center;justify-content:space-between;gap:8px;position:relative}
+.mcr-l::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--red)}
+.mcr-l b{font-family:var(--display);font-size:1rem;font-weight:900;text-transform:uppercase;line-height:1;color:#fff;white-space:nowrap}
+.cd{display:flex;gap:2px;font-family:var(--display);font-weight:900;font-size:.78rem;color:#fff;font-variant-numeric:tabular-nums;background:var(--red);border-radius:4px;padding:3px 6px;white-space:nowrap}
+.cd i{font-style:normal;color:#ffc9cc;font-weight:700;font-size:.62rem;margin-right:3px;align-self:center}
+.mcr-t{overflow:hidden;position:relative;mask-image:linear-gradient(90deg,transparent,#000 2%,#000 95%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 2%,#000 95%,transparent)}
+.mcr-track{display:flex;gap:6px;width:max-content;height:100%;align-items:center;padding:0 6px;animation:mcroll var(--dur,30s) linear infinite}
 .mcr:hover .mcr-track{animation-play-state:paused}
 @keyframes mcroll{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.mcr-track{animation:none}.mcr-t{overflow-x:auto}}
-.fxc{flex:none;width:270px;background:#2a2023;border:1px solid #3a2e31;border-radius:10px;padding:10px 12px;color:#f4eeef;display:grid;grid-template-columns:62px 1fr;gap:4px 12px;align-items:center}
+.fxc{flex:none;display:flex;align-items:center;gap:8px;height:34px;padding:0 10px 0 8px;background:#2a2023;border:1px solid #3a2e31;border-radius:6px;color:#f4eeef;white-space:nowrap}
 .fxc.next{background:linear-gradient(135deg,var(--red-deep),var(--red));border-color:transparent}
-.fxc .dt{grid-row:span 2;text-align:center;border-right:1px solid rgba(255,255,255,.14);padding-right:10px}
-.fxc .dt small{display:block;font-size:.6rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:#ffb3b6}
+.fxc .dt{font-family:var(--display);font-weight:900;font-size:.95rem;line-height:1;color:#fff}
+.fxc .dt small{font-family:var(--body);font-size:.6rem;font-weight:800;color:#ffb3b6;margin-left:4px}
 .fxc.next .dt small{color:#fff}
-.fxc .dt b{display:block;font-family:var(--display);font-size:1.5rem;font-weight:900;line-height:1;color:#fff}
-.fxc .dt span{display:block;font-size:.78rem;font-weight:800;color:#fff;opacity:.9}
-.fxc .vs{display:grid;grid-template-columns:28px 1fr;gap:8px;align-items:center;font-weight:900;font-size:.88rem;line-height:1.15;color:#fff}
-.fxc .vs .mini-crest{width:28px;height:28px}
-.fxc .fpl{font-size:.7rem;color:#cdbfc2;display:flex;gap:6px;align-items:center;min-width:0}
-.fxc .fpl em{font-style:normal;font-size:.58rem;font-weight:900;letter-spacing:.08em;padding:1px 6px;border-radius:3px;background:rgba(255,255,255,.12);color:#fff;flex:none}
-.fxc .fpl em.h{background:#fff;color:var(--red)}
-.fxc .fpl span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-@media (max-width:760px){.mcr{grid-template-columns:1fr}.mcr-l{border-right:0;border-bottom:1px solid #33282b;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:space-between}.mc-hint{display:none}}
+.fxc .mini-crest{width:20px;height:20px;flex:none}
+.fxc .op{font-weight:800;font-size:.8rem;max-width:190px;overflow:hidden;text-overflow:ellipsis}
+.fxc em{font-style:normal;font-size:.55rem;font-weight:900;letter-spacing:.08em;padding:1px 5px;border-radius:3px;background:rgba(255,255,255,.12);color:#fff}
+.fxc em.h{background:#fff;color:var(--red)}
+@media (max-width:760px){.mcr{grid-template-columns:1fr;height:auto}.mcr-l{border-right:0;border-bottom:1px solid #33282b;height:32px}.mcr-t{height:44px}.mc-hint{display:none}}
 @media (max-width:760px){.mc .wrap{grid-template-columns:1fr}}
 
 /* lídri tímu */
@@ -537,6 +539,10 @@ footer small{opacity:.85}
 .co{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
 .co .cv{aspect-ratio:2/1;background-size:cover;background-position:50% 35%;position:relative}
 .co .cv::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.7))}
+.co .cv.gfx{background:repeating-linear-gradient(115deg,rgba(255,255,255,.04) 0 2px,transparent 2px 18px),radial-gradient(120% 120% at 100% 0%,#e0383f 0%,#a5141c 45%,#4a080d 100%);overflow:hidden}
+.co .cv.gfx::before{content:attr(data-yr);position:absolute;right:12px;top:8px;font-family:var(--display);font-weight:900;font-size:2.6rem;line-height:1;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,.55);white-space:nowrap}
+.co .cv.gfx::after{background:url('img/l/astn-white.png') no-repeat -6% 130%/42% auto;opacity:.12}
+.co .cv.gfx .yr{display:none}
 .co .cv b{position:absolute;left:14px;bottom:10px;z-index:1;color:#fff;font-family:var(--display);font-weight:900;font-size:1.5rem;text-transform:uppercase;line-height:1}
 .co ul{list-style:none;margin:0;padding:12px 14px 14px;display:grid;gap:8px}
 .co li{display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:center;font-weight:800;font-size:.92rem}
@@ -590,9 +596,10 @@ tr.us td{background:var(--red-soft)!important}
 .leaders{gap:14px}
 .ld{min-height:210px;padding:18px;background:radial-gradient(120% 90% at 100% 0%,#e0383f 0%,var(--red-deep) 45%,#1d0a0d 100%);isolation:isolate}
 .ld::before{content:"";position:absolute;inset:0;background:url('img/l/astn-white.png') no-repeat -18% 120%/62% auto;opacity:.08;z-index:-1}
-.ld::after{content:attr(data-big);position:absolute;right:10px;top:-10px;font-family:var(--display);font-weight:900;font-size:7.5rem;line-height:1;color:rgba(255,255,255,.08);z-index:-1}
+.ld::after{content:attr(data-big);position:absolute;right:12px;top:50%;transform:translateY(-50%);font-family:var(--display);font-weight:900;font-size:clamp(4.5rem,7vw,6.5rem);line-height:.8;letter-spacing:-.02em;color:transparent;-webkit-text-stroke:2px rgba(255,255,255,.28);z-index:-1}
+.ld{background:repeating-linear-gradient(115deg,rgba(255,255,255,.035) 0 2px,transparent 2px 20px),radial-gradient(120% 90% at 100% 0%,#e0383f 0%,var(--red-deep) 45%,#1d0a0d 100%)}
 .ld img{right:-4%;height:96%;z-index:0;filter:drop-shadow(0 8px 18px rgba(0,0,0,.45));mask-image:linear-gradient(90deg,transparent 0%,#000 30%);-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 30%)}
-.ld .t{max-width:62%}
+.ld .t{max-width:58%}
 .ld .t b{font-size:3.6rem}
 .ld .t small{display:inline-block;background:rgba(255,255,255,.14);padding:3px 8px;border-radius:999px;margin-bottom:6px;color:#fff}
 .ld .t span{display:block;font-size:.95rem;line-height:1.2}
@@ -864,13 +871,13 @@ CATS.forEach(function(c){ var r=ROSTERS.filter(function(x){return x.id===c.id;})
 });
 var POSN={B:'Brankár',O:'Obranca','Ú':'Útočník'};
 var curRoster=ROSTERS[0], curPos='all', curSort='no';
-function photoTag(p,cls){ return p.photo?'<img src="'+pimg(p.photo)+'" alt="'+esc(p.name)+'" loading="lazy"'+(cls?' class="'+cls+'"':'')+'>':'<span class="sil"><img src="img/l/astn-white.png" alt=""></span>'; }
+function photoTag(p,cls){ var ini=p.name.split(' ').map(function(w){return w[0];}).join(''); return '<span class="jg jg-'+(p.pos||'U')+(p.no?'':' noj')+'"><b>'+(p.no||ini)+'</b><i>'+esc(p.name.split(' ').slice(-1)[0])+'</i></span>'; }
 function topBy(list,i){ return list.filter(function(p){return p.st;}).sort(function(a,b){return b.st[i]-a.st[i]||b.st[1]-a.st[1];})[0]; }
 function renderLeaders(){
   var pl=curRoster.players, b=topBy(pl,3), g=topBy(pl,1), a=topBy(pl,2);
   var gk=pl.filter(function(p){return p.x.gk&&p.x.gk.gp&&p.x.gk.sv!=='0,00 %';}).sort(function(x,y){return parseFloat(y.x.gk.sv.replace(',','.'))-parseFloat(x.x.gk.sv.replace(',','.'));})[0];
   var LDBG=['uploads/clanky/ondrasik-3.jpg','uploads/clanky/ondrasik-1.jpg','uploads/clanky/davidek-1.jpg','uploads/clanky/ondrasik-2.jpg'], ldi=0;
-  function card(lbl,val,p,unit){ if(!p) return ''; var bg=LDBG[ldi++%4]; return '<button type="button" class="ld'+(p.photo?'':' nop')+'" style="--bg:url('+bg+')" data-big="'+(p.no||'')+'" data-name="'+esc(p.name)+'">'+(p.photo?'<img src="'+pimg(p.photo)+'" alt="">':'')+'<span class="t"><small>'+lbl+'</small><b class="num">'+val+'</b><span>'+esc(p.name)+'</span>'+(unit?'<em>'+unit+'</em>':'')+'</span></button>'; }
+  function card(lbl,val,p,unit){ if(!p) return ''; var bg=LDBG[ldi++%4]; return '<button type="button" class="ld" data-big="'+(p.no?'#'+p.no:'')+'" data-name="'+esc(p.name)+'">'+'<span class="t"><small>'+lbl+'</small><b class="num">'+val+'</b><span>'+esc(p.name)+'</span>'+(unit?'<em>'+unit+'</em>':'')+'</span></button>'; }
   document.getElementById('leaders').innerHTML=card('Najviac bodov',b.st[3],b,b.st[1]+'+'+b.st[2])+card('Najviac gólov',g.st[1],g,g.st[0]+' zápasy')+card('Najviac asistencií',a.st[2],a,'')+card('Brankár · úspešnosť',gk?gk.x.gk.sv.replace(' ',''):'–',gk,gk?gk.x.gk.gp+' zápasy':'');
   [].forEach.call(document.querySelectorAll('.ld'),function(el){ el.addEventListener('click',function(){ openPlayer(el.getAttribute('data-name')); }); });
 }
@@ -906,7 +913,7 @@ function openPlayer(name){
   var gkp=!!p.x.gk, car='', last='';
   if(p.car&&p.car.length) car='<div><h4 class="mh">Kariéra v SZFB</h4><table class="mt num"><thead><tr><th></th><th>Z</th>'+(gkp?'<th>GA</th><th>GAA</th><th>%</th>':'<th>G</th><th>A</th><th>B</th>')+'</tr></thead><tbody>'+p.car.map(function(r){var c=r.split('|'); return gkp?'<tr><td>'+c[0]+'</td><td>'+c[1]+'</td><td>'+c[3]+'</td><td>'+c[4]+'</td><td>'+(c[5]||'')+'</td></tr>':'<tr><td>'+c[0]+'</td><td>'+c[1]+'</td><td>'+c[2]+'</td><td>'+c[3]+'</td><td><b>'+c[4]+'</b></td></tr>';}).join('')+'</tbody></table></div>';
   if(p.last&&p.last.length) last='<div><h4 class="mh">Posledné zápasy</h4><ul class="ml">'+p.last.map(function(m){var home=/^vs\./.test(m[0]); return '<li><span class="md num">'+m[1]+'.</span>'+crest(m[0].replace(/^(vs\. |@ )/,''))+'<span class="mo">'+(home?'':'@ ')+esc(m[0].replace(/^(vs\. |@ )/,''))+'<small class="num">'+m[2]+'</small></span><b class="num">'+(gkp?m[3].replace(' ',''):(m[3]==='0+0'?'–':m[3].replace('+',' G + ')+' A'))+'</b></li>';}).join('')+'</ul></div>';
-  document.getElementById('pmc').innerHTML='<button type="button" class="x" id="pmx" aria-label="Zavrieť">×</button><div class="ph2">'+(p.photo?'<img src="'+pimg(p.photo)+'" alt="'+esc(p.name)+'">':'<span class="sil" style="position:absolute;inset:0;display:grid;place-items:center"><img src="img/l/astn-white.png" alt="" style="width:40%;height:auto;opacity:.2"></span>')+'<span class="big num">'+(p.no||'')+'</span></div><div class="bd"><div><span class="eyebrow">'+esc(curRoster.name)+' · '+esc(curRoster.league)+'</span><h3>'+esc(p.name)+'</h3></div><div class="chipsr"><span>'+POSN[p.pos]+'</span><span>ročník '+p.yr+'</span>'+(p.x.c?'<span>Kapitán</span>':'')+others.map(function(o){return '<span>hrá aj za: '+esc(o)+'</span>';}).join('')+'</div><div class="sg num">'+sg+'</div>'+rank+car+last+'<p class="rk">Zdroj: szfb.sk, aktualizované '+UPDTXT+'.</p></div>';
+  document.getElementById('pmc').innerHTML='<button type="button" class="x" id="pmx" aria-label="Zavrieť">×</button><div class="ph2">'+photoTag(p)+'<span class="big num">'+(p.no||'')+'</span></div><div class="bd"><div><span class="eyebrow">'+esc(curRoster.name)+' · '+esc(curRoster.league)+'</span><h3>'+esc(p.name)+'</h3></div><div class="chipsr"><span>'+POSN[p.pos]+'</span><span>ročník '+p.yr+'</span>'+(p.x.c?'<span>Kapitán</span>':'')+others.map(function(o){return '<span>hrá aj za: '+esc(o)+'</span>';}).join('')+'</div><div class="sg num">'+sg+'</div>'+rank+car+last+'<p class="rk">Zdroj: szfb.sk, aktualizované '+UPDTXT+'.</p></div>';
   document.getElementById('pm').hidden=false;
   document.getElementById('pmx').addEventListener('click',function(){document.getElementById('pm').hidden=true;});
 }
@@ -943,14 +950,14 @@ go(0);
 /* ---------- match center: každá kategória samostatne, zápasy sa posúvajú ---------- */
 function fxKey(m){ if(m[6]) return +new Date(m[6]+'T'+(m[2]||'00:00').padStart(5,'0')+':00'); var dm=m[0].split('.'); return (+dm[1])*100+(+dm[0])+(dm[1]<6?1200:0)+parseFloat(m[2].replace(':','.'))/100; }
 var CDCATS={muzi:1,juniori:1,dorast:1};
-function fxCard(m,i){ return '<article class="fxc'+(i===0?' next':'')+'"><div class="dt"><small>'+m[1]+'</small><b>'+m[0].replace(/\.$/,'')+'</b><span>'+(m[2]&&m[2]!=='0:00'&&m[2]!=='00:00'?m[2]:'čas t.b.a.')+'</span></div><div class="vs">'+crest(m[3])+'<span>'+esc(m[3])+'</span></div><div class="fpl"><em'+(m[5]?' class="h">DOMA':'>VONKU')+'</em><span>'+esc(m[4])+'</span></div></article>'; }
+function fxCard(m,i){ var tm=m[2]&&m[2]!=='0:00'&&m[2]!=='00:00'?m[2]:''; return '<article class="fxc'+(i===0?' next':'')+'" title="'+esc(m[4])+'"><span class="dt">'+m[0].replace(/\.$/,'')+'<small>'+m[1]+(tm?' '+tm:'')+'</small></span>'+crest(m[3])+'<span class="op">'+esc(m[3])+'</span><em'+(m[5]?' class="h">DOMA':'>VONKU')+'</em></article>'; }
 var MCROWS=CATS.filter(function(c){return c.next.length;}).map(function(c){ var nx=c.next.slice().sort(function(a,b){return fxKey(a)-fxKey(b);}); return {c:c,nx:nx,t:nx[0][6]?fxKey(nx[0]):0}; });
 document.getElementById('mcrows').innerHTML=MCROWS.map(function(r){ var cards=r.nx.map(fxCard).join(''); var reps=r.nx.length<4?Math.ceil(4/r.nx.length):1; var one=''; for(var k=0;k<reps;k++) one+=cards;
-  return '<div class="mcr"><div class="mcr-l"><div><b>'+esc(r.c.name)+'</b><br><small>'+esc(r.c.league)+'</small></div>'+(CDCATS[r.c.id]&&r.t?'<div class="cd" data-t="'+r.t+'"></div>':'')+'</div><div class="mcr-t"><div class="mcr-track" style="--dur:'+Math.max(18,r.nx.length*reps*7)+'s">'+one+one+'</div></div></div>'; }).join('');
+  return '<div class="mcr"><div class="mcr-l" title="'+esc(r.c.league)+'"><b>'+esc(r.c.name)+'</b>'+(CDCATS[r.c.id]&&r.t?'<div class="cd" data-t="'+r.t+'"></div>':'')+'</div><div class="mcr-t"><div class="mcr-track" style="--dur:'+Math.max(16,r.nx.length*reps*5)+'s">'+one+one+'</div></div></div>'; }).join('');
 function cdTick(){ var now=Date.now(); [].forEach.call(document.querySelectorAll('.cd[data-t]'),function(el){ var d=Math.max(0,+el.getAttribute('data-t')-now), live=d===0;
   var D=Math.floor(d/864e5), H=Math.floor(d/36e5)%24, M=Math.floor(d/6e4)%60, S=Math.floor(d/1e3)%60, p=function(x){return (x<10?'0':'')+x;};
   el.classList.toggle('live',live);
-  el.innerHTML=live?'<span><i>LIVE</i><em>práve sa hrá</em></span>':'<span><i>'+D+'</i><em>dní</em></span><span><i>'+p(H)+'</i><em>hod</em></span><span><i>'+p(M)+'</i><em>min</em></span><span><i>'+p(S)+'</i><em>sek</em></span>'; }); }
+  el.innerHTML=live?'LIVE':'<i>o</i>'+(D?D+'d ':'')+p(H)+':'+p(M)+':'+p(S); }); }
 cdTick(); setInterval(cdTick,1000);
 /* najbližšie domáce zápasy v Arene */
 var HOME=[]; CATS.forEach(function(c){ c.next.forEach(function(m){ if(m[5]) HOME.push({c:c.name,m:m,k:fxKey(m)}); }); });
@@ -959,11 +966,11 @@ document.getElementById('arnext').innerHTML=HOME.slice(0,5).map(function(h){ ret
 
 /* ---------- vedenie a tréneri ---------- */
 var COACH=DATA.site.trainings.map(function(t){ return [t.category,t.photo,(t.coaches||[]).map(function(c){return [c.name,c.role||'',c.photo||'',c.phone||'',c.email||''];}),(t.times||[]).map(function(x){return [x.days,x.time];}),t.badge||'']; });
-document.getElementById('coaches').innerHTML=COACH.map(function(k){ return '<div class="co"><div class="cv" style="background-image:url(\''+k[1]+'\')"><span class="yr">'+esc(k[4])+'</span><b>'+esc(k[0])+'</b></div><div class="tm">'+k[3].map(function(t){return '<div><span class="days">'+t[0].split(' ').map(function(d){return '<b>'+d+'</b>';}).join('')+'</span><span>'+t[1]+'</span></div>';}).join('')+'</div><ul>'+k[2].map(function(t){ var nm=t[0].replace(/^Ing\. /,'').replace(/, PhD\.$/,''), ini=nm.split(' ').map(function(w){return w[0];}).join(''), c=(t[3]||t[4])?[t[3],t[4]]:null; return '<li><i>'+(t[2]?'<img src="'+pimg(t[2])+'" alt="">':ini)+'</i><span>'+esc(t[0])+'<small>'+t[1]+'</small>'+(c?(c[0]?'<a href="tel:'+c[0].replace(/ /g,'')+'">'+esc(c[0])+'</a>':'')+(c[1]?'<a href="mailto:'+c[1]+'">'+esc(c[1])+'</a>':''):'')+'</span></li>'; }).join('')+'</ul></div>'; }).join('');
+document.getElementById('coaches').innerHTML=COACH.map(function(k){ return '<div class="co"><div class="cv'+(k[1]?'':' gfx')+'" '+(k[1]?'style="background-image:url(\''+k[1]+'\')"':'data-yr="'+esc(k[4])+'"')+'><span class="yr">'+esc(k[4])+'</span><b>'+esc(k[0])+'</b></div><div class="tm">'+k[3].map(function(t){return '<div><span class="days">'+t[0].split(' ').map(function(d){return '<b>'+d+'</b>';}).join('')+'</span><span>'+t[1]+'</span></div>';}).join('')+'</div><ul>'+k[2].map(function(t){ var nm=t[0].replace(/^Ing\. /,'').replace(/, PhD\.$/,''), ini=nm.split(' ').map(function(w){return w[0];}).join(''), c=(t[3]||t[4])?[t[3],t[4]]:null; return '<li><i>'+(t[2]?'<img src="'+pimg(t[2])+'" alt="">':ini)+'</i><span>'+esc(t[0])+'<small>'+t[1]+'</small>'+(c?(c[0]?'<a href="tel:'+c[0].replace(/ /g,'')+'">'+esc(c[0])+'</a>':'')+(c[1]?'<a href="mailto:'+c[1]+'">'+esc(c[1])+'</a>':''):'')+'</span></li>'; }).join('')+'</ul></div>'; }).join('');
 
 /* ---------- galéria ---------- */
 var GAL=[
- ['uploads/clanky/ondrasik-1.jpg','muzi','Muži · extraliga 2026/27','50% 20%'],['uploads/clanky/davidek-1.jpg','muzi','Muži · striedačka','50% 30%'],['uploads/clanky/ondrasik-4.jpg','muzi','Muži · Šimon Ondrášik','45% 20%'],['uploads/clanky/ondrasik-3.jpg','muzi','Muži · radosť z gólu','50% 25%'],['img/g/t-080.jpg','muzi','Muži · príprava vs. Tsunami','50% 30%'],['uploads/clanky/ondrasik-5.jpg','muzi','Muži · nástup','50% 25%'],
+ ['img/gm/sab-5.jpg','muzi','Muži · AS – Sabinov 6:5 pp (19. 9. 2026)','50% 30%'],['img/gm/sab-10.jpg','muzi','Muži · radosť z gólu proti Sabinovu','50% 30%'],['img/gm/sab-15.jpg','muzi','Muži · AS – Sabinov','50% 20%'],['img/gm/sab-25.jpg','muzi','Muži · AS – Sabinov','60% 30%'],['img/gm/sab-40.jpg','muzi','Muži · AS – Sabinov','50% 40%'],['img/gm/sab-51.jpg','muzi','Fanúšikovia AS v ARENE OSTROV','50% 45%'],
  ['img/g/j-146.jpg','jun','Juniori · AS – LIDO 9:7','50% 25%'],['img/g/j-143.jpg','jun','Juniori · striedačka','50% 40%'],['img/g/j-148.jpg','jun','Juniori · AS – LIDO 9:7','40% 30%'],['img/g/j-152.jpg','jun','Juniori · AS – LIDO 9:7','50% 30%'],['uploads/clanky/asko-2.jpg','jun','Juniori · brankár v akcii','50% 30%'],['uploads/clanky/asko-3.jpg','jun','Juniori · pokrik','50% 30%'],
  ['img/h/dorast.jpg','dor','Dorastenci · zápas','50% 20%'],['img/g/d-75.jpg','dor','Dorastenci · príprava vs. LIDO U19','50% 25%'],['img/g/d-43.jpg','dor','Dorastenci · striedačka','60% 30%'],['img/c/dorast.jpg','dor','Dorastenci · tímová fotka','50% 40%'],['img/g/d-03.jpg','dor','Dorastenci · striedačka','50% 35%'],['img/b/dorast.jpg','dor','Dorastenci · v akcii','50% 0%']
 ];
