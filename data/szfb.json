@@ -1,0 +1,2846 @@
+{
+ "updated": "2026-10-06T20:00:00Z",
+ "season": "2026/27",
+ "cats": {
+  "muzi": {
+   "id": "muzi",
+   "name": "Muži",
+   "photo": "img/b/muzi.jpg",
+   "league": "Florbalová extraliga mužov",
+   "place": "2.",
+   "score": "33:18",
+   "pts": 11,
+   "played": [
+    [
+     "12.9.",
+     "DTF team Detva Joxers",
+     "3:13",
+     "V",
+     "MŠH Detva",
+     0
+    ],
+    [
+     "19.9.",
+     "FBC Predator Sabinov",
+     "6:5 pp",
+     "Vpp",
+     "ARENA OSTROV",
+     1
+    ],
+    [
+     "26.9.",
+     "ŠK LIDO Ružinov",
+     "6:9",
+     "V",
+     "ŠH Dom Športu Bratislava",
+     0
+    ],
+    [
+     "3.10.",
+     "Tsunami Záhorská Bystrica",
+     "5:4",
+     "V",
+     "ARENA OSTROV",
+     1
+    ]
+   ],
+   "next": [
+    [
+     "9.10.",
+     "Pi",
+     "18:30",
+     "FBC Grasshoppers Žilina",
+     "Športové centrum Žilinskej univerzity",
+     0
+    ],
+    [
+     "11.10.",
+     "Ne",
+     "14:00",
+     "FBK Nižná",
+     "MŠH Tvrdošín",
+     0
+    ],
+    [
+     "23.10.",
+     "Pi",
+     "18:30",
+     "1. FBC Trenčín · derby",
+     "MŠH Trenčín – centrálna hala",
+     0
+    ],
+    [
+     "31.10.",
+     "So",
+     "18:00",
+     "FK Florko Košice",
+     "ARENA OSTROV",
+     1
+    ]
+   ],
+   "table": [
+    [
+     "Snipers Bratislava",
+     4,
+     "31:11",
+     12,
+     0
+    ],
+    [
+     "AS Trenčín",
+     4,
+     "33:18",
+     11,
+     1
+    ],
+    [
+     "1. FBC Trenčín",
+     4,
+     "27:15",
+     9,
+     0
+    ],
+    [
+     "Hurikán Bratislava",
+     4,
+     "31:25",
+     9,
+     0
+    ],
+    [
+     "Tsunami Z. Bystrica",
+     4,
+     "21:19",
+     6,
+     0
+    ],
+    [
+     "LIDO Ružinov",
+     4,
+     "28:29",
+     6,
+     0
+    ],
+    [
+     "ATU Košice",
+     4,
+     "26:27",
+     6,
+     0
+    ],
+    [
+     "Florko Košice",
+     4,
+     "24:29",
+     5,
+     0
+    ],
+    [
+     "Predator Sabinov",
+     4,
+     "18:23",
+     4,
+     0
+    ],
+    [
+     "Grasshoppers Žilina",
+     4,
+     "21:26",
+     3,
+     0
+    ],
+    [
+     "Detva Joxers",
+     4,
+     "19:38",
+     1,
+     0
+    ],
+    [
+     "FBK Nižná",
+     4,
+     "14:33",
+     0,
+     0
+    ]
+   ],
+   "zones": true
+  },
+  "juniori": {
+   "id": "juniori",
+   "name": "Juniori",
+   "photo": "img/b/juniori.jpg",
+   "league": "Macron Extraliga juniorov",
+   "place": "4.",
+   "score": "15:14",
+   "pts": 4,
+   "played": [
+    [
+     "12.9.",
+     "ŠK LIDO Ružinov",
+     "9:7",
+     "V",
+     "ARENA OSTROV",
+     1
+    ],
+    [
+     "13.9.",
+     "Snipers Bratislava",
+     "6:7 pp",
+     "Ppp",
+     "ARENA OSTROV",
+     1
+    ]
+   ],
+   "next": [
+    [
+     "10.10.",
+     "So",
+     "17:00",
+     "FBC Mikuláš Academy Prešov",
+     "Spojená škola Prešov",
+     0
+    ],
+    [
+     "11.10.",
+     "Ne",
+     "11:00",
+     "FaBK ATU Košice",
+     "ŠH SOŠ Ostrovského Košice",
+     0
+    ],
+    [
+     "15.10.",
+     "Št",
+     "18:30",
+     "FBC Grasshoppers Žilina",
+     "ARENA OSTROV",
+     1
+    ],
+    [
+     "25.10.",
+     "Ne",
+     "10:00",
+     "1. FBC Trenčín · derby",
+     "MŠH Trenčín – centrálna hala",
+     0
+    ]
+   ],
+   "table": [
+    [
+     "Mikuláš Prešov",
+     3,
+     "19:9",
+     9,
+     0
+    ],
+    [
+     "Snipers Bratislava",
+     4,
+     "31:17",
+     8,
+     0
+    ],
+    [
+     "ATU Košice",
+     3,
+     "21:20",
+     6,
+     0
+    ],
+    [
+     "AS Trenčín",
+     2,
+     "15:14",
+     4,
+     1
+    ],
+    [
+     "Grasshoppers Žilina",
+     3,
+     "18:15",
+     3,
+     0
+    ],
+    [
+     "1. FBC Trenčín",
+     3,
+     "16:29",
+     3,
+     0
+    ],
+    [
+     "LIDO Ružinov",
+     4,
+     "23:39",
+     0,
+     0
+    ]
+   ],
+   "zones": false
+  },
+  "mb": {
+   "id": "mb",
+   "name": "Muži B",
+   "photo": "img/b/mb.jpg",
+   "league": "2. liga mužov Západ · Trenovec a Páv",
+   "place": "4. / 11.",
+   "score": "27:37",
+   "pts": 3,
+   "played": [
+    [
+     "26.9.",
+     "DA.DO.SA Dragons Hlohovec (Trenovec)",
+     "15:3",
+     "V",
+     "MŠH Partizánske",
+     0
+    ],
+    [
+     "26.9.",
+     "FBK Harvard Partizánske (Trenovec)",
+     "7:9",
+     "P",
+     "MŠH Partizánske",
+     0
+    ],
+    [
+     "26.9.",
+     "Wildhogs Horné Sŕnie (Páv)",
+     "1:12",
+     "P",
+     "MŠH Dubnica nad Váhom",
+     0
+    ],
+    [
+     "26.9.",
+     "Victory Stars Dubnica (Páv)",
+     "4:13",
+     "P",
+     "MŠH Dubnica nad Váhom",
+     0
+    ]
+   ],
+   "next": [
+    [
+     "10.10.",
+     "So",
+     "9:00",
+     "Páv – FBK Harvard Partizánske",
+     "ARENA OSTROV",
+     1
+    ],
+    [
+     "10.10.",
+     "So",
+     "13:30",
+     "Trenovec – Polar Foxes Sereď",
+     "ARENA OSTROV",
+     1
+    ],
+    [
+     "10.10.",
+     "So",
+     "15:00",
+     "Páv – Paradise Zlaté Moravce",
+     "ARENA OSTROV",
+     1
+    ],
+    [
+     "10.10.",
+     "So",
+     "16:30",
+     "Trenovec – ŠK Slávia SPU DFA Nitra",
+     "ARENA OSTROV",
+     1
+    ]
+   ],
+   "table": [
+    [
+     "FBC Levice",
+     2,
+     "19:6",
+     6,
+     0
+    ],
+    [
+     "Victory Stars Dubnica",
+     2,
+     "19:7",
+     6,
+     0
+    ],
+    [
+     "Harvard Partizánske",
+     2,
+     "15:10",
+     6,
+     0
+    ],
+    [
+     "AS Trenčín – Trenovec",
+     2,
+     "22:12",
+     3,
+     1
+    ],
+    [
+     "Wildhogs Horné Sŕnie",
+     2,
+     "16:6",
+     3,
+     0
+    ],
+    [
+     "Slávia SPU DFA Nitra",
+     2,
+     "17:10",
+     3,
+     0
+    ],
+    [
+     "Polar Foxes Sereď",
+     2,
+     "13:8",
+     3,
+     0
+    ],
+    [
+     "Žochár Topoľčany",
+     2,
+     "12:8",
+     3,
+     0
+    ],
+    [
+     "Dragons Hlohovec",
+     2,
+     "8:19",
+     3,
+     0
+    ],
+    [
+     "Paradise Zlaté Moravce",
+     2,
+     "7:22",
+     0,
+     0
+    ],
+    [
+     "AS Trenčín – Páv",
+     2,
+     "5:25",
+     0,
+     1
+    ],
+    [
+     "FBC Senica",
+     2,
+     "4:24",
+     0,
+     0
+    ]
+   ],
+   "zones": false
+  },
+  "dorast": {
+   "id": "dorast",
+   "name": "Dorastenci",
+   "photo": "img/b/dorast.jpg",
+   "league": "Liga dorastencov Západ",
+   "place": "1.",
+   "score": "31:12",
+   "pts": 6,
+   "played": [
+    [
+     "3.10.",
+     "FBK Púchov",
+     "17:6",
+     "V",
+     "sTC Aréna Púchov",
+     0
+    ],
+    [
+     "4.10.",
+     "ŠK Slávia SPU DFA Nitra",
+     "14:6",
+     "V",
+     "ARENA OSTROV",
+     1
+    ]
+   ],
+   "next": [
+    [
+     "31.10.",
+     "So",
+     "15:00",
+     "Victory Stars Dubnica",
+     "ARENA OSTROV",
+     1
+    ]
+   ],
+   "table": [
+    [
+     "AS Trenčín",
+     2,
+     "31:12",
+     6,
+     1
+    ],
+    [
+     "1. FBC Trenčín akadémia",
+     1,
+     "11:9",
+     3,
+     0
+    ],
+    [
+     "Slávia SPU DFA Nitra",
+     2,
+     "14:19",
+     3,
+     0
+    ],
+    [
+     "Victory Stars Dubnica",
+     2,
+     "14:19",
+     0,
+     0
+    ],
+    [
+     "FBK Púchov",
+     1,
+     "6:17",
+     0,
+     0
+    ]
+   ],
+   "zones": false
+  },
+  "sz": {
+   "id": "sz",
+   "name": "Starší žiaci",
+   "photo": "img/b/sz.jpg",
+   "league": "Liga starších žiakov Západ",
+   "place": "–",
+   "score": "0:0",
+   "pts": 0,
+   "played": [],
+   "next": [
+    [
+     "11.10.",
+     "Ne",
+     "9:10",
+     "FbO Žochár Topoľčany",
+     "MŠH Dubnica nad Váhom",
+     0
+    ],
+    [
+     "11.10.",
+     "Ne",
+     "11:30",
+     "Victory Stars Dubnica",
+     "MŠH Dubnica nad Váhom",
+     0
+    ],
+    [
+     "25.10.",
+     "Ne",
+     "11:20",
+     "FBK Púchov",
+     "ARENA OSTROV",
+     1
+    ],
+    [
+     "25.10.",
+     "Ne",
+     "13:40",
+     "1. FBC Trenčín akadémia Orli",
+     "ARENA OSTROV",
+     1
+    ]
+   ],
+   "table": null,
+   "zones": false
+  },
+  "mz": {
+   "id": "mz",
+   "name": "Mladší žiaci",
+   "photo": "img/b/mz.jpg",
+   "league": "Liga mladších žiakov Západ",
+   "place": "2.",
+   "score": "19:3",
+   "pts": 6,
+   "played": [
+    [
+     "3.10.",
+     "FBK Púchov",
+     "16:2",
+     "V",
+     "MŠH Dubnica nad Váhom",
+     0
+    ],
+    [
+     "3.10.",
+     "1. FBC Trenčín akadémia Levi",
+     "3:1",
+     "V",
+     "MŠH Dubnica nad Váhom",
+     0
+    ]
+   ],
+   "next": [
+    [
+     "24.10.",
+     "So",
+     "8:30",
+     "Victory Stars Dubnica",
+     "MŠH Dubnica nad Váhom",
+     0
+    ],
+    [
+     "24.10.",
+     "So",
+     "10:30",
+     "1. FBC Trenčín akadémia Tigri",
+     "MŠH Dubnica nad Váhom",
+     0
+    ]
+   ],
+   "table": [
+    [
+     "Victory Stars Dubnica",
+     2,
+     "22:3",
+     6,
+     0
+    ],
+    [
+     "AS Trenčín",
+     2,
+     "19:3",
+     6,
+     1
+    ],
+    [
+     "1. FBC Trenčín akadémia Tigri",
+     2,
+     "8:7",
+     3,
+     0
+    ],
+    [
+     "1. FBC Trenčín akadémia Levi",
+     2,
+     "4:9",
+     0,
+     0
+    ],
+    [
+     "FBK Púchov",
+     2,
+     "3:34",
+     0,
+     0
+    ]
+   ],
+   "zones": false
+  },
+  "pripravka": {
+   "id": "pripravka",
+   "name": "Prípravky",
+   "photo": "img/b/pripravka.jpg",
+   "league": "Staršia a mladšia prípravka Západ · červení a bieli",
+   "place": "–",
+   "score": "–",
+   "pts": 0,
+   "played": [],
+   "next": [
+    [
+     "11.10.",
+     "Ne",
+     "11:50",
+     "St. prípravka červení – 1. FBC Trenčín Draci",
+     "MŠH Partizánske",
+     0
+    ],
+    [
+     "11.10.",
+     "Ne",
+     "12:40",
+     "St. prípravka bieli – ŠK PB PUSCHKIN",
+     "MŠH Partizánske",
+     0
+    ],
+    [
+     "17.10.",
+     "So",
+     "9:00",
+     "Ml. prípravka červení – 1. FBC Trenčín Piráti",
+     "MŠH Dubnica nad Váhom",
+     0
+    ],
+    [
+     "17.10.",
+     "So",
+     "10:40",
+     "Ml. prípravka bieli – FBK Trenčianske Teplice",
+     "MŠH Dubnica nad Váhom",
+     0
+    ]
+   ],
+   "table": null,
+   "zones": false
+  }
+ },
+ "players": {
+  "muzi": [
+   [
+    "ŠLOSÁR, Denis",
+    [
+     "4",
+     "0",
+     "4,33",
+     "85,25 %"
+    ],
+    [
+     "Extraliga|28|02:56|35|5,43|",
+     "Iné ligy|128|08:10|131|3,98|",
+     "Turnaje|19|01:36|26|3,02|"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "83,33 %"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0,00 %"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "86,49 %"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "0,00 %"
+     ]
+    ]
+   ],
+   [
+    "PAULEN, Marek",
+    [
+     "0",
+     "0",
+     "0,00",
+     "0,00 %"
+    ],
+    [
+     "Extraliga|41|07:01|93|5,06|",
+     "Iné ligy|120|39:18|456|5,22|",
+     "Turnaje|2|00:41|10|0,00|"
+    ],
+    []
+   ],
+   [
+    "EŠTOK, Tomáš",
+    [
+     "2",
+     "0",
+     "4,50",
+     "79,07 %"
+    ],
+    [
+     "Extraliga|2|00:43|9|4,50|",
+     "Iné ligy|127|20:04|244|3,51|"
+    ],
+    [
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "75,00 %"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "84,21 %"
+     ]
+    ]
+   ],
+   [
+    "DÁVIDEK, Samuel",
+    [
+     "4",
+     "1",
+     "2",
+     "3",
+     "2"
+    ],
+    [
+     "Extraliga|119|60|75|135|28",
+     "Iné ligy|54|89|89|178|4",
+     "Turnaje|8|10|13|23|0"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "1+0"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "0+2"
+     ]
+    ]
+   ],
+   [
+    "LÍŠKA, Adam",
+    [
+     "2",
+     "0",
+     "0,00",
+     "0,00 %"
+    ],
+    [
+     "Extraliga|53|10:22|180|7,00|",
+     "Iné ligy|97|08:16|122|2,82|",
+     "Turnaje|21|01:44|18|1,63|"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0,00 %"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0,00 %"
+     ]
+    ]
+   ],
+   [
+    "JAŠŠO, František",
+    [
+     "4",
+     "0",
+     "2",
+     "2",
+     "0"
+    ],
+    [
+     "Extraliga|34|3|5|8|4",
+     "Iné ligy|124|67|60|126|34",
+     "Turnaje|5|0|2|2|0"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0+1"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+0"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "FUSI, Michal",
+    [
+     "3",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|3|0|0|0|0",
+     "Iné ligy|200|46|82|128|8",
+     "Turnaje|51|13|10|23|2"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0+0"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "BAGÍN, Jonáš",
+    [
+     "4",
+     "0",
+     "1",
+     "1",
+     "4"
+    ],
+    [
+     "Extraliga|51|13|17|30|22",
+     "Iné ligy|151|103|154|257|76",
+     "Turnaje|16|7|6|13|8"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0+1"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+0"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "ZVERBIK, Patrik",
+    [
+     "4",
+     "0",
+     "1",
+     "1",
+     "2"
+    ],
+    [
+     "Extraliga|109|22|22|44|18",
+     "Iné ligy|59|26|26|52|24",
+     "Turnaje|16|19|14|33|9"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+1"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "SLÁVIK, Miroslav",
+    [
+     "3",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|3|0|0|0|0",
+     "Iné ligy|132|60|70|130|34",
+     "Turnaje|6|1|1|2|2"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "DARANSKÝ, Michal",
+    [
+     "4",
+     "4",
+     "0",
+     "4",
+     "0"
+    ],
+    [
+     "Extraliga|5|4|0|4|0",
+     "Iné ligy|200|183|114|297|4",
+     "Turnaje|51|30|11|41|4"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "1+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "2+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+0"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "1+0"
+     ]
+    ]
+   ],
+   [
+    "ORIEŠEK, Marek",
+    [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|93|58|30|88|26",
+     "Iné ligy|80|116|69|186|36",
+     "Turnaje|16|22|10|32|8"
+    ],
+    []
+   ],
+   [
+    "KRÁĽ, Lukáš",
+    [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|28|15|13|28|6",
+     "Iné ligy|117|160|122|282|70",
+     "Turnaje|2|2|0|2|0"
+    ],
+    []
+   ],
+   [
+    "SURMA, Jerguš",
+    [
+     "3",
+     "0",
+     "0",
+     "0",
+     "2"
+    ],
+    [
+     "Extraliga|23|9|2|11|10",
+     "Iné ligy|122|46|42|88|52",
+     "Turnaje|36|5|6|11|12"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "BAGIN, Samuel",
+    [
+     "2",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|56|2|4|6|20",
+     "Iné ligy|100|71|59|130|46"
+    ],
+    [
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "PASQUALON, Nicolas",
+    [
+     "2",
+     "0",
+     "1",
+     "1",
+     "0"
+    ],
+    [
+     "Extraliga|2|0|1|1|0",
+     "Iné ligy|151|163|144|307|18",
+     "Turnaje|21|7|15|22|4"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "MATEJKA, Juraj",
+    [
+     "1",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|114|108|75|183|19",
+     "Iné ligy|9|10|15|25|0",
+     "Turnaje|8|7|11|18|0"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "KRECHÁČ, Adam",
+    [
+     "4",
+     "3",
+     "2",
+     "5",
+     "2"
+    ],
+    [
+     "Extraliga|57|11|14|25|6",
+     "Iné ligy|134|97|107|204|8",
+     "Turnaje|28|10|12|22|4"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+1"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "1+1"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "2+0"
+     ]
+    ]
+   ],
+   [
+    "MELIŠ, Marek",
+    [
+     "2",
+     "1",
+     "0",
+     "1",
+     "0"
+    ],
+    [
+     "Extraliga|11|5|4|9|4",
+     "Iné ligy|154|290|138|430|98",
+     "Turnaje|41|55|22|77|36"
+    ],
+    [
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "1+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "VRANA, Filip",
+    [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|2|1|0|1|2",
+     "Iné ligy|187|155|109|264|44",
+     "Turnaje|28|17|7|24|14"
+    ],
+    []
+   ],
+   [
+    "ORAVEC, Šimon",
+    [
+     "4",
+     "2",
+     "2",
+     "4",
+     "2"
+    ],
+    [
+     "Extraliga|16|9|8|17|6",
+     "Iné ligy|181|249|106|356|68",
+     "Turnaje|33|37|15|52|8"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "1+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+0"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "1+2"
+     ]
+    ]
+   ],
+   [
+    "ONDRÁŠIK, Šimon",
+    [
+     "4",
+     "4",
+     "3",
+     "7",
+     "0"
+    ],
+    [
+     "Extraliga|30|9|5|14|2",
+     "Iné ligy|181|225|127|352|94",
+     "Turnaje|13|10|8|18|4"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "1+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+1"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "3+2"
+     ]
+    ]
+   ],
+   [
+    "BEDNÁR, Peter",
+    [
+     "4",
+     "3",
+     "0",
+     "3",
+     "6"
+    ],
+    [
+     "Extraliga|75|23|28|51|30",
+     "Iné ligy|79|49|98|147|71",
+     "Turnaje|9|2|5|7|0"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "1+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "1+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+0"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "1+0"
+     ]
+    ]
+   ],
+   [
+    "MALÍK, Matúš",
+    [
+     "4",
+     "2",
+     "4",
+     "6",
+     "14"
+    ],
+    [
+     "Extraliga|82|34|35|69|32",
+     "Iné ligy|141|128|137|265|26",
+     "Turnaje|19|9|16|25|2"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "1+1"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "1+1"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+1"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "KOLLÁR, Timotej",
+    [
+     "4",
+     "6",
+     "2",
+     "8",
+     "0"
+    ],
+    [
+     "Extraliga|63|42|23|65|36",
+     "Iné ligy|123|187|116|303|26",
+     "Turnaje|26|33|20|53|2"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "1+1"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "1+0"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "3+1"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "1+0"
+     ]
+    ]
+   ],
+   [
+    "KRÁLOVIČ, Gabriel",
+    [
+     "4",
+     "2",
+     "2",
+     "4",
+     "0"
+    ],
+    [
+     "Extraliga|70|26|17|43|32",
+     "Iné ligy|59|38|51|89|53",
+     "Turnaje|13|6|5|10|4"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "1+1"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "1+0"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "VOJTEK, Erik",
+    [
+     "4",
+     "4",
+     "1",
+     "5",
+     "0"
+    ],
+    [
+     "Extraliga|44|19|17|36|20",
+     "Iné ligy|124|83|61|144|76",
+     "Turnaje|14|10|15|25|0"
+    ],
+    [
+     [
+      "vs. Tsunami Záhorská Bystrica",
+      "03.10",
+      "5:4",
+      "0+0"
+     ],
+     [
+      "@ ŠK LIDO Prírodovedec Ružinov",
+      "26.09",
+      "6:9",
+      "0+1"
+     ],
+     [
+      "vs. FBC Predator Sabinov",
+      "19.09",
+      "6:5 pp",
+      "0+0"
+     ],
+     [
+      "@ DTF team Detva Joxers",
+      "12.09",
+      "3:13",
+      "4+0"
+     ]
+    ]
+   ]
+  ],
+  "juniori": [
+   [
+    "ONDRIŠ, Richard",
+    [
+     "2",
+     "0",
+     "7,00",
+     "56,25 %"
+    ],
+    [
+     "Iné ligy|124|02:49|42|1,27|",
+     "Turnaje|4|00:00|0|0,00|"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0,00 %"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "56,25 %"
+     ]
+    ]
+   ],
+   [
+    "KOTLEBA, Alex",
+    [
+     "1",
+     "0",
+     "0",
+     "0",
+     "2"
+    ],
+    [
+     "Iné ligy|117|38|48|86|20",
+     "Turnaje|27|2|2|4|4"
+    ],
+    [
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "HUDEC, Damián",
+    [
+     "2",
+     "0",
+     "6,62",
+     "76,67 %"
+    ],
+    [
+     "Iné ligy|90|03:27|51|1,32|",
+     "Turnaje|29|02:32|30|3,25|"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "76,67 %"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0,00 %"
+     ]
+    ]
+   ],
+   [
+    "FUSI, Michal",
+    [
+     "1",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|3|0|0|0|0",
+     "Iné ligy|200|46|82|128|8",
+     "Turnaje|51|13|10|23|2"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "OLEKŠÁK, Marco",
+    [
+     "2",
+     "3",
+     "0",
+     "3",
+     "0"
+    ],
+    [
+     "Extraliga|24|1|3|4|0",
+     "Iné ligy|197|99|131|230|52",
+     "Turnaje|28|8|6|14|6"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "1+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "2+0"
+     ]
+    ]
+   ],
+   [
+    "KOPRDA, Andrej",
+    [
+     "2",
+     "1",
+     "1",
+     "2",
+     "0"
+    ],
+    [
+     "Iné ligy|168|69|67|136|38",
+     "Turnaje|19|5|3|8|4"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "1+1"
+     ]
+    ]
+   ],
+   [
+    "MATEJOVIČ, Pavol",
+    [
+     "1",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|104|64|70|134|18",
+     "Turnaje|35|9|7|16|10"
+    ],
+    [
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "DARANSKÝ, Michal",
+    [
+     "1",
+     "0",
+     "2",
+     "2",
+     "0"
+    ],
+    [
+     "Extraliga|5|4|0|4|0",
+     "Iné ligy|200|183|114|297|4",
+     "Turnaje|51|30|11|41|4"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+2"
+     ]
+    ]
+   ],
+   [
+    "ORAVEC, Tomáš",
+    [
+     "2",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|155|38|42|80|14",
+     "Turnaje|40|5|0|5|4"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "SLÁVIK, Miroslav",
+    [
+     "2",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|3|0|0|0|0",
+     "Iné ligy|132|60|70|130|34",
+     "Turnaje|6|1|1|2|2"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "KRIŠKO, Samuel",
+    [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|88|0|0|0|6",
+     "Turnaje|10|0|0|0|12"
+    ],
+    []
+   ],
+   [
+    "VYSKOČ, Luboš",
+    [
+     "1",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|96|74|37|111|24",
+     "Turnaje|18|4|0|4|6"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "HOŠTÁK, Šimon",
+    [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|109|76|58|134|26",
+     "Turnaje|37|13|5|18|4"
+    ],
+    []
+   ],
+   [
+    "MELIŠ, Marek",
+    [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|11|5|4|9|4",
+     "Iné ligy|154|290|138|430|98",
+     "Turnaje|41|55|22|77|36"
+    ],
+    []
+   ],
+   [
+    "BEŇOVIČ, Daniel",
+    [
+     "2",
+     "2",
+     "0",
+     "2",
+     "2"
+    ],
+    [
+     "Iné ligy|124|121|103|224|38",
+     "Turnaje|48|17|19|36|4"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "2+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "BIELIK, Samuel",
+    [
+     "2",
+     "1",
+     "4",
+     "5",
+     "0"
+    ],
+    [
+     "Iné ligy|171|263|205|468|24",
+     "Turnaje|46|23|19|42|6"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+1"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "1+3"
+     ]
+    ]
+   ],
+   [
+    "KLČO, Oliver",
+    [
+     "2",
+     "1",
+     "1",
+     "2",
+     "0"
+    ],
+    [
+     "Iné ligy|154|106|120|226|6",
+     "Turnaje|43|12|5|17|0"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "1+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "KORDOŠ, Tomáš",
+    [
+     "2",
+     "0",
+     "1",
+     "1",
+     "0"
+    ],
+    [
+     "Iné ligy|171|78|98|176|18",
+     "Turnaje|43|13|6|19|6"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "REIS, Jakub",
+    [
+     "2",
+     "0",
+     "0",
+     "0",
+     "2"
+    ],
+    [
+     "Iné ligy|90|36|23|59|18",
+     "Turnaje|20|4|2|6|2"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "PASQUALON, Nicolas",
+    [
+     "1",
+     "0",
+     "1",
+     "1",
+     "0"
+    ],
+    [
+     "Extraliga|2|0|1|1|0",
+     "Iné ligy|151|163|144|307|18",
+     "Turnaje|21|7|15|22|4"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "TRTÍK, Alex",
+    [
+     "2",
+     "3",
+     "2",
+     "5",
+     "0"
+    ],
+    [
+     "Iné ligy|160|205|141|346|50",
+     "Turnaje|4|5|3|8|0"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "1+1"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "2+1"
+     ]
+    ]
+   ],
+   [
+    "ORAVEC, Alex",
+    [
+     "2",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|121|108|73|181|38",
+     "Turnaje|52|40|15|55|34"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "ZVERBÍK, Matej",
+    [
+     "2",
+     "2",
+     "0",
+     "2",
+     "0"
+    ],
+    [
+     "Iné ligy|132|82|50|132|16",
+     "Turnaje|33|9|2|11|0"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "2+0"
+     ]
+    ]
+   ],
+   [
+    "SPIŠÁK, Tadeáš",
+    [
+     "1",
+     "0",
+     "1",
+     "1",
+     "0"
+    ],
+    [
+     "Iné ligy|134|82|49|131|32",
+     "Turnaje|37|9|5|14|8"
+    ],
+    [
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "HUŇA, Tomáš",
+    [
+     "2",
+     "1",
+     "0",
+     "1",
+     "0"
+    ],
+    [
+     "Extraliga|23|10|2|12|6",
+     "Iné ligy|208|247|123|370|20",
+     "Turnaje|29|31|9|40|2"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "1+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "MINÁRIK, Jakub",
+    [
+     "2",
+     "1",
+     "0",
+     "1",
+     "0"
+    ],
+    [
+     "Iné ligy|70|95|49|144|8",
+     "Turnaje|33|17|5|22|2"
+    ],
+    [
+     [
+      "vs. Oxdog Snipers Bratislava",
+      "13.09",
+      "6:7 pp",
+      "0+0"
+     ],
+     [
+      "vs. ŠK LIDO Ružinov",
+      "12.09",
+      "9:7",
+      "1+0"
+     ]
+    ]
+   ]
+  ],
+  "dorast": [
+   [
+    "SLUŠNÝ, Dominik",
+    [
+     "1",
+     "1",
+     "0,00",
+     "0,00 %"
+    ],
+    [
+     "Iné ligy|87|01:00|11|0,42|",
+     "Turnaje|47|02:22|25|3,56|"
+    ],
+    [
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0,00 %"
+     ]
+    ]
+   ],
+   [
+    "ONDRIŠ, Richard",
+    [
+     "1",
+     "0",
+     "0,00",
+     "68,42 %"
+    ],
+    [
+     "Iné ligy|124|02:49|42|1,27|",
+     "Turnaje|4|00:00|0|0,00|"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "68,42 %"
+     ]
+    ]
+   ],
+   [
+    "FUSI, Martin",
+    [
+     "2",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|84|10|24|34|2",
+     "Turnaje|28|1|3|4|0"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "0+0"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "ORAVEC, Tomáš",
+    [
+     "2",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|155|38|42|80|14",
+     "Turnaje|40|5|0|5|4"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "0+0"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "PIRHALA, Tomáš",
+    [
+     "2",
+     "0",
+     "2",
+     "2",
+     "0"
+    ],
+    [
+     "Iné ligy|38|24|23|47|16"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "0+0"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0+2"
+     ]
+    ]
+   ],
+   [
+    "KOPRDA, Andrej",
+    [
+     "2",
+     "2",
+     "1",
+     "3",
+     "0"
+    ],
+    [
+     "Iné ligy|168|69|67|136|38",
+     "Turnaje|19|5|3|8|4"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "1+1"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "1+0"
+     ]
+    ]
+   ],
+   [
+    "GABRIEL, Daniel",
+    [
+     "2",
+     "0",
+     "1",
+     "1",
+     "2"
+    ],
+    [
+     "Iné ligy|87|15|32|47|16",
+     "Turnaje|35|8|3|11|2"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "0+1"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "VYSKOČ, Luboš",
+    [
+     "1",
+     "2",
+     "1",
+     "3",
+     "0"
+    ],
+    [
+     "Iné ligy|96|74|37|111|24",
+     "Turnaje|18|4|0|4|6"
+    ],
+    [
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "2+1"
+     ]
+    ]
+   ],
+   [
+    "VETRÍK, Šimon",
+    [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|97|19|23|42|16",
+     "Turnaje|13|0|0|0|2"
+    ],
+    []
+   ],
+   [
+    "HUDEC, Damián",
+    [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|90|0|0|0|0",
+     "Turnaje|29|0|0|0|12"
+    ],
+    []
+   ],
+   [
+    "MATEJOVIČ, Pavol",
+    [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|104|64|70|134|18",
+     "Turnaje|35|9|7|16|10"
+    ],
+    []
+   ],
+   [
+    "PJEŠČÁK, Šimon",
+    [
+     "2",
+     "1",
+     "0",
+     "1",
+     "0"
+    ],
+    [
+     "Iné ligy|111|74|49|123|12",
+     "Turnaje|25|10|6|16|8"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "0+0"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "1+0"
+     ]
+    ]
+   ],
+   [
+    "KOTLEBA, Alex",
+    [
+     "2",
+     "2",
+     "1",
+     "3",
+     "0"
+    ],
+    [
+     "Iné ligy|117|38|48|86|20",
+     "Turnaje|27|2|2|4|4"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "2+0"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "BIELIK, Samuel",
+    [
+     "2",
+     "8",
+     "1",
+     "9",
+     "0"
+    ],
+    [
+     "Iné ligy|171|263|205|468|24",
+     "Turnaje|46|23|19|42|6"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "3+0"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "5+1"
+     ]
+    ]
+   ],
+   [
+    "BEŇOVIČ, Daniel",
+    [
+     "2",
+     "4",
+     "4",
+     "8",
+     "0"
+    ],
+    [
+     "Iné ligy|124|121|103|224|38",
+     "Turnaje|48|17|19|36|4"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "1+2"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "3+2"
+     ]
+    ]
+   ],
+   [
+    "ČIBENKA, Adam",
+    [
+     "2",
+     "3",
+     "1",
+     "4",
+     "0"
+    ],
+    [
+     "Iné ligy|113|87|39|126|6",
+     "Turnaje|17|5|3|8|0"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "1+1"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "2+0"
+     ]
+    ]
+   ],
+   [
+    "ORAVEC, Alex",
+    [
+     "2",
+     "1",
+     "1",
+     "2",
+     "0"
+    ],
+    [
+     "Iné ligy|121|108|73|181|38",
+     "Turnaje|52|40|15|55|34"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "0+1"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "1+0"
+     ]
+    ]
+   ],
+   [
+    "TATÍK, Leonard",
+    [
+     "2",
+     "0",
+     "3",
+     "3",
+     "0"
+    ],
+    [
+     "Iné ligy|77|59|53|112|18",
+     "Turnaje|12|3|2|5|2"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "0+2"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "GAŽI, Denis",
+    [
+     "2",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Iné ligy|70|42|31|73|2",
+     "Turnaje|11|2|1|3|0"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "0+0"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0+0"
+     ]
+    ]
+   ],
+   [
+    "MINÁRIK, Jakub",
+    [
+     "2",
+     "6",
+     "0",
+     "6",
+     "0"
+    ],
+    [
+     "Iné ligy|70|95|49|144|8",
+     "Turnaje|33|17|5|22|2"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "4+0"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "2+0"
+     ]
+    ]
+   ],
+   [
+    "SPIŠÁK, Tadeáš",
+    [
+     "2",
+     "0",
+     "2",
+     "2",
+     "0"
+    ],
+    [
+     "Iné ligy|134|82|49|131|32",
+     "Turnaje|37|9|5|14|8"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "0+1"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0+1"
+     ]
+    ]
+   ],
+   [
+    "TRTÍK, Alex",
+    [
+     "2",
+     "0",
+     "4",
+     "4",
+     "0"
+    ],
+    [
+     "Iné ligy|160|205|141|346|50",
+     "Turnaje|4|5|3|8|0"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "0+1"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0+3"
+     ]
+    ]
+   ],
+   [
+    "KAŠŠÁK, Branislav",
+    [
+     "2",
+     "2",
+     "2",
+     "4",
+     "0"
+    ],
+    [
+     "Iné ligy|108|92|61|153|48",
+     "Turnaje|17|9|4|13|2"
+    ],
+    [
+     [
+      "vs. ŠK Slávia SPU DFA Nitra",
+      "04.10",
+      "14:6",
+      "2+0"
+     ],
+     [
+      "@ FBK Púchov",
+      "03.10",
+      "6:17",
+      "0+2"
+     ]
+    ]
+   ]
+  ]
+ }
+}

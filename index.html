@@ -1,0 +1,980 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AS Trenčín florbal – oficiálna stránka klubu</title>
+<meta name="description" content="Florbalový klub FBK AS Trenčín – výsledky, program zápasov, súpisky, štatistiky hráčov a nábor detí.">
+<meta property="og:title" content="AS Trenčín florbal">
+<meta property="og:description" content="Výsledky, program, súpisky a nábor detí – FBK AS Trenčín.">
+<meta property="og:image" content="img/h/muzi.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.fbkastrencin.sk/">
+<link rel="canonical" href="https://www.fbkastrencin.sk/">
+<meta name="theme-color" content="#c21f26">
+<link rel="icon" type="image/png" href="img/l/astn.png">
+<style>html{scroll-behavior:smooth}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Lato:wght@400;700;900&display=swap">
+<style>
+/* Layout: fotografický hero → ticker → Výsledky a program (záložky, banner s tímovou fotkou) → Súpisky (karty hráčov) → galéria → sociálne siete → nábor → info */
+:root{
+  --red:#c21f26; --red-deep:#8c0019; --red-soft:#f6e3e4;
+  --bg:#f7f5f5; --surface:#ffffff; --ink:#1d1517; --muted:#6e6264; --line:#e6dfe0;
+  --on-red:#ffffff; --win:#1f7a4a; --loss:#a3262c; --otl:#d39a2a; --gold:#ffd84d;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"Lato",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --wrap:1200px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --red:#e0383f; --red-deep:#a3121f; --red-soft:#3a1c1f;
+  --bg:#141012; --surface:#1e191b; --ink:#f4eeef; --muted:#b0a3a5; --line:#352c2e;
+  --win:#4fbf83; --loss:#ef7a7f; --otl:#e0a84a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --red:#e0383f; --red-deep:#a3121f; --red-soft:#3a1c1f;
+  --bg:#141012; --surface:#1e191b; --ink:#f4eeef; --muted:#b0a3a5; --line:#352c2e;
+  --win:#4fbf83; --loss:#ef7a7f; --otl:#e0a84a; color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+a{color:inherit}
+button{font:inherit;color:inherit}
+img{display:block}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:20px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1;letter-spacing:.01em}
+.eyebrow{font-size:.74rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+.num{font-variant-numeric:tabular-nums}
+:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.demo{background:var(--ink);color:var(--bg);font-size:.8rem;text-align:center;padding:6px 16px}
+
+/* hlavička */
+.site-head{background:var(--red);color:var(--on-red);position:sticky;top:env(safe-area-inset-top,0px);z-index:20;box-shadow:0 2px 0 var(--red-deep)}
+.bar{display:flex;align-items:center;gap:24px;min-height:68px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;flex:none}
+.brand img{width:46px;height:auto}
+.brand b{font-family:var(--display);font-weight:900;font-size:1.5rem;letter-spacing:.03em;text-transform:uppercase;line-height:.9}
+.brand small{display:block;font-weight:700;font-size:.62rem;letter-spacing:.2em;opacity:.85}
+.site-nav{margin-left:auto;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.site-nav::-webkit-scrollbar{display:none}
+.site-nav a{text-decoration:none;font-family:var(--display);font-weight:800;font-size:1.02rem;letter-spacing:.045em;text-transform:uppercase;padding:8px 9px;border-radius:4px;white-space:nowrap;line-height:1}
+.site-nav a:hover{background:var(--red-deep)}
+.site-nav a.cta{background:var(--on-red);color:var(--red)}
+@media (max-width:900px){.bar{flex-wrap:wrap;gap:6px;padding-block:10px}.site-nav{margin-left:0;width:100%}}
+
+/* hero */
+.hero{position:relative;color:#fff;overflow:hidden;background:#1a0b0d}
+.hero-bg{position:absolute;inset:0;background:url("img/a/lido-31.jpg") center 62%/cover no-repeat}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(140,0,25,.96) 0%,rgba(194,31,38,.82) 42%,rgba(20,8,10,.35) 75%,rgba(20,8,10,.6) 100%)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.25fr 1fr;gap:32px;padding-block:52px 44px}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr;padding-block:30px}.hero-bg::after{background:linear-gradient(180deg,rgba(140,0,25,.92),rgba(60,4,12,.9))}}
+.story .eyebrow{color:#ffd6d8}
+.story h1{font-size:clamp(2.6rem,6vw,4.8rem);font-weight:900;text-transform:uppercase;margin-block:10px 14px;text-shadow:0 2px 24px rgba(0,0,0,.25)}
+.story p{max-width:52ch;margin:0 0 22px;opacity:.95}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:900;text-decoration:none;padding:12px 20px;border-radius:4px;border:2px solid currentColor;font-size:.92rem;background:none;cursor:pointer}
+.btn.solid{background:#fff;color:var(--red);border-color:#fff}
+.streak{display:flex;gap:22px;flex-wrap:wrap;margin-top:30px}
+.streak div{border-left:3px solid rgba(255,255,255,.5);padding-left:12px}
+.streak b{display:block;font-family:var(--display);font-size:2.5rem;line-height:1}
+.streak span{font-size:.78rem;opacity:.9}
+
+.board{background:rgba(14,9,10,.92);backdrop-filter:blur(6px);border-radius:12px;padding:20px;box-shadow:0 20px 50px -20px rgba(0,0,0,.7);align-self:end;border:1px solid rgba(255,255,255,.1)}
+.board .top{display:flex;justify-content:space-between;gap:10px;font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;color:#ffb3b6;font-weight:900}
+.board .teams{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;margin-block:18px 14px;text-align:center}
+.board .t{display:grid;gap:8px;justify-items:center;font-weight:700;font-size:.9rem;line-height:1.2}
+.crest{width:64px;height:64px;border-radius:50%;background:#fff;display:grid;place-items:center;overflow:hidden;padding:6px}
+.crest img{width:100%;height:100%;object-fit:contain}
+.crest.txt{background:#3a3133;color:#fff;font-family:var(--display);font-weight:900;font-size:1.2rem}
+.vs{font-family:var(--display);font-weight:900;font-size:2.2rem;color:#ff5a60}
+.digits{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.digits div{background:#231a1c;border-radius:6px;padding:8px 4px;text-align:center}
+.digits b{display:block;font-family:var(--display);font-size:2.1rem;line-height:1;color:var(--gold);font-variant-numeric:tabular-nums}
+.digits span{font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:#bfb1b3}
+.board .venue{margin-top:14px;font-size:.84rem;color:#d9cccd;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+
+/* ticker */
+.ticker{background:var(--ink);color:var(--bg);overflow:hidden;border-top:3px solid var(--red)}
+.ticker .row{display:flex;width:max-content;animation:scroll 60s linear infinite}
+.ticker:hover .row{animation-play-state:paused}
+.ticker .item{display:flex;gap:10px;align-items:baseline;padding:11px 22px;border-right:1px solid rgba(127,127,127,.35);white-space:nowrap;font-size:.88rem}
+.ticker .item b{font-family:var(--display);font-size:1.05rem;letter-spacing:.04em;color:var(--red)}
+.ticker .item em{font-style:normal;opacity:.7}
+@keyframes scroll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.ticker .row{animation:none;flex-wrap:wrap;width:auto}}
+
+section.block{padding-block:60px}
+.head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:22px;flex-wrap:wrap}
+.head h2{font-size:clamp(2.2rem,4.4vw,3.2rem);font-weight:900;text-transform:uppercase}
+.head a{font-weight:700;font-size:.9rem;color:var(--red)}
+
+.tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin-bottom:18px;scrollbar-width:thin}
+.tab{flex:none;border:1px solid var(--line);background:var(--surface);padding:10px 16px;border-radius:999px;font-weight:900;font-size:.88rem;cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--red);border-color:var(--red);color:var(--on-red)}
+
+/* banner kategórie */
+.banner{position:relative;border-radius:10px;overflow:hidden;min-height:300px;display:flex;align-items:flex-end;color:#fff;background:#2a1215 center/cover no-repeat;margin-bottom:14px}
+.banner::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(18,6,8,.92) 0%,rgba(18,6,8,.35) 55%,rgba(18,6,8,.05) 100%)}
+.banner .in{position:relative;z-index:1;padding:20px;display:flex;justify-content:space-between;align-items:end;gap:16px;width:100%;flex-wrap:wrap}
+.banner h3{font-size:clamp(2.2rem,5vw,3.4rem);font-weight:900;text-transform:uppercase}
+.banner .eyebrow{color:#ffc2c5}
+.banner .sum{display:flex;gap:10px;flex-wrap:wrap}
+.banner .sum div{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(4px);border-radius:8px;padding:8px 14px;text-align:center;min-width:74px}
+.banner .sum b{display:block;font-family:var(--display);font-size:1.9rem;line-height:1}
+.banner .sum span{font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;opacity:.85;font-weight:700}
+
+.panel{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:14px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px;min-width:0}
+.box h4{font-family:var(--display);font-size:1.35rem;font-weight:800;text-transform:uppercase;margin:0 0 12px}
+.span-5{grid-column:span 5}.span-7{grid-column:span 7}.span-12{grid-column:span 12}
+@media (max-width:900px){.span-5,.span-7{grid-column:span 12}}
+.form{display:flex;gap:6px;align-items:center;font-size:.8rem;color:var(--muted);flex-wrap:wrap}
+.dot{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:900;font-size:.74rem}
+.dot.V{background:var(--win)}.dot.P{background:var(--loss)}.dot.Vpp{background:var(--win);box-shadow:inset 0 0 0 3px var(--otl)}.dot.Ppp{background:var(--loss);box-shadow:inset 0 0 0 3px var(--otl)}
+
+.match{display:grid;grid-template-columns:auto auto 1fr auto;gap:12px;align-items:center;padding-block:10px;border-bottom:1px solid var(--line)}
+.match:last-child{border-bottom:0}
+.match .d{font-family:var(--display);font-weight:800;font-size:1.05rem;line-height:1.05;text-align:center;min-width:52px;color:var(--red)}
+.match .d small{display:block;font-family:var(--body);font-size:.68rem;color:var(--muted);font-weight:700;letter-spacing:.04em}
+.mini-crest{width:40px;height:40px;border-radius:50%;background:#fff;border:1px solid var(--line);display:grid;place-items:center;overflow:hidden;padding:0;flex:none;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.mini-crest img{width:100%;height:100%;object-fit:cover}
+.mini-crest img[src$='.svg']{object-fit:contain;padding:0;transform:scale(1.12)}
+.mini-crest.txt{background:var(--line);font-family:var(--display);font-weight:900;font-size:.82rem;color:var(--ink);padding:0}
+.match .who{font-weight:700;font-size:.93rem;line-height:1.3;min-width:0}
+.match .who span:not(.home){display:block;font-weight:400;font-size:.8rem;color:var(--muted)}
+.match .sc{font-family:var(--display);font-weight:900;font-size:1.4rem;white-space:nowrap}
+.res-tag{font-size:.66rem;font-weight:900;padding:2px 6px;border-radius:3px;color:#fff;margin-left:6px;vertical-align:middle;font-family:var(--body)}
+.res-tag.V,.res-tag.Vpp{background:var(--win)}.res-tag.P,.res-tag.Ppp{background:var(--loss)}
+.home{font-size:.62rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--red);border:1px solid var(--red);border-radius:3px;padding:1px 5px;margin-left:6px;vertical-align:middle}
+.empty{color:var(--muted);font-size:.92rem;margin:0}
+.bars{display:grid;gap:10px}
+.bar-row{display:grid;grid-template-columns:minmax(0,9.5rem) 1fr auto;gap:10px;align-items:center;font-size:.9rem}
+.bar-row .nm{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-row .tr{height:12px;background:var(--line);border-radius:6px;overflow:hidden}
+.bar-row .fl{display:block;height:100%;background:linear-gradient(90deg,var(--red-deep),var(--red));border-radius:6px;transform-origin:left;animation:grow .8s ease-out both}
+@keyframes grow{from{transform:scaleX(.15)}}
+.bar-row .v{font-family:var(--display);font-weight:900;font-size:1.15rem;min-width:2ch;text-align:right}
+.mini{font-size:.8rem;color:var(--muted);margin:12px 0 0}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;padding:8px;border-bottom:1px solid var(--line)}
+td{padding:7px 8px;text-align:right;border-bottom:1px solid var(--line)}
+th:nth-child(2),td:nth-child(2){text-align:left}
+td:first-child{color:var(--muted);width:24px}
+tr:last-child td{border-bottom:0}
+tr.us td{background:var(--red-soft);font-weight:900}
+tr.us td:nth-child(2){color:var(--red)}
+
+/* súpisky */
+.roster-bar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);padding:7px 13px;border-radius:999px;font-weight:700;font-size:.82rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.facts{display:flex;gap:18px;flex-wrap:wrap;font-size:.84rem;color:var(--muted)}
+.facts b{font-family:var(--display);font-size:1.4rem;color:var(--ink);margin-right:4px}
+.players{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.pl{position:relative;border-radius:10px;overflow:hidden;background:var(--surface);border:1px solid var(--line);transition:transform .2s ease,box-shadow .2s ease}
+.pl:hover{transform:translateY(-3px);box-shadow:0 14px 30px -18px rgba(0,0,0,.5)}
+.pl .ph{aspect-ratio:4/5;max-width:100%;background:linear-gradient(160deg,#3a2a2d,#141012);position:relative;overflow:hidden}
+.pl .ph img{width:100%;height:100%;object-fit:cover}
+.pl .ph .sil{position:absolute;inset:0;display:grid;place-items:center}
+.pl .ph .sil img{width:46%;height:auto;opacity:.18;object-fit:contain}
+.pl .no{position:absolute;top:8px;left:10px;font-family:var(--display);font-weight:900;font-size:2.6rem;line-height:1;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.45)}
+.pl .pos{position:absolute;top:10px;right:10px;background:var(--red);color:#fff;font-size:.66rem;font-weight:900;letter-spacing:.08em;padding:3px 7px;border-radius:3px;text-transform:uppercase}
+.pl .cap{position:absolute;top:40px;right:10px;background:var(--gold);color:#1d1517;font-weight:900;font-size:.72rem;width:22px;height:22px;border-radius:50%;display:grid;place-items:center}
+.pl .meta{padding:10px 12px 12px}
+.pl .meta b{display:block;font-size:.95rem;line-height:1.2}
+.pl .meta span{font-size:.78rem;color:var(--muted)}
+.pl .pts{position:absolute;bottom:62px;left:10px;right:10px;display:flex;gap:6px}
+.pl .pts span{background:rgba(14,9,10,.82);color:#fff;font-size:.7rem;font-weight:900;padding:3px 7px;border-radius:3px}
+.pl .pts span b{color:var(--gold)}
+
+/* galéria */
+.gallery{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-rows:150px;gap:8px}
+.gallery button{border:0;padding:0;border-radius:8px;overflow:hidden;cursor:zoom-in;background:#222}
+.gallery img{width:100%;height:100%;object-fit:cover;object-position:50% 25%;transition:transform .35s ease}
+.gallery button:hover img{transform:scale(1.05)}
+.gallery{grid-auto-flow:dense}.gallery button{grid-column:span 2}.g-big{grid-column:span 4!important;grid-row:span 2}.g-tall{grid-row:span 2}
+@media (max-width:760px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:140px}.gallery button{grid-column:span 1}.g-big{grid-column:span 2!important}}
+.lightbox{position:fixed;inset:0;z-index:60;background:rgba(10,6,7,.94);display:grid;place-items:center;padding:16px}
+.lightbox img{max-width:100%;max-height:86vh;border-radius:8px}
+.lightbox button{position:absolute;background:rgba(255,255,255,.12);border:0;color:#fff;font-size:1.6rem;width:46px;height:46px;border-radius:50%;cursor:pointer}
+.lb-x{top:16px;right:16px}.lb-p{left:12px;top:50%}.lb-n{right:12px;top:50%}
+.credit{font-size:.8rem;color:var(--muted);margin-top:10px}
+
+/* sociálne siete */
+.social{display:grid;grid-template-columns:1.35fr 1fr;gap:20px}
+@media (max-width:900px){.social{grid-template-columns:1fr}}
+.stories{display:flex;gap:14px;overflow-x:auto;padding:4px 2px 12px}
+.st{flex:none;display:grid;gap:6px;justify-items:center;background:none;border:0;cursor:pointer;font-size:.76rem;font-weight:700;width:76px}
+.st .ring{width:72px;height:72px;border-radius:50%;padding:3px;background:conic-gradient(from 200deg,#ffd84d,var(--red),#7a0018,#ff7a59,#ffd84d)}
+.st .ring img{width:100%;height:100%;border-radius:50%;object-fit:cover;border:3px solid var(--surface)}
+.st.seen .ring{background:var(--line)}
+.ig-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.ig{aspect-ratio:1/1;max-width:100%;border-radius:6px;position:relative;overflow:hidden;text-decoration:none;color:#fff;display:flex;align-items:flex-end;padding:10px;background:#333 center/cover no-repeat}
+.ig::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 30%,rgba(0,0,0,.75))}
+.ig span{position:relative;font-weight:900;font-size:.8rem;line-height:1.2}
+.ig b{position:absolute;top:8px;left:10px;font-family:var(--display);font-size:2.2rem;line-height:1;text-shadow:0 2px 10px rgba(0,0,0,.5)}
+.fb{display:grid;gap:12px}
+.post{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px}
+.post .who{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+.post .av{width:38px;height:38px;border-radius:50%;background:var(--red);display:grid;place-items:center;padding:7px}
+.post .av img{width:100%;height:auto}
+.post .who b{display:block;font-size:.92rem;line-height:1.2}
+.post .who small{color:var(--muted);font-size:.76rem}
+.post p{margin:0;font-size:.92rem}
+.post .acts{display:flex;gap:16px;margin-top:10px;font-size:.8rem;color:var(--muted);font-weight:700}
+.follow{display:flex;gap:10px;flex-wrap:wrap}
+.follow a{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-weight:900;font-size:.84rem;text-decoration:none}
+.viewer{position:fixed;inset:0;z-index:50;background:rgba(10,6,7,.92);display:grid;place-items:center;padding:16px}
+.frame{width:min(380px,100%);aspect-ratio:9/16;max-height:88vh;border-radius:14px;position:relative;overflow:hidden;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:26px 22px;background:#222 center/cover no-repeat}
+.frame::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35),rgba(0,0,0,.05) 30%,rgba(120,0,20,.85))}
+.frame>*{position:relative}
+.frame .prog{position:absolute;top:10px;left:10px;right:10px;display:flex;gap:4px;z-index:2}
+.frame .prog i{flex:1;height:3px;background:rgba(255,255,255,.35);border-radius:2px;overflow:hidden}
+.frame .prog i b{display:block;height:100%;width:0;background:#fff}
+.frame .prog i.done b{width:100%}
+.frame .prog i.on b{animation:fill 5s linear forwards}
+@keyframes fill{to{width:100%}}
+.frame .hd{position:absolute;top:22px;left:16px;right:16px;display:flex;justify-content:space-between;align-items:center;font-weight:900;font-size:.85rem;z-index:3}
+.frame .hd button{background:none;border:0;font-size:1.6rem;line-height:1;cursor:pointer;color:#fff}
+.frame .big{font-family:var(--display);font-weight:900;font-size:3.4rem;line-height:.9;text-transform:uppercase}
+.frame p{margin:12px 0 0;font-size:1rem}
+.frame .nav{position:absolute;inset:0;display:grid;grid-template-columns:1fr 2fr;z-index:2}
+.frame .nav button{background:none;border:0;cursor:pointer}
+
+/* nábor */
+.recruit{position:relative;color:#fff;background:#1a0b0d}
+.recruit-bg{position:absolute;inset:0;background:url("img/t/pripravka.jpg") center/cover no-repeat}
+.recruit-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,8,10,.95) 0%,rgba(20,8,10,.85) 50%,rgba(140,0,25,.75) 100%)}
+.recruit .wrap{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:40px;padding-block:60px}
+@media (max-width:860px){.recruit .wrap{grid-template-columns:1fr}}
+.recruit h2{font-size:clamp(2.4rem,5vw,3.8rem);font-weight:900;text-transform:uppercase;margin-block:8px 14px}
+.recruit h2 em{font-style:normal;color:#ff5a60}
+.recruit .eyebrow{color:#ffb3b6}
+.recruit ul{padding:0;margin:18px 0 0;list-style:none;display:grid;gap:10px}
+.recruit li{display:flex;gap:12px;align-items:baseline}
+.recruit li b{font-family:var(--display);font-size:1.3rem;color:#ff5a60;min-width:96px}
+form{background:var(--surface);color:var(--ink);border-radius:10px;padding:22px;display:grid;gap:12px;align-self:start}
+label{font-size:.8rem;font-weight:700;display:grid;gap:5px}
+input,select{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--ink)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+form .btn{background:var(--red);color:#fff;border-color:var(--red);justify-content:center}
+.ok{background:var(--red-soft);border-radius:4px;padding:10px 12px;font-size:.88rem}
+
+.info{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:860px){.info{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px}
+.card h3{font-size:1.5rem;font-weight:800;text-transform:uppercase;margin-bottom:8px}
+.card p{margin:0;color:var(--muted);font-size:.93rem}
+.card.red{background:var(--red);color:#fff;border-color:var(--red)}
+.card.red p{color:#fff;opacity:.92}
+.partners{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
+.partners span{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:12px 18px;font-weight:900;letter-spacing:.04em;color:var(--muted);font-size:.92rem;display:grid;place-items:center;min-height:64px}
+.partners .logo{background:#fff}
+.partners .logo img{height:36px;width:auto}
+footer{background:var(--red-deep);color:#fff;padding-block:36px;margin-top:60px}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+footer .fl{display:flex;gap:14px;align-items:center}
+footer .fl img{width:54px;height:auto}
+footer a{font-weight:700}
+footer .fsoc{display:flex;gap:10px;flex-wrap:wrap}
+footer .fsoc a{text-decoration:none;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:7px 14px;font-size:.88rem}
+footer .fsoc a:hover{background:rgba(255,255,255,.12)}
+footer .fct{display:grid;gap:2px;font-size:.88rem}
+footer .fct a{font-weight:700;text-decoration:none}
+footer small{opacity:.85}
+
+/* hero slider */
+.slider{position:relative;height:min(78vh,720px);min-height:520px;overflow:hidden;background:#140a0c;color:#fff}
+.slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .9s ease,visibility .9s}
+.slide.on{opacity:1;visibility:visible}
+.slide .bg{position:absolute;inset:-2%;background:center/cover no-repeat;transform:scale(1.04)}
+.slide.on .bg{animation:kb 9s ease-out forwards}
+@keyframes kb{from{transform:scale(1.04)}to{transform:scale(1.12)}}
+.slide::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,4,7,.92) 0%,rgba(110,0,20,.72) 38%,rgba(18,4,7,.15) 70%,rgba(18,4,7,.35) 100%),linear-gradient(0deg,rgba(18,4,7,.85) 0%,transparent 40%)}
+.slide .wrap{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:center;padding-block:40px 120px}
+.slide .kicker{display:inline-flex;gap:10px;align-items:center;font-size:.76rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:#ffc9cc}
+.slide .kicker i{width:34px;height:3px;background:var(--red);display:block}
+.slide h1,.slide h2{font-size:clamp(2.8rem,7.4vw,6.4rem);font-weight:900;text-transform:uppercase;line-height:.88;margin:14px 0 16px;max-width:12ch;text-shadow:0 4px 30px rgba(0,0,0,.35)}
+.slide h1 em,.slide h2 em{font-style:normal;color:#ff4d55}
+.slide p{max-width:46ch;margin:0 0 24px;font-size:1.06rem;opacity:.95}
+.slide .cta{display:flex;gap:10px;flex-wrap:wrap}
+.slide.on .kicker,.slide.on h1,.slide.on h2,.slide.on p,.slide.on .cta{animation:up .8s ease-out both}
+.slide.on h1,.slide.on h2{animation-delay:.08s}.slide.on p{animation-delay:.16s}.slide.on .cta{animation-delay:.24s}
+@keyframes up{from{transform:translateY(16px);opacity:0}}
+.s-ctrl{position:absolute;z-index:5;left:0;right:0;bottom:0}
+.s-ctrl .wrap{display:grid;grid-template-columns:repeat(5,minmax(0,1fr)) auto;gap:10px;padding-block:0 26px;align-items:end}
+.s-tab{background:none;border:0;color:#fff;text-align:left;cursor:pointer;padding:12px 0 0;opacity:.6;font-size:.8rem;font-weight:700;min-width:0}
+.s-tab b{display:block;font-family:var(--display);font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.s-tab span{display:block;font-weight:400;opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.s-tab .pb{display:block;height:3px;background:rgba(255,255,255,.25);margin-bottom:10px;overflow:hidden;border-radius:2px}
+.s-tab .pb i{display:block;height:100%;width:0;background:#fff}
+.s-tab.on{opacity:1}
+.s-tab.on .pb i{animation:prog 7s linear forwards}
+.slider.paused .s-tab.on .pb i{animation-play-state:paused}
+@keyframes prog{to{width:100%}}
+.s-arrows{display:flex;gap:8px}
+.s-arrows button{width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.35);background:rgba(0,0,0,.25);color:#fff;font-size:1.3rem;cursor:pointer}
+@media (max-width:760px){.s-ctrl .wrap{grid-template-columns:repeat(5,minmax(0,1fr))}.s-tab b,.s-tab span{display:none}.s-arrows{display:none}.slide .wrap{padding-block:30px 70px}.slider{min-height:560px}}
+@media (prefers-reduced-motion:reduce){.slide.on .bg{animation:none}.slide{transition:none}}
+
+/* match center strip */
+.mc{background:var(--ink);color:var(--bg);border-top:3px solid var(--red)}
+.mc .wrap{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;padding-block:16px}
+.mc h2{font-size:1.5rem;font-weight:900;text-transform:uppercase;line-height:.95;color:#fff}
+.mc h2 small{display:block;font-family:var(--body);font-size:.68rem;line-height:1.2;letter-spacing:.16em;color:#ff8a8f;font-weight:900;margin-bottom:6px}
+.fx{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:4px;scrollbar-width:thin;min-width:0}
+.fxc{flex:none;scroll-snap-align:start;width:250px;background:#241b1d;border:1px solid #3a2e31;border-radius:10px;padding:12px 14px;color:#f4eeef;display:grid;gap:8px}
+.fxc.next{background:linear-gradient(135deg,var(--red-deep),var(--red));border-color:transparent}
+.fxc .top{display:flex;justify-content:space-between;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;font-weight:900;color:#ffb3b6}
+.fxc.next .top{color:#fff}
+.fxc .vs{color:#fff;font-family:var(--body);display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:center;font-weight:900;font-size:.9rem;line-height:1.2}
+.fxc .vs .mini-crest{width:34px;height:34px}
+.fxc .when{font-family:var(--display);font-size:1.25rem;font-weight:800;line-height:1}
+.fxc .when small{font-family:var(--body);font-size:.74rem;font-weight:400;opacity:.8;display:block;margin-top:3px}
+.fxc .hm{font-size:.62rem;background:#fff;color:var(--red);font-weight:900;padding:1px 6px;border-radius:3px;letter-spacing:.08em}
+@media (max-width:760px){.mc .wrap{grid-template-columns:1fr}}
+
+/* lídri tímu */
+.leaders{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:18px}
+@media (max-width:900px){.leaders{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ld{position:relative;border-radius:12px;overflow:hidden;background:linear-gradient(150deg,var(--red-deep),#1d0a0d);color:#fff;min-height:170px;display:flex;align-items:flex-end;padding:14px;cursor:pointer;border:0;text-align:left}
+.ld img{position:absolute;right:-6%;bottom:0;height:100%;width:auto;object-fit:cover;mask-image:linear-gradient(90deg,transparent,#000 35%);-webkit-mask-image:linear-gradient(90deg,transparent,#000 35%)}
+.ld .t{position:relative;z-index:1}
+.ld .t small{display:block;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#ffb3b6}
+.ld .t b{display:block;font-family:var(--display);font-size:3rem;line-height:.9}
+.ld .t span{font-weight:700;font-size:.88rem}
+
+/* štatistika na karte */
+.pl{cursor:pointer;text-align:left;padding:0;font:inherit;color:inherit;width:100%}
+.pl .line{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin-top:8px}
+.pl .line div{text-align:center;padding:6px 0 0}
+.pl .line b{display:block;font-family:var(--display);font-size:1.15rem;line-height:1}
+.pl .line span{font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.pl .line.zero b{color:var(--muted)}
+.pl .hot{position:absolute;bottom:8px;left:8px;background:var(--gold);color:#1d1517;font-size:.62rem;font-weight:900;padding:2px 6px;border-radius:3px;letter-spacing:.06em;text-transform:uppercase}
+.sortbar{display:flex;gap:6px;align-items:center;font-size:.8rem;color:var(--muted)}
+.sortbar select{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink)}
+
+/* profil hráča */
+.pm{position:fixed;inset:0;z-index:70;background:rgba(10,6,7,.85);display:grid;place-items:center;padding:16px}
+.pm .card2{width:min(820px,100%);max-height:92vh;overflow:auto;background:var(--surface);color:var(--ink);border-radius:14px;display:grid;grid-template-columns:minmax(0,320px) 1fr;position:relative}
+@media (max-width:700px){.pm .card2{grid-template-columns:1fr}.pm .ph2{max-height:360px}}
+.pm .ph2{position:relative;background:linear-gradient(160deg,#3a2a2d,#141012);min-height:300px}
+.pm .ph2 img{width:100%;height:100%;object-fit:cover;display:block}
+.pm .ph2 .big{position:absolute;left:14px;bottom:8px;font-family:var(--display);font-weight:900;font-size:6rem;line-height:1;color:#fff;text-shadow:0 4px 20px rgba(0,0,0,.5)}
+.pm .bd{padding:24px;display:grid;gap:16px;align-content:start}
+.pm .bd h3{font-size:2.6rem;font-weight:900;text-transform:uppercase}
+.pm .chipsr{display:flex;gap:6px;flex-wrap:wrap}
+.pm .chipsr span{background:var(--red-soft);color:var(--red);font-weight:900;font-size:.74rem;padding:4px 10px;border-radius:999px}
+.pm .sg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.pm .sg div{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;text-align:center}
+.pm .sg b{display:block;font-family:var(--display);font-size:2rem;line-height:1;color:var(--red)}
+.pm .sg span{font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.pm .x{position:absolute;top:10px;right:10px;width:40px;height:40px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font-size:1.4rem;cursor:pointer;z-index:2}
+.pm .rk{font-size:.88rem;color:var(--muted)}
+.pm .rk b{color:var(--ink)}
+
+/* galéria filter */
+.gchips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.lightbox figcaption{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#fff;font-size:.86rem;opacity:.85}
+
+/* partneri tiers */
+.tier{margin-bottom:14px}
+.tier h4{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:900;margin:0 0 8px;font-family:var(--body)}
+.partners.main span{min-height:96px;font-size:1.05rem}
+.partners.main .logo img{height:54px}
+
+.mh{font-family:var(--display);font-size:1.15rem;text-transform:uppercase;margin:0 0 8px}
+.mt{width:100%;font-size:.84rem;border-collapse:collapse}
+.mt th{font-size:.62rem;padding:5px 6px}.mt td{padding:6px;text-align:right}.mt td:first-child{text-align:left;color:var(--ink);width:auto}
+.ml{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.ml li{display:grid;grid-template-columns:44px 30px 1fr auto;gap:8px;align-items:center;font-size:.86rem;padding:6px 0;border-bottom:1px solid var(--line)}
+.ml li:last-child{border-bottom:0}
+.ml .mini-crest{width:30px;height:30px}
+.ml .md{color:var(--red);font-family:var(--display);font-weight:800}
+.ml .mo{min-width:0;font-weight:700;line-height:1.2}.ml .mo small{display:block;font-weight:400;color:var(--muted)}
+/* novinky */
+.news-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:900px){.news-grid{grid-template-columns:1fr}}
+.nc{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease;min-width:0}
+.nc:hover{transform:translateY(-3px);box-shadow:0 16px 34px -20px rgba(0,0,0,.45)}
+.nc .im{aspect-ratio:16/9;max-width:100%;background:linear-gradient(135deg,var(--red-deep),#2a0c11);position:relative;overflow:hidden}
+.nc .im img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.nc .im .wm{position:absolute;right:-6%;bottom:-14%;width:52%;opacity:.16}
+.nc .im .q{position:absolute;left:18px;bottom:14px;right:18px;color:#fff;font-family:var(--display);font-weight:900;font-size:1.6rem;line-height:.95;text-transform:uppercase}
+.nc .bd2{padding:16px 18px 18px;display:grid;gap:8px}
+.nc time{font-size:.72rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+.nc h3{font-family:var(--body);font-size:1.08rem;font-weight:900;line-height:1.3;text-transform:none}
+.nc p{margin:0;color:var(--muted);font-size:.9rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.nc.big{grid-column:span 2;flex-direction:row}
+.nc.big .im{aspect-ratio:auto;flex:1.3;height:420px;min-height:0}
+.nc.big .bd2{flex:1;align-content:center;padding:26px}
+.nc.big h3{font-family:var(--display);font-size:2rem;text-transform:uppercase;line-height:1}
+@media (max-width:900px){.nc.big{grid-column:auto;flex-direction:column}.nc.big .im{height:240px;flex:none}}
+.follow2{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:26px}
+@media (max-width:900px){.follow2{grid-template-columns:1fr}}
+.soc{position:relative;border-radius:14px;overflow:hidden;min-height:170px;color:#fff;text-decoration:none;display:flex;align-items:flex-end;padding:20px;background:#222 center/cover no-repeat}
+.soc::before{content:"";position:absolute;inset:0}
+.soc.s-ig::before{background:linear-gradient(135deg,rgba(131,58,180,.88),rgba(225,48,108,.85) 55%,rgba(247,119,55,.85))}
+.soc.s-fb::before{background:linear-gradient(135deg,rgba(24,119,242,.92),rgba(10,60,140,.88))}
+.soc.s-yt::before{background:linear-gradient(135deg,rgba(220,0,0,.9),rgba(90,0,0,.9))}
+.soc>*{position:relative}
+.soc svg{width:34px;height:34px;position:absolute;top:18px;left:20px}
+.soc b{display:block;font-family:var(--display);font-size:1.9rem;line-height:1;text-transform:uppercase}
+.soc span{font-size:.9rem;opacity:.92}
+.soc em{position:absolute;top:20px;right:20px;font-style:normal;font-weight:900;font-size:.78rem;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);padding:6px 12px;border-radius:999px}
+.soc:hover{filter:brightness(1.06)}
+
+.mc .wrap{grid-template-columns:auto 1fr}
+.mc-l{display:grid;gap:10px;align-content:center}
+.mc-cats{display:flex;flex-wrap:wrap;gap:5px;max-width:230px}
+.mc-cats button{font:inherit;font-size:.66rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;background:transparent;color:#d9cfd1;border:1px solid #4a3c3f;border-radius:999px;padding:4px 9px;cursor:pointer}
+.mc-cats button[aria-pressed="true"]{background:#fff;color:var(--red);border-color:#fff}
+.mc-bar{height:3px;background:#3a2e31;border-radius:2px;overflow:hidden;max-width:230px}
+.mc-bar i{display:block;height:100%;width:0;background:var(--red)}
+.mc-bar i.run{animation:mcp 6s linear forwards}
+@keyframes mcp{to{width:100%}}
+.fx.fade{animation:fxin .45s ease both}
+@keyframes fxin{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
+.club-sc{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 18px}
+@media (max-width:1100px) and (min-width:901px){.club-sc{grid-template-columns:1fr}}
+@media (max-width:420px){.club-sc{grid-template-columns:1fr}}
+.cs-row b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.cs-row>span:nth-child(2){min-width:0}
+.club-sc h5{margin:0 0 8px;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--red);font-weight:900}
+.cs-row{display:grid;grid-template-columns:30px 1fr auto;gap:10px;align-items:center;padding:5px 0;border:0;background:none;width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer}
+.cs-row+.cs-row{border-top:1px solid var(--line)}
+.cs-row .av{width:30px;height:30px;border-radius:50%;overflow:hidden;background:var(--line);display:grid;place-items:center;font-size:.7rem;font-weight:900;color:var(--muted)}
+.cs-row .av img{width:100%;height:100%;object-fit:cover;object-position:50% 15%}
+.cs-row b{font-size:.9rem}
+.cs-row small{display:block;color:var(--muted);font-size:.74rem}
+.cs-row .pt{font-family:var(--display);font-weight:900;font-size:1.3rem;color:var(--ink)}
+.cs-row .pt span{font-family:var(--body);font-size:.7rem;color:var(--muted);font-weight:700;margin-left:4px}
+.nc.big{grid-column:1/-1}
+.arena{display:grid;grid-template-columns:1.6fr 1fr;gap:14px}
+@media (max-width:860px){.arena{grid-template-columns:1fr}}
+.ar-card{position:relative;border-radius:14px;overflow:hidden;color:#fff;min-height:360px;background:#1b1214 url('img/g/t-080.jpg') center/cover;display:flex;flex-direction:column;justify-content:flex-end;padding:28px}
+.ar-card::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(20,10,12,.94) 0%,rgba(20,10,12,.78) 48%,rgba(241,70,37,.35) 100%)}
+.ar-card::after{content:"";position:absolute;right:-60px;top:-60px;width:260px;height:260px;border-radius:50%;border:34px solid #f14625;opacity:.85}
+.ar-card>*{position:relative;z-index:1}
+.ar-logo{background:#f14625;border-radius:8px;padding:10px 14px;width:max-content;margin-bottom:auto}
+.ar-logo img{height:44px;width:auto;display:block}
+.ar-card h3{font-size:clamp(2.2rem,5vw,3.6rem);font-weight:900;text-transform:uppercase;margin:22px 0 6px}
+.ar-card p{margin:0 0 16px;max-width:46ch;opacity:.9}
+.ar-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.ar-tags span{font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:5px 11px}
+.ar-btns{display:flex;flex-wrap:wrap;gap:8px}
+.ar-btns a{background:#f14625;color:#fff;text-decoration:none;font-weight:900;padding:10px 16px;border-radius:6px;font-size:.9rem}
+.ar-btns a.gh{background:transparent;border:1px solid rgba(255,255,255,.5)}
+.ar-side{display:grid;gap:14px}
+.ar-next{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;border-top:4px solid #f14625}
+.ar-next h4{font-family:var(--display);font-size:1.35rem;text-transform:uppercase;margin:0 0 10px}
+.ar-next .r{display:grid;grid-template-columns:62px 1fr;gap:10px;padding:8px 0;border-top:1px solid var(--line);font-size:.88rem}
+.ar-next .r:first-of-type{border-top:0}
+.ar-next .r b{font-family:var(--display);font-size:1.1rem;color:#f14625;line-height:1}
+.ar-next .r b small{display:block;font-family:var(--body);font-size:.7rem;color:var(--muted);font-weight:700}
+.ar-next .r span small{display:block;color:var(--muted);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.partners{display:grid!important;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.partners.main{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:700px){.partners.main{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.partners .logo{background:#fff}
+.partners.main .logo{min-height:96px}
+.partners .logo img{height:40px;width:auto;max-width:170px;object-fit:contain}
+.partners.main .logo img{height:56px;max-width:200px}
+.partners>span{min-width:0;overflow:hidden}.partners .logo img{max-width:100%!important;height:auto!important;max-height:40px}.partners.main .logo img{max-height:44px;max-width:72%!important}.partners .logo img.sq{max-height:58px!important}.partners.main .logo img.sq{max-height:76px!important}
+.partners .logo.dark{background:#f14625;border-color:#f14625}
+.partners .wmk{background:#fff;color:#1b1214;font-family:var(--display);font-weight:900;font-size:1.35rem;letter-spacing:.03em;text-transform:uppercase;line-height:.95;text-align:center}
+.partners.main .wmk{min-height:96px;font-size:clamp(1.2rem,4vw,1.8rem)}
+.partners .wmk small{display:block;font-family:var(--body);font-size:.6rem;letter-spacing:.2em;color:var(--red);font-weight:900}
+.lead2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-bottom:22px}
+@media (max-width:760px){.lead2{grid-template-columns:1fr}}
+.boss{display:grid;grid-template-columns:150px 1fr;background:var(--ink);color:#fff;border-radius:14px;overflow:hidden;min-height:170px}
+.boss .ph{background:linear-gradient(135deg,var(--red-deep),var(--red));position:relative;overflow:hidden;display:grid;place-items:center}
+.boss .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 12%;position:absolute;inset:0}
+.boss .ph .ini{font-family:var(--display);font-weight:900;font-size:3.4rem;color:#fff;opacity:.95}
+.boss .bd{padding:22px;display:flex;flex-direction:column;justify-content:center;gap:8px}
+.boss .role{display:flex;flex-wrap:wrap;gap:6px}
+.boss .role span{font-size:.68rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase;background:var(--red);padding:4px 9px;border-radius:3px}
+.boss h3{font-size:2rem;font-weight:900;text-transform:uppercase}
+.boss p{margin:0;opacity:.75;font-size:.9rem}
+.coaches{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:980px){.coaches{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.coaches{grid-template-columns:1fr}}
+.co{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.co .cv{height:150px;background-size:cover;background-position:50% 28%;position:relative}
+.co .cv::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.7))}
+.co .cv b{position:absolute;left:14px;bottom:10px;z-index:1;color:#fff;font-family:var(--display);font-weight:900;font-size:1.5rem;text-transform:uppercase;line-height:1}
+.co ul{list-style:none;margin:0;padding:12px 14px 14px;display:grid;gap:8px}
+.co li{display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:center;font-weight:800;font-size:.92rem}
+.co li i{width:34px;height:34px;border-radius:50%;background:var(--line);display:grid;place-items:center;font-style:normal;font-size:.72rem;font-weight:900;color:var(--muted);overflow:hidden}
+.co li i img{width:100%;height:100%;object-fit:cover;object-position:50% 12%}
+.co li small{display:block;font-weight:600;color:var(--muted);font-size:.74rem}
+
+.boss .ct{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:4px}
+.boss .ct a{color:#fff;text-decoration:none;font-weight:800;font-size:.88rem;border-bottom:1px solid rgba(255,255,255,.35)}
+.co .tm{margin:0;padding:12px 14px 4px;display:grid;gap:4px;border-bottom:1px solid var(--line)}
+.co .tm div{display:flex;justify-content:space-between;gap:8px;font-size:.86rem}
+.co .tm b{font-family:var(--display);font-size:1rem;letter-spacing:.03em;color:var(--red);min-width:2.2em}
+.co .tm span{font-variant-numeric:tabular-nums;font-weight:700}
+.co .yr{position:absolute;right:12px;top:10px;z-index:1;background:rgba(0,0,0,.55);color:#fff;font-size:.68rem;font-weight:900;letter-spacing:.08em;padding:3px 8px;border-radius:999px}
+.co li a{color:var(--muted);text-decoration:none;font-weight:700;font-size:.76rem;display:block}
+.co li a:hover{color:var(--red)}
+.bars.ga .tr{display:flex}
+.bars.ga .fl{border-radius:0}
+.bars.ga .fl.g{background:var(--red)}
+.bars.ga .fl.a{background:var(--ink);animation-delay:.15s}
+.bars.ga .fl:first-child{border-radius:6px 0 0 6px}.bars.ga .fl:last-child{border-radius:0 6px 6px 0}
+.bar-row .v small{font-family:var(--body);font-size:.72rem;font-weight:800;color:var(--muted);margin-left:6px;letter-spacing:0}
+.bar-row .v small i{font-style:normal;color:var(--red)}
+.ga-leg{display:flex;gap:14px;font-size:.75rem;font-weight:800;color:var(--muted);margin:-4px 0 12px}
+.ga-leg span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px;background:var(--red)}
+.ga-leg span.a::before{background:var(--ink)}
+.cs-row small i{font-style:normal;color:var(--red);font-weight:900}
+.cs-row small em{font-style:normal;color:var(--ink);font-weight:900}
+.tcell{display:flex;align-items:center;gap:8px}
+.tcell .mini-crest{width:22px;height:22px;box-shadow:none}
+.tcell .mini-crest.txt{font-size:.55rem}
+tr.z-po td:first-child{box-shadow:inset 3px 0 0 #1f7a4a}
+tr.z-bar td:first-child{box-shadow:inset 3px 0 0 #d39a2a}
+tr.z-rel td:first-child{box-shadow:inset 3px 0 0 #a3262c}
+tr.z-cut td{border-bottom:2px dashed var(--line)}
+.zleg{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:12px;font-size:.76rem;font-weight:800;color:var(--muted)}
+.zleg span::before{content:"";display:inline-block;width:4px;height:12px;margin-right:7px;vertical-align:-2px;background:#1f7a4a}
+.zleg .b::before{background:#d39a2a}.zleg .r::before{background:#a3262c}
+
+tr.z-po td{background:rgba(31,122,74,.08)}
+tr.z-bar td{background:rgba(211,154,42,.14)}
+tr.z-rel td{background:rgba(163,38,44,.12)}
+tr.us td{background:var(--red-soft)!important}
+.zleg span::before{width:14px!important;height:12px!important;border-radius:3px;opacity:.85}
+.zleg span:not(.b):not(.r)::before{background:rgba(31,122,74,.35)}
+.zleg .b::before{background:rgba(211,154,42,.5)!important}.zleg .r::before{background:rgba(163,38,44,.45)!important}
+.zleg .n::before{background:transparent!important;border:1px solid var(--line)}
+/* leaders */
+.leaders{gap:14px}
+.ld{min-height:210px;padding:18px;background:radial-gradient(120% 90% at 100% 0%,#e0383f 0%,var(--red-deep) 45%,#1d0a0d 100%);isolation:isolate}
+.ld::before{content:"";position:absolute;inset:0;background:url('img/l/astn-white.png') no-repeat -18% 120%/62% auto;opacity:.08;z-index:-1}
+.ld::after{content:attr(data-big);position:absolute;right:10px;top:-10px;font-family:var(--display);font-weight:900;font-size:7.5rem;line-height:1;color:rgba(255,255,255,.08);z-index:-1}
+.ld img{right:-4%;height:96%;z-index:0;filter:drop-shadow(0 8px 18px rgba(0,0,0,.45));mask-image:linear-gradient(90deg,transparent 0%,#000 30%);-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 30%)}
+.ld .t{max-width:62%}
+.ld .t b{font-size:3.6rem}
+.ld .t small{display:inline-block;background:rgba(255,255,255,.14);padding:3px 8px;border-radius:999px;margin-bottom:6px;color:#fff}
+.ld .t span{display:block;font-size:.95rem;line-height:1.2}
+.ld .t em{display:block;font-style:normal;font-size:.75rem;opacity:.75;margin-top:2px}
+.ld:hover img{transform:scale(1.03)}.ld img{transition:transform .3s ease}
+.pos-h{grid-column:1/-1;display:flex;align-items:center;gap:12px;margin:10px 0 2px;font-family:var(--display);font-weight:900;font-size:1.4rem;text-transform:uppercase}
+.pos-h::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,var(--red),transparent)}
+.pos-h small{font-family:var(--body);font-size:.75rem;color:var(--muted);font-weight:800;letter-spacing:.06em}
+/* trainings grouped */
+.co .tm{padding:12px 14px 10px;gap:8px}
+.co .tm div{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:10px;justify-content:start}
+.co .tm .days{display:flex;gap:4px}
+.co .tm .days b{min-width:0;display:inline-grid;place-items:center;width:28px;height:24px;border-radius:5px;background:var(--red-soft);color:var(--red);font-size:.85rem}
+.co .tm span{text-align:right}
+.ld.nop{background:linear-gradient(0deg,rgba(29,10,13,.95) 0%,rgba(140,0,25,.55) 55%,rgba(224,56,63,.25) 100%),var(--bg) center 30%/cover}
+.ld.nop::before{opacity:0}
+</style>
+
+
+<header class="site-head">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="AS Trenčín florbal – domov">
+      <img src="img/l/astn-white.png" alt="" width="46" height="38">
+      <span><b>AS Trenčín</b><small>FLORBALOVÝ KLUB</small></span>
+    </a>
+    <nav class="site-nav" aria-label="Hlavné menu">
+      <a href="#vysledky">Výsledky a program</a>
+      <a href="#supisky">Súpisky</a>
+      <a href="#treningy">Tréningy</a>
+      <a href="#galeria">Galéria</a>
+      <a href="#socialne">Novinky</a>
+      <a href="#arena">Arena</a>
+      <a href="#klub">Klub</a>
+      <a class="cta" href="#nabor">Nábor detí</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="slider" id="slider" aria-roledescription="carousel" aria-label="Hlavné správy">
+    <div id="slides"></div>
+    <div class="s-ctrl"><div class="wrap" id="stabs"><div class="s-arrows"><button type="button" id="sprev" aria-label="Predchádzajúci banner">‹</button><button type="button" id="snext" aria-label="Ďalší banner">›</button></div></div></div>
+  </section>
+
+  <section class="mc" aria-label="Najbližšie zápasy">
+    <div class="wrap">
+      <div class="mc-l"><h2><small>Match center</small>Najbližšie<br>zápasy</h2><div class="mc-cats" id="mccats"></div><div class="mc-bar"><i id="mcbar"></i></div></div>
+      <div class="fx" id="fx"></div>
+    </div>
+  </section>
+
+  <section class="block" id="vysledky">
+    <div class="wrap">
+      <div class="head">
+        <div><span class="eyebrow">Sezóna 2026/27 · všetky kategórie</span><h2>Výsledky a program</h2></div>
+        <a href="https://www.szfb.sk/sk/sport-clubs/detail/23/florbalovy-klub-as-trencin">Klub na SZFB</a>
+      </div>
+      <div class="tabs" role="tablist" id="tabs"></div>
+      <div id="panel" role="tabpanel"></div>
+    </div>
+  </section>
+
+  <section class="block" id="supisky" style="padding-top:0">
+    <div class="wrap">
+      <div class="head">
+        <div><span class="eyebrow">Hráči sezóny 2026/27 · štatistiky zo SZFB</span><h2>Súpisky</h2></div>
+      </div>
+      <div class="tabs" role="tablist" id="rtabs"></div>
+      <div class="leaders" id="leaders"></div>
+      <div class="roster-bar">
+        <div class="chips" id="chips"></div>
+        <div class="sortbar"><label for="sort">Zoradiť:</label><select id="sort"><option value="no">podľa postu</option><option value="b">podľa bodov</option><option value="g">podľa gólov</option><option value="age">podľa veku</option></select></div>
+      </div>
+      <div class="facts num" id="facts" style="margin-bottom:14px"></div>
+      <div class="players" id="players"></div>
+    </div>
+  </section>
+
+  <section class="block" id="galeria" style="padding-top:0">
+    <div class="wrap">
+      <div class="head">
+        <div><span class="eyebrow">Sezóna 2026/27 vo fotkách</span><h2>Galéria</h2></div>
+      </div>
+      <div class="gchips" id="gchips"></div>
+      <div class="gallery" id="gallery"></div>
+      <p class="credit">Foto: Daniel Hurinský, archív klubu</p>
+    </div>
+  </section>
+
+  <section class="block" id="socialne" style="padding-top:0">
+    <div class="wrap">
+      <div class="head">
+        <div><span class="eyebrow">Z klubu</span><h2>Novinky</h2></div>
+        <a href="https://www.astrencinflorbal.sk/clanky">Všetky články</a>
+      </div>
+      <div class="news-grid" id="news"></div>
+      <div class="follow2">
+        <a class="soc s-ig" href="https://www.instagram.com/fbkastrencin" style="background-image:url('img/a/lido-31.jpg')"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff"/></svg><em>Sledovať</em><div><b>Instagram</b><span>@fbkastrencin · fotky a príbehy zo zápasov</span></div></a>
+        <a class="soc s-fb" href="https://www.facebook.com/astnflorbal" style="background-image:url('img/g/t-115.jpg')"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4 1.7-4 4.3V10H7v4h3v8h4v-8h3l1-4h-4V8.6c0-.4.3-.6.6-.6z"/></svg><em>Sledovať</em><div><b>Facebook</b><span>AS Trenčín florbal · správy a pozvánky</span></div></a>
+        <a class="soc s-yt" href="https://www.youtube.com/@astrencinflorbal4172" style="background-image:url('img/a/lido-164.jpg')"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.4-1.6.5-4.8.5-4.8s0-3.2-.5-4.8zM9.7 15.1V8.9L15.5 12z"/></svg><em>Odoberať</em><div><b>YouTube</b><span>Záznamy a zostrihy zápasov</span></div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="recruit" id="nabor">
+    <div class="recruit-bg" role="img" aria-label="Tímová fotka prípravky"></div>
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Nábor 2026/27</span>
+        <h2>Príď si zahrať <em>florbal</em></h2>
+        <p style="max-width:52ch;opacity:.9;margin:0">Hľadáme chlapcov aj dievčatá, ktorí sa chcú hýbať a hrať v partii. Prvé tréningy sú bezplatné a florbalku ti požičiame.</p>
+        <ul class="num">
+          <li><b>2018–2019</b><span>Mladšia prípravka</span></li>
+          <li><b>2016–2017</b><span>Staršia prípravka</span></li>
+          <li><b>2014–2015</b><span>Mladší žiaci</span></li>
+          <li><b>2012–2013</b><span>Starší žiaci</span></li>
+        </ul>
+      </div>
+      <form id="form" name="nabor" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="nabor"><p hidden><label>Nevypĺňať: <input name="bot-field"></label></p>
+        <strong style="font-size:1.05rem">Prihláška na skúšobný tréning</strong>
+        <label for="f-name">Meno dieťaťa<input id="f-name" name="meno" required placeholder="napr. Tomáš Novák"></label>
+        <div class="two">
+          <label for="f-year">Rok narodenia<select id="f-year" name="rocnik"><option>2019</option><option>2018</option><option selected>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option></select></label>
+          <label for="f-phone">Telefón rodiča<input id="f-phone" name="telefon" type="tel" placeholder="09xx xxx xxx"></label>
+        </div>
+        <label for="f-mail">E-mail rodiča<input id="f-mail" name="email" type="email" required placeholder="meno@email.sk"></label>
+        <button class="btn" type="submit">Odoslať prihlášku</button>
+        <div class="ok" id="ok" hidden></div>
+      </form>
+    </div>
+  </section>
+
+  <section class="block" id="arena">
+    <div class="wrap">
+      <div class="head"><div><span class="eyebrow">Domáca hala · tréningy a zápasy</span><h2>ARENA OSTROV</h2></div><a href="https://www.google.com/maps/search/?api=1&query=ARENA+OSTROV+Tren%C4%8D%C3%ADn">Navigovať</a></div>
+      <div class="arena">
+        <div class="ar-card">
+          <div class="ar-logo"><img src="img/l/arena-ostrov.png" alt="ARENA OSTROV"></div>
+          <h3>Náš domov<br>na Ostrove</h3>
+          <p>Tu trénujú a hrajú všetky naše kategórie, od prípravky až po extraligu mužov. Príď fandiť, vstup na mládežnícke zápasy je zadarmo.</p>
+          <div class="ar-tags"><span>Extraliga mužov</span><span>Juniori</span><span>Dorast</span><span>Žiaci</span><span>Prípravky</span></div>
+          <div class="ar-btns"><a href="https://www.google.com/maps/search/?api=1&query=ARENA+OSTROV+Tren%C4%8D%C3%ADn">Navigovať do haly</a><a class="gh" href="#nabor">Prísť na tréning</a></div>
+        </div>
+        <div class="ar-side">
+          <div class="ar-next"><h4>Najbližšie v Arene</h4><div id="arnext"></div></div>
+          <div class="card red"><h3>Darujte nám 2 %</h3><p>Pomôžte nám získať financie na fungovanie klubu a mládeže.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="treningy" style="padding-top:0">
+    <div class="wrap">
+      <div class="head"><div><span class="eyebrow">Rozpis · ARENA OSTROV</span><h2>Tréningy a tréneri</h2></div><a href="#nabor">Prísť na skúšobný tréning</a></div>
+      <div class="coaches" id="coaches"></div>
+    </div>
+  </section>
+
+  <section class="block" id="klub" style="padding-top:0">
+    <div class="wrap">
+      <div class="head"><div><span class="eyebrow">Ľudia za klubom</span><h2>Vedenie klubu</h2></div></div>
+      <div class="lead2" id="leaders2"></div>
+    </div>
+  </section>
+
+  <section class="block" id="partneri" style="padding-top:0">
+    <div class="wrap">
+      <div class="head"><div><span class="eyebrow">Ďakujeme</span><h2>Partneri</h2></div></div>
+      <div class="tier"><h4>Hlavní partneri</h4><div class="partners main" id="pmain"></div></div>
+      <div class="tier"><h4>Partneri</h4><div class="partners" id="pother"></div></div>
+    </div>
+  </section>
+</main>
+
+<footer id="kontakt">
+  <div class="wrap">
+    <div class="fl"><img src="img/l/astn-white.png" alt=""><div><b style="font-family:var(--display);font-size:1.5rem;text-transform:uppercase">FBK AS Trenčín</b><br><small>Kubrická 109/3, 911 01 Trenčín · IČO 42017840</small></div></div>
+    <div class="fct"><span style="opacity:.75;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:900">Kontakt</span><a href="mailto:jurmat@centrum.sk">jurmat@centrum.sk</a><a href="tel:+421903945335">+421 903 945 335</a></div>
+    <div class="fsoc">
+      <a href="https://www.facebook.com/astnflorbal">Facebook</a>
+      <a href="https://www.instagram.com/fbkastrencin">Instagram</a>
+      <a href="https://www.youtube.com/@astrencinflorbal4172">YouTube</a>
+      <a href="https://www.szfb.sk/sk/">SZFB</a>
+    </div>
+  </div>
+</footer>
+
+
+<div class="pm" id="pm" hidden role="dialog" aria-modal="true" aria-label="Profil hráča"><div class="card2" id="pmc"></div></div>
+<div class="lightbox" id="lb" hidden role="dialog" aria-modal="true" aria-label="Fotografia">
+  <img id="lbimg" alt=""><figcaption id="lbcap"></figcaption>
+  <button type="button" class="lb-x" id="lbx" aria-label="Zavrieť">×</button>
+  <button type="button" class="lb-p" id="lbp" aria-label="Predchádzajúca">‹</button>
+  <button type="button" class="lb-n" id="lbn" aria-label="Ďalšia">›</button>
+</div>
+
+<script>var DATA={order:['muzi','juniori','mb','dorast','sz','mz','pripravka']};
+function fetchJSON(u){ return fetch(u,{cache:'no-cache'}).then(function(r){ if(!r.ok) throw new Error(u); return r.json(); }); }
+Promise.all([fetchJSON('data/szfb.json'),fetchJSON('data/rosters.json'),fetchJSON('data/site.json'),fetchJSON('data/news.json')]).then(function(a){
+DATA.szfb=a[0]; DATA.rosters=a[1]; DATA.site=a[2]; DATA.news=a[3];
+
+var US=/AS Trenčín/;
+function pimg(x){ return /[\/.]/.test(x)?x.replace(/^\//,''):'img/p/'+x+'.jpg'; }
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+var LOGOS=[[/Žilin|Grasshop/,'zilina.png'],[/Nižn/,'nizna.png'],[/Florko/,'florko.png'],[/ATU/,'atu.png'],[/Snipers/,'snipers.png'],[/Hurik/,'hurikan.png'],[/Sabinov/,'sabinov.png'],[/Detva/,'detva.png'],[/Púchov/,'puchov.png'],[/Nitra|DFA/,'dfa-nitra.png'],[/Levice/,'levice.png'],[/LIDO/,'lido.png'],[/Tsunami/,'tsunami.png'],[/1\. FBC Trenčín/,'fbc.png'],[/Mikuláš|Prešov/,'presov.png'],[/Victory|Dubnica/,'victory.png'],[/Nemšov/,'nemsova.png'],[/^1\. FBC Trenčín|^1\. FBC/,'fbc.png']];
+function crest(name){ for(var i=0;i<LOGOS.length;i++){ if(LOGOS[i][0].test(name)) return '<span class="mini-crest"><img src="img/l/'+LOGOS[i][1]+'" alt=""></span>'; }
+  var w=name.replace(/\(.*?\)/g,'').replace(/^(FBC|FBK|FbO|ŠK|FK|FaBK|DA\.DO\.SA|1\.)\s*/,'').trim(); return '<span class="mini-crest txt">'+esc(w.slice(0,2).toUpperCase())+'</span>'; }
+
+/* ---------- Výsledky a program (dáta zo szfb.sk, data/szfb.json) ---------- */
+var SZD=DATA.szfb, CATS=DATA.order.map(function(id){return SZD.cats[id];}).filter(Boolean);
+var UPD=new Date(SZD.updated), UPDTXT=UPD.getDate()+'. '+(UPD.getMonth()+1)+'. '+UPD.getFullYear();
+function shortTeam(n){ return n.replace(/^(Florbalový klub|FBK|FBC|FbO|ŠK|FK|FaBK|VŠK FTVŠ UK|DTF team|Oxdog|ŠK Slávia SPU|DA\.DO\.SA)\s+/,'').replace(/\s+AC UNIZA/,'').replace(/^AS Trenčín$/,'AS Trenčín'); }
+function matchesHtml(list,played){
+  if(!list.length) return '<p class="empty">Zatiaľ bez odohraných zápasov.</p>';
+  return list.map(function(m){
+    var opp=played?m[1]:m[3];
+    if(played) return '<div class="match"><div class="d">'+m[0]+'</div>'+crest(opp)+'<div class="who">'+esc(opp)+(m[5]?'<span class="home">doma</span>':'')+'<span>'+esc(m[4])+'</span></div><div class="sc num">'+m[2]+'<span class="res-tag '+m[3]+'">'+m[3][0]+'</span></div></div>';
+    return '<div class="match"><div class="d">'+m[0]+'<small>'+m[1]+' '+m[2]+'</small></div>'+crest(opp)+'<div class="who">'+esc(opp)+(m[5]?'<span class="home">doma</span>':'')+'<span>'+esc(m[4])+'</span></div><div></div></div>';
+  }).join('');
+}
+function clubSc(exclude){
+  return '<div class="club-sc">'+ROSTERS.filter(function(r){return r.id!==exclude;}).map(function(r){
+    var top=r.players.filter(function(p){return p.st&&p.st[3]>0;}).sort(function(a,b){return b.st[3]-a.st[3]||b.st[1]-a.st[1];}).slice(0,3);
+    if(!top.length) return '';
+    return '<div><h5>Kanadské bodovanie · '+esc(r.name)+'</h5>'+top.map(function(p){ var ini=p.name.split(' ').map(function(w){return w[0];}).join('');
+      return '<button type="button" class="cs-row" data-r="'+r.id+'" data-name="'+esc(p.name)+'"><span class="av">'+(p.photo?'<img src="'+pimg(p.photo)+'" alt="" loading="lazy">':ini)+'</span><span><b>'+esc(p.name)+'</b><small><i>'+p.st[1]+' G</i> + <em>'+p.st[2]+' A</em></small></span><span class="pt">'+p.st[3]+'<span>b</span></span></button>'; }).join('')+'</div>';
+  }).join('')+'</div>';
+}
+function renderCat(c){
+  var wins=c.played.filter(function(m){return m[3][0]==='V';}).length;
+  var h='<div class="banner" style="background-image:url(\''+c.photo+'\')"><div class="in"><div><span class="eyebrow">'+esc(c.league)+'</span><h3>'+esc(c.name)+'</h3></div><div class="sum num"><div><b>'+c.place+'</b><span>Miesto</span></div><div><b>'+c.played.length+'</b><span>Zápasy</span></div><div><b>'+wins+'</b><span>Výhry</span></div><div><b>'+c.score+'</b><span>Skóre</span></div></div></div></div>';
+  h+='<div class="panel">';
+  if(c.played.length) h+='<div class="box span-12"><div class="form"><strong style="color:var(--ink);margin-right:4px">Forma</strong>'+c.played.map(function(m){return '<span class="dot '+m[3]+'" title="'+esc(m[1])+' '+m[2]+'">'+m[3][0]+'</span>';}).join('')+'<span>žltý okraj = po predĺžení</span></div></div>';
+  h+='<div class="box span-5"><h4>Program</h4>'+matchesHtml(c.next,false)+'</div>';
+  h+='<div class="box span-7"><h4>Výsledky</h4>'+matchesHtml(c.played,true)+'</div>';
+  var ros=ROSTERS.filter(function(r){return r.id===c.id;})[0];
+  var top=ros?ros.players.filter(function(p){return p.st&&p.st[3]>0;}).sort(function(a,b){return b.st[3]-a.st[3]||b.st[1]-a.st[1];}).slice(0,5):null;
+  if(top&&top.length){ var max=top[0].st[3];
+    h+='<div class="box span-5"><h4>Kanadské bodovanie</h4><div class="ga-leg"><span>góly</span><span class="a">asistencie</span></div><div class="bars ga">'+top.map(function(p){return '<div class="bar-row"><span class="nm">'+esc(p.name)+'</span><span class="tr"><span class="fl g" style="width:'+(p.st[1]/max*100)+'%"></span><span class="fl a" style="width:'+(p.st[2]/max*100)+'%"></span></span><span class="v num">'+p.st[3]+'<small><i>'+p.st[1]+'</i>+'+p.st[2]+'</small></span></div>';}).join('')+'</div><p class="mini">'+esc(c.note)+'</p>'+clubSc(c.id)+'</div>';
+  } else h+='<div class="box span-5"><h4>Štatistiky</h4><p class="empty">'+esc(c.note)+'</p>'+clubSc('')+'</div>';
+  if(c.table) h+='<div class="box span-7"><h4>Tabuľka</h4><div class="table-wrap"><table class="num"><thead><tr><th>#</th><th>Tím</th><th>Z</th><th>Skóre</th><th>B</th></tr></thead><tbody>'+c.table.map(function(r,i){ var n=i+1, z=c.zones?(n<=8?'z-po':(n===10||n===11?'z-bar':(n===12?'z-rel':''))):''; if(c.zones&&(n===8||n===9||n===11)) z+=' z-cut'; var cls=((r[4]||US.test(r[0]))?'us ':'')+z; return '<tr'+(cls.trim()?' class="'+cls.trim()+'"':'')+'><td>'+n+'</td><td><span class="tcell">'+((r[4]||US.test(r[0]))?'<span class="mini-crest"><img src="img/l/astn.png" alt="" style="object-fit:contain;padding:3px"></span>':crest(r[0]))+esc(r[0])+'</span></td><td>'+r[1]+'</td><td>'+r[2]+'</td><td>'+r[3]+'</td></tr>';}).join('')+'</tbody></table></div>'+(c.zones?'<div class="zleg"><span>1.–8. priamo do play-off</span><span class="n">9. bez postupu</span><span class="b">10.–11. baráž</span><span class="r">12. zostup</span></div>':'')+'</div>';
+  else h+='<div class="box span-7"><h4>Tabuľka</h4><p class="empty">Tabuľka sa zobrazí po prvom odohranom kole.</p></div>';
+  document.getElementById('panel').innerHTML=h+'</div>';
+  [].forEach.call(document.querySelectorAll('#panel .cs-row'),function(el){ el.addEventListener('click',function(){ var r=ROSTERS.filter(function(x){return x.id===el.getAttribute('data-r');})[0]; document.getElementById('rtab-'+r.id).click(); openPlayer(el.getAttribute('data-name')); }); });
+}
+function makeTabs(el,items,onSel,prefix){
+  items.forEach(function(c,i){ var b=document.createElement('button'); b.type='button'; b.className='tab'; b.id=prefix+c.id; b.setAttribute('role','tab'); b.textContent=c.name; b.setAttribute('aria-selected',i===0?'true':'false');
+    b.addEventListener('click',function(){ [].forEach.call(el.children,function(x){x.setAttribute('aria-selected','false');}); b.setAttribute('aria-selected','true'); onSel(c); }); el.appendChild(b); });
+  onSel(items[0]);
+}
+
+/* ---------- Súpisky (data/rosters.json) + štatistiky (data/szfb.json) ---------- */
+var ROSTERS=DATA.rosters.teams.map(function(t){ return {id:t.id,name:t.name,league:t.league,hide:!!t.hide_without_games,players:(t.players||[]).map(function(p){ return {no:p.no===''||p.no==null?'':+p.no,name:p.name,pos:p.pos,yr:+p.yr,photo:p.photo||'',st:null,show:!!p.show_without_games,x:p.captain?{c:1}:{}}; })}; });
+var SZ=SZD.players||{};
+ROSTERS.forEach(function(r){ var src=SZ[r.id]||[]; r.players.forEach(function(p){
+  var parts=p.name.split(' '), key=parts.slice(1).join(' ').toUpperCase()+', '+parts[0];
+  var d=src.filter(function(x){return x[0]===key;})[0]; if(!d) return;
+  var s=d[1]; p.car=d[2]; p.last=d[3];
+  if(p.pos==='B'){ p.st=null; p.x.gk={gp:+s[0],sv:s[3],gaa:s[2]}; }
+  else p.st=[+s[0],+s[1],+s[2],+s[3],+s[4]];
+}); });
+ROSTERS.forEach(function(r){ if(r.hide) r.players=r.players.filter(function(p){ if(p.show) return true; return p.x.gk?p.x.gk.gp>0:(p.st&&p.st[0]>0); }); });
+/* poznámky ku kategóriám sa počítajú z aktuálnych dát */
+CATS.forEach(function(c){ var r=ROSTERS.filter(function(x){return x.id===c.id;})[0];
+  if(r){ var st=r.players.filter(function(p){return p.st;}); var g=st.slice().sort(function(a,b){return b.st[1]-a.st[1];})[0], a=st.slice().sort(function(a,b){return b.st[2]-a.st[2];})[0];
+    var gk=r.players.filter(function(p){return p.x.gk&&p.x.gk.gp&&p.x.gk.sv!=='0,00 %';}).sort(function(x,y){return parseFloat(y.x.gk.sv.replace(',','.'))-parseFloat(x.x.gk.sv.replace(',','.'));})[0];
+    c.note=(g&&g.st[1]?'Najviac gólov: '+g.name+' ('+g.st[1]+'). ':'')+(a&&a.st[2]?'Najviac asistencií: '+a.name+' ('+a.st[2]+'). ':'')+(gk?'Brankár '+gk.name+': '+gk.x.gk.sv+' úspešnosť zákrokov.':''); c.scorers=1; }
+  else { c.scorers=null; c.note=c.id==='pripravka'?'V prípravkách sa výsledky a tabuľky nevedú, hrá sa turnajovým systémom.':(!c.played.length&&c.next.length?'Sezónu otvoria '+c.next[0][0]+' ('+c.next[0][4]+').':'Dáta zo szfb.sk, aktualizované '+UPDTXT+'.'); }
+  if(c.table) c.table=c.table.map(function(r){ return [shortTeam(r[0]),r[1],r[2],r[3],r[4]]; });
+});
+var POSN={B:'Brankár',O:'Obranca','Ú':'Útočník'};
+var curRoster=ROSTERS[0], curPos='all', curSort='no';
+function photoTag(p,cls){ return p.photo?'<img src="'+pimg(p.photo)+'" alt="'+esc(p.name)+'" loading="lazy"'+(cls?' class="'+cls+'"':'')+'>':'<span class="sil"><img src="img/l/astn-white.png" alt=""></span>'; }
+function topBy(list,i){ return list.filter(function(p){return p.st;}).sort(function(a,b){return b.st[i]-a.st[i]||b.st[1]-a.st[1];})[0]; }
+function renderLeaders(){
+  var pl=curRoster.players, b=topBy(pl,3), g=topBy(pl,1), a=topBy(pl,2);
+  var gk=pl.filter(function(p){return p.x.gk&&p.x.gk.gp&&p.x.gk.sv!=='0,00 %';}).sort(function(x,y){return parseFloat(y.x.gk.sv.replace(',','.'))-parseFloat(x.x.gk.sv.replace(',','.'));})[0];
+  var LDBG=['img/a/lido-59.jpg','img/a/lido-31.jpg','img/a/lido-39.jpg','img/a/lido-164.jpg'], ldi=0;
+  function card(lbl,val,p,unit){ if(!p) return ''; var bg=LDBG[ldi++%4]; return '<button type="button" class="ld'+(p.photo?'':' nop')+'" style="--bg:url('+bg+')" data-big="'+(p.no||'')+'" data-name="'+esc(p.name)+'">'+(p.photo?'<img src="'+pimg(p.photo)+'" alt="">':'')+'<span class="t"><small>'+lbl+'</small><b class="num">'+val+'</b><span>'+esc(p.name)+'</span>'+(unit?'<em>'+unit+'</em>':'')+'</span></button>'; }
+  document.getElementById('leaders').innerHTML=card('Najviac bodov',b.st[3],b,b.st[1]+'+'+b.st[2])+card('Najviac gólov',g.st[1],g,g.st[0]+' zápasy')+card('Najviac asistencií',a.st[2],a,'')+card('Brankár · úspešnosť',gk?gk.x.gk.sv.replace(' ',''):'–',gk,gk?gk.x.gk.gp+' zápasy':'');
+  [].forEach.call(document.querySelectorAll('.ld'),function(el){ el.addEventListener('click',function(){ openPlayer(el.getAttribute('data-name')); }); });
+}
+function renderRoster(){
+  var list=curRoster.players.filter(function(p){return curPos==='all'||p.pos===curPos;}).slice();
+  var bpts=function(p){return p.st?p.st[3]:-1;}, gls=function(p){return p.st?p.st[1]:-1;};
+  if(curSort==='b') list.sort(function(a,b){return bpts(b)-bpts(a);}); else if(curSort==='g') list.sort(function(a,b){return gls(b)-gls(a);}); else if(curSort==='age') list.sort(function(a,b){return b.yr-a.yr;}); else list.sort(function(a,b){var o={B:0,O:1,'Ú':2}; return (o[a.pos]-o[b.pos])||((a.no===''?999:a.no)-(b.no===''?999:b.no));});
+  var best=topBy(curRoster.players,3);
+  var PH={B:'Brankári',O:'Obrancovia','Ú':'Útočníci'}, lastPos=null, showH=(curSort==='no'&&curPos==='all');
+  document.getElementById('players').innerHTML=list.map(function(p,i){ var hd=''; if(showH&&p.pos!==lastPos){ lastPos=p.pos; hd='<div class="pos-h">'+PH[p.pos]+'<small>'+list.filter(function(x){return x.pos===p.pos;}).length+'</small></div>'; }
+    var line;
+    if(p.x.gk) line='<div class="line'+(p.x.gk.gp?'':' zero')+'"><div><b>'+p.x.gk.gp+'</b><span>Z</span></div><div style="grid-column:span 2"><b>'+(p.x.gk.gp&&p.x.gk.sv!=='0,00 %'?p.x.gk.sv.replace(' ',''):'–')+'</b><span>úspešnosť</span></div><div><b>'+(p.x.gk.gp&&p.x.gk.gaa!=='0,00'?p.x.gk.gaa:'–')+'</b><span>GAA</span></div></div>';
+    else if(p.st) line='<div class="line'+(p.st[0]?'':' zero')+'"><div><b>'+p.st[0]+'</b><span>Z</span></div><div><b>'+p.st[1]+'</b><span>G</span></div><div><b>'+p.st[2]+'</b><span>A</span></div><div><b>'+p.st[3]+'</b><span>B</span></div></div>';
+    else line='<div class="line zero"><div><b>0</b><span>Z</span></div><div><b>–</b><span>G</span></div><div><b>–</b><span>A</span></div><div><b>–</b><span>B</span></div></div>';
+    return hd+'<button type="button" class="pl" id="pl-'+curRoster.id+'-'+i+'" data-name="'+esc(p.name)+'"><div class="ph">'+photoTag(p)+(best===p?'<span class="hot">Top strelec</span>':'')+'</div><span class="no num">'+(p.no||'–')+'</span><span class="pos">'+POSN[p.pos]+'</span>'+(p.x.c?'<span class="cap" title="Kapitán">C</span>':'')+'<div class="meta"><b>'+esc(p.name)+'</b><span>ročník '+p.yr+'</span>'+line+'</div></button>';
+  }).join('');
+  [].forEach.call(document.querySelectorAll('.pl'),function(el){ el.addEventListener('click',function(){ openPlayer(el.getAttribute('data-name')); }); });
+  var pl=curRoster.players, yrs=pl.map(function(p){return p.yr;}), avg=(2026-yrs.reduce(function(a,b){return a+b;},0)/yrs.length).toFixed(1);
+  var goals=pl.reduce(function(s,p){return s+(p.st?p.st[1]:0);},0), scorers=pl.filter(function(p){return p.st&&p.st[1]>0;}).length;
+  var oldest=pl.reduce(function(a,b){return a.yr<=b.yr?a:b;}), youngest=pl.reduce(function(a,b){return a.yr>=b.yr?a:b;});
+  document.getElementById('facts').innerHTML='<span><b>'+pl.length+'</b>hráčov</span><span><b>'+avg.replace('.',',')+'</b>priemerný vek</span><span><b>'+goals+'</b>gólov</span><span><b>'+scorers+'</b>rôznych strelcov</span><span>najskúsenejší <strong style="color:var(--ink)">'+esc(oldest.name)+'</strong> ('+oldest.yr+')</span><span>najmladší <strong style="color:var(--ink)">'+esc(youngest.name)+'</strong> ('+youngest.yr+')</span>';
+}
+function openPlayer(name){
+  var p=curRoster.players.filter(function(x){return x.name===name;})[0]; if(!p) return;
+  var others=ROSTERS.filter(function(r){return r!==curRoster && r.players.some(function(x){return x.name===name;});}).map(function(r){return r.name;});
+  var sg, rank='';
+  if(p.x.gk) sg='<div><b>'+p.x.gk.gp+'</b><span>Zápasy</span></div><div><b>'+(p.x.gk.sv==='0,00 %'?'–':p.x.gk.sv.replace(' ',''))+'</b><span>Úspešnosť</span></div><div><b>'+(p.x.gk.gaa==='0,00'?'–':p.x.gk.gaa)+'</b><span>Gólov na zápas</span></div>';
+  else if(p.st&&p.st[0]){ var ppg=(p.st[3]/p.st[0]).toFixed(2).replace('.',',');
+    sg='<div><b>'+p.st[0]+'</b><span>Zápasy</span></div><div><b>'+p.st[1]+'</b><span>Góly</span></div><div><b>'+p.st[2]+'</b><span>Asistencie</span></div><div><b>'+p.st[3]+'</b><span>Body</span></div><div><b>'+ppg+'</b><span>Body na zápas</span></div><div><b>'+p.st[4]+'</b><span>Trestné min.</span></div>';
+    var order=curRoster.players.filter(function(x){return x.st&&x.st[3]>0;}).sort(function(a,b){return b.st[3]-a.st[3];}); var r=order.indexOf(p)+1;
+    rank=r?'<p class="rk">V produktivite tímu je <b>'+r+'. z '+order.length+'</b> bodujúcich hráčov.</p>':''; }
+  else sg='<div style="grid-column:span 3"><b>0</b><span>Zatiaľ bez štartu v tejto súťaži</span></div>';
+  var gkp=!!p.x.gk, car='', last='';
+  if(p.car&&p.car.length) car='<div><h4 class="mh">Kariéra v SZFB</h4><table class="mt num"><thead><tr><th></th><th>Z</th>'+(gkp?'<th>GA</th><th>GAA</th><th>%</th>':'<th>G</th><th>A</th><th>B</th>')+'</tr></thead><tbody>'+p.car.map(function(r){var c=r.split('|'); return gkp?'<tr><td>'+c[0]+'</td><td>'+c[1]+'</td><td>'+c[3]+'</td><td>'+c[4]+'</td><td>'+(c[5]||'')+'</td></tr>':'<tr><td>'+c[0]+'</td><td>'+c[1]+'</td><td>'+c[2]+'</td><td>'+c[3]+'</td><td><b>'+c[4]+'</b></td></tr>';}).join('')+'</tbody></table></div>';
+  if(p.last&&p.last.length) last='<div><h4 class="mh">Posledné zápasy</h4><ul class="ml">'+p.last.map(function(m){var home=/^vs\./.test(m[0]); return '<li><span class="md num">'+m[1]+'.</span>'+crest(m[0].replace(/^(vs\. |@ )/,''))+'<span class="mo">'+(home?'':'@ ')+esc(m[0].replace(/^(vs\. |@ )/,''))+'<small class="num">'+m[2]+'</small></span><b class="num">'+(gkp?m[3].replace(' ',''):(m[3]==='0+0'?'–':m[3].replace('+',' G + ')+' A'))+'</b></li>';}).join('')+'</ul></div>';
+  document.getElementById('pmc').innerHTML='<button type="button" class="x" id="pmx" aria-label="Zavrieť">×</button><div class="ph2">'+(p.photo?'<img src="'+pimg(p.photo)+'" alt="'+esc(p.name)+'">':'<span class="sil" style="position:absolute;inset:0;display:grid;place-items:center"><img src="img/l/astn-white.png" alt="" style="width:40%;height:auto;opacity:.2"></span>')+'<span class="big num">'+(p.no||'')+'</span></div><div class="bd"><div><span class="eyebrow">'+esc(curRoster.name)+' · '+esc(curRoster.league)+'</span><h3>'+esc(p.name)+'</h3></div><div class="chipsr"><span>'+POSN[p.pos]+'</span><span>ročník '+p.yr+'</span>'+(p.x.c?'<span>Kapitán</span>':'')+others.map(function(o){return '<span>hrá aj za: '+esc(o)+'</span>';}).join('')+'</div><div class="sg num">'+sg+'</div>'+rank+car+last+'<p class="rk">Zdroj: szfb.sk, aktualizované '+UPDTXT+'.</p></div>';
+  document.getElementById('pm').hidden=false;
+  document.getElementById('pmx').addEventListener('click',function(){document.getElementById('pm').hidden=true;});
+}
+document.getElementById('pm').addEventListener('click',function(e){ if(e.target.id==='pm') e.target.hidden=true; });
+var chips=document.getElementById('chips');
+[['all','Všetci'],['B','Brankári'],['O','Obrancovia'],['Ú','Útočníci']].forEach(function(c,i){ var b=document.createElement('button'); b.type='button'; b.className='chip'; b.id='chip-'+i; b.textContent=c[1]; b.setAttribute('aria-pressed',i===0?'true':'false');
+  b.addEventListener('click',function(){ curPos=c[0]; [].forEach.call(chips.children,function(x){x.setAttribute('aria-pressed','false');}); b.setAttribute('aria-pressed','true'); renderRoster(); }); chips.appendChild(b); });
+document.getElementById('sort').addEventListener('change',function(e){ curSort=e.target.value; renderRoster(); });
+makeTabs(document.getElementById('tabs'),CATS,renderCat,'tab-');
+makeTabs(document.getElementById('rtabs'),ROSTERS,function(r){curRoster=r;renderLeaders();renderRoster();},'rtab-');
+
+/* ---------- hero slider ---------- */
+var SLIDES=DATA.site.slides.map(function(s){ var cta=[]; if(s.btn1_text) cta.push([s.btn1_text,s.btn1_link||'#',1]); if(s.btn2_text) cta.push([s.btn2_text,s.btn2_link||'#',0]); return {img:s.img,k:s.kicker||'',h:esc(s.title||'')+(s.title_em?' <em>'+esc(s.title_em)+'</em>':''),p:s.text||'',cta:cta,tab:[s.tab_title||'',s.tab_text||'']}; });
+var slEl=document.getElementById('slides'), stEl2=document.getElementById('stabs'), slider=document.getElementById('slider'), si=0, stimer=null;
+SLIDES.forEach(function(s,i){
+  var d=document.createElement('div'); d.className='slide'+(i===0?' on':''); d.setAttribute('role','group'); d.setAttribute('aria-label',(i+1)+' z '+SLIDES.length);
+  d.innerHTML='<div class="bg" style="background-image:url(\''+s.img+'\')"></div><div class="wrap"><span class="kicker"><i></i>'+esc(s.k)+'</span>'+(i===0?'<h1>':'<h2>')+s.h+(i===0?'</h1>':'</h2>')+'<p>'+esc(s.p)+'</p><div class="cta">'+s.cta.map(function(c){return '<a class="btn'+(c[2]?' solid':'')+'" href="'+c[1]+'">'+esc(c[0])+'</a>';}).join('')+'</div></div>';
+  slEl.appendChild(d);
+  var t=document.createElement('button'); t.type='button'; t.className='s-tab'+(i===0?' on':''); t.id='stab-'+i; t.innerHTML='<span class="pb"><i></i></span><b>'+esc(s.tab[0])+'</b><span>'+esc(s.tab[1])+'</span>';
+  t.addEventListener('click',function(){ go(i); }); stEl2.insertBefore(t,stEl2.lastElementChild);
+});
+function go(i){ si=(i+SLIDES.length)%SLIDES.length;
+  [].forEach.call(slEl.children,function(x,j){x.classList.toggle('on',j===si);});
+  [].forEach.call(stEl2.querySelectorAll('.s-tab'),function(x,j){ x.classList.remove('on'); void x.offsetWidth; if(j===si) x.classList.add('on'); });
+  clearTimeout(stimer); if(!slider.classList.contains('paused')) stimer=setTimeout(function(){go(si+1);},7000); }
+document.getElementById('snext').addEventListener('click',function(){go(si+1);});
+document.getElementById('sprev').addEventListener('click',function(){go(si-1);});
+slider.addEventListener('mouseenter',function(){slider.classList.add('paused');clearTimeout(stimer);});
+slider.addEventListener('mouseleave',function(){slider.classList.remove('paused');go(si);});
+var tx=0; slider.addEventListener('touchstart',function(e){tx=e.touches[0].clientX;},{passive:true});
+slider.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-tx; if(Math.abs(dx)>50) go(si+(dx<0?1:-1));});
+go(0);
+
+/* ---------- match center (striedanie kategórií) ---------- */
+function fxKey(m){ if(m[6]) return +new Date(m[6]+'T'+(m[2]||'00:00').padStart(5,'0')+':00'); var dm=m[0].split('.'); return (+dm[1])*100+(+dm[0])+(dm[1]<6?1200:0)+parseFloat(m[2].replace(':','.'))/100; }
+var MC=CATS.filter(function(c){return c.next.length;}), mci=0, mct=null, fxEl=document.getElementById('fx'), mcc=document.getElementById('mccats'), mcb=document.getElementById('mcbar'), mcs=document.querySelector('.mc');
+function fxCard(c,m,i){ return '<article class="fxc'+(i===0?' next':'')+'"><div class="top"><span>'+esc(c.name)+'</span>'+(m[5]?'<span class="hm">DOMA</span>':'<span>vonku</span>')+'</div><div class="vs">'+crest(m[3])+'<span>'+esc(m[3])+'</span></div><div class="when">'+m[1]+' '+m[0]+' · '+m[2]+'<small>'+esc(m[4])+'</small></div></article>'; }
+function mcGo(i){ mci=(i+MC.length)%MC.length; var c=MC[mci];
+  fxEl.classList.remove('fade'); void fxEl.offsetWidth; fxEl.classList.add('fade');
+  fxEl.innerHTML=c.next.slice().sort(function(a,b){return fxKey(a)-fxKey(b);}).map(function(m,j){return fxCard(c,m,j);}).join('');
+  [].forEach.call(mcc.children,function(b,j){b.setAttribute('aria-pressed',j===mci?'true':'false');});
+  mcb.classList.remove('run'); void mcb.offsetWidth; clearTimeout(mct);
+  if(!mcs.classList.contains('paused')){ mcb.classList.add('run'); mct=setTimeout(function(){mcGo(mci+1);},6000); } }
+MC.forEach(function(c,i){ var b=document.createElement('button'); b.type='button'; b.id='mc-'+c.id; b.textContent=c.name; b.addEventListener('click',function(){mcGo(i);}); mcc.appendChild(b); });
+mcs.addEventListener('mouseenter',function(){mcs.classList.add('paused'); clearTimeout(mct); mcb.classList.remove('run');});
+mcs.addEventListener('mouseleave',function(){mcs.classList.remove('paused'); mcGo(mci);});
+mcGo(0);
+/* najbližšie domáce zápasy v Arene */
+var HOME=[]; CATS.forEach(function(c){ c.next.forEach(function(m){ if(m[5]) HOME.push({c:c.name,m:m,k:fxKey(m)}); }); });
+HOME.sort(function(a,b){return a.k-b.k;});
+document.getElementById('arnext').innerHTML=HOME.slice(0,5).map(function(h){ return '<div class="r"><b>'+h.m[0]+'<small>'+h.m[1]+' '+h.m[2]+'</small></b><span><small>'+esc(h.c)+'</small>'+esc(h.m[3].replace(/^(Páv|Trenovec) – /,'$1 vs. '))+'</span></div>'; }).join('');
+
+/* ---------- vedenie a tréneri ---------- */
+var COACH=DATA.site.trainings.map(function(t){ return [t.category,t.photo,(t.coaches||[]).map(function(c){return [c.name,c.role||'',c.photo||'',c.phone||'',c.email||''];}),(t.times||[]).map(function(x){return [x.days,x.time];}),t.badge||'']; });
+document.getElementById('coaches').innerHTML=COACH.map(function(k){ return '<div class="co"><div class="cv" style="background-image:url(\''+k[1]+'\')"><span class="yr">'+esc(k[4])+'</span><b>'+esc(k[0])+'</b></div><div class="tm">'+k[3].map(function(t){return '<div><span class="days">'+t[0].split(' ').map(function(d){return '<b>'+d+'</b>';}).join('')+'</span><span>'+t[1]+'</span></div>';}).join('')+'</div><ul>'+k[2].map(function(t){ var nm=t[0].replace(/^Ing\. /,'').replace(/, PhD\.$/,''), ini=nm.split(' ').map(function(w){return w[0];}).join(''), c=(t[3]||t[4])?[t[3],t[4]]:null; return '<li><i>'+(t[2]?'<img src="'+pimg(t[2])+'" alt="">':ini)+'</i><span>'+esc(t[0])+'<small>'+t[1]+'</small>'+(c?(c[0]?'<a href="tel:'+c[0].replace(/ /g,'')+'">'+esc(c[0])+'</a>':'')+(c[1]?'<a href="mailto:'+c[1]+'">'+esc(c[1])+'</a>':''):'')+'</span></li>'; }).join('')+'</ul></div>'; }).join('');
+
+/* ---------- galéria ---------- */
+var GAL=[
+ ['img/a/lido-31.jpg','muzi','Muži · LIDO – AS 6:9 (26. 9.)','g-big'],['img/g/t-080.jpg','muzi','Muži · príprava vs. Tsunami','g-w'],['img/a/lido-39.jpg','muzi','Muži · LIDO – AS 6:9','g-tall'],['img/g/t-115.jpg','ine','Fanúšikovia','g-tall'],
+ ['img/g/j-146.jpg','jun','Juniori · AS – LIDO 9:7','g-w'],['img/a/lido-9.jpg','muzi','Muži · LIDO – AS 6:9',''],['img/g/d-75.jpg','dor','Dorastenci · príprava vs. LIDO U19','g-w'],['img/g/t-114.jpg','muzi','Muži · príprava vs. Tsunami',''],
+ ['img/a/lido-59.jpg','muzi','Muži · LIDO – AS 6:9','g-w'],['img/g/j-152.jpg','jun','Juniori · AS – LIDO 9:7',''],['img/g/v-9103.jpg','muzi','Muži · príprava vs. Vsetín','g-w'],['img/g/t-095.jpg','muzi','Muži · príprava vs. Tsunami',''],
+ ['img/g/j-143.jpg','jun','Juniori · striedačka','g-w'],['img/g/d-03.jpg','dor','Dorastenci · striedačka',''],['img/a/lido-68.jpg','muzi','Muži · LIDO – AS 6:9',''],['img/a/lido-164.jpg','muzi','Muži · tímový pokrik','g-w'],
+ ['img/b/sz.jpg','ine','Starší žiaci · MSR 2025',''],['img/b/mz.jpg','ine','Mladší žiaci · regionálne kolo',''],['img/b/pripravka.jpg','ine','Prípravka · MSR 2026',''],['img/t/pripravka.jpg','ine','Prípravka · tímová fotka',''],['img/t/starsi-ziaci.jpg','ine','Starší žiaci · tímová fotka',''],['img/t/mladsi-ziaci.jpg','ine','Mladší žiaci · tímová fotka',''],
+ ['img/g/t-052.jpg','muzi','Muži · brankár Eštok',''],['img/g/j-148.jpg','jun','Juniori · AS – LIDO 9:7',''],['img/t/juniori.jpg','jun','Juniori · tímová fotka',''],['img/t/dorast.jpg','dor','Dorastenci · tímová fotka',''],['img/g/v-9192.jpg','muzi','Muži · príprava vs. Vsetín','g-w'],['img/g/d-43.jpg','dor','Dorastenci · LIDO U19',''],['img/a/lido-26.jpg','muzi','Muži · LIDO – AS 6:9','']
+];
+var gal=document.getElementById('gallery'), lb=document.getElementById('lb'), lbi=0, gview=GAL;
+function renderGal(f){ gview=GAL.filter(function(g){return f==='all'||g[1]===f;}); gal.innerHTML='';
+  gview.forEach(function(g,i){ var b=document.createElement('button'); b.type='button'; b.className=i===0?'g-big':(i%7===4?'g-tall':''); b.id='gal-'+i; b.setAttribute('aria-label','Otvoriť fotku: '+g[2]);
+    b.innerHTML='<img src="'+g[0]+'" alt="'+esc(g[2])+'" loading="lazy">'; b.addEventListener('click',function(){openLb(i);}); gal.appendChild(b); }); }
+var gch=document.getElementById('gchips');
+[['muzi','Muži'],['jun','Juniori'],['dor','Dorastenci'],['ine','Iné']].forEach(function(c,i){ var b=document.createElement('button'); b.type='button'; b.className='chip'; b.id='gch-'+i; b.textContent=c[1]; b.setAttribute('aria-pressed',i===0?'true':'false');
+  b.addEventListener('click',function(){ [].forEach.call(gch.children,function(x){x.setAttribute('aria-pressed','false');}); b.setAttribute('aria-pressed','true'); renderGal(c[0]); }); gch.appendChild(b); });
+renderGal('muzi');
+function openLb(i){ lbi=(i+gview.length)%gview.length; document.getElementById('lbimg').src=gview[lbi][0]; document.getElementById('lbcap').textContent=gview[lbi][2]; lb.hidden=false; }
+document.getElementById('lbx').addEventListener('click',function(){lb.hidden=true;});
+document.getElementById('lbp').addEventListener('click',function(){openLb(lbi-1);});
+document.getElementById('lbn').addEventListener('click',function(){openLb(lbi+1);});
+lb.addEventListener('click',function(e){ if(e.target===lb) lb.hidden=true; });
+
+/* ---------- novinky (astrencinflorbal.sk) ---------- */
+var NEWS=DATA.news.map(function(n){ var d=new Date(n.date); return [d.getDate()+'. '+(d.getMonth()+1)+'. '+d.getFullYear(),n.title,n.perex||'',n.url,n.image||'',n.image_text||n.title.split(' ').slice(0,3).join(' ')]; });
+document.getElementById('news').innerHTML=NEWS.slice(0,4).map(function(n,i){
+  var im=n[4]?'<img src="'+n[4]+'" alt="" loading="lazy">':'<img class="wm" src="img/l/astn-white.png" alt=""><span class="q">'+esc(n[5])+'</span>';
+  return '<a class="nc'+(i===0?' big':'')+'" href="'+n[3]+'"><div class="im">'+im+'</div><div class="bd2"><time>'+n[0]+'</time><h3>'+esc(n[1])+'</h3><p>'+esc(n[2])+'</p></div></a>';
+}).join('');
+document.addEventListener('keydown',function(e){
+  if(!document.getElementById('pm').hidden){ if(e.key==='Escape') document.getElementById('pm').hidden=true; }
+  else if(!lb.hidden){ if(e.key==='Escape') lb.hidden=true; if(e.key==='ArrowRight') openLb(lbi+1); if(e.key==='ArrowLeft') openLb(lbi-1); }
+});
+/* ---------- vedenie klubu a partneri (data/site.json) ---------- */
+document.getElementById('leaders2').innerHTML=DATA.site.leaders.map(function(l){ var ini=l.name.replace(/^Ing\. |, PhD\.$/g,'').split(' ').map(function(w){return w[0];}).join(''); return '<div class="boss"><div class="ph">'+(l.photo?'<img src="'+pimg(l.photo)+'" alt="'+esc(l.name)+'">':'<span class="ini">'+ini+'</span>')+'</div><div class="bd"><div class="role">'+(l.roles||'').split(',').map(function(r){return '<span>'+esc(r.trim())+'</span>';}).join('')+'</div><h3>'+esc(l.name)+'</h3>'+(l.text?'<p>'+esc(l.text)+'</p>':'')+'<div class="ct">'+(l.phone?'<a href="tel:'+l.phone.replace(/ /g,'')+'">'+esc(l.phone)+'</a>':'')+(l.email?'<a href="mailto:'+esc(l.email)+'">'+esc(l.email)+'</a>':'')+'</div></div></div>'; }).join('');
+function plogo(p){ var inner=p.logo?'<img src="'+esc(p.logo)+'" alt="'+esc(p.name)+'"'+(p.square?' class="sq"':'')+'>':esc(p.name).replace(/ (.+)$/,'<small>$1</small>'); if(p.url) inner='<a href="'+esc(p.url)+'" target="_blank" rel="noopener" style="display:contents;color:inherit;text-decoration:none">'+inner+'</a>'; return '<span class="'+(p.logo?'logo'+(p.dark?' dark':''):'wmk')+'">'+inner+'</span>'; }
+document.getElementById('pmain').innerHTML=(DATA.site.partners_main||[]).map(plogo).join('');
+document.getElementById('pother').innerHTML=(DATA.site.partners||[]).map(plogo).join('');
+document.getElementById('form').addEventListener('submit',function(e){ e.preventDefault(); var f=e.target, ok=document.getElementById('ok');
+  fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
+   .then(function(r){ if(!r.ok) throw 0; ok.textContent='Ďakujeme! Prihlášku sme dostali, tréner sa ti ozve.'; ok.hidden=false; f.reset(); })
+   .catch(function(){ ok.textContent='Prihlášku sa nepodarilo odoslať. Skús to znova alebo nám napíš na Facebooku.'; ok.hidden=false; }); });
+
+}).catch(function(e){ console.error(e); document.getElementById('panel').innerHTML='<p class="empty">Dáta sa nepodarilo načítať. Skúste obnoviť stránku.</p>'; });
+</script>
+
+</body>
+</html>

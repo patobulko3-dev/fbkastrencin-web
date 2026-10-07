@@ -1,0 +1,287 @@
+{
+ "slides": [
+  {
+   "img": "img/h/muzi.jpg",
+   "kicker": "Muži · Extraliga",
+   "title": "Štyri zápasy.",
+   "title_em": "Štyri výhry.",
+   "text": "Ideálny vstup do sezóny. Po štyroch kolách sme druhí s 33 strelenými gólmi, v piatok hráme v Žiline.",
+   "tab_title": "Muži",
+   "tab_text": "4 výhry zo 4",
+   "btn1_text": "Výsledky a program",
+   "btn1_link": "#vysledky",
+   "btn2_text": "Súpiska mužov",
+   "btn2_link": "#supisky"
+  },
+  {
+   "img": "img/h/derby.jpg",
+   "kicker": "Muži · Zaujímavosť",
+   "title": "Ročník 2009.",
+   "title_em": "Štyri góly.",
+   "text": "Obranca Michal Daranský skóroval v troch zo štyroch extraligových zápasov. Viac gólov má v tíme už len Timotej Kollár.",
+   "tab_title": "Zaujímavosť",
+   "tab_text": "Daranský: 4 góly",
+   "btn1_text": "Profil hráča",
+   "btn1_link": "#supisky"
+  },
+  {
+   "img": "img/h/juniori.jpg",
+   "kicker": "Juniori · Extraliga juniorov",
+   "title": "Víkend na",
+   "title_em": "východe",
+   "text": "V sobotu Prešov, v nedeľu Košice. Alex Trtík a Samuel Bielik vedú tímové bodovanie s piatimi bodmi.",
+   "tab_title": "Juniori",
+   "tab_text": "Prešov a Košice",
+   "btn1_text": "Juniori",
+   "btn1_link": "#vysledky"
+  },
+  {
+   "img": "img/h/dorast.jpg",
+   "kicker": "Dorastenci · Liga Západ",
+   "title": "Lídri ligy",
+   "title_em": "Západ",
+   "text": "Dve výhry, skóre 31:12. Samuel Bielik nastrieľal v dvoch zápasoch osem gólov.",
+   "tab_title": "Dorastenci",
+   "tab_text": "1. miesto, 31:12",
+   "btn1_text": "Dorastenci",
+   "btn1_link": "#vysledky"
+  },
+  {
+   "img": "img/h/nabor.jpg",
+   "kicker": "Nábor 2026/27",
+   "title": "Príď si zahrať",
+   "title_em": "florbal",
+   "text": "Hľadáme chlapcov aj dievčatá ročníkov 2012–2019. Prvé tréningy sú zadarmo, florbalku ti požičiame.",
+   "tab_title": "Nábor",
+   "tab_text": "Ročníky 2012–2019",
+   "btn1_text": "Prihlásiť dieťa",
+   "btn1_link": "#nabor"
+  }
+ ],
+ "trainings": [
+  {
+   "category": "Muži",
+   "photo": "img/b/muzi.jpg",
+   "badge": "Extraliga",
+   "times": [
+    {
+     "days": "Po St Pi",
+     "time": "19:30 – 21:00"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Juraj Matejka",
+     "role": "hlavný tréner",
+     "photo": "matejka-juraj",
+     "phone": "+421 903 945 335",
+     "email": "jurmat@centrum.sk"
+    }
+   ]
+  },
+  {
+   "category": "Juniori",
+   "photo": "img/b/juniori.jpg",
+   "badge": "U19",
+   "times": [
+    {
+     "days": "Po St Pi",
+     "time": "19:30 – 21:00"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Ing. Zdenko Bielik",
+     "role": "hlavný tréner",
+     "photo": "bielik-zdenko"
+    },
+    {
+     "name": "Ing. Patrik Meliš",
+     "role": "hlavný tréner",
+     "photo": "",
+     "phone": "+421 911 012 987",
+     "email": "patrikmelis@gmail.com"
+    }
+   ]
+  },
+  {
+   "category": "Dorastenci",
+   "photo": "img/b/dorast.jpg",
+   "badge": "U17",
+   "times": [
+    {
+     "days": "Ut St",
+     "time": "19:00 – 20:30"
+    },
+    {
+     "days": "Pi",
+     "time": "16:30 – 18:00"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Ing. Patrik Bulko, PhD.",
+     "role": "hlavný tréner",
+     "photo": "bulko-patrik",
+     "phone": "+421 918 418 350",
+     "email": "patobulko3@gmail.com"
+    },
+    {
+     "name": "Karol Sedláček",
+     "role": "hlavný tréner",
+     "photo": ""
+    }
+   ]
+  },
+  {
+   "category": "Starší žiaci",
+   "photo": "img/b/sz.jpg",
+   "badge": "2012 – 2013",
+   "times": [
+    {
+     "days": "Po St Pi",
+     "time": "18:00 – 19:30"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Štefan Rajčan",
+     "role": "hlavný tréner",
+     "photo": "rajcan-stefan"
+    }
+   ]
+  },
+  {
+   "category": "Mladší žiaci",
+   "photo": "img/b/mz.jpg",
+   "badge": "2014 – 2015",
+   "times": [
+    {
+     "days": "Po St Pi",
+     "time": "18:00 – 19:30"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Štefan Rajčan",
+     "role": "hlavný tréner",
+     "photo": "rajcan-stefan"
+    }
+   ]
+  },
+  {
+   "category": "Staršia prípravka",
+   "photo": "img/b/pripravka.jpg",
+   "badge": "2016 – 2017",
+   "times": [
+    {
+     "days": "Po St Pi",
+     "time": "16:30 – 18:00"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Štefan Rajčan",
+     "role": "hlavný tréner",
+     "photo": "rajcan-stefan"
+    }
+   ]
+  },
+  {
+   "category": "Mladšia prípravka",
+   "photo": "img/h/nabor.jpg",
+   "badge": "2018 – 2019",
+   "times": [
+    {
+     "days": "Po St Pi",
+     "time": "16:30 – 18:00"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Štefan Rajčan",
+     "role": "hlavný tréner",
+     "photo": "rajcan-stefan"
+    }
+   ]
+  }
+ ],
+ "leaders": [
+  {
+   "name": "Ing. Juraj Matejka",
+   "roles": "Prezident klubu",
+   "text": "Hlavný tréner mužov a mladšej prípravky.",
+   "photo": "matejka-juraj",
+   "phone": "+421 903 945 335",
+   "email": "jurmat@centrum.sk"
+  },
+  {
+   "name": "Ing. Patrik Bulko, PhD.",
+   "roles": "Športový riaditeľ, Šéftréner klubu",
+   "text": "Športová koncepcia klubu, hlavný tréner dorastencov.",
+   "photo": "bulko-patrik",
+   "phone": "+421 918 418 350",
+   "email": "patobulko3@gmail.com"
+  }
+ ],
+ "partners_main": [
+  {
+   "name": "Mesto Trenčín",
+   "logo": "img/l/mesto-trencin.png"
+  },
+  {
+   "name": "DayUp",
+   "logo": "img/l/dayup.png",
+   "square": true
+  },
+  {
+   "name": "Salming",
+   "logo": "img/l/salming.png"
+  },
+  {
+   "name": "GetSport",
+   "logo": "img/l/getsport.svg"
+  },
+  {
+   "name": "Comextrans",
+   "logo": "img/l/comextrans.png"
+  },
+  {
+   "name": "ARENA OSTROV",
+   "logo": "img/l/arena-ostrov.png",
+   "dark": true
+  }
+ ],
+ "partners": [
+  {
+   "name": "Kora",
+   "logo": "img/l/kora.png"
+  },
+  {
+   "name": "WEM",
+   "logo": "img/l/wem.png"
+  },
+  {
+   "name": "Kopretina",
+   "logo": "img/l/kopretina.png"
+  },
+  {
+   "name": "Dalno kuchyne",
+   "logo": "img/l/dalno.png"
+  },
+  {
+   "name": "Chlebíčkuj",
+   "logo": "img/l/chlebickuj.png",
+   "square": true
+  },
+  {
+   "name": "Pizza To Go",
+   "logo": ""
+  },
+  {
+   "name": "The Barber",
+   "logo": "img/l/thebarber.png",
+   "square": true
+  }
+ ]
+}

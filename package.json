@@ -1,0 +1,13 @@
+{
+  "name": "fbkastrencin-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape-szfb.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "linkedom": "^0.18.5",
+    "marked": "^14.1.3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_navod": "ID súťaží a tímov zo szfb.sk pre aktuálnu sezónu. Na začiatku každej sezóny treba čísla aktualizovať (viď README).",
+  "season": "2026/27",
+  "categories": [
+    { "id": "muzi", "name": "Muži", "photo": "img/b/muzi.jpg", "zones": true, "roster": true,
+      "comps": [ { "comp": 1241, "teams": [ { "id": 670601 } ] } ] },
+    { "id": "juniori", "name": "Juniori", "photo": "img/b/juniori.jpg", "roster": true,
+      "comps": [ { "comp": 1244, "teams": [ { "id": 670618 } ] } ] },
+    { "id": "mb", "name": "Muži B", "photo": "img/b/mb.jpg",
+      "comps": [ { "comp": 1262, "teams": [ { "id": 670731, "label": "Trenovec" }, { "id": 670721, "label": "Páv" } ] } ] },
+    { "id": "dorast", "name": "Dorastenci", "photo": "img/b/dorast.jpg", "roster": true,
+      "comps": [ { "comp": 1267, "teams": [ { "id": 670748 } ] } ] },
+    { "id": "sz", "name": "Starší žiaci", "photo": "img/b/sz.jpg",
+      "comps": [ { "comp": 1278, "teams": [ { "id": 670863 } ] } ] },
+    { "id": "mz", "name": "Mladší žiaci", "photo": "img/b/mz.jpg",
+      "comps": [ { "comp": 1281, "teams": [ { "id": 670917 } ] } ] },
+    { "id": "pripravka", "name": "Prípravky", "photo": "img/b/pripravka.jpg", "noTable": true,
+      "comps": [
+        { "comp": 1286, "teams": [ { "id": 671046, "label": "St. prípravka červení" }, { "id": 671047, "label": "St. prípravka bieli" } ] },
+        { "comp": 1287, "teams": [ { "id": 671044, "label": "Ml. prípravka červení" }, { "id": 671045, "label": "Ml. prípravka bieli" } ] }
+      ] }
+  ]
+}

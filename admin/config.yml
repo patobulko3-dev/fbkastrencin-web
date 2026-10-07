@@ -1,0 +1,143 @@
+# Administrácia webu fbkastrencin.sk (Decap CMS)
+backend:
+  name: github
+  repo: patobulko3-dev/fbkastrencin-web
+  branch: main
+  commit_messages:
+    create: 'Nový obsah: {{slug}}'
+    update: 'Úprava: {{slug}}'
+    delete: 'Zmazané: {{slug}}'
+    uploadMedia: 'Nahraný súbor {{path}}'
+    deleteMedia: 'Zmazaný súbor {{path}}'
+
+locale: sk
+site_url: https://www.fbkastrencin.sk
+display_url: https://www.fbkastrencin.sk
+logo_url: /img/l/astn.png
+media_folder: uploads
+public_folder: /uploads
+
+collections:
+  - name: clanky
+    label: Články a novinky
+    label_singular: Článok
+    folder: content/clanky
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    sortable_fields: [date, title]
+    summary: '{{date | date("D. M. YYYY")}} – {{title}}'
+    fields:
+      - { label: Nadpis, name: title, widget: string }
+      - { label: Dátum, name: date, widget: datetime, format: 'YYYY-MM-DD', date_format: 'D. M. YYYY', time_format: false }
+      - { label: Kategória, name: category, widget: select, required: false, options: [Klub, Muži, Juniori, Dorastenci, Mládež, Nábor, Partneri] }
+      - { label: Krátky úvod (perex), name: perex, widget: text, hint: '1–2 vety, zobrazia sa v Novinkách na hlavnej stránke' }
+      - { label: Titulná fotka, name: image, widget: image, required: false }
+      - { label: YouTube video (odkaz), name: youtube, widget: string, required: false }
+      - { label: Text článku, name: body, widget: markdown, required: false, hint: 'Ak článok nemá text, odkaz v Novinkách vedie na "Odkaz na externý článok".' }
+      - { label: Odkaz na externý článok, name: external_url, widget: string, required: false }
+
+  - name: nastavenia
+    label: Obsah stránky
+    files:
+      - name: site
+        label: Banner, tréningy, vedenie, partneri
+        file: data/site.json
+        format: json
+        fields:
+          - label: Banner na úvode (striedajúce sa snímky)
+            name: slides
+            widget: list
+            summary: '{{fields.tab_title}} – {{fields.title}}'
+            fields:
+              - { label: Fotka, name: img, widget: image }
+              - { label: Malý nadpis nad textom, name: kicker, widget: string }
+              - { label: Hlavný nadpis, name: title, widget: string }
+              - { label: Zvýraznená časť nadpisu (červená), name: title_em, widget: string, required: false }
+              - { label: Text, name: text, widget: text }
+              - { label: Tlačidlo 1 – text, name: btn1_text, widget: string, required: false }
+              - { label: Tlačidlo 1 – odkaz, name: btn1_link, widget: string, required: false, hint: 'napr. #vysledky, #supisky, #nabor alebo celá adresa' }
+              - { label: Tlačidlo 2 – text, name: btn2_text, widget: string, required: false }
+              - { label: Tlačidlo 2 – odkaz, name: btn2_link, widget: string, required: false }
+              - { label: Záložka – názov, name: tab_title, widget: string }
+              - { label: Záložka – podtitul, name: tab_text, widget: string }
+          - label: Tréningy a tréneri
+            name: trainings
+            widget: list
+            summary: '{{fields.category}}'
+            fields:
+              - { label: Kategória, name: category, widget: string }
+              - { label: Fotka, name: photo, widget: image }
+              - { label: Štítok (napr. U19 alebo ročníky), name: badge, widget: string, required: false }
+              - label: Časy tréningov
+                name: times
+                widget: list
+                summary: '{{fields.days}} {{fields.time}}'
+                fields:
+                  - { label: Dni (skratky oddelené medzerou, napr. Po St Pi), name: days, widget: string }
+                  - { label: Čas, name: time, widget: string, hint: 'napr. 19:30 – 21:00' }
+              - label: Tréneri
+                name: coaches
+                widget: list
+                summary: '{{fields.name}}'
+                fields:
+                  - { label: Meno, name: name, widget: string }
+                  - { label: Funkcia, name: role, widget: string, default: hlavný tréner }
+                  - { label: Fotka, name: photo, widget: image, required: false }
+                  - { label: Telefón, name: phone, widget: string, required: false }
+                  - { label: E-mail, name: email, widget: string, required: false }
+          - label: Vedenie klubu
+            name: leaders
+            widget: list
+            summary: '{{fields.name}}'
+            fields:
+              - { label: Meno, name: name, widget: string }
+              - { label: Funkcie (oddelené čiarkou), name: roles, widget: string }
+              - { label: Popis, name: text, widget: string, required: false }
+              - { label: Fotka, name: photo, widget: image, required: false }
+              - { label: Telefón, name: phone, widget: string, required: false }
+              - { label: E-mail, name: email, widget: string, required: false }
+          - label: Hlavní partneri
+            name: partners_main
+            widget: list
+            summary: '{{fields.name}}'
+            fields: &partner
+              - { label: Názov, name: name, widget: string }
+              - { label: Logo, name: logo, widget: image, required: false }
+              - { label: Web partnera, name: url, widget: string, required: false }
+              - { label: Logo je štvorcové (zobrazí sa väčšie), name: square, widget: boolean, required: false, default: false }
+              - { label: Tmavé/oranžové pozadie, name: dark, widget: boolean, required: false, default: false }
+          - label: Partneri
+            name: partners
+            widget: list
+            summary: '{{fields.name}}'
+            fields: *partner
+
+  - name: supisky
+    label: Súpisky
+    files:
+      - name: rosters
+        label: Súpisky tímov
+        file: data/rosters.json
+        format: json
+        fields:
+          - label: Tímy
+            name: teams
+            widget: list
+            summary: '{{fields.name}}'
+            fields:
+              - { label: ID (nemeniť), name: id, widget: string }
+              - { label: Názov, name: name, widget: string }
+              - { label: Súťaž, name: league, widget: string }
+              - { label: Skryť hráčov bez odohraného zápasu, name: hide_without_games, widget: boolean, required: false, default: false }
+              - label: Hráči
+                name: players
+                widget: list
+                summary: '#{{fields.no}} {{fields.name}} ({{fields.pos}})'
+                fields:
+                  - { label: Číslo, name: no, widget: string, required: false }
+                  - { label: Meno a priezvisko, name: name, widget: string, hint: 'Presne ako na szfb.sk (kvôli spárovaniu štatistík)' }
+                  - { label: Post, name: pos, widget: select, options: [ { label: Brankár, value: B }, { label: Obranca, value: O }, { label: Útočník, value: Ú } ] }
+                  - { label: Ročník, name: yr, widget: number, value_type: int }
+                  - { label: Fotka, name: photo, widget: image, required: false }
+                  - { label: Kapitán, name: captain, widget: boolean, required: false, default: false }
+                  - { label: Zobraziť aj bez odohraného zápasu, name: show_without_games, widget: boolean, required: false, default: false }
