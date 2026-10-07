@@ -227,16 +227,19 @@
  "partners_main": [
   {
    "name": "Mesto Trenčín",
-   "logo": "img/l/mesto-trencin.png"
+   "logo": "img/l/mesto-trencin.png",
+   "url": "https://trencin.sk/"
   },
   {
    "name": "DayUp",
    "logo": "img/l/dayup.png",
-   "square": true
+   "square": true,
+   "url": "https://dayup.sk/"
   },
   {
    "name": "Salming",
-   "logo": "img/l/salming.png"
+   "logo": "img/l/salming.png",
+   "url": "https://www.salmingobchod.sk/"
   },
   {
    "name": "GetSport",
@@ -244,35 +247,42 @@
   },
   {
    "name": "Comextrans",
-   "logo": "img/l/comextrans.png"
+   "logo": "img/l/comextrans.png",
+   "url": "https://www.comextrans.sk/"
   },
   {
    "name": "ARENA OSTROV",
    "logo": "img/l/arena-ostrov.png",
-   "dark": true
+   "dark": true,
+   "url": "https://arenaostrov.sk/"
   }
  ],
  "partners": [
   {
    "name": "Kora",
-   "logo": "img/l/kora.png"
+   "logo": "img/l/kora.png",
+   "url": "https://kora.sk/"
   },
   {
    "name": "WEM",
-   "logo": "img/l/wem.png"
+   "logo": "img/l/wem.png",
+   "url": "https://www.salonwem.sk/"
   },
   {
    "name": "Kopretina",
-   "logo": "img/l/kopretina.png"
+   "logo": "img/l/kopretina.png",
+   "url": "https://www.kopretina.sk/"
   },
   {
    "name": "Dalno kuchyne",
-   "logo": "img/l/dalno.png"
+   "logo": "img/l/dalno.png",
+   "url": "https://dalno.sk/"
   },
   {
    "name": "Chlebíčkuj",
    "logo": "img/l/chlebickuj.png",
-   "square": true
+   "square": true,
+   "url": "https://chlebickuj.sk/"
   },
   {
    "name": "Pizza To Go",
@@ -281,7 +291,8 @@
   {
    "name": "The Barber",
    "logo": "img/l/thebarber.png",
-   "square": true
+   "square": true,
+   "url": "https://thebarber.sk/"
   }
  ]
 }

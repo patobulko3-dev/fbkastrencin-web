@@ -42,7 +42,8 @@ for (const f of files) {
   const hasBody = body.trim().length > 0;
   const url = hasBody ? `clanky/${slug}/` : (data.external_url || '#');
   const image = (data.image || '').replace(/^\//, '');
-  news.push({ title: data.title, date, perex: data.perex || '', image, image_text: data.image_text || '', url, category: data.category || '' });
+  const read = hasBody ? Math.max(1, Math.round(body.split(/\s+/).length / 200)) : 0;
+  news.push({ title: data.title, date, perex: data.perex || '', image, image_text: data.image_text || '', url, category: data.category || '', read });
   if (hasBody) arts.push({ data, body, date, slug, image });
 }
 news.sort((a, b) => b.date.localeCompare(a.date));

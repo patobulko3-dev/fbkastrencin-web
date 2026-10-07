@@ -325,19 +325,41 @@ footer small{opacity:.85}
 
 /* match center strip */
 .mc{background:var(--ink);color:var(--bg);border-top:3px solid var(--red)}
-.mc .wrap{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;padding-block:16px}
-.mc h2{font-size:1.5rem;font-weight:900;text-transform:uppercase;line-height:.95;color:#fff}
+.mc .wrap{padding-block:22px 26px}
+.mc-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:14px}
+.mc h2{font-size:1.9rem;font-weight:900;text-transform:uppercase;line-height:.95;color:#fff}
 .mc h2 small{display:block;font-family:var(--body);font-size:.68rem;line-height:1.2;letter-spacing:.16em;color:#ff8a8f;font-weight:900;margin-bottom:6px}
-.fx{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:4px;scrollbar-width:thin;min-width:0}
-.fxc{flex:none;scroll-snap-align:start;width:250px;background:#241b1d;border:1px solid #3a2e31;border-radius:10px;padding:12px 14px;color:#f4eeef;display:grid;gap:8px}
+.mc-hint{font-size:.72rem;color:#8f8285}
+.mc-rows{display:grid;gap:10px}
+.mcr{display:grid;grid-template-columns:250px minmax(0,1fr);background:#1f1719;border:1px solid #33282b;border-radius:12px;overflow:hidden}
+.mcr-l{padding:12px 16px;background:linear-gradient(135deg,#2b1d20,#1f1719);border-right:1px solid #33282b;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+.mcr-l::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--red)}
+.mcr-l b{font-family:var(--display);font-size:1.45rem;font-weight:900;text-transform:uppercase;line-height:1;color:#fff}
+.mcr-l small{font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:#a8999c}
+.cd{display:flex;gap:4px;align-items:flex-end}
+.cd span{display:grid;justify-items:center;min-width:38px;background:#0f0a0b;border:1px solid #3a2e31;border-radius:6px;padding:4px 4px 3px}
+.cd span i{font-style:normal;font-family:var(--display);font-weight:900;font-size:1.25rem;line-height:1;color:#fff;font-variant-numeric:tabular-nums}
+.cd span em{font-style:normal;font-size:.55rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#ff8a8f}
+.cd.live span i{color:#ff5a60}
+.mcr-t{overflow:hidden;position:relative;mask-image:linear-gradient(90deg,transparent,#000 3%,#000 94%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 3%,#000 94%,transparent)}
+.mcr-track{display:flex;gap:10px;width:max-content;padding:10px;animation:mcroll var(--dur,30s) linear infinite}
+.mcr:hover .mcr-track{animation-play-state:paused}
+@keyframes mcroll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.mcr-track{animation:none}.mcr-t{overflow-x:auto}}
+.fxc{flex:none;width:270px;background:#2a2023;border:1px solid #3a2e31;border-radius:10px;padding:10px 12px;color:#f4eeef;display:grid;grid-template-columns:62px 1fr;gap:4px 12px;align-items:center}
 .fxc.next{background:linear-gradient(135deg,var(--red-deep),var(--red));border-color:transparent}
-.fxc .top{display:flex;justify-content:space-between;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;font-weight:900;color:#ffb3b6}
-.fxc.next .top{color:#fff}
-.fxc .vs{color:#fff;font-family:var(--body);display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:center;font-weight:900;font-size:.9rem;line-height:1.2}
-.fxc .vs .mini-crest{width:34px;height:34px}
-.fxc .when{font-family:var(--display);font-size:1.25rem;font-weight:800;line-height:1}
-.fxc .when small{font-family:var(--body);font-size:.74rem;font-weight:400;opacity:.8;display:block;margin-top:3px}
-.fxc .hm{font-size:.62rem;background:#fff;color:var(--red);font-weight:900;padding:1px 6px;border-radius:3px;letter-spacing:.08em}
+.fxc .dt{grid-row:span 2;text-align:center;border-right:1px solid rgba(255,255,255,.14);padding-right:10px}
+.fxc .dt small{display:block;font-size:.6rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:#ffb3b6}
+.fxc.next .dt small{color:#fff}
+.fxc .dt b{display:block;font-family:var(--display);font-size:1.5rem;font-weight:900;line-height:1;color:#fff}
+.fxc .dt span{display:block;font-size:.78rem;font-weight:800;color:#fff;opacity:.9}
+.fxc .vs{display:grid;grid-template-columns:28px 1fr;gap:8px;align-items:center;font-weight:900;font-size:.88rem;line-height:1.15;color:#fff}
+.fxc .vs .mini-crest{width:28px;height:28px}
+.fxc .fpl{font-size:.7rem;color:#cdbfc2;display:flex;gap:6px;align-items:center;min-width:0}
+.fxc .fpl em{font-style:normal;font-size:.58rem;font-weight:900;letter-spacing:.08em;padding:1px 6px;border-radius:3px;background:rgba(255,255,255,.12);color:#fff;flex:none}
+.fxc .fpl em.h{background:#fff;color:var(--red)}
+.fxc .fpl span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:760px){.mcr{grid-template-columns:1fr}.mcr-l{border-right:0;border-bottom:1px solid #33282b;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:space-between}.mc-hint{display:none}}
 @media (max-width:760px){.mc .wrap{grid-template-columns:1fr}}
 
 /* lídri tímu */
@@ -400,8 +422,26 @@ footer small{opacity:.85}
 .ml .md{color:var(--red);font-family:var(--display);font-weight:800}
 .ml .mo{min-width:0;font-weight:700;line-height:1.2}.ml .mo small{display:block;font-weight:400;color:var(--muted)}
 /* novinky */
-.news-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-@media (max-width:900px){.news-grid{grid-template-columns:1fr}}
+.news-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:12px;align-items:stretch}
+.nw{position:relative;display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:center;padding:18px 20px;background:var(--surface);border:1px solid var(--line);border-radius:14px;text-decoration:none;color:var(--ink);overflow:hidden;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.nw:hover{transform:translateY(-2px);border-color:var(--red);box-shadow:0 16px 34px -22px rgba(0,0,0,.45)}
+.nw-no{font-family:var(--display);font-weight:900;font-size:3rem;line-height:.8;color:transparent;-webkit-text-stroke:1.5px var(--red);min-width:1.6ch}
+.nw h3{font-family:var(--body);font-size:1.02rem;font-weight:900;line-height:1.25;margin:4px 0}
+.nw p{margin:0;font-size:.86rem;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.nw-meta{display:flex;gap:10px;align-items:center;font-size:.68rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+.nw-meta span{color:var(--muted);letter-spacing:.06em}
+.nw-arr{font-size:1.3rem;color:var(--red);transition:transform .2s ease}.nw:hover .nw-arr{transform:translateX(4px)}
+.nw-big{grid-row:span 3;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;gap:12px;padding:28px;min-height:420px;color:#fff;border:0;isolation:isolate;
+ background:repeating-linear-gradient(115deg,rgba(255,255,255,.035) 0 2px,transparent 2px 22px),radial-gradient(120% 120% at 100% 0%,#e0383f 0%,#a5141c 40%,#4a080d 75%,#1d0a0d 100%)}
+.nw-big::after{content:"";position:absolute;right:-8%;bottom:-12%;width:55%;aspect-ratio:1;background:url('img/l/astn-white.png') no-repeat center/contain;opacity:.08;z-index:-1}
+.nw-big .nw-no{position:absolute;top:14px;right:22px;font-size:9rem;-webkit-text-stroke:2px rgba(255,255,255,.22)}
+.nw-big .nw-tag{background:#fff;color:var(--red);font-size:.66rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase;padding:5px 10px;border-radius:999px}
+.nw-big .nw-meta,.nw-big .nw-meta span{color:#ffc9cc}
+.nw-big h3{font-family:var(--display);font-size:clamp(2rem,3.6vw,3rem);line-height:.95;text-transform:uppercase;margin:0;text-wrap:balance}
+.nw-big p{color:rgba(255,255,255,.85);font-size:1rem;-webkit-line-clamp:3;max-width:52ch}
+.nw-go{font-weight:900;font-size:.9rem}.nw-go b{display:inline-block;transition:transform .2s ease}.nw-big:hover .nw-go b{transform:translateX(5px)}
+.nw-big:hover{border-color:transparent}
+@media (max-width:900px){.news-grid{grid-template-columns:1fr}.nw-big{min-height:320px;grid-row:auto}.nw-no{font-size:2.3rem}.nw-big .nw-no{font-size:6rem}}
 .nc{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease;min-width:0}
 .nc:hover{transform:translateY(-3px);box-shadow:0 16px 34px -20px rgba(0,0,0,.45)}
 .nc .im{aspect-ratio:16/9;max-width:100%;background:linear-gradient(135deg,var(--red-deep),#2a0c11);position:relative;overflow:hidden}
@@ -431,17 +471,6 @@ footer small{opacity:.85}
 .soc em{position:absolute;top:20px;right:20px;font-style:normal;font-weight:900;font-size:.78rem;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);padding:6px 12px;border-radius:999px}
 .soc:hover{filter:brightness(1.06)}
 
-.mc .wrap{grid-template-columns:auto 1fr}
-.mc-l{display:grid;gap:10px;align-content:center}
-.mc-cats{display:flex;flex-wrap:wrap;gap:5px;max-width:230px}
-.mc-cats button{font:inherit;font-size:.66rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;background:transparent;color:#d9cfd1;border:1px solid #4a3c3f;border-radius:999px;padding:4px 9px;cursor:pointer}
-.mc-cats button[aria-pressed="true"]{background:#fff;color:var(--red);border-color:#fff}
-.mc-bar{height:3px;background:#3a2e31;border-radius:2px;overflow:hidden;max-width:230px}
-.mc-bar i{display:block;height:100%;width:0;background:var(--red)}
-.mc-bar i.run{animation:mcp 6s linear forwards}
-@keyframes mcp{to{width:100%}}
-.fx.fade{animation:fxin .45s ease both}
-@keyframes fxin{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
 .club-sc{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 18px}
 @media (max-width:1100px) and (min-width:901px){.club-sc{grid-template-columns:1fr}}
 @media (max-width:420px){.club-sc{grid-template-columns:1fr}}
@@ -610,8 +639,8 @@ tr.us td{background:var(--red-soft)!important}
 
   <section class="mc" aria-label="Najbližšie zápasy">
     <div class="wrap">
-      <div class="mc-l"><h2><small>Match center</small>Najbližšie<br>zápasy</h2><div class="mc-cats" id="mccats"></div><div class="mc-bar"><i id="mcbar"></i></div></div>
-      <div class="fx" id="fx"></div>
+      <div class="mc-head"><h2><small>Match center</small>Najbližšie zápasy</h2><span class="mc-hint">Prejdi myšou na riadok a zastavíš ho</span></div>
+      <div class="mc-rows" id="mcrows"></div>
     </div>
   </section>
 
@@ -862,7 +891,7 @@ function renderRoster(){
   var pl=curRoster.players, yrs=pl.map(function(p){return p.yr;}), avg=(2026-yrs.reduce(function(a,b){return a+b;},0)/yrs.length).toFixed(1);
   var goals=pl.reduce(function(s,p){return s+(p.st?p.st[1]:0);},0), scorers=pl.filter(function(p){return p.st&&p.st[1]>0;}).length;
   var oldest=pl.reduce(function(a,b){return a.yr<=b.yr?a:b;}), youngest=pl.reduce(function(a,b){return a.yr>=b.yr?a:b;});
-  document.getElementById('facts').innerHTML='<span><b>'+pl.length+'</b>hráčov</span><span><b>'+avg.replace('.',',')+'</b>priemerný vek</span><span><b>'+goals+'</b>gólov</span><span><b>'+scorers+'</b>rôznych strelcov</span><span>najskúsenejší <strong style="color:var(--ink)">'+esc(oldest.name)+'</strong> ('+oldest.yr+')</span><span>najmladší <strong style="color:var(--ink)">'+esc(youngest.name)+'</strong> ('+youngest.yr+')</span>';
+  document.getElementById('facts').innerHTML='<span><b>'+pl.length+'</b>hráčov</span><span><b>'+avg.replace('.',',')+'</b>priemerný vek</span><span><b>'+goals+'</b>gólov</span><span><b>'+scorers+'</b>rôznych strelcov</span>';
 }
 function openPlayer(name){
   var p=curRoster.players.filter(function(x){return x.name===name;})[0]; if(!p) return;
@@ -911,20 +940,18 @@ var tx=0; slider.addEventListener('touchstart',function(e){tx=e.touches[0].clien
 slider.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-tx; if(Math.abs(dx)>50) go(si+(dx<0?1:-1));});
 go(0);
 
-/* ---------- match center (striedanie kategórií) ---------- */
+/* ---------- match center: každá kategória samostatne, zápasy sa posúvajú ---------- */
 function fxKey(m){ if(m[6]) return +new Date(m[6]+'T'+(m[2]||'00:00').padStart(5,'0')+':00'); var dm=m[0].split('.'); return (+dm[1])*100+(+dm[0])+(dm[1]<6?1200:0)+parseFloat(m[2].replace(':','.'))/100; }
-var MC=CATS.filter(function(c){return c.next.length;}), mci=0, mct=null, fxEl=document.getElementById('fx'), mcc=document.getElementById('mccats'), mcb=document.getElementById('mcbar'), mcs=document.querySelector('.mc');
-function fxCard(c,m,i){ return '<article class="fxc'+(i===0?' next':'')+'"><div class="top"><span>'+esc(c.name)+'</span>'+(m[5]?'<span class="hm">DOMA</span>':'<span>vonku</span>')+'</div><div class="vs">'+crest(m[3])+'<span>'+esc(m[3])+'</span></div><div class="when">'+m[1]+' '+m[0]+' · '+m[2]+'<small>'+esc(m[4])+'</small></div></article>'; }
-function mcGo(i){ mci=(i+MC.length)%MC.length; var c=MC[mci];
-  fxEl.classList.remove('fade'); void fxEl.offsetWidth; fxEl.classList.add('fade');
-  fxEl.innerHTML=c.next.slice().sort(function(a,b){return fxKey(a)-fxKey(b);}).map(function(m,j){return fxCard(c,m,j);}).join('');
-  [].forEach.call(mcc.children,function(b,j){b.setAttribute('aria-pressed',j===mci?'true':'false');});
-  mcb.classList.remove('run'); void mcb.offsetWidth; clearTimeout(mct);
-  if(!mcs.classList.contains('paused')){ mcb.classList.add('run'); mct=setTimeout(function(){mcGo(mci+1);},6000); } }
-MC.forEach(function(c,i){ var b=document.createElement('button'); b.type='button'; b.id='mc-'+c.id; b.textContent=c.name; b.addEventListener('click',function(){mcGo(i);}); mcc.appendChild(b); });
-mcs.addEventListener('mouseenter',function(){mcs.classList.add('paused'); clearTimeout(mct); mcb.classList.remove('run');});
-mcs.addEventListener('mouseleave',function(){mcs.classList.remove('paused'); mcGo(mci);});
-mcGo(0);
+var CDCATS={muzi:1,juniori:1,dorast:1};
+function fxCard(m,i){ return '<article class="fxc'+(i===0?' next':'')+'"><div class="dt"><small>'+m[1]+'</small><b>'+m[0].replace(/\.$/,'')+'</b><span>'+(m[2]&&m[2]!=='0:00'&&m[2]!=='00:00'?m[2]:'čas t.b.a.')+'</span></div><div class="vs">'+crest(m[3])+'<span>'+esc(m[3])+'</span></div><div class="fpl"><em'+(m[5]?' class="h">DOMA':'>VONKU')+'</em><span>'+esc(m[4])+'</span></div></article>'; }
+var MCROWS=CATS.filter(function(c){return c.next.length;}).map(function(c){ var nx=c.next.slice().sort(function(a,b){return fxKey(a)-fxKey(b);}); return {c:c,nx:nx,t:nx[0][6]?fxKey(nx[0]):0}; });
+document.getElementById('mcrows').innerHTML=MCROWS.map(function(r){ var cards=r.nx.map(fxCard).join(''); var reps=r.nx.length<4?Math.ceil(4/r.nx.length):1; var one=''; for(var k=0;k<reps;k++) one+=cards;
+  return '<div class="mcr"><div class="mcr-l"><div><b>'+esc(r.c.name)+'</b><br><small>'+esc(r.c.league)+'</small></div>'+(CDCATS[r.c.id]&&r.t?'<div class="cd" data-t="'+r.t+'"></div>':'')+'</div><div class="mcr-t"><div class="mcr-track" style="--dur:'+Math.max(18,r.nx.length*reps*7)+'s">'+one+one+'</div></div></div>'; }).join('');
+function cdTick(){ var now=Date.now(); [].forEach.call(document.querySelectorAll('.cd[data-t]'),function(el){ var d=Math.max(0,+el.getAttribute('data-t')-now), live=d===0;
+  var D=Math.floor(d/864e5), H=Math.floor(d/36e5)%24, M=Math.floor(d/6e4)%60, S=Math.floor(d/1e3)%60, p=function(x){return (x<10?'0':'')+x;};
+  el.classList.toggle('live',live);
+  el.innerHTML=live?'<span><i>LIVE</i><em>práve sa hrá</em></span>':'<span><i>'+D+'</i><em>dní</em></span><span><i>'+p(H)+'</i><em>hod</em></span><span><i>'+p(M)+'</i><em>min</em></span><span><i>'+p(S)+'</i><em>sek</em></span>'; }); }
+cdTick(); setInterval(cdTick,1000);
 /* najbližšie domáce zápasy v Arene */
 var HOME=[]; CATS.forEach(function(c){ c.next.forEach(function(m){ if(m[5]) HOME.push({c:c.name,m:m,k:fxKey(m)}); }); });
 HOME.sort(function(a,b){return a.k-b.k;});
@@ -938,15 +965,14 @@ document.getElementById('coaches').innerHTML=COACH.map(function(k){ return '<div
 var GAL=[
  ['uploads/clanky/ondrasik-1.jpg','muzi','Muži · extraliga 2026/27','50% 20%'],['uploads/clanky/davidek-1.jpg','muzi','Muži · striedačka','50% 30%'],['uploads/clanky/ondrasik-4.jpg','muzi','Muži · Šimon Ondrášik','45% 20%'],['uploads/clanky/ondrasik-3.jpg','muzi','Muži · radosť z gólu','50% 25%'],['img/g/t-080.jpg','muzi','Muži · príprava vs. Tsunami','50% 30%'],['uploads/clanky/ondrasik-5.jpg','muzi','Muži · nástup','50% 25%'],
  ['img/g/j-146.jpg','jun','Juniori · AS – LIDO 9:7','50% 25%'],['img/g/j-143.jpg','jun','Juniori · striedačka','50% 40%'],['img/g/j-148.jpg','jun','Juniori · AS – LIDO 9:7','40% 30%'],['img/g/j-152.jpg','jun','Juniori · AS – LIDO 9:7','50% 30%'],['uploads/clanky/asko-2.jpg','jun','Juniori · brankár v akcii','50% 30%'],['uploads/clanky/asko-3.jpg','jun','Juniori · pokrik','50% 30%'],
- ['img/h/dorast.jpg','dor','Dorastenci · zápas','50% 20%'],['img/g/d-75.jpg','dor','Dorastenci · príprava vs. LIDO U19','50% 25%'],['img/g/d-43.jpg','dor','Dorastenci · striedačka','60% 30%'],['img/c/dorast.jpg','dor','Dorastenci · tímová fotka','50% 40%'],['img/g/d-03.jpg','dor','Dorastenci · striedačka','50% 35%'],['img/b/dorast.jpg','dor','Dorastenci · v akcii','50% 0%'],
- ['img/c/starsia-pripravka.jpg','ine','Prípravka · tímová fotka','50% 40%'],['uploads/clanky/adelka-1.jpg','ine','Adela Sedláčková','50% 30%'],['img/g/t-115.jpg','ine','Fanúšikovia · vlajka AS','50% 40%'],['uploads/clanky/adelka-2.jpg','ine','Adela Sedláčková','50% 20%'],['img/c/starsi-ziaci.jpg','ine','Starší žiaci · tímová fotka','50% 40%'],['img/c/mladsi-ziaci.jpg','ine','Mladší žiaci · tímová fotka','50% 40%']
+ ['img/h/dorast.jpg','dor','Dorastenci · zápas','50% 20%'],['img/g/d-75.jpg','dor','Dorastenci · príprava vs. LIDO U19','50% 25%'],['img/g/d-43.jpg','dor','Dorastenci · striedačka','60% 30%'],['img/c/dorast.jpg','dor','Dorastenci · tímová fotka','50% 40%'],['img/g/d-03.jpg','dor','Dorastenci · striedačka','50% 35%'],['img/b/dorast.jpg','dor','Dorastenci · v akcii','50% 0%']
 ];
 var gal=document.getElementById('gallery'), lb=document.getElementById('lb'), lbi=0, gview=GAL;
 function renderGal(f){ gview=GAL.filter(function(g){return f==='all'||g[1]===f;}); gal.innerHTML='';
   gview.forEach(function(g,i){ var b=document.createElement('button'); b.type='button'; b.className='g'+(i+1); b.id='gal-'+i; b.setAttribute('aria-label','Otvoriť fotku: '+g[2]);
     b.innerHTML='<img src="'+g[0]+'" alt="'+esc(g[2])+'" loading="lazy" style="object-position:'+(g[3]||'50% 30%')+'"><span>'+esc(g[2])+'</span>'; b.addEventListener('click',function(){openLb(i);}); gal.appendChild(b); }); }
 var gch=document.getElementById('gchips');
-[['muzi','Muži'],['jun','Juniori'],['dor','Dorastenci'],['ine','Iné']].forEach(function(c,i){ var b=document.createElement('button'); b.type='button'; b.className='chip'; b.id='gch-'+i; b.textContent=c[1]; b.setAttribute('aria-pressed',i===0?'true':'false');
+[['muzi','Muži'],['jun','Juniori'],['dor','Dorastenci']].forEach(function(c,i){ var b=document.createElement('button'); b.type='button'; b.className='chip'; b.id='gch-'+i; b.textContent=c[1]; b.setAttribute('aria-pressed',i===0?'true':'false');
   b.addEventListener('click',function(){ [].forEach.call(gch.children,function(x){x.setAttribute('aria-pressed','false');}); b.setAttribute('aria-pressed','true'); renderGal(c[0]); }); gch.appendChild(b); });
 renderGal('muzi');
 function openLb(i){ lbi=(i+gview.length)%gview.length; document.getElementById('lbimg').src=gview[lbi][0]; document.getElementById('lbcap').textContent=gview[lbi][2]; lb.hidden=false; }
@@ -957,9 +983,10 @@ lb.addEventListener('click',function(e){ if(e.target===lb) lb.hidden=true; });
 
 /* ---------- novinky (astrencinflorbal.sk) ---------- */
 var NEWS=DATA.news.map(function(n){ var d=new Date(n.date); return [d.getDate()+'. '+(d.getMonth()+1)+'. '+d.getFullYear(),n.title,n.perex||'',n.url,n.image||'',n.image_text||n.title.split(' ').slice(0,3).join(' ')]; });
-document.getElementById('news').innerHTML=NEWS.slice(0,4).map(function(n,i){
-  var im=n[4]?'<img src="'+n[4]+'" alt="" loading="lazy">':'<img class="wm" src="img/l/astn-white.png" alt=""><span class="q">'+esc(n[5])+'</span>';
-  return '<a class="nc'+(i===0?' big':'')+'" href="'+n[3]+'"><div class="im">'+im+'</div><div class="bd2"><time>'+n[0]+'</time><h3>'+esc(n[1])+'</h3><p>'+esc(n[2])+'</p></div></a>';
+document.getElementById('news').innerHTML=DATA.news.slice(0,4).map(function(n,i){ var d=new Date(n.date), no=(i<9?'0':'')+(i+1);
+  var meta='<div class="nw-meta"><time>'+d.getDate()+'. '+(d.getMonth()+1)+'. '+d.getFullYear()+'</time>'+(n.read?'<span>'+n.read+' min čítania</span>':'')+'</div>';
+  if(i===0) return '<a class="nw nw-big" href="'+n.url+'"><span class="nw-no">'+no+'</span><span class="nw-tag">Najnovšie</span>'+meta+'<h3>'+esc(n.title)+'</h3><p>'+esc(n.perex||'')+'</p><span class="nw-go">Čítať článok <b>→</b></span></a>';
+  return '<a class="nw" href="'+n.url+'"><span class="nw-no">'+no+'</span><div>'+meta+'<h3>'+esc(n.title)+'</h3><p>'+esc(n.perex||'')+'</p></div><b class="nw-arr">→</b></a>';
 }).join('');
 document.addEventListener('keydown',function(e){
   if(!document.getElementById('pm').hidden){ if(e.key==='Escape') document.getElementById('pm').hidden=true; }
