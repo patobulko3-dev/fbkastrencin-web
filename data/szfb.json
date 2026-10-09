@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T17:45:49.569Z",
+ "updated": "2026-10-09T18:49:46.163Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -47,7 +47,7 @@
     [
      "9.10.",
      "FBC Grasshoppers AC UNIZA Žilina",
-     "3:2",
+     "5:3",
      "P",
      "Športové centrum Žilinskej univerzity",
      0,
@@ -102,8 +102,8 @@
     ],
     [
      "Florbalový klub AS Trenčín",
-     4,
-     "33:18",
+     5,
+     "36:23",
      11,
      1
     ],
@@ -143,6 +143,13 @@
      0
     ],
     [
+     "FBC Grasshoppers AC UNIZA Žilina",
+     5,
+     "26:29",
+     6,
+     0
+    ],
+    [
      "FK Florko Košice",
      4,
      "24:29",
@@ -154,13 +161,6 @@
      4,
      "18:23",
      4,
-     0
-    ],
-    [
-     "FBC Grasshoppers AC UNIZA Žilina",
-     4,
-     "21:26",
-     3,
      0
     ],
     [
@@ -179,7 +179,7 @@
     ]
    ],
    "place": "2.",
-   "score": "35:21",
+   "score": "36:23",
    "pts": 11,
    "zones": true
   },
@@ -833,16 +833,22 @@
    [
     "EŠTOK, Tomáš",
     [
-     "2",
+     "3",
      "0",
-     "4,50",
-     "79,07 %"
+     "4,33",
+     "83,75 %"
     ],
     [
-     "Extraliga|2|00:43|9|4,50|",
+     "Extraliga|3|01:20|13|4,33|",
      "Iné ligy|127|20:04|244|3,51|"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "89,19 %"
+     ],
      [
       "@ ŠK LIDO Prírodovedec Ružinov",
       "26.09",
@@ -900,18 +906,24 @@
    [
     "BAGÍN, Jonáš",
     [
-     "4",
-     "0",
+     "5",
      "1",
      "1",
+     "2",
      "4"
     ],
     [
-     "Extraliga|51|13|17|30|22",
+     "Extraliga|52|14|17|31|22",
      "Iné ligy|151|103|154|257|76",
      "Turnaje|16|7|6|13|8"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "1+0"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -941,18 +953,24 @@
    [
     "DÁVIDEK, Samuel",
     [
-     "4",
+     "5",
      "1",
      "2",
      "3",
      "2"
     ],
     [
-     "Extraliga|119|60|75|135|28",
+     "Extraliga|120|60|75|135|28",
      "Iné ligy|54|89|89|178|4",
      "Turnaje|8|10|13|23|0"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+0"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -982,18 +1000,24 @@
    [
     "JAŠŠO, František",
     [
-     "4",
+     "5",
      "0",
      "2",
      "2",
      "0"
     ],
     [
-     "Extraliga|34|3|5|8|4",
+     "Extraliga|35|3|5|8|4",
      "Iné ligy|124|67|60|126|34",
      "Turnaje|5|0|2|2|0"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+0"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1023,18 +1047,24 @@
    [
     "ZVERBIK, Patrik",
     [
-     "4",
+     "5",
      "0",
      "1",
      "1",
-     "2"
+     "4"
     ],
     [
-     "Extraliga|109|22|22|44|18",
+     "Extraliga|110|22|22|44|20",
      "Iné ligy|59|26|26|52|24",
      "Turnaje|16|19|14|33|9"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+0"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1064,18 +1094,24 @@
    [
     "DARANSKÝ, Michal",
     [
-     "4",
+     "5",
      "4",
      "0",
      "4",
      "0"
     ],
     [
-     "Extraliga|5|4|0|4|0",
+     "Extraliga|6|4|0|4|0",
      "Iné ligy|200|183|114|297|4",
      "Turnaje|51|30|11|41|4"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+0"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1140,18 +1176,24 @@
    [
     "KOLLÁR, Timotej",
     [
-     "4",
+     "5",
      "6",
-     "2",
-     "8",
+     "3",
+     "9",
      "0"
     ],
     [
-     "Extraliga|63|42|23|65|36",
+     "Extraliga|64|42|24|66|36",
      "Iné ligy|123|187|116|303|26",
      "Turnaje|26|33|20|53|2"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+1"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1181,18 +1223,24 @@
    [
     "KRÁLOVIČ, Gabriel",
     [
-     "4",
+     "5",
      "2",
      "2",
      "4",
      "0"
     ],
     [
-     "Extraliga|70|26|17|43|32",
+     "Extraliga|71|26|17|43|32",
      "Iné ligy|59|38|51|89|53",
      "Turnaje|13|6|5|10|4"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+0"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1222,18 +1270,24 @@
    [
     "KRECHÁČ, Adam",
     [
-     "4",
+     "5",
      "3",
      "2",
      "5",
      "2"
     ],
     [
-     "Extraliga|57|11|14|25|6",
+     "Extraliga|58|11|14|25|6",
      "Iné ligy|134|97|107|204|8",
      "Turnaje|28|10|12|22|4"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+0"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1263,18 +1317,24 @@
    [
     "MALÍK, Matúš",
     [
-     "4",
+     "5",
      "2",
-     "4",
-     "6",
-     "14"
+     "5",
+     "7",
+     "16"
     ],
     [
-     "Extraliga|82|34|35|69|32",
+     "Extraliga|83|34|36|70|34",
      "Iné ligy|141|128|137|265|26",
      "Turnaje|19|9|16|25|2"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+1"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1304,18 +1364,24 @@
    [
     "ONDRÁŠIK, Šimon",
     [
+     "5",
+     "5",
      "4",
-     "4",
-     "3",
-     "7",
+     "9",
      "0"
     ],
     [
-     "Extraliga|30|9|5|14|2",
+     "Extraliga|31|10|6|16|2",
      "Iné ligy|181|225|127|352|94",
      "Turnaje|13|10|8|18|4"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "1+1"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1345,18 +1411,24 @@
    [
     "ORAVEC, Šimon",
     [
-     "4",
+     "5",
+     "3",
      "2",
-     "2",
-     "4",
+     "5",
      "2"
     ],
     [
-     "Extraliga|16|9|8|17|6",
+     "Extraliga|17|10|8|18|6",
      "Iné ligy|181|249|106|356|68",
      "Turnaje|33|37|15|52|8"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "1+0"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1386,18 +1458,24 @@
    [
     "VOJTEK, Erik",
     [
-     "4",
+     "5",
      "4",
      "1",
      "5",
      "0"
     ],
     [
-     "Extraliga|44|19|17|36|20",
+     "Extraliga|45|19|17|36|20",
      "Iné ligy|124|83|61|144|76",
      "Turnaje|14|10|15|25|0"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+0"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1427,18 +1505,24 @@
    [
     "PASQUALON, Nicolas",
     [
-     "2",
+     "3",
      "0",
      "1",
      "1",
      "0"
     ],
     [
-     "Extraliga|2|0|1|1|0",
+     "Extraliga|3|0|1|1|0",
      "Iné ligy|151|163|144|307|18",
      "Turnaje|21|7|15|22|4"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+0"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1497,17 +1581,23 @@
    [
     "LÍŠKA, Adam",
     [
-     "2",
+     "3",
      "0",
      "0,00",
      "0,00 %"
     ],
     [
-     "Extraliga|53|10:22|180|7,00|",
+     "Extraliga|54|10:22|180|7,00|",
      "Iné ligy|97|08:16|122|2,82|",
      "Turnaje|21|01:44|18|1,63|"
     ],
     [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0,00 %"
+     ],
      [
       "vs. Tsunami Záhorská Bystrica",
       "03.10",
@@ -1675,33 +1765,48 @@
    [
     "KÚTIK, Dominik",
     [
-     "0",
+     "1",
      "0",
      "0",
      "0",
      "0"
     ],
     [
+     "Extraliga|1|0|0|0|0",
      "Iné ligy|98|34|38|72|12",
      "Turnaje|20|6|2|8|2"
     ],
-    []
+    [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+0"
+     ]
+    ]
    ],
    [
     "ORIEŠEK, Marek",
     [
-     "0",
+     "1",
      "0",
      "0",
      "0",
      "0"
     ],
     [
-     "Extraliga|93|58|30|88|26",
+     "Extraliga|94|58|30|88|26",
      "Iné ligy|80|116|69|186|36",
      "Turnaje|16|22|10|32|8"
     ],
-    []
+    [
+     [
+      "@ FBC Grasshoppers AC UNIZA Žilina",
+      "09.10",
+      "5:3",
+      "0+0"
+     ]
+    ]
    ]
   ],
   "juniori": [
@@ -2230,7 +2335,7 @@
      "0"
     ],
     [
-     "Extraliga|5|4|0|4|0",
+     "Extraliga|6|4|0|4|0",
      "Iné ligy|200|183|114|297|4",
      "Turnaje|51|30|11|41|4"
     ],
@@ -2298,7 +2403,7 @@
      "0"
     ],
     [
-     "Extraliga|2|0|1|1|0",
+     "Extraliga|3|0|1|1|0",
      "Iné ligy|151|163|144|307|18",
      "Turnaje|21|7|15|22|4"
     ],
