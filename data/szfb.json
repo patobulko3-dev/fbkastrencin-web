@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T13:20:37.840Z",
+ "updated": "2026-10-10T15:19:55.057Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -206,18 +206,18 @@
      "ARENA OSTROV",
      1,
      "2026-09-13"
-    ]
-   ],
-   "next": [
+    ],
     [
      "10.10.",
-     "So",
-     "17:00",
      "FBC Mikuláš Academy Prešov",
+     "2:1",
+     "P",
      "Spojená škola Prešov",
      0,
      "2026-10-10"
-    ],
+    ]
+   ],
+   "next": [
     [
      "11.10.",
      "Ne",
@@ -244,6 +244,15 @@
      "MŠH Trenčín - centrálna hala",
      0,
      "2026-10-25"
+    ],
+    [
+     "7.11.",
+     "So",
+     "0:00",
+     "ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+     "t.b.a.",
+     0,
+     "2026-11-07"
     ]
    ],
    "table": [
@@ -251,6 +260,13 @@
      "FBC Mikuláš Academy Prešov",
      3,
      "19:9",
+     9,
+     0
+    ],
+    [
+     "FaBK ATU Košice",
+     4,
+     "30:26",
      9,
      0
     ],
@@ -269,13 +285,6 @@
      0
     ],
     [
-     "FaBK ATU Košice",
-     3,
-     "21:20",
-     6,
-     0
-    ],
-    [
      "Florbalový klub AS Trenčín",
      2,
      "15:14",
@@ -284,8 +293,8 @@
     ],
     [
      "1. FBC Trenčín",
-     3,
-     "16:29",
+     4,
+     "22:38",
      3,
      0
     ],
@@ -298,7 +307,7 @@
     ]
    ],
    "place": "5.",
-   "score": "15:14",
+   "score": "16:16",
    "pts": 4,
    "zones": false
   },
@@ -308,15 +317,6 @@
    "photo": "img/b/mb.jpg",
    "league": "2. liga mužov Západ",
    "played": [
-    [
-     "26.9.",
-     "Trenovec – DA.DO.SA Dragons Hlohovec",
-     "15:3",
-     "V",
-     "MŠH Partizánske",
-     1,
-     "2026-09-26"
-    ],
     [
      "26.9.",
      "Páv – Wildhogs Horné Sŕnie",
@@ -334,6 +334,15 @@
      "MŠH Dubnica nad Váhom",
      0,
      "2026-09-26"
+    ],
+    [
+     "10.10.",
+     "Trenovec – ŠK Slávia SPU DFA Nitra",
+     "4:7",
+     "P",
+     "ARENA OSTROV",
+     1,
+     "2026-10-10"
     ],
     [
      "10.10.",
@@ -356,23 +365,14 @@
     [
      "10.10.",
      "Páv – Paradise Zlaté Moravce",
-     "0:0",
-     "P",
+     "9:1",
+     "V",
      "ARENA OSTROV",
      1,
      "2026-10-10"
     ]
    ],
    "next": [
-    [
-     "10.10.",
-     "So",
-     "16:30",
-     "Trenovec – ŠK Slávia SPU DFA Nitra",
-     "ARENA OSTROV",
-     1,
-     "2026-10-10"
-    ],
     [
      "24.10.",
      "So",
@@ -397,6 +397,15 @@
      "15:00",
      "Trenovec – FBK Harvard Partizánske",
      "Gymnázium Janka Kráľa Zlaté Moravce",
+     0,
+     "2026-10-24"
+    ],
+    [
+     "24.10.",
+     "So",
+     "16:30",
+     "Páv – FbO Žochár Topoľčany",
+     "Multifunkčná športová hala Horné Srnie",
      0,
      "2026-10-24"
     ]
@@ -445,6 +454,13 @@
      0
     ],
     [
+     "FBC Senica",
+     4,
+     "29:37",
+     6,
+     0
+    ],
+    [
      "Wildhogs Horné Sŕnie",
      3,
      "26:18",
@@ -459,37 +475,30 @@
      0
     ],
     [
-     "FBC Senica",
-     3,
+     "FBK AS Trenčín - Páv",
+     4,
      "16:34",
      3,
-     0
+     1
     ],
     [
      "DA.DO.SA Dragons Hlohovec",
-     3,
-     "12:31",
+     4,
+     "15:44",
      3,
      0
     ],
     [
      "Paradise Zlaté Moravce",
-     3,
-     "13:36",
+     4,
+     "14:45",
      0,
      0
-    ],
-    [
-     "FBK AS Trenčín - Páv",
-     3,
-     "7:33",
-     0,
-     1
     ]
    ],
-   "place": "3. / 12.",
-   "score": "44:47",
-   "pts": 6,
+   "place": "3. / 10.",
+   "score": "57:55",
+   "pts": 9,
    "zones": false
   },
   "dorast": {
