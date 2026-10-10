@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T18:49:46.163Z",
+ "updated": "2026-10-10T07:21:07.593Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -343,18 +343,18 @@
      "MŠH Dubnica nad Váhom",
      0,
      "2026-09-26"
-    ]
-   ],
-   "next": [
+    ],
     [
      "10.10.",
-     "So",
-     "9:00",
      "Páv – FBK Harvard Partizánske",
+     "0:3",
+     "P",
      "ARENA OSTROV",
      1,
      "2026-10-10"
-    ],
+    ]
+   ],
+   "next": [
     [
      "10.10.",
      "So",
@@ -381,6 +381,15 @@
      "ARENA OSTROV",
      1,
      "2026-10-10"
+    ],
+    [
+     "24.10.",
+     "So",
+     "10:30",
+     "Trenovec – ŠK VICTORY STARS Dubnica nad Váhom",
+     "Gymnázium Janka Kráľa Zlaté Moravce",
+     1,
+     "2026-10-24"
     ]
    ],
    "table": [
@@ -470,7 +479,7 @@
     ]
    ],
    "place": "4. / 11.",
-   "score": "27:37",
+   "score": "27:40",
    "pts": 3,
    "zones": false
   },
