@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T07:21:07.593Z",
+ "updated": "2026-10-10T09:20:46.580Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -347,7 +347,7 @@
     [
      "10.10.",
      "Páv – FBK Harvard Partizánske",
-     "0:3",
+     "2:8",
      "P",
      "ARENA OSTROV",
      1,
@@ -394,6 +394,13 @@
    ],
    "table": [
     [
+     "FBK Harvard Partizánske",
+     3,
+     "23:12",
+     9,
+     0
+    ],
+    [
      "FBC Levice",
      2,
      "19:6",
@@ -404,13 +411,6 @@
      "ŠK VICTORY STARS Dubnica nad Váhom",
      2,
      "19:7",
-     6,
-     0
-    ],
-    [
-     "FBK Harvard Partizánske",
-     2,
-     "15:10",
      6,
      0
     ],
@@ -464,22 +464,22 @@
      0
     ],
     [
-     "FBK AS Trenčín - Páv",
-     2,
-     "5:25",
-     0,
-     1
-    ],
-    [
      "FBC Senica",
      2,
      "4:24",
      0,
      0
+    ],
+    [
+     "FBK AS Trenčín - Páv",
+     3,
+     "7:33",
+     0,
+     1
     ]
    ],
-   "place": "4. / 11.",
-   "score": "27:40",
+   "place": "4. / 12.",
+   "score": "29:45",
    "pts": 3,
    "zones": false
   },
