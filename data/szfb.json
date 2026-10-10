@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T11:19:37.563Z",
+ "updated": "2026-10-10T13:20:37.840Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -310,15 +310,6 @@
    "played": [
     [
      "26.9.",
-     "Trenovec – FBK Harvard Partizánske",
-     "7:9",
-     "P",
-     "MŠH Partizánske",
-     1,
-     "2026-09-26"
-    ],
-    [
-     "26.9.",
      "Trenovec – DA.DO.SA Dragons Hlohovec",
      "15:3",
      "V",
@@ -346,8 +337,26 @@
     ],
     [
      "10.10.",
+     "Trenovec – Polar Foxes Sereď",
+     "15:2",
+     "V",
+     "ARENA OSTROV",
+     1,
+     "2026-10-10"
+    ],
+    [
+     "10.10.",
      "Páv – FBK Harvard Partizánske",
      "2:8",
+     "P",
+     "ARENA OSTROV",
+     1,
+     "2026-10-10"
+    ],
+    [
+     "10.10.",
+     "Páv – Paradise Zlaté Moravce",
+     "0:0",
      "P",
      "ARENA OSTROV",
      1,
@@ -355,24 +364,6 @@
     ]
    ],
    "next": [
-    [
-     "10.10.",
-     "So",
-     "13:30",
-     "Trenovec – Polar Foxes Sereď",
-     "ARENA OSTROV",
-     1,
-     "2026-10-10"
-    ],
-    [
-     "10.10.",
-     "So",
-     "15:00",
-     "Páv – Paradise Zlaté Moravce",
-     "ARENA OSTROV",
-     1,
-     "2026-10-10"
-    ],
     [
      "10.10.",
      "So",
@@ -390,29 +381,47 @@
      "Gymnázium Janka Kráľa Zlaté Moravce",
      1,
      "2026-10-24"
+    ],
+    [
+     "24.10.",
+     "So",
+     "10:30",
+     "Páv – Polar Foxes Sereď",
+     "Multifunkčná športová hala Horné Srnie",
+     1,
+     "2026-10-24"
+    ],
+    [
+     "24.10.",
+     "So",
+     "15:00",
+     "Trenovec – FBK Harvard Partizánske",
+     "Gymnázium Janka Kráľa Zlaté Moravce",
+     0,
+     "2026-10-24"
     ]
    ],
    "table": [
     [
      "FBC Levice",
-     3,
-     "31:10",
-     9,
+     4,
+     "39:14",
+     12,
      0
     ],
     [
      "FBK Harvard Partizánske",
-     3,
-     "23:12",
-     9,
+     4,
+     "37:18",
+     12,
      0
     ],
     [
-     "Polar Foxes Sereď",
+     "FBK AS Trenčín - Trenovec",
      3,
-     "22:12",
+     "37:14",
      6,
-     0
+     1
     ],
     [
      "FbO Žochár Topoľčany",
@@ -423,22 +432,22 @@
     ],
     [
      "ŠK VICTORY STARS Dubnica nad Váhom",
-     3,
-     "22:15",
+     4,
+     "26:23",
      6,
      0
     ],
     [
-     "FBK AS Trenčín - Trenovec",
-     2,
-     "22:12",
-     3,
-     1
+     "Polar Foxes Sereď",
+     4,
+     "24:27",
+     6,
+     0
     ],
     [
      "Wildhogs Horné Sŕnie",
-     2,
-     "16:6",
+     3,
+     "26:18",
      3,
      0
     ],
@@ -446,6 +455,13 @@
      "ŠK Slávia SPU DFA Nitra",
      3,
      "21:19",
+     3,
+     0
+    ],
+    [
+     "FBC Senica",
+     3,
+     "16:34",
      3,
      0
     ],
@@ -458,15 +474,8 @@
     ],
     [
      "Paradise Zlaté Moravce",
-     2,
-     "7:22",
-     0,
-     0
-    ],
-    [
-     "FBC Senica",
-     2,
-     "4:24",
+     3,
+     "13:36",
      0,
      0
     ],
@@ -478,9 +487,9 @@
      1
     ]
    ],
-   "place": "6. / 12.",
-   "score": "29:45",
-   "pts": 3,
+   "place": "3. / 12.",
+   "score": "44:47",
+   "pts": 6,
    "zones": false
   },
   "dorast": {
@@ -1731,7 +1740,7 @@
     ],
     [
      "Extraliga|56|2|4|6|20",
-     "Iné ligy|100|71|59|130|46"
+     "Iné ligy|101|72|60|132|48"
     ],
     [
      [
