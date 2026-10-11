@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T07:21:56.017Z",
+ "updated": "2026-10-11T09:21:36.430Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -129,6 +129,13 @@
      0
     ],
     [
+     "FK Florko Košice",
+     5,
+     "29:29",
+     8,
+     0
+    ],
+    [
      "ŠK LIDO Prírodovedec Ružinov",
      5,
      "35:37",
@@ -143,13 +150,6 @@
      0
     ],
     [
-     "Tsunami Záhorská Bystrica",
-     4,
-     "21:19",
-     6,
-     0
-    ],
-    [
      "FBC Grasshoppers AC UNIZA Žilina",
      5,
      "26:29",
@@ -157,10 +157,10 @@
      0
     ],
     [
-     "FK Florko Košice",
-     4,
-     "24:29",
+     "Tsunami Záhorská Bystrica",
      5,
+     "21:24",
+     6,
      0
     ],
     [
@@ -215,18 +215,18 @@
      "Spojená škola Prešov",
      0,
      "2026-10-10"
-    ]
-   ],
-   "next": [
+    ],
     [
      "11.10.",
-     "Ne",
-     "11:00",
      "FaBK ATU Košice",
+     "4:0",
+     "P",
      "ARENA OSTROV",
      0,
      "2026-10-11"
-    ],
+    ]
+   ],
+   "next": [
     [
      "15.10.",
      "Št",
@@ -253,6 +253,15 @@
      "t.b.a.",
      0,
      "2026-11-07"
+    ],
+    [
+     "8.11.",
+     "Ne",
+     "12:30",
+     "Oxdog Snipers Bratislava",
+     "Multifunkčná športová hala Pankúchova",
+     0,
+     "2026-11-08"
     ]
    ],
    "table": [
@@ -307,7 +316,7 @@
     ]
    ],
    "place": "5.",
-   "score": "17:20",
+   "score": "17:24",
    "pts": 4,
    "zones": false
   },
@@ -615,8 +624,8 @@
     [
      "11.10.",
      "FbO Žochár Topoľčany",
-     "2:1",
-     "P",
+     "4:11",
+     "V",
      "MŠH Dubnica nad Váhom",
      0,
      "2026-10-11"
@@ -676,6 +685,13 @@
      0
     ],
     [
+     "FBK AS Trenčín",
+     1,
+     "11:4",
+     3,
+     1
+    ],
+    [
      "FBK Púchov",
      3,
      "19:21",
@@ -691,22 +707,15 @@
     ],
     [
      "FbO Žochár Topoľčany",
-     2,
-     "15:18",
+     3,
+     "19:29",
      1,
      0
-    ],
-    [
-     "FBK AS Trenčín",
-     0,
-     "0:0",
-     0,
-     1
     ]
    ],
-   "place": "–",
-   "score": "1:2",
-   "pts": 0,
+   "place": "3.",
+   "score": "11:4",
+   "pts": 3,
    "zones": false
   },
   "mz": {
@@ -1886,10 +1895,10 @@
      "3",
      "0",
      "6,32",
-     "76,36 %"
+     "77,59 %"
     ],
     [
-     "Iné ligy|91|03:52|57|1,44|",
+     "Iné ligy|91|03:55|57|1,44|",
      "Turnaje|29|02:32|30|3,25|"
     ],
     [
@@ -1897,7 +1906,7 @@
       "@ FBC Mikuláš Academy Prešov",
       "10.10",
       "6:2",
-      "76,00 %"
+      "78,57 %"
      ],
      [
       "vs. Oxdog Snipers Bratislava",
