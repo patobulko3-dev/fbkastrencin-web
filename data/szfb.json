@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T17:20:15.456Z",
+ "updated": "2026-10-11T19:46:39.722Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -337,25 +337,25 @@
    "played": [
     [
      "26.9.",
-     "Páv – Wildhogs Horné Sŕnie",
-     "12:1",
+     "FBK Harvard Partizánske",
+     "7:9",
      "P",
-     "MŠH Dubnica nad Váhom",
-     0,
+     "MŠH Partizánske",
+     1,
      "2026-09-26"
     ],
     [
      "26.9.",
-     "Páv – ŠK VICTORY STARS Dubnica nad Váhom",
-     "13:4",
-     "P",
-     "MŠH Dubnica nad Váhom",
-     0,
+     "DA.DO.SA Dragons Hlohovec",
+     "15:3",
+     "V",
+     "MŠH Partizánske",
+     1,
      "2026-09-26"
     ],
     [
      "10.10.",
-     "Trenovec – ŠK Slávia SPU DFA Nitra",
+     "ŠK Slávia SPU DFA Nitra",
      "6:10",
      "P",
      "ARENA OSTROV",
@@ -364,26 +364,8 @@
     ],
     [
      "10.10.",
-     "Trenovec – Polar Foxes Sereď",
+     "Polar Foxes Sereď",
      "15:2",
-     "V",
-     "ARENA OSTROV",
-     1,
-     "2026-10-10"
-    ],
-    [
-     "10.10.",
-     "Páv – FBK Harvard Partizánske",
-     "2:8",
-     "P",
-     "ARENA OSTROV",
-     1,
-     "2026-10-10"
-    ],
-    [
-     "10.10.",
-     "Páv – Paradise Zlaté Moravce",
-     "9:1",
      "V",
      "ARENA OSTROV",
      1,
@@ -395,17 +377,8 @@
      "24.10.",
      "So",
      "10:30",
-     "Trenovec – ŠK VICTORY STARS Dubnica nad Váhom",
+     "ŠK VICTORY STARS Dubnica nad Váhom",
      "Gymnázium Janka Kráľa Zlaté Moravce",
-     1,
-     "2026-10-24"
-    ],
-    [
-     "24.10.",
-     "So",
-     "10:30",
-     "Páv – Polar Foxes Sereď",
-     "Multifunkčná športová hala Horné Srnie",
      1,
      "2026-10-24"
     ],
@@ -413,19 +386,28 @@
      "24.10.",
      "So",
      "15:00",
-     "Trenovec – FBK Harvard Partizánske",
+     "FBK Harvard Partizánske",
      "Gymnázium Janka Kráľa Zlaté Moravce",
      0,
      "2026-10-24"
     ],
     [
-     "24.10.",
+     "7.11.",
      "So",
-     "16:30",
-     "Páv – FbO Žochár Topoľčany",
-     "Multifunkčná športová hala Horné Srnie",
+     "0:00",
+     "Wildhogs Horné Sŕnie",
+     "t.b.a.",
      0,
-     "2026-10-24"
+     "2026-11-07"
+    ],
+    [
+     "7.11.",
+     "So",
+     "0:00",
+     "Paradise Zlaté Moravce",
+     "t.b.a.",
+     1,
+     "2026-11-07"
     ]
    ],
    "table": [
@@ -497,7 +479,7 @@
      4,
      "16:34",
      3,
-     1
+     0
     ],
     [
      "DA.DO.SA Dragons Hlohovec",
@@ -514,9 +496,9 @@
      0
     ]
    ],
-   "place": "4. / 10.",
-   "score": "59:58",
-   "pts": 9,
+   "place": "4.",
+   "score": "43:24",
+   "pts": 6,
    "zones": false
   },
   "dorast": {
