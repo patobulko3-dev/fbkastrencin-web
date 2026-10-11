@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T11:20:00.052Z",
+ "updated": "2026-10-11T13:21:41.719Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -52,18 +52,18 @@
      "Športové centrum Žilinskej univerzity",
      0,
      "2026-10-09"
-    ]
-   ],
-   "next": [
+    ],
     [
      "11.10.",
-     "Ne",
-     "14:00",
      "FBK Nižná",
+     "2:2",
+     "P",
      "MŠH Tvrdošín",
      0,
      "2026-10-11"
-    ],
+    ]
+   ],
+   "next": [
     [
      "23.10.",
      "Pi",
@@ -90,6 +90,15 @@
      "Multihala Košice",
      0,
      "2026-11-07"
+    ],
+    [
+     "21.11.",
+     "So",
+     "0:00",
+     "VŠK FTVŠ UK Hurikán Bratislava",
+     "t.b.a.",
+     1,
+     "2026-11-21"
     ]
    ],
    "table": [
@@ -179,7 +188,7 @@
     ]
    ],
    "place": "2.",
-   "score": "36:23",
+   "score": "38:25",
    "pts": 11,
    "zones": true
   },
@@ -681,9 +690,9 @@
    "table": [
     [
      "1. FBC Trenčín akadémia Jastrabi",
-     3,
-     "27:13",
-     7,
+     4,
+     "35:19",
+     10,
      0
     ],
     [
@@ -716,8 +725,8 @@
     ],
     [
      "FbO Žochár Topoľčany",
-     3,
-     "19:29",
+     4,
+     "25:37",
      1,
      0
     ]
@@ -846,18 +855,18 @@
      "MŠH Partizánske",
      1,
      "2026-10-11"
-    ]
-   ],
-   "next": [
+    ],
     [
      "11.10.",
-     "Ne",
-     "13:40",
      "St. prípravka červení – ŠK PB PUSCHKIN",
+     "0:0",
+     "P",
      "MŠH Partizánske",
      1,
      "2026-10-11"
-    ],
+    ]
+   ],
+   "next": [
     [
      "17.10.",
      "So",
@@ -881,6 +890,15 @@
      "Ne",
      "0:00",
      "St. prípravka červení – FBK Púchov",
+     "t.b.a.",
+     0,
+     "2026-10-18"
+    ],
+    [
+     "18.10.",
+     "Ne",
+     "0:00",
+     "St. prípravka červení – FBK Harvard Partizánske",
      "t.b.a.",
      0,
      "2026-10-18"
