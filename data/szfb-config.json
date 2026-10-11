@@ -7,7 +7,7 @@
     { "id": "juniori", "name": "Juniori", "photo": "img/b/juniori.jpg", "roster": true,
       "comps": [ { "comp": 1244, "teams": [ { "id": 670618 } ] } ] },
     { "id": "mb", "name": "Muži B", "photo": "img/b/mb.jpg",
-      "comps": [ { "comp": 1262, "teams": [ { "id": 670731, "label": "Trenovec" }, { "id": 670721, "label": "Páv" } ] } ] },
+      "comps": [ { "comp": 1262, "teams": [ { "id": 670731 } ] } ] },
     { "id": "dorast", "name": "Dorastenci", "photo": "img/b/dorast.jpg", "roster": true,
       "comps": [ { "comp": 1267, "teams": [ { "id": 670748 } ] } ] },
     { "id": "sz", "name": "Starší žiaci", "photo": "img/b/sz.jpg",

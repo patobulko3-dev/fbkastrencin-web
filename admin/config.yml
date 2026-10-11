@@ -54,6 +54,7 @@ collections:
               - { label: Hlavný nadpis, name: title, widget: string }
               - { label: Zvýraznená časť nadpisu (červená), name: title_em, widget: string, required: false }
               - { label: Text, name: text, widget: text }
+              - { label: "Výrez fotky (napr. 50% 22%, voliteľné)", name: img_pos, widget: string, required: false }
               - { label: Tlačidlo 1 – text, name: btn1_text, widget: string, required: false }
               - { label: Tlačidlo 1 – odkaz, name: btn1_link, widget: string, required: false, hint: 'napr. #vysledky, #supisky, #nabor alebo celá adresa' }
               - { label: Tlačidlo 2 – text, name: btn2_text, widget: string, required: false }

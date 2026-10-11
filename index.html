@@ -347,7 +347,7 @@ footer small{opacity:.85}
 .slide.on h1,.slide.on h2{animation-delay:.08s}.slide.on p{animation-delay:.16s}.slide.on .cta{animation-delay:.24s}
 @keyframes up{from{transform:translateY(16px);opacity:0}}
 .s-ctrl{position:absolute;z-index:5;left:0;right:0;bottom:0}
-.s-ctrl .wrap{display:grid;grid-template-columns:repeat(5,minmax(0,1fr)) auto;gap:10px;padding-block:0 26px;align-items:end}
+.s-ctrl .wrap{display:grid;grid-template-columns:repeat(var(--n,5),minmax(0,1fr)) auto;gap:10px;padding-block:0 26px;align-items:end}
 .s-tab{background:none;border:0;color:#fff;text-align:left;cursor:pointer;padding:12px 0 0;opacity:.6;font-size:.8rem;font-weight:700;min-width:0}
 .s-tab b{display:block;font-family:var(--display);font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .s-tab span{display:block;font-weight:400;opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -359,7 +359,7 @@ footer small{opacity:.85}
 @keyframes prog{to{width:100%}}
 .s-arrows{display:flex;gap:8px}
 .s-arrows button{width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.35);background:rgba(0,0,0,.25);color:#fff;font-size:1.3rem;cursor:pointer}
-@media (max-width:760px){.s-ctrl .wrap{grid-template-columns:repeat(5,minmax(0,1fr))}.s-tab b,.s-tab span{display:none}.s-arrows{display:none}.slide .wrap{padding-block:30px 70px}.slider{min-height:560px}}
+@media (max-width:760px){.s-ctrl .wrap{grid-template-columns:repeat(var(--n,5),minmax(0,1fr))}.s-tab b,.s-tab span{display:none}.s-arrows{display:none}.slide .wrap{padding-block:30px 70px}.slider{min-height:560px}}
 @media (prefers-reduced-motion:reduce){.slide.on .bg{animation:none}.slide{transition:none}}
 
 /* match center strip */
@@ -977,11 +977,12 @@ makeTabs(document.getElementById('tabs'),CATS,renderCat,'tab-');
 makeTabs(document.getElementById('rtabs'),ROSTERS,function(r){curRoster=r;renderLeaders();renderRoster();},'rtab-');
 
 /* ---------- hero slider ---------- */
-var SLIDES=DATA.site.slides.map(function(s){ var cta=[]; if(s.btn1_text) cta.push([s.btn1_text,s.btn1_link||'#',1]); if(s.btn2_text) cta.push([s.btn2_text,s.btn2_link||'#',0]); return {img:s.img,k:s.kicker||'',h:esc(s.title||'')+(s.title_em?' <em>'+esc(s.title_em)+'</em>':''),p:s.text||'',cta:cta,tab:[s.tab_title||'',s.tab_text||'']}; });
+var SLIDES=DATA.site.slides.map(function(s){ var cta=[]; if(s.btn1_text) cta.push([s.btn1_text,s.btn1_link||'#',1]); if(s.btn2_text) cta.push([s.btn2_text,s.btn2_link||'#',0]); return {img:s.img,k:s.kicker||'',h:esc(s.title||'')+(s.title_em?' <em>'+esc(s.title_em)+'</em>':''),p:s.text||'',cta:cta,pos:s.img_pos||'',tab:[s.tab_title||'',s.tab_text||'']}; });
 var slEl=document.getElementById('slides'), stEl2=document.getElementById('stabs'), slider=document.getElementById('slider'), si=0, stimer=null;
+stEl2.style.setProperty('--n',SLIDES.length);
 SLIDES.forEach(function(s,i){
   var d=document.createElement('div'); d.className='slide'+(i===0?' on':''); d.setAttribute('role','group'); d.setAttribute('aria-label',(i+1)+' z '+SLIDES.length);
-  d.innerHTML='<div class="bg" style="background-image:url(\''+s.img+'\')"></div><div class="wrap"><span class="kicker"><i></i>'+esc(s.k)+'</span>'+(i===0?'<h1>':'<h2>')+s.h+(i===0?'</h1>':'</h2>')+'<p>'+esc(s.p)+'</p><div class="cta">'+s.cta.map(function(c){return '<a class="btn'+(c[2]?' solid':'')+'" href="'+c[1]+'">'+esc(c[0])+'</a>';}).join('')+'</div></div>';
+  d.innerHTML='<div class="bg" style="background-image:url(\''+s.img+'\')'+(s.pos?';background-position:'+esc(s.pos):'')+'"></div><div class="wrap"><span class="kicker"><i></i>'+esc(s.k)+'</span>'+(i===0?'<h1>':'<h2>')+s.h+(i===0?'</h1>':'</h2>')+'<p>'+esc(s.p)+'</p><div class="cta">'+s.cta.map(function(c){return '<a class="btn'+(c[2]?' solid':'')+'" href="'+c[1]+'">'+esc(c[0])+'</a>';}).join('')+'</div></div>';
   slEl.appendChild(d);
   var t=document.createElement('button'); t.type='button'; t.className='s-tab'+(i===0?' on':''); t.id='stab-'+i; t.innerHTML='<span class="pb"><i></i></span><b>'+esc(s.tab[0])+'</b><span>'+esc(s.tab[1])+'</span>';
   t.addEventListener('click',function(){ go(i); }); stEl2.insertBefore(t,stEl2.lastElementChild);

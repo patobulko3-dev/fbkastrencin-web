@@ -34,7 +34,7 @@
      "name": "Adam Líška",
      "pos": "B",
      "yr": 2006,
-     "photo": "",
+     "photo": "img/p26/adam-liska.jpg",
      "show_without_games": true,
      "born": "22.1.2006"
     },
@@ -60,7 +60,7 @@
      "name": "František Jaššo",
      "pos": "O",
      "yr": 2006,
-     "photo": "",
+     "photo": "img/p26/frantisek-jasso.jpg",
      "born": "20.7.2006"
     },
     {
@@ -108,7 +108,7 @@
      "name": "Jerguš Surma",
      "pos": "O",
      "yr": 2007,
-     "photo": "",
+     "photo": "img/p26/jergus-surma.jpg",
      "born": "21.6.2007"
     },
     {
@@ -116,7 +116,7 @@
      "name": "Marek Meliš",
      "pos": "Ú",
      "yr": 2008,
-     "photo": "",
+     "photo": "img/p26/marek-melis.jpg",
      "born": "14.6.2008"
     },
     {
@@ -148,7 +148,7 @@
      "name": "Šimon Oravec",
      "pos": "Ú",
      "yr": 2007,
-     "photo": "",
+     "photo": "img/p26/simon-oravec.jpg",
      "born": "5.11.2007"
     },
     {
@@ -164,7 +164,7 @@
      "name": "Peter Bednár",
      "pos": "Ú",
      "yr": 2004,
-     "photo": "",
+     "photo": "img/p26/peter-bednar.jpg",
      "born": "6.4.2004"
     },
     {
@@ -217,11 +217,11 @@
      "born": "5.2.2005"
     },
     {
-     "no": "",
+     "no": "34",
      "name": "Filip Vrana",
      "pos": "Ú",
      "yr": 2007,
-     "photo": "",
+     "photo": "img/p26/filip-vrana.jpg",
      "show_without_games": true,
      "born": "12.9.2007"
     }
