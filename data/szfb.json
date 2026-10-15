@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T21:19:50.095Z",
+ "updated": "2026-10-15T17:31:59.609Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -233,18 +233,18 @@
      "ARENA OSTROV",
      0,
      "2026-10-11"
-    ]
-   ],
-   "next": [
+    ],
     [
      "15.10.",
-     "Št",
-     "18:30",
      "FBC Grasshoppers AC UNIZA Žilina",
+     "3:2",
+     "V",
      "ARENA OSTROV",
      1,
      "2026-10-15"
-    ],
+    ]
+   ],
+   "next": [
     [
      "25.10.",
      "Ne",
@@ -271,6 +271,15 @@
      "Multifunkčná športová hala Pankúchova",
      0,
      "2026-11-08"
+    ],
+    [
+     "22.11.",
+     "Ne",
+     "0:00",
+     "FBC Grasshoppers AC UNIZA Žilina",
+     "t.b.a.",
+     0,
+     "2026-11-22"
     ]
    ],
    "table": [
@@ -325,7 +334,7 @@
     ]
    ],
    "place": "6.",
-   "score": "22:32",
+   "score": "25:34",
    "pts": 4,
    "zones": false
   },
