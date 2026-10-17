@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T07:38:58.897Z",
+ "updated": "2026-10-17T07:33:31.435Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -855,18 +855,18 @@
      "MŠH Partizánske",
      1,
      "2026-10-11"
-    ]
-   ],
-   "next": [
+    ],
     [
      "17.10.",
-     "So",
-     "9:00",
      "Ml. prípravka červení – 1. FBC Trenčín Piráti",
+     "0:0",
+     "P",
      "MŠH Dubnica nad Váhom",
      1,
      "2026-10-17"
-    ],
+    ]
+   ],
+   "next": [
     [
      "17.10.",
      "So",
@@ -893,6 +893,15 @@
      "ARENA OSTROV",
      0,
      "2026-10-18"
+    ],
+    [
+     "7.11.",
+     "So",
+     "9:00",
+     "Ml. prípravka červení – FBK Púchov",
+     "sTC Aréna Púchov",
+     0,
+     "2026-11-07"
     ]
    ],
    "table": null,
