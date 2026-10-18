@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T19:26:09.871Z",
+ "updated": "2026-10-18T07:32:21.546Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -873,18 +873,18 @@
      "MŠH Dubnica nad Váhom",
      1,
      "2026-10-17"
-    ]
-   ],
-   "next": [
+    ],
     [
      "18.10.",
-     "Ne",
-     "9:00",
      "St. prípravka červení – FBK Púchov",
+     "0:0",
+     "P",
      "ARENA OSTROV",
      0,
      "2026-10-18"
-    ],
+    ]
+   ],
+   "next": [
     [
      "18.10.",
      "Ne",
@@ -911,6 +911,15 @@
      "sTC Aréna Púchov",
      1,
      "2026-11-07"
+    ],
+    [
+     "8.11.",
+     "Ne",
+     "9:00",
+     "St. prípravka červení – 1. FBC Trenčín Draci",
+     "ARENA OSTROV",
+     0,
+     "2026-11-08"
     ]
    ],
    "table": null,
