@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T07:32:21.546Z",
+ "updated": "2026-10-18T09:28:52.961Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -882,18 +882,18 @@
      "ARENA OSTROV",
      0,
      "2026-10-18"
-    ]
-   ],
-   "next": [
+    ],
     [
      "18.10.",
-     "Ne",
-     "9:50",
      "St. prípravka červení – FBK Harvard Partizánske",
+     "0:0",
+     "P",
      "ARENA OSTROV",
      0,
      "2026-10-18"
-    ],
+    ]
+   ],
+   "next": [
     [
      "7.11.",
      "So",
@@ -920,6 +920,15 @@
      "ARENA OSTROV",
      0,
      "2026-11-08"
+    ],
+    [
+     "8.11.",
+     "Ne",
+     "10:40",
+     "St. prípravka červení – FbO Žochár Topoľčany",
+     "ARENA OSTROV",
+     1,
+     "2026-11-08"
     ]
    ],
    "table": null,
@@ -941,7 +950,7 @@
     ],
     [
      "Extraliga|4|01:20|13|4,33|",
-     "Iné ligy|128|20:04|244|3,48|"
+     "Iné ligy|128|20:15|246|3,51|"
     ],
     [
      [
