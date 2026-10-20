@@ -71,7 +71,8 @@ article blockquote p{margin:0}article strong{font-weight:900}
 .card .bd{padding:12px 14px 16px}.card time{margin:0;font-size:.68rem}.card h3{margin:6px 0 0;font-size:1rem;line-height:1.3}
 .card p{margin:6px 0 0;font-size:.9rem;color:var(--muted);line-height:1.45}
 footer{margin-top:60px;padding:30px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
-@media (max-width:1032px){.hero{margin:0;border-radius:0}}`;
+@media (max-width:1032px){.hero{margin:0;border-radius:0}}
+.views{display:flex;align-items:center;gap:8px;margin:30px 0 0;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem;font-weight:700}.views svg{width:20px;height:20px;flex:none}.views b{color:var(--ink);font-weight:900}`;
 
 const shell = (title, desc, ogImage, depth, inner) => `<!doctype html>
 <html lang="sk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -95,6 +96,10 @@ for (const a of arts) {
   const inner = `${image ? `<div class="hero"><img src="../../${esc(image)}" alt=""></div>` : ''}
 <main class="w"><time>${fmtDate(date)}</time><h1>${esc(data.title)}</h1>
 <article>${html}</article>
+<p class="views" id="views" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg><span><b>0</b> <span>prečítaní</span></span></p>
+<script>(function(){var s=${JSON.stringify(slug)},k='v:'+s,el=document.getElementById('views'),seen=false;try{seen=localStorage.getItem(k)==='1';}catch(e){}
+fetch('/api/views?slug='+encodeURIComponent(s),{method:seen?'GET':'POST'}).then(function(r){return r.ok?r.json():null;}).then(function(j){if(!j||typeof j.views!=='number'||j.views<1)return;try{localStorage.setItem(k,'1');}catch(e){}
+var n=j.views,b=el.querySelector('b');b.textContent=n.toLocaleString('sk-SK');b.nextElementSibling.textContent=n===1?'prečítanie':(n<5?'prečítania':'prečítaní');el.hidden=false;}).catch(function(){});})();</script>
 ${others.length ? `<section class="more"><h2>Ďalšie články</h2><div class="grid">${others.map((n) => card(n, '../../')).join('')}</div></section>` : ''}
 <footer>FBK AS Trenčín · <a href="../../" style="color:inherit">fbkastrencin.sk</a></footer></main>`;
   await mkdir(new URL(`clanky/${slug}/`, DIST), { recursive: true });

@@ -682,6 +682,34 @@ tr.us .mini-crest{border-color:transparent}
 .bar-row .nm .av{flex:none;width:26px;height:26px;border-radius:50%;overflow:hidden;background:var(--line);display:grid;place-items:center;font-size:.6rem;font-weight:900;color:var(--muted)}
 .bar-row .nm .av img{width:100%;height:100%;object-fit:cover;object-position:50% 15%}
 .bar-row .nm em{font-style:normal;overflow:hidden;text-overflow:ellipsis}
+
+/* nábor ako úvodné okno */
+.recruit .pop-x,.recruit .pop-go{display:none}
+.recruit.as-pop{position:fixed;inset:0;z-index:90;overflow-y:auto;overscroll-behavior:contain;animation:popin .35s ease-out both}
+.recruit.as-pop .wrap{min-height:100%;align-content:center;padding-block:76px 40px}
+.recruit.as-pop .pop-x{display:grid;place-items:center;position:fixed;top:max(14px,env(safe-area-inset-top,0px));right:14px;z-index:3;width:52px;height:52px;border-radius:50%;border:0;background:#fff;color:var(--red);font-size:2rem;line-height:1;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+.recruit.as-pop .pop-go{display:inline-flex;grid-column:1/-1;justify-self:center;gap:8px;align-items:center;background:none;border:2px solid rgba(255,255,255,.6);color:#fff;font-weight:900;padding:12px 22px;border-radius:999px;cursor:pointer}
+.recruit.as-pop .pop-go:hover{background:rgba(255,255,255,.12)}
+body.pop-open{overflow:hidden}
+@keyframes popin{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){.recruit.as-pop{animation:none}}
+
+/* vedenie klubu – tri karty */
+.lead2{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+
+/* klub zvnútra */
+.inside{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.mem{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .2s ease,box-shadow .2s ease}
+a.mem:hover{transform:translateY(-3px);box-shadow:0 16px 34px -20px rgba(0,0,0,.45)}
+.mem .mp{aspect-ratio:4/5;max-width:100%;position:relative;background:linear-gradient(150deg,var(--red-deep),#1d0a0d);overflow:hidden}
+.mem .mp img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.mem .mp .ini{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:4rem;color:rgba(255,255,255,.9)}
+.mem .mp .rl{position:absolute;left:12px;bottom:12px;background:var(--red);color:#fff;font-size:.66rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;padding:4px 9px;border-radius:3px}
+.mem .mb{padding:14px 16px 16px;display:grid;gap:6px}
+.mem .mb b{font-family:var(--display);font-size:1.45rem;font-weight:900;text-transform:uppercase;line-height:1}
+.mem .mb p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.45}
+.mem .mb .soon{font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.mem .mb .go{font-size:.85rem;font-weight:900;color:var(--red)}
 </style>
 
 
@@ -784,7 +812,8 @@ tr.us .mini-crest{border-color:transparent}
     </div>
   </section>
 
-  <section class="recruit" id="nabor">
+  <section class="recruit" id="nabor" aria-label="Príď si zahrať florbal">
+    <button type="button" class="pop-x" id="popx" aria-label="Zavrieť a pokračovať na web">×</button>
     <div class="recruit-bg" role="img" aria-label="Tímová fotka prípravky"></div>
     <div class="wrap">
       <div>
@@ -792,10 +821,10 @@ tr.us .mini-crest{border-color:transparent}
         <h2>Príď si zahrať <em>florbal</em></h2>
         <p style="max-width:52ch;opacity:.9;margin:0">Hľadáme chlapcov aj dievčatá, ktorí sa chcú hýbať a hrať v partii. Prvé tréningy sú bezplatné a florbalku ti požičiame.</p>
         <ul class="num">
+          <li><b>2020–2021</b><span>Predprípravka</span></li>
           <li><b>2018–2019</b><span>Mladšia prípravka</span></li>
           <li><b>2016–2017</b><span>Staršia prípravka</span></li>
           <li><b>2014–2015</b><span>Mladší žiaci</span></li>
-          <li><b>2012–2013</b><span>Starší žiaci</span></li>
         </ul>
       </div>
       <form id="form" name="nabor" method="POST" data-netlify="true" netlify-honeypot="bot-field">
@@ -803,13 +832,14 @@ tr.us .mini-crest{border-color:transparent}
         <strong style="font-size:1.05rem">Prihláška na skúšobný tréning</strong>
         <label for="f-name">Meno dieťaťa<input id="f-name" name="meno" required placeholder="napr. Tomáš Novák"></label>
         <div class="two">
-          <label for="f-year">Rok narodenia<select id="f-year" name="rocnik"><option>2019</option><option>2018</option><option selected>2017</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option></select></label>
+          <label for="f-year">Rok narodenia<select id="f-year" name="rocnik"><option>2021</option><option>2020</option><option>2019</option><option>2018</option><option selected>2017</option><option>2016</option><option>2015</option><option>2014</option></select></label>
           <label for="f-phone">Telefón rodiča<input id="f-phone" name="telefon" type="tel" placeholder="09xx xxx xxx"></label>
         </div>
         <label for="f-mail">E-mail rodiča<input id="f-mail" name="email" type="email" required placeholder="meno@email.sk"></label>
         <button class="btn" type="submit">Odoslať prihlášku</button>
         <div class="ok" id="ok" hidden></div>
       </form>
+      <button type="button" class="pop-go" id="popgo">Pokračovať na web <b>→</b></button>
     </div>
   </section>
 
@@ -846,6 +876,13 @@ tr.us .mini-crest{border-color:transparent}
     </div>
   </section>
 
+  <section class="block" id="zvnutra" style="padding-top:0">
+    <div class="wrap">
+      <div class="head"><div><span class="eyebrow">Tréneri, zdravotníci, fotografi a ďalší</span><h2>Spoznajte FBK AS Trenčín zvnútra</h2></div></div>
+      <div class="inside" id="inside"></div>
+    </div>
+  </section>
+
   <section class="block" id="partneri" style="padding-top:0">
     <div class="wrap">
       <div class="head"><div><span class="eyebrow">Ďakujeme</span><h2>Partneri</h2></div></div>
@@ -876,6 +913,24 @@ tr.us .mini-crest{border-color:transparent}
   <button type="button" class="lb-n" id="lbn" aria-label="Ďalšia">›</button>
 </div>
 
+<script>
+(function(){
+  var sec=document.getElementById('nabor'); if(!sec) return;
+  var seen=false; try{ seen=sessionStorage.getItem('nabor-pop')==='1'; }catch(e){}
+  if(seen || location.hash) return;
+  var last=document.activeElement;
+  sec.classList.add('as-pop'); sec.setAttribute('role','dialog'); sec.setAttribute('aria-modal','true');
+  document.body.classList.add('pop-open');
+  function close(){ sec.classList.remove('as-pop'); sec.removeAttribute('role'); sec.removeAttribute('aria-modal'); document.body.classList.remove('pop-open');
+    try{ sessionStorage.setItem('nabor-pop','1'); }catch(e){}
+    document.removeEventListener('keydown',onKey); window.scrollTo(0,0); if(last&&last.focus) last.focus(); }
+  function onKey(e){ if(e.key==='Escape') close(); }
+  document.getElementById('popx').addEventListener('click',close);
+  document.getElementById('popgo').addEventListener('click',close);
+  document.addEventListener('keydown',onKey);
+  setTimeout(function(){ document.getElementById('popx').focus(); },50);
+})();
+</script>
 <script>var DATA={order:['muzi','juniori','mb','dorast','sz','mz','pripravka']};
 function fetchJSON(u){ return fetch(u,{cache:'no-cache'}).then(function(r){ if(!r.ok) throw new Error(u); return r.json(); }); }
 Promise.all([fetchJSON('https://raw.githubusercontent.com/patobulko3-dev/fbkastrencin-web/main/data/szfb.json').catch(function(){return fetchJSON('data/szfb.json');}),fetchJSON('data/rosters.json'),fetchJSON('data/site.json'),fetchJSON('data/news.json')]).then(function(a){
@@ -1170,6 +1225,10 @@ document.addEventListener('keydown',function(e){
 /* ---------- vedenie klubu a partneri (data/site.json) ---------- */
 document.getElementById('leaders2').innerHTML=DATA.site.leaders.map(function(l){ var ini=l.name.replace(/^Ing\. |, PhD\.$/g,'').split(' ').map(function(w){return w[0];}).join(''); return '<div class="boss"><div class="ph">'+(l.photo?'<img src="'+pimg(l.photo)+'" alt="'+esc(l.name)+'">':'<span class="ini">'+ini+'</span>')+'</div><div class="bd"><div class="role">'+(l.roles||'').split(',').map(function(r){return '<span>'+esc(r.trim())+'</span>';}).join('')+'</div><h3>'+esc(l.name)+'</h3>'+(l.text?'<p>'+esc(l.text)+'</p>':'')+'<div class="ct">'+(l.phone?'<a href="tel:'+l.phone.replace(/ /g,'')+'">'+esc(l.phone)+'</a>':'')+(l.email?'<a href="mailto:'+esc(l.email)+'">'+esc(l.email)+'</a>':'')+'</div></div></div>'; }).join('');
 function plogo(p){ var inner=p.logo?'<img src="'+esc(p.logo)+'" alt="'+esc(p.name)+'"'+(p.square?' class="sq"':'')+'>':esc(p.name).replace(/ (.+)$/,'<small>$1</small>'); if(p.url) inner='<a href="'+esc(p.url)+'" target="_blank" rel="noopener" style="display:contents;color:inherit;text-decoration:none">'+inner+'</a>'; return '<span class="'+(p.logo?'logo'+(p.dark?' dark':''):'wmk')+'">'+inner+'</span>'; }
+document.getElementById('inside').innerHTML=(DATA.site.members||[]).map(function(m){ var ini=m.name.replace(/^(Ing\.|Mgr\.|Bc\.|MUDr\.|PhDr\.)\s*/,'').replace(/,.*$/,'').split(' ').map(function(w){return w[0]||'';}).join('').slice(0,2);
+  var body='<div class="mp">'+(m.photo?'<img src="'+esc(pimg(m.photo))+'" alt="'+esc(m.name)+'" loading="lazy">':'<span class="ini">'+esc(ini)+'</span>')+(m.role?'<span class="rl">'+esc(m.role)+'</span>':'')+'</div><div class="mb"><b>'+esc(m.name)+'</b>'+(m.text?'<p>'+esc(m.text)+'</p>':'<span class="soon">Medailónik pripravujeme</span>')+(m.url?'<span class="go">Čítať medailónik →</span>':'')+'</div>';
+  return m.url?'<a class="mem" href="'+esc(m.url)+'">'+body+'</a>':'<div class="mem">'+body+'</div>'; }).join('');
+if(!(DATA.site.members||[]).length) document.getElementById('zvnutra').hidden=true;
 document.getElementById('pmain').innerHTML=(DATA.site.partners_main||[]).map(plogo).join('');
 document.getElementById('pother').innerHTML=(DATA.site.partners||[]).map(plogo).join('');
 document.getElementById('msgform').addEventListener('submit',function(e){ e.preventDefault(); var f=e.target, ok=document.getElementById('msgok');

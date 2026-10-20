@@ -312,7 +312,7 @@
     {
       "name": "Ing. Juraj Matejka",
       "roles": "Prezident klubu",
-      "text": "Hlavný tréner mužov a mladšej prípravky.",
+      "text": "",
       "photo": "matejka-juraj",
       "phone": "+421 903 945 335",
       "email": "jurmat@centrum.sk"
@@ -320,10 +320,48 @@
     {
       "name": "Ing. Patrik Bulko, PhD.",
       "roles": "Športový riaditeľ, Šéftréner klubu",
-      "text": "Športová koncepcia klubu, hlavný tréner dorastencov.",
+      "text": "",
       "photo": "bulko-patrik",
       "phone": "+421 918 418 350",
       "email": "patobulko3@gmail.com"
+    },
+    {
+      "name": "Štefan Rajčan",
+      "roles": "Šéftréner sekcie žiaci a prípravka",
+      "text": "",
+      "photo": "",
+      "phone": "+421 910 394 950",
+      "email": "stevo.rajcan@gmail.com"
+    }
+  ],
+  "members": [
+    {
+      "name": "Daniel Hurinský",
+      "role": "Fotograf",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Lukáš Kuzl",
+      "role": "Tréner",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Patrik Meliš",
+      "role": "Tréner",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Michal Prno",
+      "role": "Tréner",
+      "text": "",
+      "photo": "",
+      "url": ""
     }
   ],
   "partners_main": [
@@ -357,6 +395,12 @@
       "logo": "img/l/arena-ostrov.png",
       "dark": true,
       "url": "https://arenaostrov.sk/"
+    },
+    {
+      "name": "Chlebíčkuj",
+      "logo": "img/l/chlebickuj.png",
+      "square": true,
+      "url": "https://chlebickuj.sk/"
     }
   ],
   "partners": [
@@ -379,12 +423,6 @@
       "name": "Dalno kuchyne",
       "logo": "img/l/dalno.png",
       "url": "https://dalno.sk/"
-    },
-    {
-      "name": "Chlebíčkuj",
-      "logo": "img/l/chlebickuj.png",
-      "square": true,
-      "url": "https://chlebickuj.sk/"
     },
     {
       "name": "Pizza To Go",

@@ -97,6 +97,17 @@ collections:
               - { label: Fotka, name: photo, widget: image, required: false }
               - { label: Telefón, name: phone, widget: string, required: false }
               - { label: E-mail, name: email, widget: string, required: false }
+          - label: Spoznajte klub zvnútra (medailóniky)
+            name: members
+            widget: list
+            required: false
+            summary: '{{fields.name}} – {{fields.role}}'
+            fields:
+              - { label: Meno, name: name, widget: string }
+              - { label: Funkcia (napr. Tréner, Fyzioterapeut, Fotograf), name: role, widget: string }
+              - { label: Krátky text, name: text, widget: text, required: false, hint: '1–2 vety; bez textu sa ukáže „Medailónik pripravujeme“' }
+              - { label: Fotka, name: photo, widget: image, required: false }
+              - { label: Odkaz na celý medailónik (článok), name: url, widget: string, required: false, hint: 'napr. clanky/meno-priezvisko/' }
           - label: Hlavní partneri
             name: partners_main
             widget: list
