@@ -685,17 +685,20 @@ tr.us .mini-crest{border-color:transparent}
 
 /* nábor ako úvodné okno */
 .recruit .pop-x,.recruit .pop-go{display:none}
-.recruit.as-pop{position:fixed;inset:0;z-index:90;overflow-y:auto;overscroll-behavior:contain;animation:popin .35s ease-out both}
-.recruit.as-pop .wrap{min-height:100%;align-content:center;padding-block:76px 40px}
-.recruit.as-pop .pop-x{display:grid;place-items:center;position:fixed;top:max(14px,env(safe-area-inset-top,0px));right:14px;z-index:3;width:52px;height:52px;border-radius:50%;border:0;background:#fff;color:var(--red);font-size:2rem;line-height:1;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+.recruit.as-pop{position:fixed;inset:10vh 10vw;z-index:90;overflow-y:auto;overscroll-behavior:contain;border-radius:18px;box-shadow:0 0 0 100vmax rgba(10,4,6,.72),0 30px 80px rgba(0,0,0,.6);animation:popin .35s ease-out both}
+.recruit.as-pop h2{font-size:clamp(2rem,4vw,3rem)}
+@media (max-width:760px){.recruit.as-pop{inset:12px}}
+.recruit.as-pop .wrap{min-height:100%;align-content:center;padding-block:56px 30px;gap:28px}
+.recruit.as-pop .pop-x{display:grid;place-items:center;position:absolute;top:12px;right:12px;z-index:3;width:52px;height:52px;border-radius:50%;border:0;background:#fff;color:var(--red);font-size:2rem;line-height:1;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35)}
 .recruit.as-pop .pop-go{display:inline-flex;grid-column:1/-1;justify-self:center;gap:8px;align-items:center;background:none;border:2px solid rgba(255,255,255,.6);color:#fff;font-weight:900;padding:12px 22px;border-radius:999px;cursor:pointer}
 .recruit.as-pop .pop-go:hover{background:rgba(255,255,255,.12)}
 body.pop-open{overflow:hidden}
+.recruit .wrap>*{min-width:0}.recruit form input,.recruit form select{min-width:0;width:100%}.recruit .two>*{min-width:0}
 @keyframes popin{from{opacity:0}}
 @media (prefers-reduced-motion:reduce){.recruit.as-pop{animation:none}}
 
 /* vedenie klubu – tri karty */
-.lead2{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+.lead2{grid-template-columns:1fr;max-width:760px}
 
 /* klub zvnútra */
 .inside{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}

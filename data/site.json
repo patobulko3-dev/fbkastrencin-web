@@ -205,7 +205,7 @@
     },
     {
       "category": "Starší žiaci",
-      "photo": "",
+      "photo": "img/c/starsi-ziaci.jpg",
       "badge": "2012 – 2013",
       "times": [
         {
@@ -217,7 +217,9 @@
         {
           "name": "Štefan Rajčan",
           "role": "hlavný tréner",
-          "photo": "rajcan-stefan"
+          "photo": "rajcan-stefan",
+          "phone": "+421 910 394 950",
+          "email": "stevo.rajcan@gmail.com"
         },
         {
           "name": "Lukáš Oravec",
@@ -228,7 +230,7 @@
     },
     {
       "category": "Mladší žiaci",
-      "photo": "",
+      "photo": "img/c/mladsi-ziaci.jpg",
       "badge": "2014 – 2015",
       "times": [
         {
@@ -240,7 +242,9 @@
         {
           "name": "Štefan Rajčan",
           "role": "hlavný tréner",
-          "photo": "rajcan-stefan"
+          "photo": "rajcan-stefan",
+          "phone": "+421 910 394 950",
+          "email": "stevo.rajcan@gmail.com"
         },
         {
           "name": "Michal Prno",
@@ -256,7 +260,7 @@
     },
     {
       "category": "Staršia prípravka",
-      "photo": "",
+      "photo": "img/c/starsia-pripravka.jpg",
       "badge": "2016 – 2017",
       "times": [
         {
@@ -268,7 +272,9 @@
         {
           "name": "Štefan Rajčan",
           "role": "hlavný tréner",
-          "photo": "rajcan-stefan"
+          "photo": "rajcan-stefan",
+          "phone": "+421 910 394 950",
+          "email": "stevo.rajcan@gmail.com"
         },
         {
           "name": "Daniel Kupka",
@@ -289,7 +295,7 @@
     },
     {
       "category": "Mladšia prípravka",
-      "photo": "",
+      "photo": "img/c/starsia-pripravka.jpg",
       "badge": "2018 – 2019",
       "times": [
         {
@@ -329,36 +335,120 @@
       "name": "Štefan Rajčan",
       "roles": "Šéftréner sekcie žiaci a prípravka",
       "text": "",
-      "photo": "",
+      "photo": "rajcan-stefan",
       "phone": "+421 910 394 950",
       "email": "stevo.rajcan@gmail.com"
     }
   ],
   "members": [
     {
-      "name": "Daniel Hurinský",
-      "role": "Fotograf",
+      "name": "Juraj Matejka",
+      "role": "Tréner mužov a mladšej prípravky",
       "text": "",
-      "photo": "",
+      "photo": "matejka-juraj",
       "url": ""
     },
     {
-      "name": "Lukáš Kuzl",
-      "role": "Tréner",
+      "name": "Patrik Bulko",
+      "role": "Tréner dorastencov",
       "text": "",
-      "photo": "",
+      "photo": "bulko-patrik",
+      "url": ""
+    },
+    {
+      "name": "Štefan Rajčan",
+      "role": "Šéftréner žiakov a prípravky",
+      "text": "",
+      "photo": "rajcan-stefan",
+      "url": ""
+    },
+    {
+      "name": "Zdenko Bielik",
+      "role": "Tréner juniorov",
+      "text": "",
+      "photo": "bielik-zdenko",
       "url": ""
     },
     {
       "name": "Patrik Meliš",
-      "role": "Tréner",
+      "role": "Tréner juniorov",
       "text": "",
       "photo": "",
       "url": ""
     },
     {
+      "name": "Karol Sedláček",
+      "role": "Tréner dorastencov",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Lukáš Oravec",
+      "role": "Asistent – starší žiaci",
+      "text": "",
+      "photo": "oravec-lukas",
+      "url": ""
+    },
+    {
       "name": "Michal Prno",
-      "role": "Tréner",
+      "role": "Asistent – mladší žiaci",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Fero Nováček",
+      "role": "Asistent – žiaci a prípravka",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Daniel Kupka",
+      "role": "Asistent – staršia prípravka",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Michal Daranský",
+      "role": "Asistent – staršia prípravka",
+      "text": "",
+      "photo": "daransky-michal",
+      "url": ""
+    },
+    {
+      "name": "Peter Kravec",
+      "role": "Kondičný tréner",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Majka Miklánková",
+      "role": "Štatutár klubu",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Dušan Matejka",
+      "role": "Štatutár klubu",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Ivetka Veseláková",
+      "role": "Hlavná zdravotníčka",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Daniel Hurinský",
+      "role": "Fotograf",
       "text": "",
       "photo": "",
       "url": ""
