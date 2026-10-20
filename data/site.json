@@ -343,14 +343,28 @@
   "members": [
     {
       "name": "Juraj Matejka",
-      "role": "Tréner mužov a mladšej prípravky",
+      "role": "Prezident klubu",
       "text": "",
       "photo": "matejka-juraj",
       "url": ""
     },
     {
+      "name": "Dušan Matejka",
+      "role": "Štatutár klubu",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
+      "name": "Majka Miklánková",
+      "role": "Štatutár klubu",
+      "text": "",
+      "photo": "",
+      "url": ""
+    },
+    {
       "name": "Patrik Bulko",
-      "role": "Tréner dorastencov",
+      "role": "Športový riaditeľ, šéftréner klubu",
       "text": "",
       "photo": "bulko-patrik",
       "url": ""
@@ -421,20 +435,6 @@
     {
       "name": "Peter Kravec",
       "role": "Kondičný tréner",
-      "text": "",
-      "photo": "",
-      "url": ""
-    },
-    {
-      "name": "Majka Miklánková",
-      "role": "Štatutár klubu",
-      "text": "",
-      "photo": "",
-      "url": ""
-    },
-    {
-      "name": "Dušan Matejka",
-      "role": "Štatutár klubu",
       "text": "",
       "photo": "",
       "url": ""
