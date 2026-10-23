@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T11:34:37.629Z",
+ "updated": "2026-10-23T17:32:09.347Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -8,15 +8,6 @@
    "photo": "img/b/muzi.jpg",
    "league": "Florbalová extraliga mužov",
    "played": [
-    [
-     "12.9.",
-     "DTF team Detva Joxers",
-     "3:13",
-     "V",
-     "MŠH Detva",
-     0,
-     "2026-09-12"
-    ],
     [
      "19.9.",
      "FBC Predator Sabinov",
@@ -61,18 +52,18 @@
      "MŠH Tvrdošín",
      0,
      "2026-10-11"
-    ]
-   ],
-   "next": [
+    ],
     [
      "23.10.",
-     "Pi",
-     "18:30",
      "1. FBC Trenčín",
+     "3:1",
+     "P",
      "MŠH Trenčín - centrálna hala",
      0,
      "2026-10-23"
-    ],
+    ]
+   ],
+   "next": [
     [
      "31.10.",
      "So",
@@ -99,6 +90,15 @@
      "t.b.a.",
      1,
      "2026-11-21"
+    ],
+    [
+     "28.11.",
+     "So",
+     "0:00",
+     "Oxdog Snipers Bratislava",
+     "t.b.a.",
+     1,
+     "2026-11-28"
     ]
    ],
    "table": [
@@ -188,7 +188,7 @@
     ]
    ],
    "place": "2.",
-   "score": "44:26",
+   "score": "45:29",
    "pts": 14,
    "zones": true
   },
@@ -1935,6 +1935,22 @@
       "0+0"
      ]
     ]
+   ],
+   [
+    "VRANA, Filip",
+    [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "Extraliga|2|1|0|1|2",
+     "Iné ligy|187|155|109|264|44",
+     "Turnaje|28|17|7|24|14"
+    ],
+    []
    ]
   ],
   "juniori": [
