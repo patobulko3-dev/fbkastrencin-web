@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T19:09:24.172Z",
+ "updated": "2026-10-24T07:35:45.770Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -750,18 +750,18 @@
      "MŠH Dubnica nad Váhom",
      1,
      "2026-10-03"
-    ]
-   ],
-   "next": [
+    ],
     [
      "24.10.",
-     "So",
-     "8:30",
      "ŠK VICTORY STARS Dubnica nad Váhom",
+     "4:5",
+     "V",
      "MŠH Dubnica nad Váhom",
      0,
      "2026-10-24"
-    ],
+    ]
+   ],
+   "next": [
     [
      "24.10.",
      "So",
@@ -788,6 +788,15 @@
      "MŠH Trenčín - tréningová hala",
      1,
      "2026-11-07"
+    ],
+    [
+     "28.11.",
+     "So",
+     "10:00",
+     "ŠK VICTORY STARS Dubnica nad Váhom",
+     "MŠH Trenčín - tréningová hala",
+     0,
+     "2026-11-28"
     ]
    ],
    "table": [
@@ -828,7 +837,7 @@
     ]
    ],
    "place": "2.",
-   "score": "19:3",
+   "score": "24:7",
    "pts": 6,
    "zones": false
   },
