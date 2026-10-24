@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T07:35:45.770Z",
+ "updated": "2026-10-24T09:30:43.301Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -379,18 +379,18 @@
      "ARENA OSTROV",
      1,
      "2026-10-10"
-    ]
-   ],
-   "next": [
+    ],
     [
      "24.10.",
-     "So",
-     "10:30",
      "ŠK VICTORY STARS Dubnica nad Váhom",
+     "6:5",
+     "V",
      "Gymnázium Janka Kráľa Zlaté Moravce",
      1,
      "2026-10-24"
-    ],
+    ]
+   ],
+   "next": [
     [
      "24.10.",
      "So",
@@ -417,14 +417,23 @@
      "Športová hala Senica",
      1,
      "2026-11-07"
+    ],
+    [
+     "21.11.",
+     "So",
+     "0:00",
+     "ŠK Slávia SPU DFA Nitra",
+     "t.b.a.",
+     0,
+     "2026-11-21"
     ]
    ],
    "table": [
     [
      "FBC Levice",
-     4,
-     "39:14",
-     12,
+     5,
+     "58:18",
+     15,
      0
     ],
     [
@@ -447,6 +456,13 @@
      "43:24",
      6,
      1
+    ],
+    [
+     "Wildhogs Horné Sŕnie",
+     5,
+     "32:24",
+     6,
+     0
     ],
     [
      "ŠK Slávia SPU DFA Nitra",
@@ -477,13 +493,6 @@
      0
     ],
     [
-     "Wildhogs Horné Sŕnie",
-     4,
-     "28:22",
-     3,
-     0
-    ],
-    [
      "FBK AS Trenčín - Páv",
      4,
      "16:34",
@@ -492,21 +501,21 @@
     ],
     [
      "DA.DO.SA Dragons Hlohovec",
-     4,
-     "15:44",
+     5,
+     "17:48",
      3,
      0
     ],
     [
      "Paradise Zlaté Moravce",
-     4,
-     "14:45",
+     5,
+     "18:64",
      0,
      0
     ]
    ],
    "place": "4.",
-   "score": "43:24",
+   "score": "49:29",
    "pts": 6,
    "zones": false
   },
@@ -759,18 +768,18 @@
      "MŠH Dubnica nad Váhom",
      0,
      "2026-10-24"
-    ]
-   ],
-   "next": [
+    ],
     [
      "24.10.",
-     "So",
-     "10:30",
      "1. FBC Trenčín akadémia Tigri",
+     "0:0",
+     "P",
      "MŠH Dubnica nad Váhom",
      1,
      "2026-10-24"
-    ],
+    ]
+   ],
+   "next": [
     [
      "7.11.",
      "So",
@@ -797,22 +806,38 @@
      "MŠH Trenčín - tréningová hala",
      0,
      "2026-11-28"
+    ],
+    [
+     "28.11.",
+     "So",
+     "13:00",
+     "1. FBC Trenčín akadémia Levi",
+     "MŠH Trenčín - tréningová hala",
+     1,
+     "2026-11-28"
     ]
    ],
    "table": [
     [
+     "FBK AS Trenčín",
+     3,
+     "24:7",
+     9,
+     1
+    ],
+    [
      "ŠK VICTORY STARS Dubnica nad Váhom",
-     2,
-     "22:3",
+     3,
+     "26:8",
      6,
      0
     ],
     [
-     "FBK AS Trenčín",
-     2,
-     "19:3",
-     6,
-     1
+     "1. FBC Trenčín akadémia Levi",
+     3,
+     "19:14",
+     3,
+     0
     ],
     [
      "1. FBC Trenčín akadémia Tigri",
@@ -822,23 +847,16 @@
      0
     ],
     [
-     "1. FBC Trenčín akadémia Levi",
-     2,
-     "4:9",
-     0,
-     0
-    ],
-    [
      "FBK Púchov",
-     2,
-     "3:34",
+     3,
+     "8:49",
      0,
      0
     ]
    ],
-   "place": "2.",
+   "place": "1.",
    "score": "24:7",
-   "pts": 6,
+   "pts": 9,
    "zones": false
   },
   "pripravka": {
