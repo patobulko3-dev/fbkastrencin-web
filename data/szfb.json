@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T11:30:14.724Z",
+ "updated": "2026-10-24T13:32:28.639Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -382,6 +382,15 @@
     ],
     [
      "24.10.",
+     "FBK Harvard Partizánske",
+     "4:0",
+     "P",
+     "Gymnázium Janka Kráľa Zlaté Moravce",
+     0,
+     "2026-10-24"
+    ],
+    [
+     "24.10.",
      "ŠK VICTORY STARS Dubnica nad Váhom",
      "8:7",
      "V",
@@ -391,15 +400,6 @@
     ]
    ],
    "next": [
-    [
-     "24.10.",
-     "So",
-     "15:00",
-     "FBK Harvard Partizánske",
-     "Gymnázium Janka Kráľa Zlaté Moravce",
-     0,
-     "2026-10-24"
-    ],
     [
      "7.11.",
      "So",
@@ -423,6 +423,15 @@
      "So",
      "0:00",
      "ŠK Slávia SPU DFA Nitra",
+     "t.b.a.",
+     0,
+     "2026-11-21"
+    ],
+    [
+     "21.11.",
+     "So",
+     "0:00",
+     "DA.DO.SA Dragons Hlohovec",
      "t.b.a.",
      0,
      "2026-11-21"
@@ -458,17 +467,17 @@
      1
     ],
     [
-     "Wildhogs Horné Sŕnie",
-     5,
-     "32:24",
+     "ŠK Slávia SPU DFA Nitra",
      6,
+     "45:36",
+     9,
      0
     ],
     [
-     "ŠK Slávia SPU DFA Nitra",
-     4,
-     "31:25",
+     "Wildhogs Horné Sŕnie",
      6,
+     "39:30",
+     9,
      0
     ],
     [
@@ -501,8 +510,8 @@
     ],
     [
      "DA.DO.SA Dragons Hlohovec",
-     5,
-     "17:48",
+     6,
+     "21:56",
      3,
      0
     ],
@@ -515,7 +524,7 @@
     ]
    ],
    "place": "4.",
-   "score": "51:31",
+   "score": "51:35",
    "pts": 9,
    "zones": false
   },
@@ -833,6 +842,13 @@
      0
     ],
     [
+     "1. FBC Trenčín akadémia Tigri",
+     4,
+     "26:13",
+     6,
+     0
+    ],
+    [
      "1. FBC Trenčín akadémia Levi",
      4,
      "24:17",
@@ -840,16 +856,9 @@
      0
     ],
     [
-     "1. FBC Trenčín akadémia Tigri",
-     3,
-     "11:11",
-     3,
-     0
-    ],
-    [
      "FBK Púchov",
-     3,
-     "8:49",
+     4,
+     "10:64",
      0,
      0
     ]
