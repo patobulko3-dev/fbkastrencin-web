@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T13:32:28.639Z",
+ "updated": "2026-10-24T15:29:27.080Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -131,6 +131,13 @@
      0
     ],
     [
+     "FK Florko Košice",
+     7,
+     "39:38",
+     11,
+     0
+    ],
+    [
      "ŠK LIDO Prírodovedec Ružinov",
      6,
      "40:39",
@@ -138,9 +145,16 @@
      0
     ],
     [
+     "FBC Predator Sabinov",
+     7,
+     "37:39",
+     10,
+     0
+    ],
+    [
      "FaBK ATU Košice",
-     6,
-     "39:38",
+     7,
+     "43:46",
      10,
      0
     ],
@@ -152,23 +166,9 @@
      0
     ],
     [
-     "FK Florko Košice",
-     6,
-     "31:34",
-     8,
-     0
-    ],
-    [
      "Tsunami Záhorská Bystrica",
      6,
      "25:29",
-     7,
-     0
-    ],
-    [
-     "FBC Predator Sabinov",
-     6,
-     "30:36",
      7,
      0
     ],
@@ -181,8 +181,8 @@
     ],
     [
      "DTF team Detva Joxers",
-     6,
-     "24:59",
+     7,
+     "27:66",
      1,
      0
     ]
@@ -383,7 +383,7 @@
     [
      "24.10.",
      "FBK Harvard Partizánske",
-     "4:0",
+     "12:2",
      "P",
      "Gymnázium Janka Kráľa Zlaté Moravce",
      0,
@@ -524,7 +524,7 @@
     ]
    ],
    "place": "4.",
-   "score": "51:35",
+   "score": "53:43",
    "pts": 9,
    "zones": false
   },
@@ -601,9 +601,9 @@
     ],
     [
      "1. FBC Trenčín akadémia",
-     1,
-     "11:9",
-     3,
+     2,
+     "18:14",
+     6,
      0
     ],
     [
@@ -615,8 +615,8 @@
     ],
     [
      "ŠK Slávia SPU DFA Nitra",
-     2,
-     "14:19",
+     3,
+     "19:26",
      3,
      0
     ],
