@@ -90,7 +90,7 @@ export async function scrapeAll(cfg, get, old) {
   const DAY = 864e5;
   for (const [key, date] of detailJobs) {
     const prev = old?.matches?.[key];
-    if (prev && Date.now() - new Date(date + 'T12:00:00Z') > 5 * DAY) { out.matches[key] = prev; continue; }
+    if (prev && prev.v === 2 && Date.now() - new Date(date + 'T12:00:00Z') > 5 * DAY) { out.matches[key] = prev; continue; }
     try {
       const [comp, id] = key.split('/');
       out.matches[key] = parseMatch(await get(`/sk/stats/matches/${comp}/x/match/${id}/Overview`));

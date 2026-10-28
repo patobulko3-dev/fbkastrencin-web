@@ -1,797 +1,942 @@
 {
-  "teams": [
+ "teams": [
+  {
+   "id": "muzi",
+   "name": "Muži",
+   "league": "Florbalová extraliga",
+   "players": [
     {
-      "id": "muzi",
-      "name": "Muži",
-      "league": "Florbalová extraliga",
-      "players": [
-        {
-          "no": "",
-          "name": "Marek Paulen",
-          "pos": "B",
-          "yr": 1999,
-          "photo": "",
-          "born": "11.6.1999"
-        },
-        {
-          "no": "17",
-          "name": "Denis Šlosár",
-          "pos": "B",
-          "yr": 2006,
-          "photo": "img/p26/denis-slosar.jpg",
-          "born": "8.12.2006"
-        },
-        {
-          "no": "33",
-          "name": "Tomáš Eštok",
-          "pos": "B",
-          "yr": 2006,
-          "photo": "img/p26/tomas-estok.jpg",
-          "born": "16.3.2006"
-        },
-        {
-          "no": "82",
-          "name": "Adam Líška",
-          "pos": "B",
-          "yr": 2006,
-          "photo": "img/p26/adam-liska.jpg",
-          "show_without_games": true,
-          "born": "22.1.2006"
-        },
-        {
-          "no": "8",
-          "name": "Samuel Dávidek",
-          "pos": "O",
-          "yr": 1998,
-          "photo": "img/p26/samuel-davidek.jpg",
-          "captain": true,
-          "born": "24.4.1998"
-        },
-        {
-          "no": "13",
-          "name": "Miroslav Slávik",
-          "pos": "O",
-          "yr": 2008,
-          "photo": "img/p26/miroslav-slavik.jpg",
-          "born": "13.7.2008"
-        },
-        {
-          "no": "15",
-          "name": "František Jaššo",
-          "pos": "O",
-          "yr": 2006,
-          "photo": "img/p26/frantisek-jasso.jpg",
-          "born": "20.7.2006"
-        },
-        {
-          "no": "19",
-          "name": "Patrik Zverbik",
-          "pos": "O",
-          "yr": 2004,
-          "photo": "img/p26/patrik-zverbik.jpg",
-          "born": "5.11.2004"
-        },
-        {
-          "no": "29",
-          "name": "Jonáš Bagín",
-          "pos": "O",
-          "yr": 2007,
-          "photo": "img/p26/jonas-bagin.jpg",
-          "born": "18.3.2007"
-        },
-        {
-          "no": "30",
-          "name": "Michal Fusi",
-          "pos": "O",
-          "yr": 2009,
-          "photo": "img/p26/michal-fusi.jpg",
-          "born": "18.6.2009"
-        },
-        {
-          "no": "49",
-          "name": "Michal Daranský",
-          "pos": "O",
-          "yr": 2009,
-          "photo": "img/p26/michal-daransky.jpg",
-          "born": "23.6.2009"
-        },
-        {
-          "no": "76",
-          "name": "Samuel Bagin",
-          "pos": "O",
-          "yr": 2003,
-          "photo": "img/p26/samuel-bagin.jpg",
-          "born": "28.6.2003"
-        },
-        {
-          "no": "81",
-          "name": "Jerguš Surma",
-          "pos": "O",
-          "yr": 2007,
-          "photo": "img/p26/jergus-surma.jpg",
-          "born": "21.6.2007"
-        },
-        {
-          "no": "3",
-          "name": "Marek Meliš",
-          "pos": "Ú",
-          "yr": 2008,
-          "photo": "img/p26/marek-melis.jpg",
-          "born": "14.6.2008"
-        },
-        {
-          "no": "14",
-          "name": "Nicolas Pasqualon",
-          "pos": "Ú",
-          "yr": 2008,
-          "photo": "",
-          "born": "20.3.2008"
-        },
-        {
-          "no": "20",
-          "name": "Adam Krecháč",
-          "pos": "Ú",
-          "yr": 2006,
-          "photo": "img/p26/adam-krechac.jpg",
-          "born": "20.9.2006"
-        },
-        {
-          "no": "21",
-          "name": "Juraj Matejka",
-          "pos": "Ú",
-          "yr": 1983,
-          "photo": "img/p26/juraj-matejka.jpg",
-          "born": "4.1.1983"
-        },
-        {
-          "no": "23",
-          "name": "Šimon Oravec",
-          "pos": "Ú",
-          "yr": 2007,
-          "photo": "img/p26/simon-oravec.jpg",
-          "born": "5.11.2007"
-        },
-        {
-          "no": "25",
-          "name": "Šimon Ondrášik",
-          "pos": "Ú",
-          "yr": 2007,
-          "photo": "img/p26/simon-ondrasik.jpg",
-          "born": "27.7.2007"
-        },
-        {
-          "no": "26",
-          "name": "Peter Bednár",
-          "pos": "Ú",
-          "yr": 2004,
-          "photo": "img/p26/peter-bednar.jpg",
-          "born": "6.4.2004"
-        },
-        {
-          "no": "27",
-          "name": "Timotej Kollár",
-          "pos": "Ú",
-          "yr": 2006,
-          "photo": "img/p26/timotej-kollar.jpg",
-          "born": "11.9.2006"
-        },
-        {
-          "no": "77",
-          "name": "Matúš Malík",
-          "pos": "Ú",
-          "yr": 2006,
-          "photo": "img/p26/matus-malik.jpg",
-          "born": "6.8.2006"
-        },
-        {
-          "no": "87",
-          "name": "Erik Vojtek",
-          "pos": "Ú",
-          "yr": 2004,
-          "photo": "img/p26/erik-vojtek.jpg",
-          "born": "20.7.2004"
-        },
-        {
-          "no": "97",
-          "name": "Gabriel Královič",
-          "pos": "Ú",
-          "yr": 2004,
-          "photo": "img/p26/gabriel-kralovic.jpg",
-          "born": "6.2.2004"
-        },
-        {
-          "no": "",
-          "name": "Lukáš Kráľ",
-          "pos": "Ú",
-          "yr": 1998,
-          "photo": "",
-          "born": "9.11.1998"
-        },
-        {
-          "no": "",
-          "name": "Marek Oriešek",
-          "pos": "Ú",
-          "yr": 2005,
-          "photo": "img/p26/marek-oriesek.jpg",
-          "show_without_games": true,
-          "born": "5.2.2005"
-        },
-        {
-          "no": "34",
-          "name": "Filip Vrana",
-          "pos": "Ú",
-          "yr": 2007,
-          "photo": "img/p26/filip-vrana.jpg",
-          "show_without_games": true,
-          "born": "12.9.2007"
-        }
-      ],
-      "hide_without_games": true
+     "no": "",
+     "name": "Marek Paulen",
+     "pos": "B",
+     "yr": 1999,
+     "photo": "",
+     "born": "11.6.1999"
     },
     {
-      "id": "juniori",
-      "name": "Juniori",
-      "league": "Extraliga juniorov",
-      "players": [
-        {
-          "no": "1",
-          "name": "Damián Hudec",
-          "pos": "B",
-          "yr": 2010,
-          "photo": "img/p26/damian-hudec.jpg",
-          "born": "6.6.2010"
-        },
-        {
-          "no": "29",
-          "name": "Richard Ondriš",
-          "pos": "B",
-          "yr": 2010,
-          "photo": "",
-          "born": "4.9.2010"
-        },
-        {
-          "no": "2",
-          "name": "Alex Kotleba",
-          "pos": "O",
-          "yr": 2010,
-          "photo": "img/p26/alex-kotleba.jpg",
-          "born": "2.2.2010"
-        },
-        {
-          "no": "30",
-          "name": "Michal Fusi",
-          "pos": "O",
-          "yr": 2009,
-          "photo": "img/p26/michal-fusi.jpg",
-          "born": "18.6.2009"
-        },
-        {
-          "no": "37",
-          "name": "Marco Olekšák",
-          "pos": "O",
-          "yr": 2008,
-          "photo": "",
-          "born": "29.3.2008"
-        },
-        {
-          "no": "40",
-          "name": "Andrej Koprda",
-          "pos": "O",
-          "yr": 2010,
-          "photo": "",
-          "born": "4.11.2010"
-        },
-        {
-          "no": "49",
-          "name": "Michal Daranský",
-          "pos": "O",
-          "yr": 2009,
-          "photo": "img/p26/michal-daransky.jpg",
-          "born": "23.6.2009"
-        },
-        {
-          "no": "56",
-          "name": "Pavol Matejovič",
-          "pos": "O",
-          "yr": 2010,
-          "photo": "",
-          "born": "28.1.2010"
-        },
-        {
-          "no": "70",
-          "name": "Tomáš Oravec",
-          "pos": "O",
-          "yr": 2010,
-          "photo": "img/p26/tomas-oravec.jpg",
-          "born": "11.9.2010"
-        },
-        {
-          "no": "87",
-          "name": "Miroslav Slávik",
-          "pos": "O",
-          "yr": 2008,
-          "photo": "img/p26/miroslav-slavik.jpg",
-          "born": "13.7.2008"
-        },
-        {
-          "no": "96",
-          "name": "Luboš Vyskoč",
-          "pos": "O",
-          "yr": 2010,
-          "photo": "",
-          "born": "13.2.2010"
-        },
-        {
-          "no": "8",
-          "name": "Oliver Klčo",
-          "pos": "Ú",
-          "yr": 2009,
-          "photo": "img/p26/oliver-klco.jpg",
-          "born": "16.6.2009"
-        },
-        {
-          "no": "9",
-          "name": "Tomáš Kordoš",
-          "pos": "Ú",
-          "yr": 2009,
-          "photo": "img/p26/tomas-kordos.jpg",
-          "born": "6.8.2009"
-        },
-        {
-          "no": "12",
-          "name": "Daniel Beňovič",
-          "pos": "Ú",
-          "yr": 2011,
-          "photo": "img/p26/daniel-benovic.jpg",
-          "born": "13.8.2011"
-        },
-        {
-          "no": "19",
-          "name": "Samuel Bielik",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "img/p26/samuel-bielik.jpg",
-          "born": "16.6.2010"
-        },
-        {
-          "no": "25",
-          "name": "Jakub Reis",
-          "pos": "Ú",
-          "yr": 2009,
-          "photo": "img/p26/jakub-reis.jpg",
-          "born": "30.11.2009"
-        },
-        {
-          "no": "33",
-          "name": "Alex Oravec",
-          "pos": "Ú",
-          "yr": 2011,
-          "photo": "img/p26/alex-oravec.jpg",
-          "born": "3.1.2011"
-        },
-        {
-          "no": "47",
-          "name": "Nicolas Pasqualon",
-          "pos": "Ú",
-          "yr": 2008,
-          "photo": "",
-          "born": "20.3.2008"
-        },
-        {
-          "no": "50",
-          "name": "Matej Zverbík",
-          "pos": "Ú",
-          "yr": 2009,
-          "photo": "img/p26/matej-zverbik.jpg",
-          "born": "11.12.2009"
-        },
-        {
-          "no": "61",
-          "name": "Alex Trtík",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "img/p26/alex-trtik.jpg",
-          "born": "24.7.2010"
-        },
-        {
-          "no": "75",
-          "name": "Tadeáš Spišák",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "img/p26/tadeas-spisak.jpg",
-          "born": "17.8.2010"
-        },
-        {
-          "no": "86",
-          "name": "Jakub Minárik",
-          "pos": "Ú",
-          "yr": 2011,
-          "photo": "img/p26/jakub-minarik.jpg",
-          "born": "16.12.2011"
-        },
-        {
-          "no": "89",
-          "name": "Tomáš Huňa",
-          "pos": "Ú",
-          "yr": 2008,
-          "photo": "",
-          "born": "17.6.2008"
-        },
-        {
-          "no": "",
-          "name": "Šimon Hošták",
-          "pos": "Ú",
-          "yr": 2009,
-          "photo": "img/p26/simon-hostak.jpg",
-          "born": "27.10.2009"
-        },
-        {
-          "no": "",
-          "name": "Samuel Kriško",
-          "pos": "Ú",
-          "yr": 2008,
-          "photo": "",
-          "born": "28.3.2008"
-        },
-        {
-          "no": "",
-          "name": "Marek Meliš",
-          "pos": "Ú",
-          "yr": 2008,
-          "photo": "img/p26/marek-melis.jpg",
-          "born": "14.6.2008"
-        }
-      ]
+     "no": "17",
+     "name": "Denis Šlosár",
+     "pos": "B",
+     "yr": 2006,
+     "photo": "img/p26/denis-slosar.jpg",
+     "born": "8.12.2006"
     },
     {
-      "id": "dorast",
-      "name": "Dorastenci",
-      "league": "Liga dorastencov Západ",
-      "players": [
-        {
-          "no": "1",
-          "name": "Richard Ondriš",
-          "pos": "B",
-          "yr": 2010,
-          "photo": "",
-          "born": "4.9.2010"
-        },
-        {
-          "no": "54",
-          "name": "Dominik Slušný",
-          "pos": "B",
-          "yr": 2011,
-          "photo": "img/p26/dominik-slusny.jpg",
-          "born": "11.7.2011"
-        },
-        {
-          "no": "29",
-          "name": "Martin Fusi",
-          "pos": "O",
-          "yr": 2011,
-          "photo": "img/p26/martin-fusi.jpg",
-          "born": "26.12.2011"
-        },
-        {
-          "no": "37",
-          "name": "Daniel Gabriel",
-          "pos": "O",
-          "yr": 2011,
-          "photo": "img/p26/daniel-gabriel.jpg",
-          "born": "3.7.2011"
-        },
-        {
-          "no": "40",
-          "name": "Andrej Koprda",
-          "pos": "O",
-          "yr": 2010,
-          "photo": "",
-          "born": "4.11.2010"
-        },
-        {
-          "no": "67",
-          "name": "Tomáš Pirhala",
-          "pos": "O",
-          "yr": 2010,
-          "photo": "",
-          "born": "6.12.2010"
-        },
-        {
-          "no": "70",
-          "name": "Tomáš Oravec",
-          "pos": "O",
-          "yr": 2010,
-          "photo": "img/p26/tomas-oravec.jpg",
-          "born": "11.9.2010"
-        },
-        {
-          "no": "96",
-          "name": "Luboš Vyskoč",
-          "pos": "O",
-          "yr": 2010,
-          "photo": "",
-          "born": "13.2.2010"
-        },
-        {
-          "no": "99",
-          "name": "Šimon Pješčák",
-          "pos": "O",
-          "yr": 2011,
-          "photo": "img/p26/simon-pjescak.jpg",
-          "born": "25.12.2011"
-        },
-        {
-          "no": "2",
-          "name": "Alex Kotleba",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "img/p26/alex-kotleba.jpg",
-          "born": "2.2.2010"
-        },
-        {
-          "no": "11",
-          "name": "Adam Čibenka",
-          "pos": "Ú",
-          "yr": 2011,
-          "photo": "img/p26/adam-cibenka.jpg",
-          "born": "30.6.2011"
-        },
-        {
-          "no": "12",
-          "name": "Daniel Beňovič",
-          "pos": "Ú",
-          "yr": 2011,
-          "photo": "img/p26/daniel-benovic.jpg",
-          "born": "13.8.2011"
-        },
-        {
-          "no": "19",
-          "name": "Samuel Bielik",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "img/p26/samuel-bielik.jpg",
-          "born": "16.6.2010"
-        },
-        {
-          "no": "33",
-          "name": "Alex Oravec",
-          "pos": "Ú",
-          "yr": 2011,
-          "photo": "img/p26/alex-oravec.jpg",
-          "born": "3.1.2011"
-        },
-        {
-          "no": "42",
-          "name": "Leonard Tatík",
-          "pos": "Ú",
-          "yr": 2011,
-          "photo": "img/p26/leonard-tatik.jpg",
-          "born": "10.3.2011"
-        },
-        {
-          "no": "61",
-          "name": "Alex Trtík",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "img/p26/alex-trtik.jpg",
-          "born": "24.7.2010"
-        },
-        {
-          "no": "75",
-          "name": "Tadeáš Spišák",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "img/p26/tadeas-spisak.jpg",
-          "born": "17.8.2010"
-        },
-        {
-          "no": "81",
-          "name": "Denis Gaži",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "img/p26/denis-gazi.jpg",
-          "born": "9.7.2010"
-        },
-        {
-          "no": "86",
-          "name": "Jakub Minárik",
-          "pos": "Ú",
-          "yr": 2011,
-          "photo": "img/p26/jakub-minarik.jpg",
-          "born": "16.12.2011"
-        },
-        {
-          "no": "94",
-          "name": "Branislav Kaššák",
-          "pos": "Ú",
-          "yr": 2011,
-          "photo": "",
-          "born": "8.8.2011"
-        },
-        {
-          "no": "",
-          "name": "Damián Hudec",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "img/p26/damian-hudec.jpg",
-          "born": "6.6.2010"
-        },
-        {
-          "no": "",
-          "name": "Pavol Matejovič",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "",
-          "born": "28.1.2010"
-        },
-        {
-          "no": "",
-          "name": "Šimon Vetrík",
-          "pos": "Ú",
-          "yr": 2010,
-          "photo": "",
-          "born": "20.6.2010"
-        }
-      ]
+     "no": "33",
+     "name": "Tomáš Eštok",
+     "pos": "B",
+     "yr": 2006,
+     "photo": "img/p26/tomas-estok.jpg",
+     "born": "16.3.2006"
     },
     {
-      "id": "sz",
-      "name": "Starší žiaci",
-      "league": "Liga starších žiakov Západ",
-      "players": [
-        {
-          "no": "92",
-          "name": "Alex Benda",
-          "pos": "O",
-          "yr": 2012,
-          "photo": "img/p26/alex-benda.jpg",
-          "born": "10.7.2012"
-        },
-        {
-          "no": "19",
-          "name": "Nikolas Beňo",
-          "pos": "Ú",
-          "yr": 2012,
-          "photo": "img/p26/nikolas-beno.jpg",
-          "born": "8.10.2012"
-        },
-        {
-          "no": "98",
-          "name": "Damian Ďuriška",
-          "pos": "O",
-          "yr": 2013,
-          "photo": "img/p26/damian-duriska.jpg",
-          "born": "9.8.2013"
-        },
-        {
-          "no": "8",
-          "name": "Lukáš Dzurňák",
-          "pos": "O",
-          "yr": 2013,
-          "photo": "img/p26/lukas-dzurnak.jpg",
-          "born": "11.11.2013"
-        },
-        {
-          "no": "16",
-          "name": "Kristián Ferletják",
-          "pos": "Ú",
-          "yr": 2012,
-          "photo": "img/p26/kristian-ferletjak.jpg",
-          "born": "16.8.2012"
-        },
-        {
-          "no": "30",
-          "name": "Tomáš Krajčovič",
-          "pos": "Ú",
-          "yr": 2013,
-          "photo": "img/p26/tomas-krajcovic.jpg",
-          "born": "11.12.2013"
-        },
-        {
-          "no": "21",
-          "name": "Marek Martiška",
-          "pos": "Ú",
-          "yr": 2013,
-          "photo": "img/p26/marek-martiska.jpg",
-          "born": "6.3.2013"
-        },
-        {
-          "no": "40",
-          "name": "Daniel Michalík",
-          "pos": "Ú",
-          "yr": 2013,
-          "photo": "",
-          "born": "9.6.2013"
-        },
-        {
-          "no": "88",
-          "name": "Adrián Milo",
-          "pos": "O",
-          "yr": 2013,
-          "photo": "img/p26/adrian-milo.jpg",
-          "born": "11.4.2013"
-        },
-        {
-          "no": "28",
-          "name": "Jakub Mišák Janovič",
-          "pos": "B",
-          "yr": 2013,
-          "photo": "img/p26/jakub-misak-janovic.jpg",
-          "born": "24.8.2013"
-        },
-        {
-          "no": "31",
-          "name": "Simon Moško",
-          "pos": "O",
-          "yr": 2012,
-          "photo": "img/p26/simon-mosko.jpg",
-          "born": "3.1.2012"
-        },
-        {
-          "no": "13",
-          "name": "Martin Oravec",
-          "pos": "O",
-          "yr": 2013,
-          "photo": "img/p26/martin-oravec.jpg",
-          "born": "29.4.2013"
-        },
-        {
-          "no": "20",
-          "name": "Jakub Peřina",
-          "pos": "Ú",
-          "yr": 2013,
-          "photo": "img/p26/jakub-perina.jpg",
-          "born": "23.8.2013"
-        },
-        {
-          "no": "51",
-          "name": "Samuel Sedláček",
-          "pos": "Ú",
-          "yr": 2013,
-          "photo": "img/p26/samuel-sedlacek.jpg",
-          "born": "5.9.2013"
-        },
-        {
-          "no": "47",
-          "name": "Teo Spišák",
-          "pos": "Ú",
-          "yr": 2013,
-          "photo": "img/p26/teo-spisak.jpg",
-          "born": "7.4.2013"
-        },
-        {
-          "no": "81",
-          "name": "Matúš Sýkorčin",
-          "pos": "B",
-          "yr": 2013,
-          "photo": "img/p26/matus-sykorcin.jpg",
-          "born": "14.2.2013"
-        },
-        {
-          "no": "17",
-          "name": "Oliver Ukuš",
-          "pos": "B",
-          "yr": 2012,
-          "photo": "img/p26/oliver-ukus.jpg",
-          "born": "22.4.2012"
-        },
-        {
-          "no": "27",
-          "name": "Filip Vargha",
-          "pos": "Ú",
-          "yr": 2012,
-          "photo": "img/p26/filip-vargha.jpg",
-          "born": "22.10.2012"
-        },
-        {
-          "no": "91",
-          "name": "Boris Zverbík",
-          "pos": "Ú",
-          "yr": 2013,
-          "photo": "img/p26/boris-zverbik.jpg",
-          "born": "17.8.2013"
-        }
-      ]
+     "no": "82",
+     "name": "Adam Líška",
+     "pos": "B",
+     "yr": 2006,
+     "photo": "img/p26/adam-liska.jpg",
+     "show_without_games": true,
+     "born": "22.1.2006"
+    },
+    {
+     "no": "8",
+     "name": "Samuel Dávidek",
+     "pos": "O",
+     "yr": 1998,
+     "photo": "img/p26/samuel-davidek.jpg",
+     "captain": true,
+     "born": "24.4.1998"
+    },
+    {
+     "no": "13",
+     "name": "Miroslav Slávik",
+     "pos": "O",
+     "yr": 2008,
+     "photo": "img/p26/miroslav-slavik.jpg",
+     "born": "13.7.2008"
+    },
+    {
+     "no": "15",
+     "name": "František Jaššo",
+     "pos": "O",
+     "yr": 2006,
+     "photo": "img/p26/frantisek-jasso.jpg",
+     "born": "20.7.2006"
+    },
+    {
+     "no": "19",
+     "name": "Patrik Zverbik",
+     "pos": "O",
+     "yr": 2004,
+     "photo": "img/p26/patrik-zverbik.jpg",
+     "born": "5.11.2004"
+    },
+    {
+     "no": "29",
+     "name": "Jonáš Bagín",
+     "pos": "O",
+     "yr": 2007,
+     "photo": "img/p26/jonas-bagin.jpg",
+     "born": "18.3.2007"
+    },
+    {
+     "no": "30",
+     "name": "Michal Fusi",
+     "pos": "O",
+     "yr": 2009,
+     "photo": "img/p26/michal-fusi.jpg",
+     "born": "18.6.2009"
+    },
+    {
+     "no": "49",
+     "name": "Michal Daranský",
+     "pos": "O",
+     "yr": 2009,
+     "photo": "img/p26/michal-daransky.jpg",
+     "born": "23.6.2009"
+    },
+    {
+     "no": "76",
+     "name": "Samuel Bagin",
+     "pos": "O",
+     "yr": 2003,
+     "photo": "img/p26/samuel-bagin.jpg",
+     "born": "28.6.2003"
+    },
+    {
+     "no": "81",
+     "name": "Jerguš Surma",
+     "pos": "O",
+     "yr": 2007,
+     "photo": "img/p26/jergus-surma.jpg",
+     "born": "21.6.2007"
+    },
+    {
+     "no": "3",
+     "name": "Marek Meliš",
+     "pos": "Ú",
+     "yr": 2008,
+     "photo": "img/p26/marek-melis.jpg",
+     "born": "14.6.2008"
+    },
+    {
+     "no": "14",
+     "name": "Nicolas Pasqualon",
+     "pos": "Ú",
+     "yr": 2008,
+     "photo": "",
+     "born": "20.3.2008"
+    },
+    {
+     "no": "20",
+     "name": "Adam Krecháč",
+     "pos": "Ú",
+     "yr": 2006,
+     "photo": "img/p26/adam-krechac.jpg",
+     "born": "20.9.2006"
+    },
+    {
+     "no": "21",
+     "name": "Juraj Matejka",
+     "pos": "Ú",
+     "yr": 1983,
+     "photo": "img/p26/juraj-matejka.jpg",
+     "born": "4.1.1983"
+    },
+    {
+     "no": "23",
+     "name": "Šimon Oravec",
+     "pos": "Ú",
+     "yr": 2007,
+     "photo": "img/p26/simon-oravec.jpg",
+     "born": "5.11.2007"
+    },
+    {
+     "no": "25",
+     "name": "Šimon Ondrášik",
+     "pos": "Ú",
+     "yr": 2007,
+     "photo": "img/p26/simon-ondrasik.jpg",
+     "born": "27.7.2007"
+    },
+    {
+     "no": "26",
+     "name": "Peter Bednár",
+     "pos": "Ú",
+     "yr": 2004,
+     "photo": "img/p26/peter-bednar.jpg",
+     "born": "6.4.2004"
+    },
+    {
+     "no": "27",
+     "name": "Timotej Kollár",
+     "pos": "Ú",
+     "yr": 2006,
+     "photo": "img/p26/timotej-kollar.jpg",
+     "born": "11.9.2006"
+    },
+    {
+     "no": "77",
+     "name": "Matúš Malík",
+     "pos": "Ú",
+     "yr": 2006,
+     "photo": "img/p26/matus-malik.jpg",
+     "born": "6.8.2006"
+    },
+    {
+     "no": "87",
+     "name": "Erik Vojtek",
+     "pos": "Ú",
+     "yr": 2004,
+     "photo": "img/p26/erik-vojtek.jpg",
+     "born": "20.7.2004"
+    },
+    {
+     "no": "97",
+     "name": "Gabriel Královič",
+     "pos": "Ú",
+     "yr": 2004,
+     "photo": "img/p26/gabriel-kralovic.jpg",
+     "born": "6.2.2004"
+    },
+    {
+     "no": "",
+     "name": "Lukáš Kráľ",
+     "pos": "Ú",
+     "yr": 1998,
+     "photo": "",
+     "born": "9.11.1998"
+    },
+    {
+     "no": "",
+     "name": "Marek Oriešek",
+     "pos": "Ú",
+     "yr": 2005,
+     "photo": "img/p26/marek-oriesek.jpg",
+     "show_without_games": true,
+     "born": "5.2.2005"
+    },
+    {
+     "no": "34",
+     "name": "Filip Vrana",
+     "pos": "Ú",
+     "yr": 2007,
+     "photo": "img/p26/filip-vrana.jpg",
+     "show_without_games": true,
+     "born": "12.9.2007"
     }
-  ]
+   ],
+   "hide_without_games": true
+  },
+  {
+   "id": "juniori",
+   "name": "Juniori",
+   "league": "Extraliga juniorov",
+   "players": [
+    {
+     "no": "1",
+     "name": "Damián Hudec",
+     "pos": "B",
+     "yr": 2010,
+     "photo": "img/p26/damian-hudec.jpg",
+     "born": "6.6.2010"
+    },
+    {
+     "no": "29",
+     "name": "Richard Ondriš",
+     "pos": "B",
+     "yr": 2010,
+     "photo": "",
+     "born": "4.9.2010"
+    },
+    {
+     "no": "2",
+     "name": "Alex Kotleba",
+     "pos": "O",
+     "yr": 2010,
+     "photo": "img/p26/alex-kotleba.jpg",
+     "born": "2.2.2010"
+    },
+    {
+     "no": "30",
+     "name": "Michal Fusi",
+     "pos": "O",
+     "yr": 2009,
+     "photo": "img/p26/michal-fusi.jpg",
+     "born": "18.6.2009"
+    },
+    {
+     "no": "37",
+     "name": "Marco Olekšák",
+     "pos": "O",
+     "yr": 2008,
+     "photo": "",
+     "born": "29.3.2008"
+    },
+    {
+     "no": "40",
+     "name": "Andrej Koprda",
+     "pos": "O",
+     "yr": 2010,
+     "photo": "",
+     "born": "4.11.2010"
+    },
+    {
+     "no": "49",
+     "name": "Michal Daranský",
+     "pos": "O",
+     "yr": 2009,
+     "photo": "img/p26/michal-daransky.jpg",
+     "born": "23.6.2009"
+    },
+    {
+     "no": "56",
+     "name": "Pavol Matejovič",
+     "pos": "O",
+     "yr": 2010,
+     "photo": "",
+     "born": "28.1.2010"
+    },
+    {
+     "no": "70",
+     "name": "Tomáš Oravec",
+     "pos": "O",
+     "yr": 2010,
+     "photo": "img/p26/tomas-oravec.jpg",
+     "born": "11.9.2010"
+    },
+    {
+     "no": "87",
+     "name": "Miroslav Slávik",
+     "pos": "O",
+     "yr": 2008,
+     "photo": "img/p26/miroslav-slavik.jpg",
+     "born": "13.7.2008"
+    },
+    {
+     "no": "96",
+     "name": "Luboš Vyskoč",
+     "pos": "O",
+     "yr": 2010,
+     "photo": "",
+     "born": "13.2.2010"
+    },
+    {
+     "no": "8",
+     "name": "Oliver Klčo",
+     "pos": "Ú",
+     "yr": 2009,
+     "photo": "img/p26/oliver-klco.jpg",
+     "born": "16.6.2009"
+    },
+    {
+     "no": "9",
+     "name": "Tomáš Kordoš",
+     "pos": "Ú",
+     "yr": 2009,
+     "photo": "img/p26/tomas-kordos.jpg",
+     "born": "6.8.2009"
+    },
+    {
+     "no": "12",
+     "name": "Daniel Beňovič",
+     "pos": "Ú",
+     "yr": 2011,
+     "photo": "img/p26/daniel-benovic.jpg",
+     "born": "13.8.2011"
+    },
+    {
+     "no": "19",
+     "name": "Samuel Bielik",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "img/p26/samuel-bielik.jpg",
+     "born": "16.6.2010"
+    },
+    {
+     "no": "25",
+     "name": "Jakub Reis",
+     "pos": "Ú",
+     "yr": 2009,
+     "photo": "img/p26/jakub-reis.jpg",
+     "born": "30.11.2009"
+    },
+    {
+     "no": "33",
+     "name": "Alex Oravec",
+     "pos": "Ú",
+     "yr": 2011,
+     "photo": "img/p26/alex-oravec.jpg",
+     "born": "3.1.2011"
+    },
+    {
+     "no": "47",
+     "name": "Nicolas Pasqualon",
+     "pos": "Ú",
+     "yr": 2008,
+     "photo": "",
+     "born": "20.3.2008"
+    },
+    {
+     "no": "50",
+     "name": "Matej Zverbík",
+     "pos": "Ú",
+     "yr": 2009,
+     "photo": "img/p26/matej-zverbik.jpg",
+     "born": "11.12.2009"
+    },
+    {
+     "no": "61",
+     "name": "Alex Trtík",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "img/p26/alex-trtik.jpg",
+     "born": "24.7.2010"
+    },
+    {
+     "no": "75",
+     "name": "Tadeáš Spišák",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "img/p26/tadeas-spisak.jpg",
+     "born": "17.8.2010"
+    },
+    {
+     "no": "86",
+     "name": "Jakub Minárik",
+     "pos": "Ú",
+     "yr": 2011,
+     "photo": "img/p26/jakub-minarik.jpg",
+     "born": "16.12.2011"
+    },
+    {
+     "no": "89",
+     "name": "Tomáš Huňa",
+     "pos": "Ú",
+     "yr": 2008,
+     "photo": "",
+     "born": "17.6.2008"
+    },
+    {
+     "no": "",
+     "name": "Šimon Hošták",
+     "pos": "Ú",
+     "yr": 2009,
+     "photo": "img/p26/simon-hostak.jpg",
+     "born": "27.10.2009"
+    },
+    {
+     "no": "",
+     "name": "Samuel Kriško",
+     "pos": "Ú",
+     "yr": 2008,
+     "photo": "",
+     "born": "28.3.2008"
+    },
+    {
+     "no": "",
+     "name": "Marek Meliš",
+     "pos": "Ú",
+     "yr": 2008,
+     "photo": "img/p26/marek-melis.jpg",
+     "born": "14.6.2008"
+    }
+   ]
+  },
+  {
+   "id": "dorast",
+   "name": "Dorastenci",
+   "league": "Liga dorastencov Západ",
+   "players": [
+    {
+     "no": "1",
+     "name": "Richard Ondriš",
+     "pos": "B",
+     "yr": 2010,
+     "photo": "",
+     "born": "4.9.2010"
+    },
+    {
+     "no": "54",
+     "name": "Dominik Slušný",
+     "pos": "B",
+     "yr": 2011,
+     "photo": "img/p26/dominik-slusny.jpg",
+     "born": "11.7.2011"
+    },
+    {
+     "no": "29",
+     "name": "Martin Fusi",
+     "pos": "O",
+     "yr": 2011,
+     "photo": "img/p26/martin-fusi.jpg",
+     "born": "26.12.2011"
+    },
+    {
+     "no": "37",
+     "name": "Daniel Gabriel",
+     "pos": "O",
+     "yr": 2011,
+     "photo": "img/p26/daniel-gabriel.jpg",
+     "born": "3.7.2011"
+    },
+    {
+     "no": "40",
+     "name": "Andrej Koprda",
+     "pos": "O",
+     "yr": 2010,
+     "photo": "",
+     "born": "4.11.2010"
+    },
+    {
+     "no": "67",
+     "name": "Tomáš Pirhala",
+     "pos": "O",
+     "yr": 2010,
+     "photo": "",
+     "born": "6.12.2010"
+    },
+    {
+     "no": "70",
+     "name": "Tomáš Oravec",
+     "pos": "O",
+     "yr": 2010,
+     "photo": "img/p26/tomas-oravec.jpg",
+     "born": "11.9.2010"
+    },
+    {
+     "no": "96",
+     "name": "Luboš Vyskoč",
+     "pos": "O",
+     "yr": 2010,
+     "photo": "",
+     "born": "13.2.2010"
+    },
+    {
+     "no": "99",
+     "name": "Šimon Pješčák",
+     "pos": "O",
+     "yr": 2011,
+     "photo": "img/p26/simon-pjescak.jpg",
+     "born": "25.12.2011"
+    },
+    {
+     "no": "2",
+     "name": "Alex Kotleba",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "img/p26/alex-kotleba.jpg",
+     "born": "2.2.2010"
+    },
+    {
+     "no": "11",
+     "name": "Adam Čibenka",
+     "pos": "Ú",
+     "yr": 2011,
+     "photo": "img/p26/adam-cibenka.jpg",
+     "born": "30.6.2011"
+    },
+    {
+     "no": "12",
+     "name": "Daniel Beňovič",
+     "pos": "Ú",
+     "yr": 2011,
+     "photo": "img/p26/daniel-benovic.jpg",
+     "born": "13.8.2011"
+    },
+    {
+     "no": "19",
+     "name": "Samuel Bielik",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "img/p26/samuel-bielik.jpg",
+     "born": "16.6.2010"
+    },
+    {
+     "no": "33",
+     "name": "Alex Oravec",
+     "pos": "Ú",
+     "yr": 2011,
+     "photo": "img/p26/alex-oravec.jpg",
+     "born": "3.1.2011"
+    },
+    {
+     "no": "42",
+     "name": "Leonard Tatík",
+     "pos": "Ú",
+     "yr": 2011,
+     "photo": "img/p26/leonard-tatik.jpg",
+     "born": "10.3.2011"
+    },
+    {
+     "no": "61",
+     "name": "Alex Trtík",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "img/p26/alex-trtik.jpg",
+     "born": "24.7.2010"
+    },
+    {
+     "no": "75",
+     "name": "Tadeáš Spišák",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "img/p26/tadeas-spisak.jpg",
+     "born": "17.8.2010"
+    },
+    {
+     "no": "81",
+     "name": "Denis Gaži",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "img/p26/denis-gazi.jpg",
+     "born": "9.7.2010"
+    },
+    {
+     "no": "86",
+     "name": "Jakub Minárik",
+     "pos": "Ú",
+     "yr": 2011,
+     "photo": "img/p26/jakub-minarik.jpg",
+     "born": "16.12.2011"
+    },
+    {
+     "no": "94",
+     "name": "Branislav Kaššák",
+     "pos": "Ú",
+     "yr": 2011,
+     "photo": "",
+     "born": "8.8.2011"
+    },
+    {
+     "no": "",
+     "name": "Damián Hudec",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "img/p26/damian-hudec.jpg",
+     "born": "6.6.2010"
+    },
+    {
+     "no": "",
+     "name": "Pavol Matejovič",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "",
+     "born": "28.1.2010"
+    },
+    {
+     "no": "",
+     "name": "Šimon Vetrík",
+     "pos": "Ú",
+     "yr": 2010,
+     "photo": "",
+     "born": "20.6.2010"
+    }
+   ]
+  },
+  {
+   "id": "sz",
+   "name": "Starší žiaci",
+   "league": "Liga starších žiakov Západ",
+   "players": [
+    {
+     "no": "92",
+     "name": "Alex Benda",
+     "pos": "O",
+     "yr": 2012,
+     "photo": "img/p26/alex-benda.jpg",
+     "born": "10.7.2012"
+    },
+    {
+     "no": "19",
+     "name": "Nikolas Beňo",
+     "pos": "Ú",
+     "yr": 2012,
+     "photo": "img/p26/nikolas-beno.jpg",
+     "born": "8.10.2012"
+    },
+    {
+     "no": "98",
+     "name": "Damian Ďuriška",
+     "pos": "O",
+     "yr": 2013,
+     "photo": "img/p26/damian-duriska.jpg",
+     "born": "9.8.2013"
+    },
+    {
+     "no": "8",
+     "name": "Lukáš Dzurňák",
+     "pos": "O",
+     "yr": 2013,
+     "photo": "img/p26/lukas-dzurnak.jpg",
+     "born": "11.11.2013"
+    },
+    {
+     "no": "16",
+     "name": "Kristián Ferletják",
+     "pos": "Ú",
+     "yr": 2012,
+     "photo": "img/p26/kristian-ferletjak.jpg",
+     "born": "16.8.2012"
+    },
+    {
+     "no": "30",
+     "name": "Tomáš Krajčovič",
+     "pos": "Ú",
+     "yr": 2013,
+     "photo": "img/p26/tomas-krajcovic.jpg",
+     "born": "11.12.2013"
+    },
+    {
+     "no": "21",
+     "name": "Marek Martiška",
+     "pos": "Ú",
+     "yr": 2013,
+     "photo": "img/p26/marek-martiska.jpg",
+     "born": "6.3.2013"
+    },
+    {
+     "no": "40",
+     "name": "Daniel Michalík",
+     "pos": "Ú",
+     "yr": 2013,
+     "photo": "",
+     "born": "9.6.2013"
+    },
+    {
+     "no": "88",
+     "name": "Adrián Milo",
+     "pos": "O",
+     "yr": 2013,
+     "photo": "img/p26/adrian-milo.jpg",
+     "born": "11.4.2013"
+    },
+    {
+     "no": "28",
+     "name": "Jakub Mišák Janovič",
+     "pos": "B",
+     "yr": 2013,
+     "photo": "img/p26/jakub-misak-janovic.jpg",
+     "born": "24.8.2013"
+    },
+    {
+     "no": "31",
+     "name": "Simon Moško",
+     "pos": "O",
+     "yr": 2012,
+     "photo": "img/p26/simon-mosko.jpg",
+     "born": "3.1.2012"
+    },
+    {
+     "no": "13",
+     "name": "Martin Oravec",
+     "pos": "O",
+     "yr": 2013,
+     "photo": "img/p26/martin-oravec.jpg",
+     "born": "29.4.2013"
+    },
+    {
+     "no": "20",
+     "name": "Jakub Peřina",
+     "pos": "Ú",
+     "yr": 2013,
+     "photo": "img/p26/jakub-perina.jpg",
+     "born": "23.8.2013"
+    },
+    {
+     "no": "51",
+     "name": "Samuel Sedláček",
+     "pos": "Ú",
+     "yr": 2013,
+     "photo": "img/p26/samuel-sedlacek.jpg",
+     "born": "5.9.2013"
+    },
+    {
+     "no": "47",
+     "name": "Teo Spišák",
+     "pos": "Ú",
+     "yr": 2013,
+     "photo": "img/p26/teo-spisak.jpg",
+     "born": "7.4.2013"
+    },
+    {
+     "no": "81",
+     "name": "Matúš Sýkorčin",
+     "pos": "B",
+     "yr": 2013,
+     "photo": "img/p26/matus-sykorcin.jpg",
+     "born": "14.2.2013"
+    },
+    {
+     "no": "17",
+     "name": "Oliver Ukuš",
+     "pos": "B",
+     "yr": 2012,
+     "photo": "img/p26/oliver-ukus.jpg",
+     "born": "22.4.2012"
+    },
+    {
+     "no": "27",
+     "name": "Filip Vargha",
+     "pos": "Ú",
+     "yr": 2012,
+     "photo": "img/p26/filip-vargha.jpg",
+     "born": "22.10.2012"
+    },
+    {
+     "no": "91",
+     "name": "Boris Zverbík",
+     "pos": "Ú",
+     "yr": 2013,
+     "photo": "img/p26/boris-zverbik.jpg",
+     "born": "17.8.2013"
+    }
+   ]
+  },
+  {
+   "id": "mz",
+   "name": "Mladší žiaci",
+   "league": "Liga mladších žiakov Západ",
+   "no_stats": true,
+   "players": [
+    {
+     "no": "28",
+     "name": "Valentino Depetris",
+     "pos": "B",
+     "yr": "",
+     "photo": "img/p27/valentino-depetris.jpg",
+     "born": ""
+    },
+    {
+     "no": "22",
+     "name": "Martin Domáň",
+     "pos": "B",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "14",
+     "name": "Bruno Čibenka",
+     "pos": "O",
+     "yr": "",
+     "photo": "img/p27/bruno-cibenka.jpg",
+     "born": ""
+    },
+    {
+     "no": "45",
+     "name": "Félix Nikodém",
+     "pos": "O",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "5",
+     "name": "Marc Chimezie Onvekwusi",
+     "pos": "O",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "85",
+     "name": "Lukáš Prno",
+     "pos": "O",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "38",
+     "name": "Eva Matuščinová",
+     "pos": "O",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "80",
+     "name": "Marek Karol Alexa",
+     "pos": "Ú",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "27",
+     "name": "Boris Berežný",
+     "pos": "Ú",
+     "yr": "",
+     "photo": "img/p27/boris-berezny.jpg",
+     "born": ""
+    },
+    {
+     "no": "24",
+     "name": "Tomáš Kyselica",
+     "pos": "Ú",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "26",
+     "name": "Michal Matuščin",
+     "pos": "Ú",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "64",
+     "name": "Matúš Nováček",
+     "pos": "Ú",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "25",
+     "name": "Matúš Raninec",
+     "pos": "Ú",
+     "yr": "",
+     "photo": "img/p27/matus-raninec.jpg",
+     "born": ""
+    },
+    {
+     "no": "9",
+     "name": "Mathias Robota",
+     "pos": "Ú",
+     "yr": "",
+     "photo": "img/p27/mathias-robota.jpg",
+     "born": "",
+     "captain": true
+    },
+    {
+     "no": "23",
+     "name": "Samuel Drozd",
+     "pos": "Ú",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "19",
+     "name": "Ondrej Ripka",
+     "pos": "Ú",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    },
+    {
+     "no": "10",
+     "name": "Martin Filina",
+     "pos": "Ú",
+     "yr": "",
+     "photo": "",
+     "born": ""
+    }
+   ]
+  }
+ ]
 }

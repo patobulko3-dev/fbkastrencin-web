@@ -112,7 +112,7 @@ export function niceName(s) {
 
 /** Detail zápasu (stránka Prehľad): priebeh – góly s asistenciami, vylúčenia, nájazdy; štatistiky; diváci, rozhodcovia */
 export function parseMatch(doc) {
-  const out = { ev: [], st: {}, per: '' };
+  const out = { v: 2, ev: [], st: {}, per: '' };
   const tx = T(doc.querySelector('.match-info'));
   const sp = tx.match(/(\d+)\s*divák/);
   if (sp) out.sp = +sp[1];
@@ -121,8 +121,12 @@ export function parseMatch(doc) {
   const vals = [...doc.querySelectorAll('.compare-data-value')].map(T);
   const labs = ['g', 'sh', 'sv', 'pp', 'pk'];
   for (let i = 0; i + 1 < vals.length && i / 2 < labs.length; i += 2) out.st[labs[i / 2]] = [vals[i].replace(/\s*\(.*\)/, ''), vals[i + 1].replace(/\s*\(.*\)/, '')];
-  const refs = [...doc.querySelectorAll('a, span, div')].map(T).filter((t) => /^[^()]+\(HR\d\)$/.test(t) && t.length < 50);
-  if (refs.length) out.ref = [...new Set(refs.map((r) => niceName(r.replace(/\s*\(HR\d\)/, ''))))].slice(0, 2);
+  // rozhodcovia: najmenší prvok, ktorý obsahuje „(HR1)“, napr. „PACKA, Peter (HR1) , ŠATÁNEK, Filip (HR2)“
+  const refEl = [...doc.querySelectorAll('div, p, span, td')].filter((e) => /\(HR1\)/.test(e.textContent || '')).sort((a, b) => T(a).length - T(b).length)[0];
+  if (refEl) {
+    const names = T(refEl).split(/\(HR\d\)/).map((x) => x.replace(/^[\s,]+|[\s,]+$/g, '')).filter((x) => x && x.length < 40);
+    if (names.length) out.ref = names.slice(0, 2).map((n) => niceName(n.replace(/(^|[\s,])(Bc|Mgr|Ing|PhDr|PhD|MUDr|Dr)\.(?=[\s,]|$)/g, ' ')));
+  }
   const box = doc.querySelector('[data-match-placeholder="MatchOverviewEvents"]');
   if (!box) return out;
   let per = '';
@@ -144,7 +148,7 @@ export function parseMatch(doc) {
         const m = lt.match(/(\d+:\d+)\s*(.*)$/);
         e.k = lab.classList.contains('label-orange') ? 'm' : 'g';
         if (m) { e.sc = m[1]; if (m[2]) e.x = m[2]; }
-        e.p = niceName(links[0] || T(td.querySelector('div > div') || td));
+        e.p = links[0] ? niceName(links[0]) : '';
         const asst = T(td.querySelector('.faded a')) ;
         if (asst) e.a = niceName(asst);
       }

@@ -1,6 +1,85 @@
 {
   "slides": [
     {
+      "img": "img/g/j-146.jpg",
+      "img_pos": "50% 25%",
+      "kicker": "Juniori · Extraliga juniorov",
+      "title": "Derby je",
+      "title_em": "naše 8:3",
+      "text": "Juniori v nedeľu ovládli derby v hale 1. FBC Trenčín. Michal Fusi a Samuel Bielik strelili po dva góly, gól pridali aj Beňovič, Pasqualon, Olekšák a Minárik.",
+      "tab_title": "Juniori",
+      "tab_text": "Derby 8:3",
+      "btn1_text": "Priebeh zápasu",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
+      "img": "img/tf/mladsi-ziaci.jpg",
+      "img_pos": "50% 62%",
+      "kicker": "Mladší žiaci · Liga Západ",
+      "title": "Štyri zápasy,",
+      "title_em": "štyri výhry",
+      "text": "Mladší žiaci v Dubnici zdolali domácich 5:4 a Tigrov z akadémie 4:3. S plným počtom bodov a skóre 28:10 vedú ligu Západ.",
+      "tab_title": "Mladší žiaci",
+      "tab_text": "1. miesto, 4 z 4",
+      "btn1_text": "Nová súpiska",
+      "btn1_link": "#supisky",
+      "btn2_text": "Výsledky",
+      "btn2_link": "#vysledky"
+    },
+    {
+      "img": "img/gd/derby-108.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Muži · Extraliga · ARENA OSTROV",
+      "title": "Sobota 18:00",
+      "title_em": "Florko doma",
+      "text": "Derby v plnej hale sme prehrali 2:6, góly dali Daranský a Bagín. V sobotu 31. októbra o 18:00 chceme proti Florku Košice doma odpoveď. Príď nás podporiť.",
+      "tab_title": "Muži",
+      "tab_text": "So 31. 10. o 18:00",
+      "btn1_text": "Program zápasov",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Fotky z derby",
+      "btn2_link": "#galeria"
+    },
+    {
+      "img": "img/h/drga.jpg",
+      "img_pos": "50% 22%",
+      "kicker": "Muži B · 2. liga Západ",
+      "title": "Dávidek hetrikom",
+      "title_em": "zlomil Dubnicu",
+      "text": "Trenovec v Zlatých Moravciach zdolal Dubnicu 8:7, Samuel Dávidek strelil tri góly. V prvom zápase dňa sme s Partizánskym prehrali 2:12.",
+      "tab_title": "Muži B",
+      "tab_text": "Dubnica 8:7",
+      "btn1_text": "Výsledky",
+      "btn1_link": "#vysledky"
+    },
+    {
+      "img": "img/tf/starsi-ziaci.jpg",
+      "img_pos": "50% 55%",
+      "kicker": "Starší žiaci · Liga Západ",
+      "title": "Thriller",
+      "title_em": "s Púchovom 9:8",
+      "text": "Doma v ARENE OSTROV sme Púchov zdolali 9:8, góly dalo sedem rôznych hráčov. Peřina a Martiška strelili po dva. S akadémiou Orli sme potom prehrali 4:9.",
+      "tab_title": "Starší žiaci",
+      "tab_text": "Púchov 9:8",
+      "btn1_text": "Súpiska",
+      "btn1_link": "#supisky",
+      "btn2_text": "Výsledky",
+      "btn2_link": "#vysledky"
+    },
+    {
+      "img": "img/h/dorast.jpg",
+      "kicker": "Dorastenci · Liga Západ",
+      "title": "Lídri ligy",
+      "title_em": "v sobotu doma",
+      "text": "Dorastenci vedú ligu Západ so skóre 31:12. V sobotu 31. októbra o 15:00 privítajú v ARENE OSTROV Dubnicu, v nedeľu ich čaká derby s akadémiou.",
+      "tab_title": "Dorastenci",
+      "tab_text": "So 31. 10. o 15:00",
+      "btn1_text": "Program",
+      "btn1_link": "#vysledky"
+    },
+    {
       "img": "uploads/clanky/bielik-hero.jpg",
       "kicker": "Z klubu · Rozhovor",
       "title": "Bielik hlási",
@@ -9,112 +88,7 @@
       "tab_title": "Timotej Bielik",
       "tab_text": "Návrat z Fínska",
       "btn1_text": "Čítať článok",
-      "btn1_link": "https://www.astrencinflorbal.sk/c/bielik-hlasi-navrat-z-finska-249"
-    },
-    {
-      "img": "img/h/derby.jpg",
-      "kicker": "Muži · Extraliga",
-      "title": "Derby",
-      "title_em": "v piatok o 18:30",
-      "text": "V piatok 23. októbra hráme v trenčianskej centrálnej hale proti 1. FBC Trenčín. Doma privítame Florko Košice 31. októbra.",
-      "tab_title": "Derby",
-      "tab_text": "Pi 23. 10. o 18:30",
-      "btn1_text": "Výsledky a program",
-      "btn1_link": "#vysledky"
-    },
-    {
-      "img": "img/h/florko.jpg",
-      "img_pos": "50% 40%",
-      "kicker": "Muži · ARENA OSTROV",
-      "title": "Florko Košice",
-      "title_em": "31. októbra doma",
-      "text": "V sobotu 31. októbra o 18:00 prídu do ARENY OSTROV Košičania. Príď podporiť naše mužstvo.",
-      "tab_title": "Florko doma",
-      "tab_text": "So 31. 10. o 18:00",
-      "btn1_text": "Program zápasov",
-      "btn1_link": "#vysledky"
-    },
-    {
-      "img": "img/b/sz.jpg",
-      "kicker": "Starší žiaci · Liga Západ",
-      "title": "Výhra 11:4",
-      "title_em": "v Dubnici",
-      "text": "Na turnaji v Dubnici sme zdolali Topoľčany 11:4 a so Stars Dubnica remizovali 3:3. Sme tretí so skóre 14:7.",
-      "tab_title": "Starší žiaci",
-      "tab_text": "3. miesto, 14:7",
-      "btn1_text": "Súpiska",
-      "btn1_link": "#supisky",
-      "btn2_text": "Výsledky",
-      "btn2_link": "#vysledky"
-    },
-    {
-      "img": "img/b/mz.jpg",
-      "kicker": "Mladší žiaci · Liga Západ",
-      "title": "Dve výhry",
-      "title_em": "a skóre 19:3",
-      "text": "Mladší žiaci vyhrali nad Púchovom 16:2 a nad FBC Trenčín akadémia 3:1. Držia druhé miesto.",
-      "tab_title": "Mladší žiaci",
-      "tab_text": "2. miesto, 19:3",
-      "btn1_text": "Výsledky a program",
-      "btn1_link": "#vysledky"
-    },
-    {
-      "img": "img/h/muzi.jpg",
-      "kicker": "Muži · Extraliga",
-      "title": "Osem gólov",
-      "title_em": "v Tvrdošíne",
-      "text": "Muži zvíťazili vo FBK Nižná 8:3 a držia druhé miesto. Michal Daranský strelil dva góly, Matúš Malík pridal dva góly a dve asistencie.",
-      "tab_title": "Muži",
-      "tab_text": "Nižná 3:8",
-      "btn1_text": "Výsledky a program",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska mužov",
-      "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/h/drga.jpg",
-      "img_pos": "50% 22%",
-      "kicker": "Muži B · 2. liga Západ",
-      "title": "Šesť gólov.",
-      "title_em": "Drga",
-      "text": "Trenovec v sobotu rozstrieľal Sereď 15:2. Ľubomír Drga sám strelil šesť gólov.",
-      "tab_title": "Muži B",
-      "tab_text": "Trenovec 15:2",
-      "btn1_text": "Výsledky a program",
-      "btn1_link": "#vysledky"
-    },
-    {
-      "img": "img/h/ondrasik.jpg",
-      "kicker": "Muži · Extraliga",
-      "title": "Najlepší",
-      "title_em": "v Žiline",
-      "text": "Šimon Ondrášik bol vyhlásený za najlepšieho hráča zápasu v Žiline. Gól a asistencia nestačili, na Grasshoppers sme prehrali 3:5.",
-      "tab_title": "Ondrášik",
-      "tab_text": "Hráč zápasu v Žiline",
-      "btn1_text": "Súpiska mužov",
-      "btn1_link": "#supisky"
-    },
-    {
-      "img": "img/h/juniori.jpg",
-      "kicker": "Juniori · Extraliga juniorov",
-      "title": "Ťažký víkend",
-      "title_em": "na východe",
-      "text": "V sobotu sme v Prešove prehrali 2:6, v nedeľu v Košiciach 5:12. V stredu 15. októbra nás doma čaká Žilina, chceme odpoveď.",
-      "tab_title": "Juniori",
-      "tab_text": "Prešov 2:6, Košice 5:12",
-      "btn1_text": "Juniori",
-      "btn1_link": "#vysledky"
-    },
-    {
-      "img": "img/h/dorast.jpg",
-      "kicker": "Dorastenci · Liga Západ",
-      "title": "Lídri ligy",
-      "title_em": "Západ",
-      "text": "Dve výhry, skóre 31:12. Samuel Bielik nastrieľal v dvoch zápasoch osem gólov.",
-      "tab_title": "Dorastenci",
-      "tab_text": "1. miesto, 31:12",
-      "btn1_text": "Dorastenci",
-      "btn1_link": "#vysledky"
+      "btn1_link": "clanky/bielik-hlasi-navrat-z-finska/"
     },
     {
       "img": "img/h/nabor.jpg",
@@ -163,7 +137,9 @@
         {
           "name": "Ing. Zdenko Bielik",
           "role": "hlavný tréner",
-          "photo": "bielik-zdenko"
+          "photo": "bielik-zdenko",
+          "phone": "+421 903 528 488",
+          "email": "bielikz@centrum.sk"
         },
         {
           "name": "Ing. Patrik Meliš",
@@ -199,7 +175,8 @@
         {
           "name": "Karol Sedláček",
           "role": "hlavný tréner",
-          "photo": ""
+          "photo": "sedlacek-karol",
+          "phone": "+421 944 498 887"
         }
       ]
     },
@@ -249,12 +226,14 @@
         {
           "name": "Michal Prno",
           "role": "asistent trénera",
-          "photo": ""
+          "photo": "prno-michal",
+          "phone": "+421 907 142 214"
         },
         {
           "name": "Fero Nováček",
           "role": "asistent trénera",
-          "photo": ""
+          "photo": "novacek-fero",
+          "phone": "+421 908 730 212"
         }
       ]
     },
@@ -289,7 +268,8 @@
         {
           "name": "Fero Nováček",
           "role": "asistent trénera",
-          "photo": ""
+          "photo": "novacek-fero",
+          "phone": "+421 908 730 212"
         }
       ]
     },
@@ -342,6 +322,131 @@
   ],
   "members": [
     {
+      "name": "Patrik Bulko",
+      "role": "Športový riaditeľ, šéftréner klubu",
+      "text": "",
+      "photo": "bulko-patrik",
+      "url": "",
+      "qa": [
+        {
+          "q": "Keď práve nie som pri florbale…",
+          "a": "Určite by som bol futbalový tréner, futbal milujem."
+        },
+        {
+          "q": "Toto by o mne v klube nikto nepovedal",
+          "a": "Na staré kolená som sa pustil do štúdia psychológie."
+        },
+        {
+          "q": "Pesnička, ktorú by som v hale pustil ako prvú",
+          "a": "Určite niečo od SAULA. Najradšej asi celý album Od nekonečna do dávna (#Zrkadlá)."
+        },
+        {
+          "q": "Na toto som hrdý, aj keď to nikto nevidí",
+          "a": "Že som s väčšinou svojich hráčov a študentov stále v kontakte."
+        }
+      ]
+    },
+    {
+      "name": "Štefan Rajčan",
+      "role": "Šéftréner žiakov a prípravky",
+      "text": "",
+      "photo": "rajcan-stefan",
+      "url": "",
+      "qa": [
+        {
+          "q": "Keď práve nie som pri florbale…",
+          "a": "Deň mi začína v práci, potom idem na tréningy. Dni bez tréningu trávim so snúbenicou, chodíme na turistiku, na bicykel a podobne."
+        },
+        {
+          "q": "Toto by o mne v klube nikto nepovedal",
+          "a": "Som vášnivý rybár a hubár, aj keď času je na to čoraz menej. Pri tom viem vypnúť a odreagovať sa."
+        },
+        {
+          "q": "Pesnička, ktorú by som v hale pustil ako prvú",
+          "a": "Jednoznačne tú majstrovskú, ktorá ma sprevádzala pred každým zápasom. Pre našich starších žiakov to bola dva roky po sebe „Hrali sme kličkovanú“."
+        },
+        {
+          "q": "Na toto som hrdý, aj keď to nikto nevidí",
+          "a": "Práca s mládežou a deťmi ma veľmi baví a som hrdý na to, aký mám s nimi vzťah. To sa nenaučíte, to musí človek v sebe mať."
+        }
+      ]
+    },
+    {
+      "name": "Peter Kravec",
+      "role": "Kondičný tréner",
+      "text": "",
+      "photo": "kravec-peter",
+      "url": "",
+      "qa": [
+        {
+          "q": "Keď práve nie som pri florbale…",
+          "a": "Venujem sa iným športom. Verím však, že vo florbale sa budem pohybovať čo najdlhšie."
+        },
+        {
+          "q": "Toto by o mne v klube nikto nepovedal",
+          "a": "Že mám veľmi rád sladké."
+        },
+        {
+          "q": "Pesnička, ktorú by som v hale pustil ako prvú",
+          "a": "Till I Collapse od Eminema."
+        },
+        {
+          "q": "Na toto som hrdý, aj keď to nikto nevidí",
+          "a": "Na rodičov, ktorí nám v časoch, keď veľa vecí nebolo dostupných, dopriali to najkrajšie detstvo."
+        }
+      ]
+    },
+    {
+      "name": "Ivetka Veseláková",
+      "role": "Hlavná zdravotníčka",
+      "text": "",
+      "photo": "veselakova-ivetka",
+      "url": "",
+      "qa": [
+        {
+          "q": "Keď práve nie som pri florbale…",
+          "a": "Pracujem na urgente, oddychujem alebo, možno prekvapivo, chodím do fitka."
+        },
+        {
+          "q": "Toto by o mne v klube nikto nepovedal",
+          "a": "Poznajú ma tu viac-menej všetci, ale že sa urgentnej zdravotnej starostlivosti venujem už 26 rokov, vie asi málokto."
+        },
+        {
+          "q": "Pesnička, ktorú by som v hale pustil ako prvú",
+          "a": "U2 – Pride."
+        },
+        {
+          "q": "Na toto som hrdý, aj keď to nikto nevidí",
+          "a": "Na vás. Na to, ako rastieme spolu, nielen športovo, ale najmä ľudsky. Vidieť váš progres od prvých neistých krokov s hokejkou až po chvíle, keď na ihrisku nechávate srdce, je tá najlepšia odmena."
+        }
+      ]
+    },
+    {
+      "name": "Juraj Surma",
+      "role": "Partner klubu · transformačný kouč",
+      "text": "",
+      "photo": "surma-juraj",
+      "url": "https://www.surma.sk",
+      "qa": [
+        {
+          "q": "Keď práve nie som pri florbale…",
+          "a": "Som profesionálny transformačný kouč pre manažérov, ich tímy a organizácie."
+        },
+        {
+          "q": "Toto by o mne v klube nikto nepovedal",
+          "a": "Milujem jazdu autom s naozaj dobrou audioknihou, keď rýchlosť ovplyvňuje, ako vnímam dej."
+        },
+        {
+          "q": "Pesnička, ktorú by som v hale pustil ako prvú",
+          "a": "Another One Bites the Dust od Queen, živú verziu."
+        },
+        {
+          "q": "Na toto som hrdý, aj keď to nikto nevidí",
+          "a": "Na svoje deti, ktoré sú vo svete a kráčajú vlastnou cestou."
+        }
+      ]
+    },
+    {
       "name": "Juraj Matejka",
       "role": "Prezident klubu",
       "text": "",
@@ -363,20 +468,6 @@
       "url": ""
     },
     {
-      "name": "Patrik Bulko",
-      "role": "Športový riaditeľ, šéftréner klubu",
-      "text": "",
-      "photo": "bulko-patrik",
-      "url": ""
-    },
-    {
-      "name": "Štefan Rajčan",
-      "role": "Šéftréner žiakov a prípravky",
-      "text": "",
-      "photo": "rajcan-stefan",
-      "url": ""
-    },
-    {
       "name": "Zdenko Bielik",
       "role": "Tréner juniorov",
       "text": "",
@@ -394,7 +485,7 @@
       "name": "Karol Sedláček",
       "role": "Tréner dorastencov",
       "text": "",
-      "photo": "",
+      "photo": "sedlacek-karol",
       "url": ""
     },
     {
@@ -408,14 +499,14 @@
       "name": "Michal Prno",
       "role": "Asistent – mladší žiaci",
       "text": "",
-      "photo": "",
+      "photo": "prno-michal",
       "url": ""
     },
     {
       "name": "Fero Nováček",
       "role": "Asistent – žiaci a prípravka",
       "text": "",
-      "photo": "",
+      "photo": "novacek-fero",
       "url": ""
     },
     {
@@ -430,20 +521,6 @@
       "role": "Asistent – staršia prípravka",
       "text": "",
       "photo": "daransky-michal",
-      "url": ""
-    },
-    {
-      "name": "Peter Kravec",
-      "role": "Kondičný tréner",
-      "text": "",
-      "photo": "",
-      "url": ""
-    },
-    {
-      "name": "Ivetka Veseláková",
-      "role": "Hlavná zdravotníčka",
-      "text": "",
-      "photo": "",
       "url": ""
     },
     {
@@ -491,6 +568,16 @@
       "logo": "img/l/chlebickuj.png",
       "square": true,
       "url": "https://chlebickuj.sk/"
+    },
+    {
+      "name": "WEM",
+      "logo": "img/l/wem.png",
+      "url": "https://www.salonwem.sk/"
+    },
+    {
+      "name": "Juraj Surma",
+      "logo": "img/l/surma.png",
+      "url": "https://www.surma.sk"
     }
   ],
   "partners": [
@@ -498,11 +585,6 @@
       "name": "Kora",
       "logo": "img/l/kora.png",
       "url": "https://kora.sk/"
-    },
-    {
-      "name": "WEM",
-      "logo": "img/l/wem.png",
-      "url": "https://www.salonwem.sk/"
     },
     {
       "name": "Kopretina",
@@ -523,6 +605,32 @@
       "logo": "img/l/thebarber.png",
       "square": true,
       "url": "https://thebarber.sk/"
+    }
+  ],
+  "promos": [
+    {
+      "name": "Chlebíčkuj",
+      "logo": "img/l/chlebickuj.png",
+      "emoji": "🥪",
+      "text": "Chystáte oslavu či poradu? Objednajte si chlebíčky a občerstvenie.",
+      "cta": "Objednať",
+      "url": "https://chlebickuj.sk/"
+    },
+    {
+      "name": "Comextrans",
+      "logo": "img/l/comextrans.png",
+      "emoji": "🚗",
+      "text": "Potrebujete servis vozidla či prezutie pneumatík?",
+      "cta": "Objednať servis",
+      "url": "https://www.comextrans.sk/"
+    },
+    {
+      "name": "Pizza To Go",
+      "logo": "",
+      "emoji": "🍕",
+      "text": "Máte chuť na pizzu? Pizza To Go to vyrieši.",
+      "cta": "Mám hlad",
+      "url": ""
     }
   ]
 }

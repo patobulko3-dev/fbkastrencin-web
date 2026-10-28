@@ -107,7 +107,27 @@ collections:
               - { label: Funkcia (napr. Tréner, Fyzioterapeut, Fotograf), name: role, widget: string }
               - { label: Krátky text, name: text, widget: text, required: false, hint: '1–2 vety; bez textu sa ukáže „Medailónik pripravujeme“' }
               - { label: Fotka, name: photo, widget: image, required: false }
-              - { label: Odkaz na celý medailónik (článok), name: url, widget: string, required: false, hint: 'napr. clanky/meno-priezvisko/' }
+              - { label: Odkaz na celý medailónik (článok) alebo web, name: url, widget: string, required: false, hint: 'napr. clanky/meno-priezvisko/' }
+              - label: Otázky a odpovede (medailón)
+                name: qa
+                widget: list
+                required: false
+                summary: '{{fields.q}}'
+                fields:
+                  - { label: Otázka, name: q, widget: string }
+                  - { label: Odpoveď, name: a, widget: text }
+          - label: Lišta partnerov úplne hore
+            name: promos
+            widget: list
+            required: false
+            summary: '{{fields.name}}'
+            fields:
+              - { label: Názov, name: name, widget: string }
+              - { label: Logo, name: logo, widget: image, required: false }
+              - { label: Emoji, name: emoji, widget: string, required: false }
+              - { label: Text (otázka), name: text, widget: string }
+              - { label: Text tlačidla, name: cta, widget: string, required: false }
+              - { label: Odkaz, name: url, widget: string, required: false }
           - label: Hlavní partneri
             name: partners_main
             widget: list
@@ -141,6 +161,7 @@ collections:
               - { label: Názov, name: name, widget: string }
               - { label: Súťaž, name: league, widget: string }
               - { label: Skryť hráčov bez odohraného zápasu, name: hide_without_games, widget: boolean, required: false, default: false }
+              - { label: SZFB nevedie individuálne štatistiky (mladší žiaci), name: no_stats, widget: boolean, required: false, default: false }
               - label: Hráči
                 name: players
                 widget: list
@@ -149,7 +170,7 @@ collections:
                   - { label: Číslo, name: no, widget: string, required: false }
                   - { label: Meno a priezvisko, name: name, widget: string, hint: 'Presne ako na szfb.sk (kvôli spárovaniu štatistík)' }
                   - { label: Post, name: pos, widget: select, options: [ { label: Brankár, value: B }, { label: Obranca, value: O }, { label: Útočník, value: Ú } ] }
-                  - { label: Ročník, name: yr, widget: number, value_type: int }
+                  - { label: Ročník, name: yr, widget: number, value_type: int, required: false }
                   - { label: "Dátum narodenia (napr. 12.3.2006)", name: born, widget: string, required: false }
                   - { label: Fotka, name: photo, widget: image, required: false }
                   - { label: Kapitán, name: captain, widget: boolean, required: false, default: false }
