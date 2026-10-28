@@ -3,6 +3,8 @@ backend:
   name: github
   repo: patobulko3-dev/fbkastrencin-web
   branch: main
+  base_url: https://www.fbkastrencin.sk
+  auth_endpoint: api/auth
   commit_messages:
     create: 'Nový obsah: {{slug}}'
     update: 'Úprava: {{slug}}'

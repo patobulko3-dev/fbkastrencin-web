@@ -1057,7 +1057,7 @@ html.js-rv .rv-l{transform:translateX(-30px)}html.js-rv .rv-r{transform:translat
   <section class="msgband" id="odkaz" aria-label="Odkaz klubu">
     <div class="wrap">
       <div><h2><small>Fanúšikovia klubu</small>Napíš odkaz klubu</h2><p>Pochváľ, povzbuď alebo poraď. Podpísať sa môžeš, ale nemusíš, odkaz môže byť aj anonymný.</p></div>
-      <form id="msgform" name="odkaz-klubu" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <form id="msgform" name="odkaz-klubu" method="POST">
         <input type="hidden" name="form-name" value="odkaz-klubu"><p hidden><label>Nevypĺňať: <input name="bot-field"></label></p>
         <textarea id="m-text" name="odkaz" required maxlength="500" placeholder="Tvoj odkaz klubu…" aria-label="Odkaz klubu"></textarea>
         <input id="m-sign" name="podpis" maxlength="60" placeholder="Podpis (nepovinné)" aria-label="Podpis, nepovinné">
@@ -1128,7 +1128,7 @@ html.js-rv .rv-l{transform:translateX(-30px)}html.js-rv .rv-r{transform:translat
           <li><b>2014–2015</b><span>Mladší žiaci</span></li>
         </ul>
       </div>
-      <form id="form" name="nabor" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <form id="form" name="nabor" method="POST">
         <input type="hidden" name="form-name" value="nabor"><p hidden><label>Nevypĺňať: <input name="bot-field"></label></p>
         <strong style="font-size:1.05rem">Prihláška na skúšobný tréning</strong>
         <label for="f-name">Meno dieťaťa<input id="f-name" name="meno" required placeholder="napr. Tomáš Novák"></label>
@@ -1693,11 +1693,11 @@ document.getElementById('pmain').innerHTML=(DATA.site.partners_main||[]).map(plo
 document.getElementById('pother').innerHTML=(DATA.site.partners||[]).map(plogo).join('');
 rvScan(); countUp(document.getElementById('leaders'));
 document.getElementById('msgform').addEventListener('submit',function(e){ e.preventDefault(); var f=e.target, ok=document.getElementById('msgok');
-  fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
+  fetch('/api/form',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
    .then(function(r){ if(!r.ok) throw 0; ok.textContent='Ďakujeme, odkaz sme dostali.'; ok.hidden=false; f.reset(); })
    .catch(function(){ ok.textContent='Odkaz sa nepodarilo odoslať, skús to prosím neskôr.'; ok.hidden=false; }); });
 document.getElementById('form').addEventListener('submit',function(e){ e.preventDefault(); var f=e.target, ok=document.getElementById('ok');
-  fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
+  fetch('/api/form',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
    .then(function(r){ if(!r.ok) throw 0; ok.textContent='Ďakujeme! Prihlášku sme dostali, tréner sa ti ozve.'; ok.hidden=false; f.reset(); })
    .catch(function(){ ok.textContent='Prihlášku sa nepodarilo odoslať. Skús to znova alebo nám napíš na Facebooku.'; ok.hidden=false; }); });
 

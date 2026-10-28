@@ -113,5 +113,7 @@ await writeFile(new URL('clanky/index.html', DIST), shell('Články a novinky', 
 <footer>FBK AS Trenčín · <a href="../" style="color:inherit">fbkastrencin.sk</a></footer></main>`));
 
 await writeFile(new URL('data/news.json', DIST), JSON.stringify(news, null, 1));
+// hlavičky pre Cloudflare Pages
+await writeFile(new URL('_headers', DIST), '/data/*\n  Cache-Control: public, max-age=0, must-revalidate\n/admin/*\n  Cache-Control: no-cache\n');
 await writeFile(p('data/news.json'), JSON.stringify(news, null, 1)); // pre lokálny náhľad
 console.log(`Hotovo: ${news.length} článkov.`);
