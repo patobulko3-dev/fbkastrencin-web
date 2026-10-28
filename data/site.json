@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/h/ondrasik.jpg",
+      "img_pos": "62% 22%",
+      "kicker": "Muži · Extraliga · #25",
+      "title": "Ondrášik",
+      "title_em": "10 bodov za 7 kôl",
+      "text": "Šimon Ondrášik má po siedmich kolách extraligy 6 gólov a 4 asistencie bez jedinej trestnej minúty. Skóroval v Ružinove, v Žiline aj v Nižnej. Hoci študuje v Žiline, o odchode z Trenčína neuvažoval.",
+      "tab_title": "Šimon Ondrášik",
+      "tab_text": "6 + 4 v extralige",
+      "btn1_text": "Celý rozhovor",
+      "btn1_link": "clanky/ondrasik-minulost-sme-nechali-za-sebou-teraz-chceme-vysledky/",
+      "btn2_text": "Súpiska mužov",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/g/j-146.jpg",
       "img_pos": "50% 25%",
       "kicker": "Juniori · Extraliga juniorov",
@@ -39,20 +53,8 @@
       "tab_text": "So 31. 10. o 18:00",
       "btn1_text": "Program zápasov",
       "btn1_link": "#vysledky",
-      "btn2_text": "Fotky z derby",
-      "btn2_link": "#galeria"
-    },
-    {
-      "img": "img/h/drga.jpg",
-      "img_pos": "50% 22%",
-      "kicker": "Muži B · 2. liga Západ",
-      "title": "Dávidek hetrikom",
-      "title_em": "zlomil Dubnicu",
-      "text": "Trenovec v Zlatých Moravciach zdolal Dubnicu 8:7, Samuel Dávidek strelil tri góly. V prvom zápase dňa sme s Partizánskym prehrali 2:12.",
-      "tab_title": "Muži B",
-      "tab_text": "Dubnica 8:7",
-      "btn1_text": "Výsledky",
-      "btn1_link": "#vysledky"
+      "btn2_text": "Súpiska mužov",
+      "btn2_link": "#supisky"
     },
     {
       "img": "img/tf/starsi-ziaci.jpg",
@@ -330,11 +332,11 @@
       "qa": [
         {
           "q": "Keď práve nie som pri florbale…",
-          "a": "Určite by som bol futbalový tréner, futbal milujem."
+          "a": "Keďže milujem futbal, určite by som sa venoval manažmentu či trénovaniu vo futbale."
         },
         {
           "q": "Toto by o mne v klube nikto nepovedal",
-          "a": "Na staré kolená som sa pustil do štúdia psychológie."
+          "a": "Na staré kolená som sa pustil do štúdia psychológie. A najväčší relax je pre mňa beh a downhill na bicykli."
         },
         {
           "q": "Pesnička, ktorú by som v hale pustil ako prvú",
@@ -368,6 +370,31 @@
         {
           "q": "Na toto som hrdý, aj keď to nikto nevidí",
           "a": "Práca s mládežou a deťmi ma veľmi baví a som hrdý na to, aký mám s nimi vzťah. To sa nenaučíte, to musí človek v sebe mať."
+        }
+      ]
+    },
+    {
+      "name": "Zdenko Bielik",
+      "role": "Tréner juniorov",
+      "text": "",
+      "photo": "bielik-zdenko",
+      "url": "",
+      "qa": [
+        {
+          "q": "Keď práve nie som pri florbale…",
+          "a": "Voľného času veľa nezostáva, ale každý rok sa teším na letnú turistiku s kamarátmi po Slovensku či Česku. Príroda, dobrá partia a na chvíľu vypnúť od všetkého."
+        },
+        {
+          "q": "Toto by o mne v klube nikto nepovedal",
+          "a": "Že som v podstate pokojný a nekonfliktný človek. Teda pokiaľ sa hrá fér."
+        },
+        {
+          "q": "Pesnička, ktorú by som v hale pustil ako prvú",
+          "a": "AC/DC – Thunderstruck alebo Metallica – Enter Sandman. Skrátka niečo poriadne dynamické, čo nakopne nielen hráčov, ale i celú halu!"
+        },
+        {
+          "q": "Na toto som hrdý, aj keď to nikto nevidí",
+          "a": "Na to, že sa snažím robiť správne veci, aj keď sa nikto nepozerá."
         }
       ]
     },
@@ -465,13 +492,6 @@
       "role": "Štatutár klubu",
       "text": "",
       "photo": "",
-      "url": ""
-    },
-    {
-      "name": "Zdenko Bielik",
-      "role": "Tréner juniorov",
-      "text": "",
-      "photo": "bielik-zdenko",
       "url": ""
     },
     {

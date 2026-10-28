@@ -17,7 +17,7 @@
 <style>html{scroll-behavior:smooth}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Lato:wght@400;700;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,400;1,9..144,500&family=Lato:wght@400;700;900&display=swap">
 <style>
 /* Layout: fotografický hero → ticker → Výsledky a program (záložky, banner s tímovou fotkou) → Súpisky (karty hráčov) → galéria → sociálne siete → nábor → info */
 :root{
@@ -910,17 +910,110 @@ html.js-rv .rv-l{transform:translateX(-30px)}html.js-rv .rv-r{transform:translat
 .mem .mp img{transition:transform .5s ease}.mem:hover .mp img{transform:scale(1.06)}
 .mem .song{position:absolute;left:0;right:0;bottom:0;padding:16px 6px 5px;background:linear-gradient(180deg,transparent,rgba(0,0,0,.8));color:#fff;font-size:.56rem;font-weight:800;line-height:1.2;transform:translateY(100%);transition:transform .3s ease}
 .mem:hover .song{transform:none}
-.mdlg .box{width:min(820px,100%);grid-template-columns:260px 1fr}
-.mdlg .ph3{min-height:300px}
-.mdlg .bd3{align-content:start;padding:26px}
-.qa{display:grid;gap:10px;margin-top:4px}
-.qa div{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px 12px 50px;position:relative;opacity:0;animation:tlin .45s ease-out forwards;animation-delay:calc(var(--i)*90ms + .1s)}
-.qa i{position:absolute;left:12px;top:11px;width:28px;height:28px;border-radius:8px;background:var(--red);color:#fff;display:grid;place-items:center;font-style:normal;font-size:.95rem}
-.qa h5{margin:0 0 3px;font-size:.66rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
-.qa p{margin:0!important;color:var(--ink)!important;font-size:.93rem!important;line-height:1.5}
-@media (max-width:640px){.mdlg .box{grid-template-columns:1fr}.mdlg .ph3{aspect-ratio:1/1;min-height:0;max-height:300px}}
 .partners .logo img{transition:transform .3s ease}.partners .logo:hover img{transform:scale(1.08)}
 .partners>span{transition:transform .25s ease,box-shadow .25s ease}.partners>span:hover{transform:translateY(-3px);box-shadow:0 14px 28px -18px rgba(0,0,0,.45)}
+/* ===== v3: tenší match center ===== */
+.mc-rows{gap:6px}
+.mcb{border-radius:8px}
+.mcb-top{grid-template-columns:200px minmax(0,1fr);min-height:0;height:38px}
+.mcb .mcr-l b{font-size:.88rem}
+.mcf{gap:10px;padding:0 12px}
+.mcf-n{font-size:.5rem;padding:2px 6px}
+.mcf .dt{font-size:.95rem;display:flex;align-items:baseline;gap:6px}
+.mcf .dt small{display:inline;font-size:.58rem}
+.mcf .vs2{font-size:.8rem;gap:6px}.mcf .vs2 .mini-crest{width:20px;height:20px}
+.mcf .vn{font-size:.68rem}
+.mcb-run{height:30px}.mcb-run>b{font-size:.5rem}.mcb-run .fxc{height:22px;font-size:.74rem;padding:0 8px 0 6px}
+.mcb-run .fxc .mini-crest,.mcb-run .fxc img{max-height:16px}
+@media (max-width:760px){.mcb-top{height:auto;grid-template-columns:1fr}.mcb .mcr-l{height:28px}.mcf{padding:6px 10px;gap:4px 8px}}
+
+/* ===== v3: tenšie zaujímavosti ===== */
+.posfact{gap:12px;padding:8px 14px;border-radius:10px;margin:0 0 12px}
+.posfact::after{width:90px;height:90px;border-width:14px;right:-20px;top:-30px}
+.posfact .fi{width:34px;height:34px;border-radius:9px;font-size:1.15rem}
+.posfact .fb{display:flex;align-items:baseline;gap:2px 10px;flex-wrap:wrap}
+.posfact .fb small{margin:0;font-size:.54rem}
+.posfact .fb strong{font-size:clamp(1rem,1.6vw,1.15rem);line-height:1.1}
+.posfact .fb span{font-size:.8rem;margin:0;flex-basis:100%;line-height:1.35;opacity:.8}
+.posfact .fnav{flex-direction:row;align-items:center;gap:10px}
+.posfact button{padding:4px 10px;font-size:.7rem}
+
+/* ===== v3: MVP / top strelec ===== */
+.pl .hot.mvp{background:linear-gradient(90deg,#ff4d55,var(--red));color:#fff;animation:mvpp 2.4s ease-out infinite}
+.pl .hot.hot2{bottom:32px}
+@keyframes mvpp{0%{box-shadow:0 0 0 0 rgba(255,77,85,.6)}70%,100%{box-shadow:0 0 0 10px rgba(255,77,85,0)}}
+
+/* ===== v3: medailón – magazínový rozhovor ===== */
+:root{--serif:"Fraunces",Georgia,"Times New Roman",serif}
+.mdlg{z-index:96;background:rgba(12,6,8,.86);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.mdlg .box{width:min(940px,100%);max-height:92vh;grid-template-columns:minmax(0,5fr) minmax(0,7fr);border-radius:20px;background:#f7f2ea;color:#1d1517;box-shadow:0 40px 120px -30px rgba(0,0,0,.8);animation:mdin .6s cubic-bezier(.2,.9,.2,1)}
+@keyframes mdin{from{opacity:0;transform:translateY(30px) scale(.96)}}
+.mdlg .ph3{min-height:100%;background:#1d0a0d;overflow:hidden;position:sticky;top:0;max-height:92vh}
+.mdlg .ph3 img{animation:phz 12s ease-out forwards}
+@keyframes phz{from{transform:scale(1.18)}to{transform:scale(1.02)}}
+.mdlg .ph3::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(29,10,13,0) 35%,rgba(29,10,13,.55) 62%,rgba(29,10,13,.96) 100%)}
+.ph3-cap{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:24px 24px 26px;color:#fff}
+.ph3-cap span{display:inline-block;font-size:.6rem;font-weight:900;letter-spacing:.22em;text-transform:uppercase;background:var(--gold);color:#1d1517;padding:4px 9px;border-radius:999px}
+.ph3-cap h3{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(2.4rem,5vw,3.6rem);line-height:.86;margin:12px 0 8px;letter-spacing:.005em;color:#fff}
+.ph3-cap h3 em{display:block;font-style:normal;color:#ff4d55}
+.ph3-cap small{font-family:var(--serif);font-style:italic;font-size:1rem;opacity:.9}
+.mdlg .bd3{padding:30px 34px 34px;display:block;position:relative;overflow:hidden;align-content:start}
+.mdlg .bd3::before{content:"„";position:absolute;right:18px;top:-58px;font-family:var(--serif);font-size:15rem;line-height:1;color:rgba(194,31,38,.08);pointer-events:none}
+.bd3-h{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:14px;margin-bottom:6px;border-bottom:2px solid #1d1517}
+.bd3-h span{font-family:var(--serif);font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
+.bd3-h span i{font-style:italic;font-weight:500;color:var(--red)}
+.bd3-h b{font-size:.6rem;font-weight:900;letter-spacing:.18em;text-transform:uppercase;color:#7a6a6d}
+.mdlg .bd3>p{font-family:var(--serif);font-size:1.05rem;color:#1d1517}
+.qi{display:grid;grid-template-columns:62px minmax(0,1fr);gap:4px 14px;padding:18px 0;border-bottom:1px solid rgba(29,21,23,.14);position:relative;opacity:0;animation:qin .7s cubic-bezier(.2,.9,.2,1) forwards;animation-delay:calc(var(--i)*120ms + .2s)}
+@keyframes qin{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
+.qn{font-family:var(--display);font-weight:900;font-size:3.1rem;line-height:.8;color:transparent;-webkit-text-stroke:1.5px var(--red);transition:color .3s}
+.qi:hover .qn{color:var(--red)}
+.qi h5{margin:0 0 6px;font-family:var(--body);font-size:.68rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+.mdlg .qi p{margin:0;font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(1.05rem,1.6vw,1.22rem);line-height:1.45;color:#1d1517}
+.qi.q2{background:#1d1517;border-radius:14px;padding:18px 18px 18px 14px;margin:12px 0;border:0;grid-template-columns:62px minmax(0,1fr) auto;align-items:center;overflow:hidden}
+.qi.q2 h5{color:#ffb3b6}.mdlg .qi.q2 p{color:#fff}.qi.q2 .qn{-webkit-text-stroke-color:#ff4d55}
+.vinyl{width:64px;height:64px;border-radius:50%;background:radial-gradient(circle,var(--red) 0 9px,#111 10px 12px,transparent 13px),repeating-radial-gradient(circle,#161012 0 2px,#2a2023 2px 3px);box-shadow:0 0 0 2px #2a2023,0 8px 20px rgba(0,0,0,.5);animation:spin 3.2s linear infinite;flex:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+.eq{display:flex;gap:3px;align-items:flex-end;height:16px;margin-top:10px}
+.eq i{width:4px;background:#ff4d55;border-radius:2px;animation:eq 1s ease-in-out infinite alternate}
+.eq i:nth-child(2){animation-delay:-.3s}.eq i:nth-child(3){animation-delay:-.6s}.eq i:nth-child(4){animation-delay:-.15s}.eq i:nth-child(5){animation-delay:-.45s}
+@keyframes eq{from{height:3px}to{height:16px}}
+.qi.q3{border-bottom:0}
+.mdlg .qi.q3 p{font-weight:500;font-style:normal;font-size:clamp(1.12rem,1.9vw,1.35rem);line-height:1.38;background:linear-gradient(transparent 64%,rgba(244,180,0,.42) 64%);display:inline;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.mdlg .bd3 .web{display:inline-flex;margin-top:10px;font-weight:900;color:var(--red);text-decoration:none;border-bottom:2px solid currentColor}
+.mdlg .x{z-index:5}
+@media (max-width:700px){.mdlg{padding:0;place-items:end center}.mdlg .box{grid-template-columns:1fr;border-radius:20px 20px 0 0;max-height:94vh}.mdlg .ph3{position:relative;aspect-ratio:4/3.6;min-height:0;max-height:none}.mdlg .bd3{padding:22px 20px 30px}.qi{grid-template-columns:44px minmax(0,1fr)}.qn{font-size:2.3rem}.qi.q2{grid-template-columns:44px minmax(0,1fr)}.qi.q2 .vinyl{display:none}}
+.mem .song{font-family:var(--serif);font-style:italic;font-weight:500;font-size:.66rem}
+
+/* ===== v3: efekty ===== */
+.slide .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
+.slide .w>span{display:inline-block}
+.slide.on h1,.slide.on h2{animation:none}
+.slide.on .w>span{animation:wup .9s cubic-bezier(.2,.9,.2,1) both;animation-delay:calc(var(--d)*75ms + .05s)}
+@keyframes wup{from{transform:translateY(105%) rotate(7deg);opacity:0;filter:blur(6px)}to{transform:none;opacity:1;filter:none}}
+.slide .bg{transition:translate 1s cubic-bezier(.2,.9,.2,1);translate:var(--px,0) var(--py,0)}
+.slider .spot{position:absolute;inset:0;z-index:3;pointer-events:none;background:radial-gradient(460px circle at var(--mx,50%) var(--my,50%),rgba(255,77,85,.2),transparent 60%);opacity:0;transition:opacity .4s;mix-blend-mode:screen}
+.slider:hover .spot{opacity:1}
+.tilt{position:relative}
+.tilt .glare{position:absolute;inset:0;z-index:4;pointer-events:none;border-radius:inherit;background:radial-gradient(circle at var(--gx,50%) var(--gy,50%),rgba(255,255,255,.38),transparent 55%);opacity:0;transition:opacity .3s;mix-blend-mode:overlay}
+.tilt:hover .glare{opacity:1}
+.kband{position:relative;overflow:hidden;padding:26px 0 30px;background:#0f0a0b;border-block:1px solid #2a2023;user-select:none}
+.kband .kr{display:flex;width:max-content;white-space:nowrap;will-change:transform}
+.kband .kr span{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(3.2rem,9vw,7.5rem);line-height:.9;padding-right:.35em;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,.35)}
+.kband .kr span:nth-child(3n+2){color:var(--red);-webkit-text-stroke:0}
+.kband .kr span:nth-child(3n){-webkit-text-stroke-color:rgba(244,180,0,.7)}
+.kband .kr+.kr{margin-top:8px}
+.kband .kr.b span{font-size:clamp(1.6rem,4vw,3rem);-webkit-text-stroke:1px rgba(255,255,255,.28)}
+.kband .kr.b span:nth-child(3n+2){color:#fff}
+.kband::before,.kband::after{content:"";position:absolute;top:0;bottom:0;width:12%;z-index:2;pointer-events:none}
+.kband::before{left:0;background:linear-gradient(90deg,#0f0a0b,transparent)}.kband::after{right:0;background:linear-gradient(-90deg,#0f0a0b,transparent)}
+.ball{position:fixed;left:0;top:0;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;pointer-events:none;z-index:120;background:radial-gradient(circle at 35% 30%,#fff 0 35%,#e9e1e2 60%,#bdb2b4);box-shadow:0 2px 6px rgba(0,0,0,.35);opacity:0;transition:opacity .3s,width .2s,height .2s,margin .2s}
+.ball::before{content:"";position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle,rgba(0,0,0,.28) 0 1px,transparent 1.6px) 0 0/4px 4px}
+.ball.on{opacity:1}.ball.big{width:26px;height:26px;margin:-13px 0 0 -13px;background:radial-gradient(circle at 35% 30%,#ff8a8f,var(--red))}
+.burst{position:fixed;left:0;top:0;width:8px;height:8px;border-radius:50%;pointer-events:none;z-index:121;animation:bst .7s ease-out forwards}
+@keyframes bst{to{transform:translate(var(--bx),var(--by)) scale(.2);opacity:0}}
+@media (prefers-reduced-motion:reduce){.slide.on .w>span,.vinyl,.eq i,.pl .hot.mvp,.mdlg .ph3 img{animation:none}.kband .kr{transform:none!important}.ball{display:none}}
+@media (hover:none){.ball{display:none}}
 </style>
 
 
@@ -939,7 +1032,6 @@ html.js-rv .rv-l{transform:translateX(-30px)}html.js-rv .rv-r{transform:translat
       <a href="#vysledky">Výsledky a program</a>
       <a href="#supisky">Súpisky</a>
       <a href="#treningy">Tréningy</a>
-      <a href="#galeria">Galéria</a>
       <a href="#socialne">Novinky</a>
       <a href="#arena">Arena</a>
       <a href="#klub">Klub</a>
@@ -1003,16 +1095,8 @@ html.js-rv .rv-l{transform:translateX(-30px)}html.js-rv .rv-r{transform:translat
     </div>
   </section>
 
-  <section class="block" id="galeria" style="padding-top:0">
-    <div class="wrap">
-      <div class="head">
-        <div><span class="eyebrow">Sezóna 2026/27 vo fotkách</span><h2>Galéria</h2></div>
-      </div>
-      <div class="gchips" id="gchips"></div>
-      <div class="gallery" id="gallery"></div>
-      <div class="gal-more" id="galmore" hidden><button type="button" id="galmorebtn">Zobraziť ďalšie fotky</button></div>
-      <p class="credit">Foto: Daniel Hurinský, archív klubu</p>
-    </div>
+  <section class="kband" aria-hidden="true">
+    <div class="kr a"></div><div class="kr b"></div>
   </section>
 
   <section class="block" id="socialne" style="padding-top:0">
@@ -1262,28 +1346,29 @@ CATS.forEach(function(c){ var r=ROSTERS.filter(function(x){return x.id===c.id;})
 var POSN={B:'Brankár',O:'Obranca','Ú':'Útočník'};
 var curRoster=ROSTERS[0], curPos='all', curSort='no';
 function photoTag(p,cls){ if(p.photo) return '<img src="'+pimg(p.photo)+'" alt="'+esc(p.name)+'" loading="lazy" style="object-position:50% 12%">'; var ini=p.name.split(' ').map(function(w){return w[0];}).join(''); return '<span class="jg jg-'+(p.pos||'U')+(p.no?'':' noj')+'"><b>'+(p.no||ini)+'</b><i>'+esc(p.name.split(' ').slice(-1)[0])+'</i></span>'; }
+function topScorer(list){ return list.filter(function(p){return p.st;}).sort(function(a,b){return b.st[1]-a.st[1]||a.st[0]-b.st[0]||a.st[2]-b.st[2];})[0]; }
 function topBy(list,i){ return list.filter(function(p){return p.st;}).sort(function(a,b){return b.st[i]-a.st[i]||b.st[1]-a.st[1];})[0]; }
 function renderLeaders(){
-  var pl=curRoster.players, b=topBy(pl,3), g=topBy(pl,1), a=topBy(pl,2);
+  var pl=curRoster.players, b=topBy(pl,3), g=topScorer(pl), a=topBy(pl,2);
   if(!b){ document.getElementById('leaders').innerHTML=''; return; }
   var gk=pl.filter(function(p){return p.x.gk&&p.x.gk.gp&&p.x.gk.sv!=='0,00 %';}).sort(function(x,y){return parseFloat(y.x.gk.sv.replace(',','.'))-parseFloat(x.x.gk.sv.replace(',','.'));})[0];
   var LDBG=['uploads/clanky/ondrasik-3.jpg','uploads/clanky/ondrasik-1.jpg','uploads/clanky/davidek-1.jpg','uploads/clanky/ondrasik-2.jpg'], ldi=0;
   function card(lbl,val,p,unit){ if(!p) return ''; var bg=LDBG[ldi++%4]; return '<button type="button" class="ld" data-big="'+(p.no?'#'+p.no:'')+'" data-name="'+esc(p.name)+'">'+'<span class="t"><small>'+lbl+'</small><b class="num">'+val+'</b><span>'+esc(p.name)+'</span>'+(unit?'<em>'+unit+'</em>':'')+'</span></button>'; }
-  document.getElementById('leaders').innerHTML=card('Najviac bodov',b.st[3],b,b.st[1]+'+'+b.st[2])+card('Najviac gólov',g.st[1],g,g.st[0]+' zápasy')+card('Najviac asistencií',a.st[2],a,'')+card('Brankár · úspešnosť',gk?gk.x.gk.sv.replace(' ',''):'–',gk,gk?gk.x.gk.gp+' zápasy':'');
+  document.getElementById('leaders').innerHTML=card('MVP · najviac bodov',b.st[3],b,b.st[1]+'+'+b.st[2])+card('Najviac gólov',g.st[1],g,g.st[0]+' zápasy')+card('Najviac asistencií',a.st[2],a,'')+card('Brankár · úspešnosť',gk?gk.x.gk.sv.replace(' ',''):'–',gk,gk?gk.x.gk.gp+' zápasy':'');
   [].forEach.call(document.querySelectorAll('.ld'),function(el){ el.addEventListener('click',function(){ openPlayer(el.getAttribute('data-name')); }); });
 }
 function renderRoster(){
   var list=curRoster.players.filter(function(p){return curPos==='all'||p.pos===curPos;}).slice();
   var bpts=function(p){return p.st?p.st[3]:-1;}, gls=function(p){return p.st?p.st[1]:-1;};
   if(curSort==='b') list.sort(function(a,b){return bpts(b)-bpts(a);}); else if(curSort==='g') list.sort(function(a,b){return gls(b)-gls(a);}); else if(curSort==='age') list.sort(function(a,b){return b.yr-a.yr;}); else list.sort(function(a,b){var o={B:0,O:1,'Ú':2}; return (o[a.pos]-o[b.pos])||((a.no===''?999:a.no)-(b.no===''?999:b.no));});
-  var best=topBy(curRoster.players,3);
+  var best=topBy(curRoster.players,3), bsc=topScorer(curRoster.players);
   var PH={B:'Brankári',O:'Obrancovia','Ú':'Útočníci'}, lastPos=null, showH=(curSort==='no'&&curPos==='all');
   document.getElementById('players').innerHTML=list.map(function(p,i){ var hd=''; if(showH&&p.pos!==lastPos){ lastPos=p.pos; hd='<div class="pos-h">'+PH[p.pos]+'<small>'+list.filter(function(x){return x.pos===p.pos;}).length+'</small></div>'; }
     var line;
     if(p.x.gk) line='<div class="line'+(p.x.gk.gp?'':' zero')+'"><div><b>'+p.x.gk.gp+'</b><span>Z</span></div><div style="grid-column:span 2"><b>'+(p.x.gk.gp&&p.x.gk.sv!=='0,00 %'?p.x.gk.sv.replace(' ',''):'–')+'</b><span>úspešnosť</span></div><div><b>'+(p.x.gk.gp&&p.x.gk.gaa!=='0,00'?p.x.gk.gaa:'–')+'</b><span>GAA</span></div></div>';
     else if(p.st) line='<div class="line'+(p.st[0]?'':' zero')+'"><div><b>'+p.st[0]+'</b><span>Z</span></div><div><b>'+p.st[1]+'</b><span>G</span></div><div><b>'+p.st[2]+'</b><span>A</span></div><div><b>'+p.st[3]+'</b><span>B</span></div></div>';
     else line='<div class="line zero"><div><b>0</b><span>Z</span></div><div><b>–</b><span>G</span></div><div><b>–</b><span>A</span></div><div><b>–</b><span>B</span></div></div>';
-    return hd+'<button type="button" class="pl" id="pl-'+curRoster.id+'-'+i+'" data-name="'+esc(p.name)+'"><div class="ph">'+photoTag(p)+(best===p?'<span class="hot">Top strelec</span>':'')+'</div><span class="no num">'+(p.no||'–')+'</span><span class="pos">'+POSN[p.pos]+'</span>'+(p.x.c?'<span class="cap" title="Kapitán">C</span>':'')+'<div class="meta"><b>'+esc(p.name)+'</b><span>'+(p.yr?'ročník '+p.yr:POSN[p.pos])+(p.born?' · '+fmtDM(p.born):'')+'</span>'+(curRoster.nostats?'':line)+'</div></button>';
+    return hd+'<button type="button" class="pl" id="pl-'+curRoster.id+'-'+i+'" data-name="'+esc(p.name)+'"><div class="ph">'+photoTag(p)+(best===p?'<span class="hot mvp">MVP</span>':'')+(bsc===p?'<span class="hot'+(best===p?' hot2':'')+'">Top strelec</span>':'')+'</div><span class="no num">'+(p.no||'–')+'</span><span class="pos">'+POSN[p.pos]+'</span>'+(p.x.c?'<span class="cap" title="Kapitán">C</span>':'')+'<div class="meta"><b>'+esc(p.name)+'</b><span>'+(p.yr?'ročník '+p.yr:POSN[p.pos])+(p.born?' · '+fmtDM(p.born):'')+'</span>'+(curRoster.nostats?'':line)+'</div></button>';
   }).join('');
   if(curRoster.nostats) document.getElementById('players').insertAdjacentHTML('afterbegin','<p class="nostat">ℹ️ V kategórii mladších žiakov SZFB nevedie individuálne štatistiky, preto pri hráčoch nie sú góly a body. Výsledky tímu nájdeš vo Výsledkoch a programe.</p>');
   [].forEach.call(document.querySelectorAll('.pl'),function(el){ el.addEventListener('click',function(){ openPlayer(el.getAttribute('data-name')); }); });
@@ -1552,17 +1637,7 @@ var GAL=[
  ['img/tf/mladsi-ziaci.jpg','ml','Mladší žiaci · tímová fotka 2025/26','50% 60%'],['img/tf/pripravka.jpg','ml','Prípravka · tímová fotka 2025/26','50% 55%'],['img/tf/starsi-ziaci.jpg','ml','Starší žiaci · tímová fotka 2025/26','50% 55%'],['img/b/sz.jpg','ml','Starší žiaci v Dubnici','50% 30%'],['img/b/mz.jpg','ml','Mladší žiaci','50% 30%'],['img/t/pripravka.jpg','ml','Prípravka na turnaji','50% 40%']
 ];
 var GCAT={derby:'Derby 23. 10.',muzi:'Muži',jun:'Juniori',dor:'Dorastenci',ml:'Mládež'};
-var GPAT=['w','','','','','t','w','s','s','f'], GSTEP=10;
-var gal=document.getElementById('gallery'), lb=document.getElementById('lb'), lbi=0, gview=GAL, gshown=GSTEP;
-function renderGal(f,more){ if(f) gview=GAL.filter(function(g){return f==='all'||g[1]===f;}); if(!more) gshown=GSTEP; gal.innerHTML='';
-  gview.slice(0,gshown).forEach(function(g,i){ var b=document.createElement('button'); b.type='button'; b.className=(GPAT[i%GPAT.length]+' rv rv-z').trim(); b.style.setProperty('--i',i%GSTEP); b.id='gal-'+i; b.setAttribute('aria-label','Otvoriť fotku: '+g[2]);
-    b.innerHTML='<img src="'+g[0]+'" alt="'+esc(g[2])+'" loading="lazy" style="object-position:'+(g[3]||'50% 30%')+'"><span><em>'+GCAT[g[1]]+'</em>'+esc(g[2])+'</span><i class="zm" aria-hidden="true">⤢</i>'; b.addEventListener('click',function(){openLb(i);}); gal.appendChild(b); });
-  document.getElementById('galmore').hidden=gview.length<=gshown; rvScan(); }
-document.getElementById('galmorebtn').addEventListener('click',function(){ gshown+=GSTEP; renderGal(null,true); });
-var gch=document.getElementById('gchips');
-[['derby'],['muzi'],['jun'],['dor'],['ml'],['all']].forEach(function(c,i){ var n=c[0]==='all'?GAL.length:GAL.filter(function(g){return g[1]===c[0];}).length; var b=document.createElement('button'); b.type='button'; b.className='chip'; b.id='gch-'+i; b.innerHTML=(c[0]==='all'?'Všetky':GCAT[c[0]])+'<b>'+n+'</b>'; b.setAttribute('aria-pressed',i===0?'true':'false');
-  b.addEventListener('click',function(){ [].forEach.call(gch.children,function(x){x.setAttribute('aria-pressed','false');}); b.setAttribute('aria-pressed','true'); renderGal(c[0]); }); gch.appendChild(b); });
-renderGal('derby');
+var lb=document.getElementById('lb'), lbi=0, gview=GAL;
 var lbimg=document.getElementById('lbimg'), lbth=document.getElementById('lbth');
 function openLb(i){ lbi=(i+gview.length)%gview.length; var g=gview[lbi];
   lbimg.classList.add('fade'); setTimeout(function(){ lbimg.src=g[0]; lbimg.alt=g[2]; lbimg.onload=function(){ lbimg.classList.remove('fade'); }; },lb.hidden?0:150);
@@ -1602,7 +1677,12 @@ document.getElementById('inside').innerHTML=MEM.map(function(m,i){ var qa=m.qa&&
   return '<button type="button" class="mem rv'+(qa?' has-qa':'')+'" style="--i:'+(i%8)+'" data-i="'+i+'"><div class="mp">'+memPh(m)+(qa?'<span class="qa-b">Medailón</span>':'')+(song?'<span class="song">🎵 '+esc(song.slice(0,60))+'</span>':'')+'</div><div class="mb"><b>'+esc(m.name)+'</b>'+(m.role?'<small>'+esc(m.role)+'</small>':'')+'<i>'+(qa?'4 otázky →':'Čítať viac →')+'</i></div></button>'; }).join('');
 var mdlg=document.getElementById('mdlg'), mLast=null;
 function openMem(i){ var m=MEM[i]; if(!m) return; mLast=document.activeElement;
-  document.getElementById('mbox').innerHTML='<button type="button" class="x" id="mx" aria-label="Zavrieť">×</button><div class="ph3">'+memPh(m)+'</div><div class="bd3"><span class="eyebrow">'+esc(m.role||'')+'</span><h3>'+esc(m.name)+'</h3>'+(m.text?'<p>'+esc(m.text)+'</p>':'')+(m.qa&&m.qa.length?'<div class="qa">'+m.qa.map(function(x,j){return '<div style="--i:'+j+'"><i>'+(QI[j]||'💬')+'</i><h5>'+esc(x.q)+'</h5><p>'+esc(x.a)+'</p></div>';}).join('')+'</div>':(m.text?'':'<p>Medailónik pripravujeme.</p>'))+(m.url?'<a href="'+esc(m.url)+'"'+(/^https?:/.test(m.url)?' target="_blank" rel="noopener">Navštíviť web '+esc(m.url.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,''))+' →':'>Čítať celý medailónik →')+'</a>':'')+'</div>';
+  var nm=esc(m.name).split(' '), last=nm.pop(), qa=m.qa&&m.qa.length?m.qa:null;
+  var body=qa?'<div class="bd3-h"><span>Spoznajte AS <i>zvnútra</i></span><b>'+qa.length+' otázky</b></div>'+qa.map(function(x,j){ var cls=j===2?' q2':(j===qa.length-1?' q3':'');
+      return '<article class="qi'+cls+'" style="--i:'+j+'"><span class="qn">0'+(j+1)+'</span><div><h5>'+esc(x.q)+'</h5><p>'+esc(x.a)+'</p>'+(j===2?'<div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>':'')+'</div>'+(j===2?'<span class="vinyl" aria-hidden="true"></span>':'')+'</article>'; }).join('')
+    :(m.text?'<p>'+esc(m.text)+'</p>':'<p>Medailónik pripravujeme.</p>');
+  if(m.url) body+='<a class="web" href="'+esc(m.url)+'"'+(/^https?:/.test(m.url)?' target="_blank" rel="noopener">Navštíviť web '+esc(m.url.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,''))+' →':'>Čítať celý medailónik →')+'</a>';
+  document.getElementById('mbox').innerHTML='<button type="button" class="x" id="mx" aria-label="Zavrieť">×</button><div class="ph3">'+memPh(m)+'<div class="ph3-cap"><span>Medailón</span><h3>'+nm.join(' ')+'<em>'+last+'</em></h3><small>'+esc(m.role||'')+'</small></div></div><div class="bd3">'+body+'</div>';
   mdlg.hidden=false; document.getElementById('mx').focus(); }
 function closeMem(){ mdlg.hidden=true; if(mLast&&mLast.focus) mLast.focus(); }
 document.getElementById('inside').addEventListener('click',function(e){ var t=e.target.closest('.mem'); if(t) openMem(+t.dataset.i); });
@@ -1622,6 +1702,52 @@ document.getElementById('form').addEventListener('submit',function(e){ e.prevent
    .catch(function(){ ok.textContent='Prihlášku sa nepodarilo odoslať. Skús to znova alebo nám napíš na Facebooku.'; ok.hidden=false; }); });
 
 }).catch(function(e){ console.error(e); document.getElementById('panel').innerHTML='<p class="empty">Dáta sa nepodarilo načítať. Skúste obnoviť stránku.</p>'; });
+
+/* ===== v3 efekty ===== */
+(function(){
+  var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches, FINE=window.matchMedia&&matchMedia('(hover: hover) and (pointer: fine)').matches;
+  // nadpisy v slideri – slovo po slove
+  [].forEach.call(document.querySelectorAll('.slide h1,.slide h2'),function(hd){ var d=0;
+    (function walk(n){ [].slice.call(n.childNodes).forEach(function(c){ if(c.nodeType===3){ var f=document.createDocumentFragment(); c.textContent.split(/(\s+)/).forEach(function(w){ if(!w) return; if(/^\s+$/.test(w)){ f.appendChild(document.createTextNode(' ')); return; } var o=document.createElement('span'); o.className='w'; var s=document.createElement('span'); s.textContent=w; s.style.setProperty('--d',d++); o.appendChild(s); f.appendChild(o); }); n.replaceChild(f,c); } else if(c.nodeType===1) walk(c); }); })(hd); });
+  // kinetický pás
+  var A=['Nové AS','Trenčín','Spolu','Arena Ostrov','Florbal'], B=['Muži','Juniori','Dorastenci','Starší žiaci','Mladší žiaci','Prípravka','Fanúšikovia'];
+  function fill(el,arr){ var s=''; for(var k=0;k<4;k++) s+=arr.map(function(t){return '<span>'+t+'</span>';}).join(''); el.innerHTML=s; }
+  var ka=document.querySelector('.kband .a'), kb=document.querySelector('.kband .b');
+  if(ka){ fill(ka,A.slice(0,5)); fill(kb,B);
+    var off=0, vel=0, lastY=scrollY;
+    (function loop(){ var y=scrollY, dy=y-lastY; lastY=y; vel+= (dy*0.6-vel)*0.12; off+=RM?0:(0.6+Math.abs(vel)*0.5)*(vel<0?-1:1);
+      var wa=ka.scrollWidth/4, wb=kb.scrollWidth/4;
+      ka.style.transform='translateX('+(-((off%wa)+wa)%wa)+'px) skewX('+Math.max(-12,Math.min(12,-vel*0.4))+'deg)';
+      kb.style.transform='translateX('+(((off*0.8%wb)+wb)%wb-wb)+'px)';
+      requestAnimationFrame(loop); })(); }
+  if(RM) return;
+  // slider – spotlight a paralaxa
+  var sl=document.getElementById('slider');
+  if(sl&&FINE){ var sp=document.createElement('div'); sp.className='spot'; sl.appendChild(sp);
+    sl.addEventListener('mousemove',function(e){ var r=sl.getBoundingClientRect(), x=(e.clientX-r.left)/r.width, y=(e.clientY-r.top)/r.height;
+      sl.style.setProperty('--mx',(x*100)+'%'); sl.style.setProperty('--my',(y*100)+'%');
+      sl.style.setProperty('--px',((.5-x)*24)+'px'); sl.style.setProperty('--py',((.5-y)*16)+'px'); });
+    sl.addEventListener('mouseleave',function(){ sl.style.setProperty('--px','0px'); sl.style.setProperty('--py','0px'); }); }
+  if(!FINE) return;
+  // 3D náklon kariet s odleskom
+  var TSEL='.pl,.mem,.ld,.co,.boss,.nw';
+  document.addEventListener('mousemove',function(e){ var c=e.target.closest&&e.target.closest(TSEL); if(!c) return;
+    if(!c.classList.contains('tilt')){ c.classList.add('tilt'); var g=document.createElement('i'); g.className='glare'; g.setAttribute('aria-hidden','true'); c.appendChild(g);
+      c.addEventListener('mouseleave',function(){ c.style.transition='transform .5s cubic-bezier(.2,.9,.2,1)'; c.style.transform=''; }); }
+    var r=c.getBoundingClientRect(), x=(e.clientX-r.left)/r.width, y=(e.clientY-r.top)/r.height, k=c.classList.contains('nw')?3:8;
+    c.style.transition='transform .12s ease-out'; c.style.transform='perspective(900px) rotateX('+((.5-y)*k)+'deg) rotateY('+((x-.5)*k)+'deg) translateY(-4px)';
+    c.style.setProperty('--gx',(x*100)+'%'); c.style.setProperty('--gy',(y*100)+'%'); },{passive:true});
+  // florbalová loptička namiesto kurzora-sprievodcu + výbuch pri kliknutí
+  var ball=document.createElement('div'); ball.className='ball'; document.body.appendChild(ball);
+  var bx=0,by=0,tx=0,ty=0;
+  document.addEventListener('mousemove',function(e){ tx=e.clientX; ty=e.clientY; ball.classList.add('on'); ball.classList.toggle('big',!!(e.target.closest&&e.target.closest('a,button'))); },{passive:true});
+  document.addEventListener('mouseleave',function(){ ball.classList.remove('on'); });
+  (function bl(){ bx+=(tx-bx)*0.18; by+=(ty-by)*0.18; ball.style.transform='translate('+bx+'px,'+by+'px)'; requestAnimationFrame(bl); })();
+  document.addEventListener('click',function(e){ if(!(e.target.closest&&e.target.closest('.btn,.s-tab,.chip,.mem,.pl'))) return;
+    for(var k=0;k<12;k++){ var p=document.createElement('i'); p.className='burst'; var a=k/12*Math.PI*2, d=40+Math.random()*40;
+      p.style.left=e.clientX-4+'px'; p.style.top=e.clientY-4+'px'; p.style.background=k%3?'var(--red)':(k%2?'#fff':'var(--gold)');
+      p.style.setProperty('--bx',Math.cos(a)*d+'px'); p.style.setProperty('--by',Math.sin(a)*d+'px'); document.body.appendChild(p); setTimeout(function(q){return function(){q.remove();};}(p),750); } });
+})();
 </script>
 
 </body>
