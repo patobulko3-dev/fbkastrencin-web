@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T17:28:21.773Z",
+ "updated": "2026-10-28T22:10:15.315Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -15,7 +15,8 @@
      "Vpp",
      "ARENA OSTROV",
      1,
-     "2026-09-19"
+     "2026-09-19",
+     "1241/137189"
     ],
     [
      "26.9.",
@@ -24,7 +25,8 @@
      "V",
      "ŠH Dom Športu Bratislava",
      0,
-     "2026-09-26"
+     "2026-09-26",
+     "1241/137197"
     ],
     [
      "3.10.",
@@ -33,7 +35,8 @@
      "V",
      "ARENA OSTROV",
      1,
-     "2026-10-03"
+     "2026-10-03",
+     "1241/137204"
     ],
     [
      "9.10.",
@@ -42,7 +45,8 @@
      "P",
      "Športové centrum Žilinskej univerzity",
      0,
-     "2026-10-09"
+     "2026-10-09",
+     "1241/137206"
     ],
     [
      "11.10.",
@@ -51,7 +55,8 @@
      "V",
      "MŠH Tvrdošín",
      0,
-     "2026-10-11"
+     "2026-10-11",
+     "1241/137211"
     ],
     [
      "23.10.",
@@ -60,7 +65,8 @@
      "P",
      "MŠH Trenčín - centrálna hala",
      0,
-     "2026-10-23"
+     "2026-10-23",
+     "1241/137221"
     ]
    ],
    "next": [
@@ -205,7 +211,8 @@
      "V",
      "ARENA OSTROV",
      1,
-     "2026-09-12"
+     "2026-09-12",
+     "1244/137914"
     ],
     [
      "13.9.",
@@ -214,7 +221,8 @@
      "Ppp",
      "ARENA OSTROV",
      1,
-     "2026-09-13"
+     "2026-09-13",
+     "1244/137917"
     ],
     [
      "10.10.",
@@ -223,7 +231,8 @@
      "P",
      "Spojená škola Prešov",
      0,
-     "2026-10-10"
+     "2026-10-10",
+     "1244/137926"
     ],
     [
      "11.10.",
@@ -232,7 +241,8 @@
      "P",
      "ARENA OSTROV",
      0,
-     "2026-10-11"
+     "2026-10-11",
+     "1244/137928"
     ],
     [
      "15.10.",
@@ -241,7 +251,8 @@
      "P",
      "ARENA OSTROV",
      1,
-     "2026-10-15"
+     "2026-10-15",
+     "1244/137921"
     ],
     [
      "25.10.",
@@ -250,7 +261,8 @@
      "V",
      "MŠH Trenčín - centrálna hala",
      0,
-     "2026-10-25"
+     "2026-10-25",
+     "1244/137931"
     ]
    ],
    "next": [
@@ -360,7 +372,8 @@
      "P",
      "MŠH Partizánske",
      1,
-     "2026-09-26"
+     "2026-09-26",
+     "1262/138390"
     ],
     [
      "26.9.",
@@ -369,7 +382,8 @@
      "V",
      "MŠH Partizánske",
      1,
-     "2026-09-26"
+     "2026-09-26",
+     "1262/138391"
     ],
     [
      "10.10.",
@@ -378,7 +392,8 @@
      "P",
      "ARENA OSTROV",
      1,
-     "2026-10-10"
+     "2026-10-10",
+     "1262/138398"
     ],
     [
      "10.10.",
@@ -387,7 +402,8 @@
      "V",
      "ARENA OSTROV",
      1,
-     "2026-10-10"
+     "2026-10-10",
+     "1262/138399"
     ],
     [
      "24.10.",
@@ -396,7 +412,8 @@
      "P",
      "Gymnázium Janka Kráľa Zlaté Moravce",
      0,
-     "2026-10-24"
+     "2026-10-24",
+     "1262/138418"
     ],
     [
      "24.10.",
@@ -405,7 +422,8 @@
      "V",
      "Gymnázium Janka Kráľa Zlaté Moravce",
      1,
-     "2026-10-24"
+     "2026-10-24",
+     "1262/138419"
     ]
    ],
    "next": [
@@ -550,7 +568,8 @@
      "V",
      "sTC Aréna Púchov",
      0,
-     "2026-10-03"
+     "2026-10-03",
+     "1267/137978"
     ],
     [
      "4.10.",
@@ -559,7 +578,8 @@
      "V",
      "ARENA OSTROV",
      1,
-     "2026-10-04"
+     "2026-10-04",
+     "1267/137975"
     ]
    ],
    "next": [
@@ -655,7 +675,8 @@
      "V",
      "MŠH Dubnica nad Váhom",
      0,
-     "2026-10-11"
+     "2026-10-11",
+     "1278/138685"
     ],
     [
      "11.10.",
@@ -664,7 +685,8 @@
      "P",
      "MŠH Dubnica nad Váhom",
      1,
-     "2026-10-11"
+     "2026-10-11",
+     "1278/138687"
     ],
     [
      "25.10.",
@@ -673,7 +695,8 @@
      "V",
      "ARENA OSTROV",
      1,
-     "2026-10-25"
+     "2026-10-25",
+     "1278/138697"
     ],
     [
      "25.10.",
@@ -682,7 +705,8 @@
      "P",
      "ARENA OSTROV",
      1,
-     "2026-10-25"
+     "2026-10-25",
+     "1278/138700"
     ]
    ],
    "next": [
@@ -785,7 +809,8 @@
      "V",
      "MŠH Dubnica nad Váhom",
      0,
-     "2026-10-03"
+     "2026-10-03",
+     "1281/138518"
     ],
     [
      "3.10.",
@@ -794,7 +819,8 @@
      "V",
      "MŠH Dubnica nad Váhom",
      1,
-     "2026-10-03"
+     "2026-10-03",
+     "1281/138520"
     ],
     [
      "24.10.",
@@ -803,7 +829,8 @@
      "V",
      "MŠH Dubnica nad Váhom",
      0,
-     "2026-10-24"
+     "2026-10-24",
+     "1281/138522"
     ],
     [
      "24.10.",
@@ -812,7 +839,8 @@
      "V",
      "MŠH Dubnica nad Váhom",
      1,
-     "2026-10-24"
+     "2026-10-24",
+     "1281/138525"
     ]
    ],
    "next": [
@@ -908,7 +936,8 @@
      "P",
      "MŠH Partizánske",
      1,
-     "2026-10-11"
+     "2026-10-11",
+     "1286/139480"
     ],
     [
      "11.10.",
@@ -917,7 +946,8 @@
      "P",
      "MŠH Partizánske",
      1,
-     "2026-10-11"
+     "2026-10-11",
+     "1286/139481"
     ],
     [
      "17.10.",
@@ -926,7 +956,8 @@
      "P",
      "MŠH Dubnica nad Váhom",
      0,
-     "2026-10-17"
+     "2026-10-17",
+     "1287/139414"
     ],
     [
      "17.10.",
@@ -935,7 +966,8 @@
      "P",
      "MŠH Dubnica nad Váhom",
      1,
-     "2026-10-17"
+     "2026-10-17",
+     "1287/139415"
     ],
     [
      "18.10.",
@@ -944,7 +976,8 @@
      "P",
      "ARENA OSTROV",
      0,
-     "2026-10-18"
+     "2026-10-18",
+     "1286/139487"
     ],
     [
      "18.10.",
@@ -953,7 +986,8 @@
      "P",
      "ARENA OSTROV",
      0,
-     "2026-10-18"
+     "2026-10-18",
+     "1286/139488"
     ]
    ],
    "next": [
@@ -4285,5 +4319,4386 @@
     ]
    ]
   ]
+ },
+ "matches": {
+  "1241/137189": {
+   "ev": [
+    {
+     "t": "02:28",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Peter Hrabčák",
+     "a": "Jakub Jánošík"
+    },
+    {
+     "t": "14:02",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Patrik Zverbik",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "17:09",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Jozef Kriš",
+     "r": "Opakované priestupky"
+    },
+    {
+     "t": "20:04",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "m",
+     "sc": "0:1",
+     "x": "NTS",
+     "p": "Michal Bačišin"
+    },
+    {
+     "t": "24:36",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Tomáš Petruška",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "24:51",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "0:2",
+     "x": "OS1",
+     "p": "Jakub Grich",
+     "a": "Peter Hrabčák"
+    },
+    {
+     "t": "39:43",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "0:3",
+     "p": "Michal Bačišin",
+     "a": "Matej Martoňák"
+    },
+    {
+     "t": "42:00",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "1:3",
+     "p": "Adam Krecháč",
+     "a": "Timotej Kollár"
+    },
+    {
+     "t": "50:41",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "2:3",
+     "p": "Gabriel Královič",
+     "a": "Matúš Malík"
+    },
+    {
+     "t": "50:49",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "2:4",
+     "p": "Samuel Hurajt"
+    },
+    {
+     "t": "52:19",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:4",
+     "p": "Timotej Kollár"
+    },
+    {
+     "t": "55:14",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:4",
+     "p": "Timotej Kollár",
+     "a": "Adam Krecháč"
+    },
+    {
+     "t": "55:51",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:4",
+     "p": "Samuel Dávidek",
+     "a": "Šimon Ondrášik"
+    },
+    {
+     "t": "59:00",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:5",
+     "p": "Samuel Hurajt",
+     "a": "Peter Hrabčák"
+    },
+    {
+     "t": "63:11",
+     "s": 0,
+     "q": "Predĺženie",
+     "k": "p",
+     "m": "2",
+     "p": "Samuel Dávidek",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "64:35",
+     "s": 0,
+     "q": "Predĺženie",
+     "k": "g",
+     "sc": "6:5",
+     "x": "OS1",
+     "p": "Timotej Kollár",
+     "a": "Patrik Zverbik"
+    }
+   ],
+   "st": {
+    "g": [
+     "6",
+     "5"
+    ],
+    "sh": [
+     "40",
+     "37"
+    ],
+    "sv": [
+     "32",
+     "34"
+    ],
+    "pp": [
+     "0/2",
+     "0/2"
+    ],
+    "pk": [
+     "2/2",
+     "2/2"
+    ]
+   },
+   "per": "(0:1, 0:2, 5:2, 1:0)"
+  },
+  "1241/137197": {
+   "ev": [
+    {
+     "t": "01:53",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Timotej Kollár",
+     "a": "Matúš Malík"
+    },
+    {
+     "t": "03:09",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:2",
+     "p": "Peter Bednár",
+     "a": "Erik Vojtek"
+    },
+    {
+     "t": "04:00",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:2",
+     "p": "Matúš Šablica",
+     "a": "Martin Vrábel"
+    },
+    {
+     "t": "04:24",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:3",
+     "p": "Šimon Oravec",
+     "a": "František Jaššo"
+    },
+    {
+     "t": "06:34",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:4",
+     "p": "Matúš Malík"
+    },
+    {
+     "t": "10:18",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:5",
+     "p": "Michal Daranský"
+    },
+    {
+     "t": "14:53",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:5",
+     "p": "Peter Steller"
+    },
+    {
+     "t": "19:31",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:6",
+     "p": "Marek Meliš"
+    },
+    {
+     "t": "22:56",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:6",
+     "p": "Martin Bujaki",
+     "a": "Peter Nehila"
+    },
+    {
+     "t": "33:26",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:6",
+     "p": "Martin Vrábel",
+     "a": "Ondrej Kusenda"
+    },
+    {
+     "t": "39:43",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:7",
+     "p": "Gabriel Královič"
+    },
+    {
+     "t": "40:54",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Martin Bujaki",
+     "r": "Opakované priestupky"
+    },
+    {
+     "t": "44:36",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:7",
+     "p": "Richard Dluhoš"
+    },
+    {
+     "t": "47:07",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:7",
+     "p": "Richard Lelák",
+     "a": "Peter Nehila"
+    },
+    {
+     "t": "54:11",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Peter Bednár",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "54:11",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Lukáš Hurinský",
+     "r": "Bránenie v hre"
+    },
+    {
+     "t": "57:37",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:8",
+     "p": "Michal Daranský",
+     "a": "Gabriel Královič"
+    },
+    {
+     "t": "59:10",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:9",
+     "p": "Šimon Ondrášik",
+     "a": "Jonáš Bagín"
+    },
+    {
+     "t": "59:10",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Matúš Malík",
+     "r": "Nešportové správanie"
+    },
+    {
+     "t": "59:10",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "10",
+     "p": "Matúš Malík",
+     "r": "Nešportové správanie"
+    }
+   ],
+   "st": {
+    "g": [
+     "6",
+     "9"
+    ],
+    "sh": [
+     "24",
+     "34"
+    ],
+    "sv": [
+     "25",
+     "18"
+    ],
+    "pp": [
+     "0/1",
+     "0/1"
+    ],
+    "pk": [
+     "1/1",
+     "1/1"
+    ]
+   },
+   "per": "(2:6, 2:1, 2:2)",
+   "sp": 97
+  },
+  "1241/137204": {
+   "ev": [
+    {
+     "t": "06:03",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Michal Daranský",
+     "a": "Matúš Malík"
+    },
+    {
+     "t": "10:23",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "Juvenal Dikacz",
+     "a": "Viktor Báb"
+    },
+    {
+     "t": "19:01",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Martin Sivák",
+     "r": "Nedovolené vrážanie"
+    },
+    {
+     "t": "19:54",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:1",
+     "x": "PH1",
+     "p": "Peter Bednár"
+    },
+    {
+     "t": "21:17",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:2",
+     "p": "Tomáš Jurica",
+     "a": "Martin Lauko"
+    },
+    {
+     "t": "26:31",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:2",
+     "p": "Timotej Kollár",
+     "a": "Adam Krecháč"
+    },
+    {
+     "t": "32:08",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:2",
+     "p": "Matúš Malík",
+     "a": "Timotej Kollár"
+    },
+    {
+     "t": "32:49",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Jerguš Surma",
+     "r": "Nedovolené vrážanie"
+    },
+    {
+     "t": "35:45",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Adam Krecháč",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "37:36",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:3",
+     "x": "PH1",
+     "p": "Peter Banga",
+     "a": "Maroš Kovaľ"
+    },
+    {
+     "t": "41:19",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Maroš Kovaľ",
+     "r": "Hrubosť"
+    },
+    {
+     "t": "57:40",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:4",
+     "p": "Maroš Kovaľ",
+     "a": "Peter Banga"
+    },
+    {
+     "t": "59:15",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:4",
+     "x": "VG",
+     "p": "Oliver Chochol"
+    }
+   ],
+   "st": {
+    "g": [
+     "5",
+     "4"
+    ],
+    "sh": [
+     "29",
+     "24"
+    ],
+    "sv": [
+     "20",
+     "24"
+    ],
+    "pp": [
+     "1/2",
+     "1/2"
+    ],
+    "pk": [
+     "1/2",
+     "1/2"
+    ]
+   },
+   "per": "(2:1, 2:2, 1:1)",
+   "sp": 458
+  },
+  "1241/137206": {
+   "ev": [
+    {
+     "t": "00:27",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Samuel Zajac",
+     "a": "Samuel Jančo"
+    },
+    {
+     "t": "09:38",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Tomáš Brída"
+    },
+    {
+     "t": "27:38",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:1",
+     "p": "Šimon Ondrášik",
+     "a": "Matúš Malík"
+    },
+    {
+     "t": "31:14",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Matúš Malík",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "38:24",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:2",
+     "p": "Šimon Oravec",
+     "a": "Šimon Ondrášik"
+    },
+    {
+     "t": "38:36",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:2",
+     "p": "Michal Miške",
+     "a": "Andrej Dudjak"
+    },
+    {
+     "t": "49:17",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Michal Chládecký",
+     "r": "Hrubosť"
+    },
+    {
+     "t": "54:08",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:2",
+     "p": "Michal Jančo",
+     "a": "Jakub Matejička"
+    },
+    {
+     "t": "56:54",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Jakub Habrún",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "58:27",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:3",
+     "x": "PH1",
+     "p": "Jonáš Bagín",
+     "a": "Timotej Kollár"
+    },
+    {
+     "t": "59:25",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:3",
+     "p": "Samuel Jančo"
+    },
+    {
+     "t": "59:49",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Patrik Zverbik",
+     "r": "Zdržovanie hry"
+    }
+   ],
+   "st": {
+    "g": [
+     "5",
+     "3"
+    ],
+    "sh": [
+     "37",
+     "24"
+    ],
+    "sv": [
+     "21",
+     "33"
+    ],
+    "pp": [
+     "0/0",
+     "1/0"
+    ],
+    "pk": [
+     "-1/0",
+     "0/0"
+    ]
+   },
+   "per": "(2:0, 1:2, 2:1)",
+   "sp": 195
+  },
+  "1241/137211": {
+   "ev": [
+    {
+     "t": "08:19",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Timotej Kollár",
+     "r": "Opakované priestupky"
+    },
+    {
+     "t": "10:16",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "x": "PH1",
+     "p": "Martin Santer",
+     "a": "Tomáš Řezáč"
+    },
+    {
+     "t": "14:29",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "Matúš Malík"
+    },
+    {
+     "t": "18:39",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:1",
+     "p": "Mateusz Turwoń",
+     "a": "Martin Latka"
+    },
+    {
+     "t": "29:37",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "m",
+     "sc": "2:1",
+     "x": "NTS",
+     "p": "Martin Latka"
+    },
+    {
+     "t": "31:30",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:2",
+     "p": "Timotej Kollár",
+     "a": "Matúš Malík"
+    },
+    {
+     "t": "41:30",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "2:3",
+     "p": "Matúš Malík",
+     "a": "Adam Krecháč"
+    },
+    {
+     "t": "47:30",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "2:4",
+     "p": "František Jaššo",
+     "a": "Erik Vojtek"
+    },
+    {
+     "t": "50:49",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "2:5",
+     "p": "Michal Daranský",
+     "a": "Gabriel Královič"
+    },
+    {
+     "t": "51:15",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "2:6",
+     "p": "Šimon Ondrášik",
+     "a": "Matúš Malík"
+    },
+    {
+     "t": "51:45",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:6",
+     "p": "Martin Santer",
+     "a": "Samuel Šimurdiak"
+    },
+    {
+     "t": "57:42",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:7",
+     "p": "Gabriel Královič",
+     "a": "Erik Vojtek"
+    },
+    {
+     "t": "58:12",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:8",
+     "x": "TS",
+     "p": "Michal Daranský"
+    }
+   ],
+   "st": {
+    "g": [
+     "3",
+     "8"
+    ],
+    "sh": [
+     "32",
+     "38"
+    ],
+    "sv": [
+     "30",
+     "29"
+    ],
+    "pp": [
+     "1/1",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/1"
+    ]
+   },
+   "per": "(2:1, 0:1, 1:6)",
+   "sp": 86
+  },
+  "1241/137221": {
+   "ev": [
+    {
+     "t": "03:06",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Samuel Timko",
+     "a": "Tomáš Kvasnica"
+    },
+    {
+     "t": "03:47",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Šimon Masár",
+     "a": "Tuukka Korhonen"
+    },
+    {
+     "t": "14:13",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Šimon Masár",
+     "r": "Hrubosť"
+    },
+    {
+     "t": "15:28",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Nikke Tielinen",
+     "r": "Bránenie v hre"
+    },
+    {
+     "t": "16:14",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:1",
+     "x": "PH1",
+     "p": "Michal Daranský",
+     "a": "Matúš Malík"
+    },
+    {
+     "t": "16:14",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Tomáš Kvasnica",
+     "r": "Hrubosť"
+    },
+    {
+     "t": "21:19",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:1",
+     "p": "Šimon Masár",
+     "a": "Tuukka Korhonen"
+    },
+    {
+     "t": "27:28",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Michal Daranský",
+     "r": "Nedovolené vrážanie"
+    },
+    {
+     "t": "29:27",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Samuel Dávidek",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "33:42",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Samuel Timko",
+     "r": "Nedovolené vrážanie"
+    },
+    {
+     "t": "34:17",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:2",
+     "x": "PH1",
+     "p": "Jonáš Bagín",
+     "a": "Adam Krecháč"
+    },
+    {
+     "t": "35:49",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:2",
+     "p": "Martin Bútora",
+     "a": "Michal Ochránek"
+    },
+    {
+     "t": "46:56",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Dominik Vrábeľ",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "50:15",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:2",
+     "p": "Michal Amrich",
+     "a": "Samuel Timko"
+    },
+    {
+     "t": "52:58",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Samuel Timko",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "53:14",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Šimon Oravec",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "55:18",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:2",
+     "p": "Šimon Masár",
+     "a": "Tomáš Kvasnica"
+    },
+    {
+     "t": "56:12",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "František Jaššo",
+     "r": "Vysoká florbalka"
+    },
+    {
+     "t": "58:49",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Alexander Paksi",
+     "r": "Priestupky florbalkou"
+    }
+   ],
+   "st": {
+    "g": [
+     "6",
+     "2"
+    ],
+    "sh": [
+     "28",
+     "17"
+    ],
+    "sv": [
+     "15",
+     "22"
+    ],
+    "pp": [
+     "0/4",
+     "2/7"
+    ],
+    "pk": [
+     "5/7",
+     "4/4"
+    ]
+   },
+   "per": "(2:1, 2:1, 2:0)",
+   "sp": 850
+  },
+  "1244/137914": {
+   "ev": [
+    {
+     "t": "04:52",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Alex Trtík",
+     "a": "Samuel Bielik"
+    },
+    {
+     "t": "06:47",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Samuel Bielik",
+     "a": "Alex Trtík"
+    },
+    {
+     "t": "10:12",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:0",
+     "p": "Andrej Koprda"
+    },
+    {
+     "t": "16:09",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:1",
+     "p": "Viktor Ivan",
+     "a": "Boris Litvák"
+    },
+    {
+     "t": "19:18",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:1",
+     "p": "Alex Trtík",
+     "a": "Samuel Bielik"
+    },
+    {
+     "t": "20:00",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Alex Kotleba",
+     "r": "Zdržovanie hry"
+    },
+    {
+     "t": "22:54",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:2",
+     "p": "Viliam Šimočko",
+     "a": "Viktor Ivan"
+    },
+    {
+     "t": "26:53",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:2",
+     "p": "Matej Zverbík",
+     "a": "Andrej Koprda"
+    },
+    {
+     "t": "31:21",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:3",
+     "p": "Ján Cheben",
+     "a": "Miroslav Varga"
+    },
+    {
+     "t": "33:55",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "6:3",
+     "p": "Marco Olekšák",
+     "a": "Tadeáš Spišák"
+    },
+    {
+     "t": "35:54",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "7:3",
+     "p": "Matej Zverbík",
+     "a": "Tomáš Kordoš"
+    },
+    {
+     "t": "36:23",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "7:4",
+     "p": "Ján Cheben",
+     "a": "Miroslav Varga"
+    },
+    {
+     "t": "37:47",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Viktor Ivan",
+     "r": "Bránenie v hre"
+    },
+    {
+     "t": "38:51",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "8:4",
+     "x": "PH1",
+     "p": "Marco Olekšák",
+     "a": "Samuel Bielik"
+    },
+    {
+     "t": "39:07",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "8:5",
+     "p": "Viktor Ivan",
+     "a": "Matúš Pozemka"
+    },
+    {
+     "t": "46:17",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "8:6",
+     "p": "Miroslav Varga",
+     "a": "Lukáš Garaj"
+    },
+    {
+     "t": "53:58",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Daniel Beňovič",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "59:09",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "9:6",
+     "p": "Jakub Minárik",
+     "a": "Oliver Klčo"
+    },
+    {
+     "t": "59:35",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "9:7",
+     "x": "TS",
+     "p": "Miroslav Varga"
+    }
+   ],
+   "st": {
+    "g": [
+     "9",
+     "7"
+    ],
+    "sh": [
+     "29",
+     "16"
+    ],
+    "sv": [
+     "9",
+     "20"
+    ],
+    "pp": [
+     "1/1",
+     "0/2"
+    ],
+    "pk": [
+     "2/2",
+     "0/1"
+    ]
+   },
+   "per": "(4:1, 4:4, 1:2)"
+  },
+  "1244/137917": {
+   "ev": [
+    {
+     "t": "06:24",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Marco Olekšák",
+     "a": "Nicolas Pasqualon"
+    },
+    {
+     "t": "06:55",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "Michal Bakoš",
+     "a": "Martin Bakoš"
+    },
+    {
+     "t": "14:14",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Jakub Reis",
+     "r": "Nesprávne striedanie"
+    },
+    {
+     "t": "15:54",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:2",
+     "x": "PH1",
+     "p": "Tomáš Krútel"
+    },
+    {
+     "t": "19:51",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:3",
+     "p": "Tomáš Krútel",
+     "a": "Matúš Moro"
+    },
+    {
+     "t": "22:32",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:4",
+     "p": "Matej Goffa",
+     "a": "Tomáš Krútel"
+    },
+    {
+     "t": "22:45",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:5",
+     "p": "Michal Bakoš",
+     "a": "Martin Bakoš"
+    },
+    {
+     "t": "25:42",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Filip Malý",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "27:14",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:5",
+     "x": "PH1",
+     "p": "Daniel Beňovič",
+     "a": "Michal Daranský"
+    },
+    {
+     "t": "32:13",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:5",
+     "p": "Alex Trtík"
+    },
+    {
+     "t": "38:15",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:5",
+     "p": "Daniel Beňovič",
+     "a": "Samuel Bielik"
+    },
+    {
+     "t": "40:39",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:6",
+     "p": "Filip Ščasný",
+     "a": "Jakub Fronc"
+    },
+    {
+     "t": "41:32",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:6",
+     "p": "Oliver Klčo",
+     "a": "Alex Trtík"
+    },
+    {
+     "t": "59:08",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:6",
+     "p": "Tomáš Huňa",
+     "a": "Michal Daranský"
+    },
+    {
+     "t": "63:28",
+     "s": 1,
+     "q": "Predĺženie",
+     "k": "g",
+     "sc": "6:7",
+     "p": "Filip Ščasný",
+     "a": "Matej Marioth"
+    }
+   ],
+   "st": {
+    "g": [
+     "6",
+     "7"
+    ],
+    "sh": [
+     "17",
+     "30"
+    ],
+    "sv": [
+     "23",
+     "11"
+    ],
+    "pp": [
+     "1/1",
+     "1/1"
+    ],
+    "pk": [
+     "0/1",
+     "0/1"
+    ]
+   },
+   "per": "(1:3, 3:2, 2:1, 0:1)"
+  },
+  "1244/137926": {
+   "ev": [
+    {
+     "t": "04:35",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Andrej Koprda",
+     "a": "Marco Olekšák"
+    },
+    {
+     "t": "05:38",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "Mario Berger",
+     "a": "Samuel Horenský"
+    },
+    {
+     "t": "08:09",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Jakub Reis",
+     "r": "Bránenie v hre"
+    },
+    {
+     "t": "09:12",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:1",
+     "x": "PH1",
+     "p": "Jakub Kurečko",
+     "a": "Mario Berger"
+    },
+    {
+     "t": "09:56",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Alex Hasara",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "11:27",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:1",
+     "x": "OS1",
+     "p": "Jakub Jančok",
+     "a": "Bruno Peregrin"
+    },
+    {
+     "t": "19:34",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:1",
+     "p": "Samuel Hajduk"
+    },
+    {
+     "t": "28:18",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:1",
+     "p": "Alex Hasara",
+     "a": "Adam Rákoš"
+    },
+    {
+     "t": "28:46",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:2",
+     "p": "Andrej Koprda"
+    },
+    {
+     "t": "37:19",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Jakub Jančok",
+     "r": "Nešportové správanie"
+    },
+    {
+     "t": "37:19",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "10",
+     "p": "Jakub Jančok",
+     "r": "Nešportové správanie / Osobný trest"
+    },
+    {
+     "t": "40:00",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Oliver Klčo",
+     "r": "Hrubosť"
+    },
+    {
+     "t": "40:00",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Tobias Peter Galík",
+     "r": "Hrubosť"
+    },
+    {
+     "t": "41:41",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "René Rusnák",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "48:52",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Alex Oravec",
+     "r": "Bránenie v hre"
+    },
+    {
+     "t": "50:58",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "4",
+     "p": "Alex Oravec",
+     "r": "Hrubosť 2'+2'"
+    },
+    {
+     "t": "55:58",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:2",
+     "p": "Bruno Peregrin"
+    },
+    {
+     "t": "58:10",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Miloš Turík",
+     "r": "Hra rukou"
+    }
+   ],
+   "st": {
+    "g": [
+     "6",
+     "2"
+    ],
+    "sh": [
+     "28",
+     "32"
+    ],
+    "sv": [
+     "30",
+     "22"
+    ],
+    "pp": [
+     "1/3",
+     "0/6"
+    ],
+    "pk": [
+     "6/6",
+     "2/3"
+    ]
+   },
+   "per": "(4:1, 1:1, 1:0)",
+   "sp": 44
+  },
+  "1244/137928": {
+   "ev": [
+    {
+     "t": "01:20",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Matej Kender",
+     "a": "Matej Rosič"
+    },
+    {
+     "t": "06:33",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Daniel Petrašovič",
+     "a": "Oliver Olekšák"
+    },
+    {
+     "t": "07:37",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:0",
+     "p": "Matej Rosič",
+     "a": "Samuel Belovič"
+    },
+    {
+     "t": "13:00",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:0",
+     "p": "Matej Rosič",
+     "a": "Samuel Belovič"
+    },
+    {
+     "t": "15:23",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "5:0",
+     "p": "Matej Kender",
+     "a": "Samuel Belovič"
+    },
+    {
+     "t": "16:07",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Marco Olekšák",
+     "r": "Nedovolené vrážanie"
+    },
+    {
+     "t": "21:09",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Andrej Koprda",
+     "r": "Nedovolené vrážanie"
+    },
+    {
+     "t": "21:43",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "6:0",
+     "x": "PH1",
+     "p": "Nicolas Fedorčák",
+     "a": "Samuel Belovič"
+    },
+    {
+     "t": "23:15",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Goran Muranský",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "27:41",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "6:1",
+     "p": "Alex Oravec"
+    },
+    {
+     "t": "28:20",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "7:1",
+     "p": "Martin Guľaš",
+     "a": "Matej Kender"
+    },
+    {
+     "t": "29:00",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "8:1",
+     "p": "Martin Tormásy",
+     "a": "Filip Šimek"
+    },
+    {
+     "t": "32:22",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "9:1",
+     "p": "Martin Tormásy",
+     "a": "Goran Muranský"
+    },
+    {
+     "t": "32:47",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Ivan Karásek",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "38:18",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "9:2",
+     "p": "Daniel Beňovič",
+     "a": "Tomáš Oravec"
+    },
+    {
+     "t": "40:00",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Daniel Petrašovič",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "43:11",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "9:3",
+     "p": "Samuel Bielik",
+     "a": "Daniel Beňovič"
+    },
+    {
+     "t": "45:36",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "10:3",
+     "p": "Martin Tormásy"
+    },
+    {
+     "t": "49:21",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "11:3",
+     "p": "Alex Rosenberger",
+     "a": "Martin Tormásy"
+    },
+    {
+     "t": "52:42",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "11:4",
+     "p": "Miroslav Slávik",
+     "a": "Tomáš Huňa"
+    },
+    {
+     "t": "54:36",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "11:5",
+     "p": "Alex Oravec",
+     "a": "Nicolas Pasqualon"
+    },
+    {
+     "t": "56:13",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "12:5",
+     "p": "Alex Rosenberger",
+     "a": "Vladimír Gyöngyösi"
+    }
+   ],
+   "st": {
+    "g": [
+     "12",
+     "5"
+    ],
+    "sh": [
+     "30",
+     "23"
+    ],
+    "sv": [
+     "18",
+     "18"
+    ],
+    "pp": [
+     "1/2",
+     "0/3"
+    ],
+    "pk": [
+     "3/3",
+     "1/2"
+    ]
+   },
+   "per": "(5:0, 4:2, 3:3)",
+   "sp": 25
+  },
+  "1244/137921": {
+   "ev": [
+    {
+     "t": "02:22",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Alex Trtík",
+     "a": "Matej Zverbík"
+    },
+    {
+     "t": "10:43",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Alex Trtík",
+     "a": "Miroslav Slávik"
+    },
+    {
+     "t": "14:46",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:1",
+     "p": "Max Novák",
+     "a": "Jakub Pokorný"
+    },
+    {
+     "t": "19:59",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:2",
+     "p": "Oliver Katreniak",
+     "a": "Jakub Pokorný"
+    },
+    {
+     "t": "32:27",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:2",
+     "p": "Jakub Minárik",
+     "a": "Tomáš Huňa"
+    },
+    {
+     "t": "44:30",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:3",
+     "p": "Matej Gáborík",
+     "a": "Max Novák"
+    },
+    {
+     "t": "51:48",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:4",
+     "p": "Tomáš Jamriška",
+     "a": "Michal Pohančaník"
+    },
+    {
+     "t": "51:54",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:5",
+     "p": "Alex Pokorný",
+     "a": "Matej Pokorný"
+    },
+    {
+     "t": "58:20",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:5",
+     "p": "Samuel Bielik"
+    }
+   ],
+   "st": {
+    "g": [
+     "4",
+     "5"
+    ],
+    "sh": [
+     "30",
+     "32"
+    ],
+    "sv": [
+     "27",
+     "26"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(2:2, 1:0, 1:3)",
+   "sp": 38
+  },
+  "1244/137931": {
+   "ev": [
+    {
+     "t": "00:15",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Michal Fusi",
+     "a": "Samuel Bielik"
+    },
+    {
+     "t": "05:43",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:2",
+     "p": "Daniel Beňovič",
+     "a": "Michal Daranský"
+    },
+    {
+     "t": "17:29",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:3",
+     "p": "Samuel Bielik"
+    },
+    {
+     "t": "21:17",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:3",
+     "p": "Matúš Tatranský",
+     "a": "Richard Obert"
+    },
+    {
+     "t": "29:07",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:4",
+     "p": "Nicolas Pasqualon",
+     "a": "Richard Ondriš"
+    },
+    {
+     "t": "31:58",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:4",
+     "p": "Tomáš Panák",
+     "a": "Michal Ochránek"
+    },
+    {
+     "t": "38:54",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Marco Olekšák",
+     "r": "Hrubosť"
+    },
+    {
+     "t": "39:54",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:4",
+     "x": "PH1",
+     "p": "Richard Obert",
+     "a": "Michal Záň"
+    },
+    {
+     "t": "42:03",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:5",
+     "p": "Marco Olekšák",
+     "a": "Nicolas Pasqualon"
+    },
+    {
+     "t": "48:41",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:6",
+     "p": "Jakub Minárik",
+     "a": "Alex Trtík"
+    },
+    {
+     "t": "49:26",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Alex Oravec",
+     "r": "Vysoká florbalka"
+    },
+    {
+     "t": "53:57",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:7",
+     "p": "Samuel Bielik",
+     "a": "Andrej Koprda"
+    },
+    {
+     "t": "55:31",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Samuel Savka",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "59:33",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:8",
+     "p": "Michal Fusi",
+     "a": "Richard Ondriš"
+    }
+   ],
+   "st": {
+    "g": [
+     "3",
+     "8"
+    ],
+    "sh": [
+     "24",
+     "27"
+    ],
+    "sv": [
+     "19",
+     "21"
+    ],
+    "pp": [
+     "1/2",
+     "0/1"
+    ],
+    "pk": [
+     "1/1",
+     "1/2"
+    ]
+   },
+   "per": "(0:3, 3:1, 0:4)",
+   "sp": 113
+  },
+  "1262/138390": {
+   "ev": [
+    {
+     "t": "14:20",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Jakub Jaššo"
+    },
+    {
+     "t": "16:38",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:2",
+     "p": "Tomáš Berešík",
+     "a": "Jozef Fusko"
+    },
+    {
+     "t": "16:59",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:2",
+     "p": "Mário Hanták",
+     "a": "Frederik Hrušovský"
+    },
+    {
+     "t": "24:02",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:2",
+     "p": "Adam Vácval"
+    },
+    {
+     "t": "25:07",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:3",
+     "p": "Tobias Školka",
+     "a": "Oliver Hirschner"
+    },
+    {
+     "t": "25:27",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:3",
+     "p": "Stanislav Vranikovič",
+     "a": "Roman Žuffa"
+    },
+    {
+     "t": "28:36",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:4",
+     "p": "Jozef Fusko",
+     "a": "Tomáš Berešík"
+    },
+    {
+     "t": "31:35",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Tobias Školka",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "33:06",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:4",
+     "x": "PH1",
+     "p": "Mário Hanták",
+     "a": "Adam Daniš"
+    },
+    {
+     "t": "34:08",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:4",
+     "p": "Roman Žuffa",
+     "a": "Nicolas Pasqualon"
+    },
+    {
+     "t": "38:36",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:5",
+     "p": "Jakub Jaššo"
+    },
+    {
+     "t": "40:57",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:5",
+     "p": "Mário Hanták",
+     "a": "Daniel Kupka"
+    },
+    {
+     "t": "42:24",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:6",
+     "p": "Tobias Školka",
+     "a": "Samuel Chren"
+    },
+    {
+     "t": "46:33",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "7:6",
+     "p": "Tobias Konček",
+     "a": "Frederik Hrušovský"
+    },
+    {
+     "t": "49:56",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "7:7",
+     "p": "Tobias Školka",
+     "a": "Ivan Skukálek"
+    },
+    {
+     "t": "53:29",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "7:8",
+     "p": "Tobias Školka"
+    },
+    {
+     "t": "59:25",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "7:9",
+     "p": "Tomáš Berešík"
+    }
+   ],
+   "st": {
+    "g": [
+     "7",
+     "9"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "1/1",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/1"
+    ]
+   },
+   "per": "(1:2, 4:3, 2:4)"
+  },
+  "1262/138391": {
+   "ev": [
+    {
+     "t": "03:11",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Mário Hanták",
+     "a": "Adam Daniš"
+    },
+    {
+     "t": "05:11",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Nicolas Pasqualon",
+     "a": "Daniel Kupka"
+    },
+    {
+     "t": "09:01",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:0",
+     "p": "Mário Hanták"
+    },
+    {
+     "t": "12:38",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:0",
+     "p": "Mário Hanták"
+    },
+    {
+     "t": "14:30",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:1",
+     "p": "Matej Masaryk",
+     "a": "Martin Voštiar"
+    },
+    {
+     "t": "19:24",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "5:1",
+     "p": "Tobias Konček",
+     "a": "Frederik Hrušovský"
+    },
+    {
+     "t": "20:23",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "6:1",
+     "p": "Marco Olekšák",
+     "a": "Adam Vácval"
+    },
+    {
+     "t": "21:38",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "7:1",
+     "p": "Daniel Kupka",
+     "a": "Adam Vácval"
+    },
+    {
+     "t": "23:00",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "7:2",
+     "p": "Michal Chorvát",
+     "a": "Martin Voštiar"
+    },
+    {
+     "t": "42:34",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "8:2",
+     "p": "Nicolas Pasqualon",
+     "a": "Marco Olekšák"
+    },
+    {
+     "t": "44:55",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "9:2",
+     "p": "Nicolas Pasqualon",
+     "a": "Marco Olekšák"
+    },
+    {
+     "t": "50:39",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "10:2",
+     "p": "Roman Žuffa",
+     "a": "Adam Daniš"
+    },
+    {
+     "t": "51:28",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "11:2",
+     "p": "Tobias Konček",
+     "a": "Frederik Hrušovský"
+    },
+    {
+     "t": "53:03",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "12:2",
+     "p": "Marco Olekšák",
+     "a": "Nicolas Pasqualon"
+    },
+    {
+     "t": "53:34",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "13:2",
+     "p": "Marco Olekšák"
+    },
+    {
+     "t": "55:47",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "14:2",
+     "p": "Adam Daniš",
+     "a": "Mário Hanták"
+    },
+    {
+     "t": "57:15",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "14:3",
+     "p": "Filip Horváth",
+     "a": "Peter Maňo"
+    },
+    {
+     "t": "58:06",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "15:3",
+     "p": "Mário Hanták",
+     "a": "Tobias Konček"
+    }
+   ],
+   "st": {
+    "g": [
+     "15",
+     "3"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(5:1, 2:1, 8:1)"
+  },
+  "1262/138398": {
+   "ev": [
+    {
+     "t": "00:20",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Marek Šedivý",
+     "a": "Juraj Lidik"
+    },
+    {
+     "t": "03:19",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:2",
+     "p": "Matúš Packa",
+     "a": "Adrián Čiffáry"
+    },
+    {
+     "t": "04:01",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:3",
+     "p": "Adrián Čiffáry",
+     "a": "Juraj Čulák"
+    },
+    {
+     "t": "04:29",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:4",
+     "p": "Marek Šedivý",
+     "a": "Jakub Balciar"
+    },
+    {
+     "t": "09:27",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:5",
+     "p": "Juraj Čulák"
+    },
+    {
+     "t": "11:48",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:5",
+     "p": "Martin Žilinský",
+     "a": "Daniel Kupka"
+    },
+    {
+     "t": "12:01",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:6",
+     "p": "Juraj Čulák"
+    },
+    {
+     "t": "13:36",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:7",
+     "p": "Adrián Čiffáry",
+     "a": "Juraj Čulák"
+    },
+    {
+     "t": "24:38",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:7",
+     "p": "Daniel Kupka"
+    },
+    {
+     "t": "27:09",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:7",
+     "p": "Ľubomír Drga"
+    },
+    {
+     "t": "29:51",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:7",
+     "p": "Adam Daniš",
+     "a": "Martin Žilinský"
+    },
+    {
+     "t": "31:34",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:8",
+     "p": "Michal Gráf"
+    },
+    {
+     "t": "44:04",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "m",
+     "sc": "4:8",
+     "x": "NTS",
+     "p": "Martin Žilinský"
+    },
+    {
+     "t": "46:32",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:8",
+     "p": "Daniel Kupka",
+     "a": "Adam Daniš"
+    },
+    {
+     "t": "47:33",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:8",
+     "p": "Adam Daniš",
+     "a": "Andrej Tremko"
+    },
+    {
+     "t": "52:08",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:9",
+     "p": "Michal Gráf",
+     "a": "Michal Decsi"
+    },
+    {
+     "t": "59:18",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:10",
+     "p": "Juraj Čulák",
+     "a": "Adrián Čiffáry"
+    }
+   ],
+   "st": {
+    "g": [
+     "6",
+     "10"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(1:7, 3:1, 2:2)"
+  },
+  "1262/138399": {
+   "ev": [
+    {
+     "t": "00:12",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Samuel Bagin",
+     "a": "Matúš Jurašek"
+    },
+    {
+     "t": "11:19",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Adam Daniš",
+     "a": "Samuel Bagin"
+    },
+    {
+     "t": "17:00",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:0",
+     "p": "Ľubomír Drga",
+     "a": "Patrik Bulko"
+    },
+    {
+     "t": "17:51",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:0",
+     "p": "Martin Žilinský",
+     "a": "Adam Daniš"
+    },
+    {
+     "t": "19:24",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "5:0",
+     "p": "Ľubomír Drga"
+    },
+    {
+     "t": "22:41",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "6:0",
+     "p": "Ľubomír Drga"
+    },
+    {
+     "t": "30:16",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "7:0",
+     "p": "Ľubomír Drga",
+     "a": "Patrik Bulko"
+    },
+    {
+     "t": "32:23",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "8:0",
+     "p": "Martin Žilinský",
+     "a": "Milan Stuhl"
+    },
+    {
+     "t": "33:40",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "9:0",
+     "x": "VG",
+     "p": "Kristián Čačala"
+    },
+    {
+     "t": "34:30",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "10:0",
+     "x": "VG",
+     "p": "Andrej Mikuš"
+    },
+    {
+     "t": "34:54",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "11:0",
+     "p": "Ľubomír Drga",
+     "a": "Daniel Kupka"
+    },
+    {
+     "t": "35:50",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Martin Žilinský",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "37:06",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "12:0",
+     "p": "Matúš Jurašek",
+     "a": "Patrik Bulko"
+    },
+    {
+     "t": "39:41",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "13:0",
+     "p": "Roman Žuffa",
+     "a": "Daniel Kupka"
+    },
+    {
+     "t": "49:49",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "13:1",
+     "p": "Pavol Polák",
+     "a": "Ján Janda"
+    },
+    {
+     "t": "50:25",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "14:1",
+     "p": "Martin Žilinský",
+     "a": "Adam Daniš"
+    },
+    {
+     "t": "53:23",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "15:1",
+     "p": "Ľubomír Drga",
+     "a": "Daniel Kupka"
+    },
+    {
+     "t": "56:10",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Samuel Bagin",
+     "r": "Vysoká florbalka"
+    },
+    {
+     "t": "56:37",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "15:2",
+     "x": "PH1",
+     "p": "Michal Poláš",
+     "a": "Simon Čačaný"
+    }
+   ],
+   "st": {
+    "g": [
+     "15",
+     "2"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "1/2"
+    ],
+    "pk": [
+     "1/2",
+     "0/0"
+    ]
+   },
+   "per": "(5:0, 8:0, 2:2)"
+  },
+  "1262/138418": {
+   "ev": [
+    {
+     "t": "02:42",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Jakub Jaššo",
+     "a": "Tomáš Berešík"
+    },
+    {
+     "t": "08:04",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Martin Šimun",
+     "a": "Alex Školka"
+    },
+    {
+     "t": "08:24",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:0",
+     "p": "Samuel Chren",
+     "a": "Timotej Kuric"
+    },
+    {
+     "t": "17:19",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:0",
+     "p": "Tobias Školka",
+     "a": "Stanislav Druska"
+    },
+    {
+     "t": "19:05",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Marek Bečka",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "25:01",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:0",
+     "p": "Martin Herceg",
+     "a": "Marek Bečka"
+    },
+    {
+     "t": "32:06",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "6:0",
+     "p": "Stanislav Druska",
+     "a": "Timotej Kuric"
+    },
+    {
+     "t": "32:54",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "6:1",
+     "p": "Adam Daniš",
+     "a": "Samuel Dávidek"
+    },
+    {
+     "t": "48:39",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "7:1",
+     "p": "Martin Herceg",
+     "a": "Martin Šimun"
+    },
+    {
+     "t": "49:02",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "8:1",
+     "p": "Martin Herceg",
+     "a": "Alex Školka"
+    },
+    {
+     "t": "49:32",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "9:1",
+     "p": "Timotej Kuric",
+     "a": "Dominik Vlčko"
+    },
+    {
+     "t": "50:51",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "10:1",
+     "p": "Tobias Školka",
+     "a": "Samuel Chren"
+    },
+    {
+     "t": "52:32",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Tomáš Berešík",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "52:58",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "10:2",
+     "x": "PH1",
+     "p": "Samuel Dávidek",
+     "a": "Daniel Kupka"
+    },
+    {
+     "t": "54:04",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "11:2",
+     "p": "Martin Šimun",
+     "a": "Dominik Vlčko"
+    },
+    {
+     "t": "59:33",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "12:2",
+     "p": "Tobias Školka",
+     "a": "Timotej Kuric"
+    }
+   ],
+   "st": {
+    "g": [
+     "12",
+     "2"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "25",
+     "24"
+    ],
+    "pp": [
+     "0/0",
+     "1/2"
+    ],
+    "pk": [
+     "1/2",
+     "0/0"
+    ]
+   },
+   "per": "(4:0, 2:1, 6:1)",
+   "sp": 23
+  },
+  "1262/138419": {
+   "ev": [
+    {
+     "t": "04:14",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Samuel Dávidek",
+     "a": "Frederik Hrušovský"
+    },
+    {
+     "t": "07:41",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Samuel Dávidek",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "09:13",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "x": "PH1",
+     "p": "Šimon Veselý",
+     "a": "Martin Jakúbek"
+    },
+    {
+     "t": "10:22",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:2",
+     "p": "Matej Florek",
+     "a": "Martin Jakúbek"
+    },
+    {
+     "t": "12:18",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:2",
+     "p": "František Jaššo",
+     "a": "Roman Žuffa"
+    },
+    {
+     "t": "24:20",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:2",
+     "p": "Adam Daniš"
+    },
+    {
+     "t": "26:03",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:3",
+     "p": "Martin Mišiak",
+     "a": "Samuel Palkovič"
+    },
+    {
+     "t": "29:13",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:3",
+     "p": "František Jaššo",
+     "a": "Roman Žuffa"
+    },
+    {
+     "t": "29:37",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:3",
+     "p": "Samuel Dávidek",
+     "a": "Frederik Hrušovský"
+    },
+    {
+     "t": "38:16",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:4",
+     "p": "Šimon Veselý",
+     "a": "Adam Kováč"
+    },
+    {
+     "t": "41:24",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:4",
+     "p": "Samuel Dávidek",
+     "a": "Frederik Hrušovský"
+    },
+    {
+     "t": "43:39",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:5",
+     "p": "Martin Mišiak",
+     "a": "Samuel Palkovič"
+    },
+    {
+     "t": "45:13",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:6",
+     "p": "Matej Florek",
+     "a": "Martin Jakúbek"
+    },
+    {
+     "t": "46:45",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:7",
+     "p": "Tobias Gašpárek",
+     "a": "Martin Jakúbek"
+    },
+    {
+     "t": "47:40",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "7:7",
+     "p": "Martin Žilinský",
+     "a": "Daniel Kupka"
+    },
+    {
+     "t": "59:34",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "8:7",
+     "p": "Daniel Kupka",
+     "a": "Samuel Dávidek"
+    }
+   ],
+   "st": {
+    "g": [
+     "8",
+     "7"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "6",
+     "18"
+    ],
+    "pp": [
+     "0/0",
+     "1/1"
+    ],
+    "pk": [
+     "0/1",
+     "0/0"
+    ]
+   },
+   "per": "(2:2, 3:2, 3:3)",
+   "sp": 34
+  },
+  "1267/137978": {
+   "ev": [
+    {
+     "t": "00:59",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Samuel Bielik"
+    },
+    {
+     "t": "01:40",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:2",
+     "p": "Luboš Vyskoč",
+     "a": "Alex Kotleba"
+    },
+    {
+     "t": "03:02",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:3",
+     "p": "Jakub Minárik",
+     "a": "Alex Trtík"
+    },
+    {
+     "t": "17:10",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:4",
+     "p": "Luboš Vyskoč",
+     "a": "Leonard Tatík"
+    },
+    {
+     "t": "21:03",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "0:5",
+     "p": "Daniel Beňovič",
+     "a": "Tadeáš Spišák"
+    },
+    {
+     "t": "26:36",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "0:6",
+     "p": "Samuel Bielik"
+    },
+    {
+     "t": "27:51",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "0:7",
+     "p": "Adam Čibenka",
+     "a": "Branislav Kaššák"
+    },
+    {
+     "t": "30:45",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:7",
+     "p": "Lukáš Chovanec",
+     "a": "Teodor Čech"
+    },
+    {
+     "t": "34:35",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:8",
+     "p": "Andrej Koprda",
+     "a": "Alex Trtík"
+    },
+    {
+     "t": "35:19",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:9",
+     "p": "Adam Čibenka",
+     "a": "Branislav Kaššák"
+    },
+    {
+     "t": "36:36",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:10",
+     "p": "Alex Oravec"
+    },
+    {
+     "t": "39:10",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:10",
+     "p": "Patrik Marček",
+     "a": "Maxim Haššo"
+    },
+    {
+     "t": "46:32",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "2:11",
+     "p": "Jakub Minárik",
+     "a": "Alex Trtík"
+    },
+    {
+     "t": "46:43",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "2:12",
+     "p": "Samuel Bielik",
+     "a": "Daniel Beňovič"
+    },
+    {
+     "t": "47:50",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "2:13",
+     "p": "Daniel Beňovič",
+     "a": "Samuel Bielik"
+    },
+    {
+     "t": "49:40",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:13",
+     "p": "Alex Demjan",
+     "a": "Marko Kubiš"
+    },
+    {
+     "t": "50:03",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:13",
+     "p": "Lukáš Chovanec",
+     "a": "Patrik Marček"
+    },
+    {
+     "t": "50:09",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:14",
+     "p": "Daniel Beňovič",
+     "a": "Tomáš Pirhala"
+    },
+    {
+     "t": "50:49",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:15",
+     "p": "Samuel Bielik",
+     "a": "Tomáš Pirhala"
+    },
+    {
+     "t": "52:11",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:16",
+     "p": "Šimon Pješčák",
+     "a": "Luboš Vyskoč"
+    },
+    {
+     "t": "54:28",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:17",
+     "p": "Samuel Bielik",
+     "a": "Daniel Beňovič"
+    },
+    {
+     "t": "56:10",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:17",
+     "p": "Alex Kučík",
+     "a": "Martin Hamšík"
+    },
+    {
+     "t": "57:32",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "m",
+     "sc": "5:17",
+     "x": "NTS",
+     "p": "Teodor Čech"
+    },
+    {
+     "t": "57:47",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:17",
+     "p": "Martin Hamšík",
+     "a": "Patrik Marček"
+    }
+   ],
+   "st": {
+    "g": [
+     "6",
+     "17"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(0:4, 2:6, 4:7)"
+  },
+  "1267/137975": {
+   "ev": [
+    {
+     "t": "02:31",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Oliver Kotúč"
+    },
+    {
+     "t": "04:34",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "Daniel Beňovič",
+     "a": "Alex Oravec"
+    },
+    {
+     "t": "07:49",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:1",
+     "p": "Jakub Minárik",
+     "a": "Alex Trtík"
+    },
+    {
+     "t": "09:21",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:1",
+     "p": "Jakub Minárik"
+    },
+    {
+     "t": "11:30",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:1",
+     "p": "Branislav Kaššák",
+     "a": "Leonard Tatík"
+    },
+    {
+     "t": "12:19",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "5:1",
+     "x": "TS",
+     "p": "Samuel Bielik"
+    },
+    {
+     "t": "20:37",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "6:1",
+     "p": "Samuel Bielik",
+     "a": "Daniel Beňovič"
+    },
+    {
+     "t": "21:02",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "7:1",
+     "p": "Jakub Minárik",
+     "a": "Adam Čibenka"
+    },
+    {
+     "t": "25:54",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "8:1",
+     "p": "Alex Kotleba",
+     "a": "Tadeáš Spišák"
+    },
+    {
+     "t": "28:01",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "8:2",
+     "p": "Martin Bakoš",
+     "a": "Daniel Prelovský"
+    },
+    {
+     "t": "28:07",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "9:2",
+     "p": "Alex Kotleba",
+     "a": "Leonard Tatík"
+    },
+    {
+     "t": "33:50",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "10:2",
+     "p": "Samuel Bielik",
+     "a": "Daniel Beňovič"
+    },
+    {
+     "t": "35:45",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "10:3",
+     "p": "Michal Bakoš"
+    },
+    {
+     "t": "37:06",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "10:4",
+     "p": "Tobíáš Petrík",
+     "a": "Michal Bakoš"
+    },
+    {
+     "t": "38:21",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "10:5",
+     "p": "Juraj Čulák",
+     "a": "Tomáš Benko"
+    },
+    {
+     "t": "39:37",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "11:5",
+     "p": "Andrej Koprda"
+    },
+    {
+     "t": "39:48",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "12:5",
+     "p": "Adam Čibenka"
+    },
+    {
+     "t": "46:19",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "13:5",
+     "p": "Jakub Minárik",
+     "a": "Andrej Koprda"
+    },
+    {
+     "t": "47:25",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "13:6",
+     "p": "Tomáš Benko",
+     "a": "Martin Bakoš"
+    },
+    {
+     "t": "48:46",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Juraj Čulák",
+     "r": "Hrubosť"
+    },
+    {
+     "t": "56:17",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "14:6",
+     "p": "Branislav Kaššák",
+     "a": "Daniel Gabriel"
+    },
+    {
+     "t": "57:37",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Daniel Gabriel",
+     "r": "Hra na zemi"
+    }
+   ],
+   "st": {
+    "g": [
+     "14",
+     "6"
+    ],
+    "sh": [
+     "32",
+     "19"
+    ],
+    "sv": [
+     "13",
+     "18"
+    ],
+    "pp": [
+     "0/1",
+     "0/1"
+    ],
+    "pk": [
+     "1/1",
+     "1/1"
+    ]
+   },
+   "per": "(5:1, 7:4, 2:1)"
+  },
+  "1278/138685": {
+   "ev": [
+    {
+     "t": "02:55",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Lukáš Hanzlík",
+     "a": "Matúš Sloboda"
+    },
+    {
+     "t": "03:38",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "Jakub Peřina",
+     "a": "Marek Martiška"
+    },
+    {
+     "t": "05:40",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:1",
+     "p": "Juraj Mihalovič",
+     "a": "Matúš Kráľ"
+    },
+    {
+     "t": "15:05",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:2",
+     "p": "Marek Martiška",
+     "a": "Daniel Michalík"
+    },
+    {
+     "t": "21:06",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:2",
+     "p": "Lukáš Hanzlík",
+     "a": "Matúš Sloboda"
+    },
+    {
+     "t": "21:30",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:2",
+     "p": "Matúš Sloboda",
+     "a": "Angelo Novotný"
+    },
+    {
+     "t": "22:24",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:3",
+     "p": "Nikolas Beňo",
+     "a": "Filip Vargha"
+    },
+    {
+     "t": "26:14",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Michal Gríč",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "27:50",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:4",
+     "x": "PH1",
+     "p": "Marek Martiška",
+     "a": "Lukáš Dzurňák"
+    },
+    {
+     "t": "28:23",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:5",
+     "p": "Samuel Sedláček",
+     "a": "Martin Oravec"
+    },
+    {
+     "t": "29:08",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:6",
+     "p": "Daniel Michalík",
+     "a": "Jakub Peřina"
+    },
+    {
+     "t": "30:42",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:7",
+     "p": "Daniel Michalík"
+    },
+    {
+     "t": "35:20",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:8",
+     "p": "Marek Martiška",
+     "a": "Jakub Peřina"
+    },
+    {
+     "t": "37:48",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:9",
+     "p": "Kristián Ferletják",
+     "a": "Nikolas Beňo"
+    },
+    {
+     "t": "38:17",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:10",
+     "p": "Jakub Peřina",
+     "a": "Marek Martiška"
+    },
+    {
+     "t": "42:42",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:11",
+     "p": "Samuel Sedláček"
+    }
+   ],
+   "st": {
+    "g": [
+     "4",
+     "11"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "1/1"
+    ],
+    "pk": [
+     "0/1",
+     "0/0"
+    ]
+   },
+   "per": "(2:2, 2:8, 0:1)",
+   "sp": 35
+  },
+  "1278/138687": {
+   "ev": [
+    {
+     "t": "01:47",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Jakub Peřina",
+     "a": "Daniel Michalík"
+    },
+    {
+     "t": "15:32",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "Lukas Mollek",
+     "a": "Marcus Čejka"
+    },
+    {
+     "t": "15:41",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Samuel Sedláček",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "20:12",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:2",
+     "p": "Tomáš Štefanec",
+     "a": "Patrik Lezo"
+    },
+    {
+     "t": "25:54",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:2",
+     "p": "Daniel Michalík",
+     "a": "Marek Martiška"
+    },
+    {
+     "t": "29:17",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Jakub Hudcovský",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "33:07",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "2:3",
+     "p": "Lukas Mišiak",
+     "a": "Patrik Lezo"
+    },
+    {
+     "t": "37:18",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:3",
+     "p": "Tomáš Krajčovič",
+     "a": "Adrián Milo"
+    }
+   ],
+   "st": {
+    "g": [
+     "3",
+     "3"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/1",
+     "0/1"
+    ],
+    "pk": [
+     "1/1",
+     "1/1"
+    ]
+   },
+   "per": "(1:0, 1:2, 1:1)",
+   "sp": 40
+  },
+  "1278/138697": {
+   "ev": [
+    {
+     "t": "06:21",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Jakub Peřina"
+    },
+    {
+     "t": "08:12",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Samuel Sedláček",
+     "a": "Tomáš Krajčovič"
+    },
+    {
+     "t": "10:13",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:0",
+     "p": "Jakub Peřina",
+     "a": "Daniel Michalík"
+    },
+    {
+     "t": "10:38",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:0",
+     "p": "Simon Moško",
+     "a": "Nikolas Beňo"
+    },
+    {
+     "t": "11:09",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:1",
+     "p": "Lukáš Chovanec"
+    },
+    {
+     "t": "12:05",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:2",
+     "p": "Šimon Slezák",
+     "a": "Lukáš Chovanec"
+    },
+    {
+     "t": "17:09",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:3",
+     "p": "Patrik Križan",
+     "a": "Lucas Belobrad"
+    },
+    {
+     "t": "24:03",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Lukáš Dzurňák",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "24:41",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:4",
+     "x": "PH1",
+     "p": "Peter Turza",
+     "a": "Lukáš Chovanec"
+    },
+    {
+     "t": "26:18",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:4",
+     "p": "Marek Martiška",
+     "a": "Jakub Peřina"
+    },
+    {
+     "t": "30:13",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:5",
+     "p": "Peter Turza",
+     "a": "Šimon Slezák"
+    },
+    {
+     "t": "32:44",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "6:5",
+     "p": "Kristián Ferletják"
+    },
+    {
+     "t": "34:05",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "7:5",
+     "p": "Marek Martiška"
+    },
+    {
+     "t": "37:18",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "8:5",
+     "p": "Teo Spišák",
+     "a": "Lukáš Dzurňák"
+    },
+    {
+     "t": "40:35",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "9:5",
+     "p": "Alex Benda",
+     "a": "Nikolas Beňo"
+    },
+    {
+     "t": "41:44",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "9:6",
+     "p": "Peter Turza"
+    },
+    {
+     "t": "41:54",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "9:7",
+     "p": "Peter Turza",
+     "a": "Filip Lukáč"
+    },
+    {
+     "t": "44:05",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "9:8",
+     "p": "Peter Turza",
+     "a": "Filip Lukáč"
+    }
+   ],
+   "st": {
+    "g": [
+     "9",
+     "8"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "1/1"
+    ],
+    "pk": [
+     "0/1",
+     "0/0"
+    ]
+   },
+   "per": "(4:3, 4:2, 1:3)"
+  },
+  "1278/138700": {
+   "ev": [
+    {
+     "t": "00:07",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Tomáš Bojda"
+    },
+    {
+     "t": "04:36",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:2",
+     "p": "Lukáš Kalnássy",
+     "a": "Tomáš Bojda"
+    },
+    {
+     "t": "06:00",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:3",
+     "p": "Juraj Hudec"
+    },
+    {
+     "t": "08:03",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:3",
+     "p": "Nikolas Beňo",
+     "a": "Boris Zverbík"
+    },
+    {
+     "t": "13:31",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:4",
+     "p": "Adam Majdlen",
+     "a": "Juraj Hudec"
+    },
+    {
+     "t": "16:58",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Tomáš Bojda",
+     "r": "Hra rukou"
+    },
+    {
+     "t": "22:29",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:5",
+     "p": "Jakub Hinko",
+     "a": "Gregor Kováč"
+    },
+    {
+     "t": "22:40",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:5",
+     "p": "Marek Martiška"
+    },
+    {
+     "t": "27:10",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:6",
+     "p": "Adam Majdlen",
+     "a": "Zoja Štefančíková"
+    },
+    {
+     "t": "31:13",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:6",
+     "p": "Nikolas Beňo",
+     "a": "Daniel Michalík"
+    },
+    {
+     "t": "33:18",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:7",
+     "p": "Lukáš Kalnássy"
+    },
+    {
+     "t": "40:24",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:8",
+     "p": "Juraj Hudec",
+     "a": "Adam Majdlen"
+    },
+    {
+     "t": "40:28",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:9",
+     "p": "Lukáš Kalnássy",
+     "a": "Tomáš Bojda"
+    },
+    {
+     "t": "42:20",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Jakub Hinko",
+     "r": "Opakované priestupky"
+    },
+    {
+     "t": "42:47",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:9",
+     "x": "PH1",
+     "p": "Kristián Ferletják",
+     "a": "Daniel Michalík"
+    }
+   ],
+   "st": {
+    "g": [
+     "4",
+     "9"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "1/2",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "1/2"
+    ]
+   },
+   "per": "(1:4, 2:3, 1:2)"
+  },
+  "1281/138518": {
+   "ev": [],
+   "st": {
+    "g": [
+     "0",
+     "0"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(0:10, 1:2, 1:4)",
+   "sp": 48
+  },
+  "1281/138520": {
+   "ev": [],
+   "st": {
+    "g": [
+     "0",
+     "0"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(2:0, 1:1, 0:0)",
+   "sp": 35
+  },
+  "1281/138522": {
+   "ev": [
+    {
+     "t": "06:28",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "06:28 1:0"
+    },
+    {
+     "t": "11:15",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "11:15 1:1"
+    },
+    {
+     "t": "15:54",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:1",
+     "p": "15:54 2:1"
+    },
+    {
+     "t": "16:51",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:2",
+     "p": "16:51 2:2"
+    },
+    {
+     "t": "16:54",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:2",
+     "p": "16:54 3:2"
+    },
+    {
+     "t": "17:57",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "",
+     "r": ""
+    },
+    {
+     "t": "23:27",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:3",
+     "p": "23:27 3:3"
+    },
+    {
+     "t": "27:09",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:3",
+     "p": "27:09 4:3"
+    },
+    {
+     "t": "29:29",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:4",
+     "p": "29:29 4:4"
+    },
+    {
+     "t": "34:13",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:5",
+     "p": "34:13 4:5"
+    }
+   ],
+   "st": {
+    "g": [
+     "4",
+     "5"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/1",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "1/1"
+    ]
+   },
+   "per": "(2:1, 1:2, 1:2)"
+  },
+  "1281/138525": {
+   "ev": [],
+   "st": {
+    "g": [
+     "0",
+     "0"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(2:0, 0:1, 2:2)",
+   "sp": 36
+  }
  }
 }
