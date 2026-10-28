@@ -524,6 +524,31 @@
       ]
     },
     {
+      "name": "Karol Sedláček",
+      "role": "Tréner dorastencov",
+      "text": "",
+      "photo": "sedlacek-karol",
+      "url": "",
+      "qa": [
+        {
+          "q": "Keď práve nie som pri florbale…",
+          "a": "Som v škole, idem na bajk alebo sa stretnem s kamarátmi."
+        },
+        {
+          "q": "Toto by o mne v klube nikto nepovedal",
+          "a": "Štyri roky som hrával hokej."
+        },
+        {
+          "q": "Pesnička, ktorú by som v hale pustil ako prvú",
+          "a": "Viva la Vida – Coldplay."
+        },
+        {
+          "q": "Na toto som hrdý, aj keď to nikto nevidí",
+          "a": "Som racionálne zmýšľajúci a viem sa veľmi dobre kontrolovať."
+        }
+      ]
+    },
+    {
       "name": "Juraj Matejka",
       "role": "Prezident klubu",
       "text": "",
@@ -549,13 +574,6 @@
       "role": "Tréner juniorov",
       "text": "",
       "photo": "",
-      "url": ""
-    },
-    {
-      "name": "Karol Sedláček",
-      "role": "Tréner dorastencov",
-      "text": "",
-      "photo": "sedlacek-karol",
       "url": ""
     },
     {
