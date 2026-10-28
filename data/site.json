@@ -474,6 +474,31 @@
       ]
     },
     {
+      "name": "Michal Daranský",
+      "role": "Asistent – staršia prípravka",
+      "text": "",
+      "photo": "daransky-michal",
+      "url": "",
+      "qa": [
+        {
+          "q": "Keď práve nie som pri florbale…",
+          "a": "Trávim čas na prechádzkach s priateľkou a psíkom."
+        },
+        {
+          "q": "Toto by o mne v klube nikto nepovedal",
+          "a": "Rád varím."
+        },
+        {
+          "q": "Pesnička, ktorú by som v hale pustil ako prvú",
+          "a": "NUEVAYoL."
+        },
+        {
+          "q": "Na toto som hrdý, aj keď to nikto nevidí",
+          "a": "Som hrdý na to, akú veľkú podporu dostávam od rodiny, priateľky, spoluhráčov a klubu."
+        }
+      ]
+    },
+    {
       "name": "Juraj Matejka",
       "role": "Prezident klubu",
       "text": "",
@@ -534,13 +559,6 @@
       "role": "Asistent – staršia prípravka",
       "text": "",
       "photo": "",
-      "url": ""
-    },
-    {
-      "name": "Michal Daranský",
-      "role": "Asistent – staršia prípravka",
-      "text": "",
-      "photo": "daransky-michal",
       "url": ""
     },
     {
