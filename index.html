@@ -1692,13 +1692,17 @@ if(!(DATA.site.members||[]).length) document.getElementById('zvnutra').hidden=tr
 document.getElementById('pmain').innerHTML=(DATA.site.partners_main||[]).map(plogo).join('');
 document.getElementById('pother').innerHTML=(DATA.site.partners||[]).map(plogo).join('');
 rvScan(); countUp(document.getElementById('leaders'));
+/* e-mailové upozornenie cez FormSubmit (správa je zároveň uložená v Cloudflare KV) */
+var MAILTO='patobulko3@gmail.com';
+function mailForm(f,subj){ var d={_subject:subj+' · fbkastrencin.sk',_template:'table',_captcha:'false'}; new FormData(f).forEach(function(v,k){ if(k!=='form-name'&&k!=='bot-field') d[k]=v; });
+  try{ fetch('https://formsubmit.co/ajax/'+MAILTO,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(d)}).catch(function(){}); }catch(e){} }
 document.getElementById('msgform').addEventListener('submit',function(e){ e.preventDefault(); var f=e.target, ok=document.getElementById('msgok');
   fetch('/api/form',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
-   .then(function(r){ if(!r.ok) throw 0; ok.textContent='Ďakujeme, odkaz sme dostali.'; ok.hidden=false; f.reset(); })
+   .then(function(r){ if(!r.ok) throw 0; mailForm(f,'Nový odkaz klubu z webu'); ok.textContent='Ďakujeme, odkaz sme dostali.'; ok.hidden=false; f.reset(); })
    .catch(function(){ ok.textContent='Odkaz sa nepodarilo odoslať, skús to prosím neskôr.'; ok.hidden=false; }); });
 document.getElementById('form').addEventListener('submit',function(e){ e.preventDefault(); var f=e.target, ok=document.getElementById('ok');
   fetch('/api/form',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
-   .then(function(r){ if(!r.ok) throw 0; ok.textContent='Ďakujeme! Prihlášku sme dostali, tréner sa ti ozve.'; ok.hidden=false; f.reset(); })
+   .then(function(r){ if(!r.ok) throw 0; mailForm(f,'Nová prihláška – nábor'); ok.textContent='Ďakujeme! Prihlášku sme dostali, tréner sa ti ozve.'; ok.hidden=false; f.reset(); })
    .catch(function(){ ok.textContent='Prihlášku sa nepodarilo odoslať. Skús to znova alebo nám napíš na Facebooku.'; ok.hidden=false; }); });
 
 }).catch(function(e){ console.error(e); document.getElementById('panel').innerHTML='<p class="empty">Dáta sa nepodarilo načítať. Skúste obnoviť stránku.</p>'; });
