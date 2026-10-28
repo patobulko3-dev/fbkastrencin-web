@@ -704,7 +704,7 @@
       "emoji": "🍕",
       "text": "Máte chuť na pizzu? Pizza To Go to vyrieši.",
       "cta": "Mám hlad",
-      "url": ""
+      "url": "https://pizzatogo.sk/"
     },
     {
       "name": "Juraj Surma",
@@ -713,6 +713,22 @@
       "text": "Potrebujete posunúť seba, svoj tím či firmu? Transformačný koučing pre manažérov a tímy.",
       "cta": "Chcem koučing",
       "url": "https://www.surma.sk"
+    },
+    {
+      "name": "GetSport",
+      "logo": "img/l/getsport.svg",
+      "emoji": "🏑",
+      "text": "Potrebuješ novú hokejku, topánky či dres? Florbalové vybavenie nájdeš v GetSporte.",
+      "cta": "Vybavenie",
+      "url": ""
+    },
+    {
+      "name": "ARENA OSTROV",
+      "logo": "img/l/arena-ostrov.png",
+      "emoji": "🏟️",
+      "text": "Chceš si zašportovať? V ARENE OSTROV si zahráš florbal, bedminton, squash či stolný tenis, rezervácia cez aplikáciu 24/7 SPORT.",
+      "cta": "Rezervovať",
+      "url": "https://www.arenaostrov.sk/"
     }
   ]
 }
