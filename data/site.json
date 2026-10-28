@@ -499,6 +499,31 @@
       ]
     },
     {
+      "name": "Michal Prno",
+      "role": "Asistent – mladší žiaci",
+      "text": "",
+      "photo": "prno-michal",
+      "url": "",
+      "qa": [
+        {
+          "q": "Keď práve nie som pri florbale…",
+          "a": "Pri troch deťoch a práci…"
+        },
+        {
+          "q": "Toto by o mne v klube nikto nepovedal",
+          "a": "Som v procese stať sa buddy dobrovoľníkom."
+        },
+        {
+          "q": "Pesnička, ktorú by som v hale pustil ako prvú",
+          "a": "Remix od DJ Ötziho – Sweet Caroline."
+        },
+        {
+          "q": "Na toto som hrdý, aj keď to nikto nevidí",
+          "a": "Na moju manželku, ktorá obetuje celú seba pre nášho ZŤP synčeka."
+        }
+      ]
+    },
+    {
       "name": "Juraj Matejka",
       "role": "Prezident klubu",
       "text": "",
@@ -538,13 +563,6 @@
       "role": "Asistent – starší žiaci",
       "text": "",
       "photo": "oravec-lukas",
-      "url": ""
-    },
-    {
-      "name": "Michal Prno",
-      "role": "Asistent – mladší žiaci",
-      "text": "",
-      "photo": "prno-michal",
       "url": ""
     },
     {

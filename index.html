@@ -985,6 +985,38 @@ html.js-rv .rv-l{transform:translateX(-30px)}html.js-rv .rv-r{transform:translat
 @media (max-width:700px){.mdlg{padding:0;place-items:end center}.mdlg .box{grid-template-columns:1fr;border-radius:20px 20px 0 0;max-height:94vh}.mdlg .ph3{position:relative;aspect-ratio:4/3.6;min-height:0;max-height:none}.mdlg .bd3{padding:22px 20px 30px}.qi{grid-template-columns:44px minmax(0,1fr)}.qn{font-size:2.3rem}.qi.q2{grid-template-columns:44px minmax(0,1fr)}.qi.q2 .vinyl{display:none}}
 .mem .song{font-family:var(--serif);font-style:italic;font-weight:500;font-size:.66rem}
 
+
+/* ===== v4: medailóny – obálky ===== */
+.inside{display:block}
+.mcvs{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.mcv{position:relative;display:block;aspect-ratio:3/4;border:0;padding:0;border-radius:18px;overflow:hidden;cursor:pointer;background:#1d0a0d;color:#fff;text-align:left;font:inherit;isolation:isolate;box-shadow:0 18px 40px -24px rgba(29,10,13,.7)}
+.mcv-ph{position:absolute;inset:0;z-index:-2}
+.mcv-ph img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;transition:transform .8s cubic-bezier(.2,.9,.2,1),filter .5s}
+.mcv-ph .ini{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-size:4rem;font-weight:900}
+.mcv::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(29,10,13,0) 30%,rgba(29,10,13,.55) 55%,rgba(20,6,9,.97) 100%);transition:opacity .4s}
+.mcv::after{content:"";position:absolute;left:0;bottom:0;height:4px;width:0;background:linear-gradient(90deg,var(--red),var(--gold));transition:width .6s cubic-bezier(.2,.9,.2,1)}
+.mcv:hover::after,.mcv:focus-visible::after{width:100%}
+.mcv:hover .mcv-ph img{transform:scale(1.08);filter:saturate(1.15)}
+.mcv-no{position:absolute;top:12px;right:16px;font-family:var(--display);font-weight:900;font-size:3.4rem;line-height:.8;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,.75)}
+.mcv-tag{position:absolute;top:16px;left:16px;font-size:.58rem;font-weight:900;letter-spacing:.2em;text-transform:uppercase;background:var(--gold);color:#1d1517;padding:4px 9px;border-radius:999px}
+.mcv-bd{position:absolute;left:0;right:0;bottom:0;padding:18px 18px 20px;display:grid;gap:6px}
+.mcv-bd small{font-size:.62rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:#ffb3b6;line-height:1.3}
+.mcv-bd b{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:2.1rem;line-height:.88;letter-spacing:.005em}
+.mcv-bd b em{font-style:normal;color:#ff4d55}
+.mcv-bd q{font-family:var(--serif);font-style:italic;font-size:.98rem;line-height:1.4;color:rgba(255,255,255,.9);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;quotes:"„" "“";max-height:2.8em;transition:max-height .5s ease}
+.mcv:hover q{-webkit-line-clamp:5;max-height:7em}
+.mcv-bd i{font-style:normal;font-size:.72rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-top:4px}
+.mcv-bd i span{display:inline-block;transition:transform .3s}.mcv:hover .mcv-bd i span{transform:translateX(6px)}
+.mmis-h{margin:30px 0 12px;font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:1.2rem;letter-spacing:.02em}
+.mmis{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.mmi{display:flex;align-items:center;gap:12px;padding:8px 12px 8px 8px;border:1px solid var(--line);background:var(--surface);border-radius:999px;cursor:pointer;text-align:left;font:inherit;color:inherit;transition:border-color .2s,transform .2s}
+.mmi:hover{border-color:var(--red);transform:translateY(-2px)}
+.mmi-ph{flex:none;width:44px;height:44px;border-radius:50%;overflow:hidden;background:linear-gradient(150deg,var(--red-deep),#1d0a0d);position:relative;display:grid;place-items:center}
+.mmi-ph img{width:100%;height:100%;object-fit:cover;object-position:50% 15%}
+.mmi-ph .ini{color:#fff;font-family:var(--display);font-weight:900;font-size:1rem}
+.mmi b{display:block;font-size:.88rem;line-height:1.2}.mmi small{display:block;font-size:.72rem;color:var(--muted);line-height:1.25}
+@media (max-width:640px){.mcvs{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:0 -20px;padding:0 20px 8px;scroll-padding:0 20px;scrollbar-width:none}.mcvs::-webkit-scrollbar{display:none}.mcv{flex:0 0 78%;scroll-snap-align:start}.mcv-bd b{font-size:1.8rem}.mmis{grid-template-columns:1fr 1fr}.mmi{border-radius:14px}.mmi-ph{width:36px;height:36px}}
+
 /* ===== v3: efekty ===== */
 .slide .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
 .slide .w>span{display:inline-block}
@@ -1243,7 +1275,7 @@ var US=/AS Trenčín/;
 function pimg(x){ return /[\/.]/.test(x)?x.replace(/^\//,''):'img/p/'+x+'.jpg'; }
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
 /* ---------- animácie: odhaľovanie pri skrolovaní, počítadlá ---------- */
-var RVSEL='.head,.box,.pl,.co,.boss,.partners>span,.nw,.soc,.ar-card,.ar-side>*,.ld,.mem,.mcb,.banner,.recruit .wrap>div,.recruit form,.posfact';
+var RVSEL='.head,.box,.pl,.co,.boss,.partners>span,.nw,.soc,.ar-card,.ar-side>*,.ld,.mcv,.mcb,.banner,.recruit .wrap>div,.recruit form,.posfact';
 var RVO=('IntersectionObserver' in window)?new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); RVO.unobserve(e.target); countUp(e.target); } }); },{rootMargin:'0px 0px -8% 0px',threshold:.06}):null;
 function rvScan(){ var list=document.querySelectorAll(RVSEL+',.rv');
   [].forEach.call(list,function(el){ if(el.__rv) return; el.__rv=1; if(!el.classList.contains('rv')){ el.classList.add('rv'); var sib=el.parentNode?[].indexOf.call(el.parentNode.children,el):0; if(!el.style.getPropertyValue('--i')) el.style.setProperty('--i',Math.min(sib,8)); }
@@ -1673,8 +1705,12 @@ var MEM=DATA.site.members||[];
 function memIni(n){ return n.replace(/^(Ing\.|Mgr\.|Bc\.|MUDr\.|PhDr\.)\s*/,'').replace(/,.*$/,'').split(' ').map(function(w){return w[0]||'';}).join('').slice(0,2); }
 function memPh(m,cls){ return m.photo?'<img src="'+esc(pimg(m.photo))+'" alt="'+esc(m.name)+'" loading="lazy">':'<span class="ini">'+esc(memIni(m.name))+'</span>'; }
 var QI=['🧭','🤫','🎵','🏆'];
-document.getElementById('inside').innerHTML=MEM.map(function(m,i){ var qa=m.qa&&m.qa.length, song=qa&&m.qa[2]?m.qa[2].a:'';
-  return '<button type="button" class="mem rv'+(qa?' has-qa':'')+'" style="--i:'+(i%8)+'" data-i="'+i+'"><div class="mp">'+memPh(m)+(qa?'<span class="qa-b">Medailón</span>':'')+(song?'<span class="song">🎵 '+esc(song.slice(0,60))+'</span>':'')+'</div><div class="mb"><b>'+esc(m.name)+'</b>'+(m.role?'<small>'+esc(m.role)+'</small>':'')+'<i>'+(qa?'4 otázky →':'Čítať viac →')+'</i></div></button>'; }).join('');
+(function(){ var withQa=[],rest=[]; MEM.forEach(function(m,i){ (m.qa&&m.qa.length?withQa:rest).push([m,i]); });
+  var cover=function(x,n){ var m=x[0], nm=esc(m.name).split(' '), last=nm.pop(), t=m.qa[1]?m.qa[1].a:m.qa[0].a;
+    return '<button type="button" class="mcv rv" style="--i:'+(n%8)+'" data-i="'+x[1]+'"><span class="mcv-ph">'+memPh(m)+'</span><span class="mcv-no">'+(n<9?'0':'')+(n+1)+'</span><span class="mcv-tag">Medailón</span><span class="mcv-bd"><small>'+esc(m.role||'')+'</small><b>'+nm.join(' ')+' <em>'+last+'</em></b><q>'+esc(t)+'</q><i>Čítať rozhovor <span>→</span></i></span></button>'; };
+  var mini=function(x){ var m=x[0]; return '<button type="button" class="mmi" data-i="'+x[1]+'"><span class="mmi-ph">'+memPh(m)+'</span><span><b>'+esc(m.name)+'</b><small>'+esc(m.role||'')+'</small></span></button>'; };
+  document.getElementById('inside').innerHTML='<div class="mcvs">'+withQa.map(cover).join('')+'</div>'+(rest.length?'<div class="mmis-h">Ďalší ľudia, vďaka ktorým klub funguje</div><div class="mmis">'+rest.map(mini).join('')+'</div>':'');
+})();
 var mdlg=document.getElementById('mdlg'), mLast=null;
 function openMem(i){ var m=MEM[i]; if(!m) return; mLast=document.activeElement;
   var nm=esc(m.name).split(' '), last=nm.pop(), qa=m.qa&&m.qa.length?m.qa:null;
@@ -1685,7 +1721,7 @@ function openMem(i){ var m=MEM[i]; if(!m) return; mLast=document.activeElement;
   document.getElementById('mbox').innerHTML='<button type="button" class="x" id="mx" aria-label="Zavrieť">×</button><div class="ph3">'+memPh(m)+'<div class="ph3-cap"><span>Medailón</span><h3>'+nm.join(' ')+'<em>'+last+'</em></h3><small>'+esc(m.role||'')+'</small></div></div><div class="bd3">'+body+'</div>';
   mdlg.hidden=false; document.getElementById('mx').focus(); }
 function closeMem(){ mdlg.hidden=true; if(mLast&&mLast.focus) mLast.focus(); }
-document.getElementById('inside').addEventListener('click',function(e){ var t=e.target.closest('.mem'); if(t) openMem(+t.dataset.i); });
+document.getElementById('inside').addEventListener('click',function(e){ var t=e.target.closest('.mcv,.mmi'); if(t) openMem(+t.dataset.i); });
 mdlg.addEventListener('click',function(e){ if(e.target===mdlg||e.target.id==='mx') closeMem(); });
 document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!mdlg.hidden) closeMem(); });
 if(!(DATA.site.members||[]).length) document.getElementById('zvnutra').hidden=true;
@@ -1734,7 +1770,7 @@ document.getElementById('form').addEventListener('submit',function(e){ e.prevent
     sl.addEventListener('mouseleave',function(){ sl.style.setProperty('--px','0px'); sl.style.setProperty('--py','0px'); }); }
   if(!FINE) return;
   // 3D náklon kariet s odleskom
-  var TSEL='.pl,.mem,.ld,.co,.boss,.nw';
+  var TSEL='.pl,.mcv,.ld,.co,.boss,.nw';
   document.addEventListener('mousemove',function(e){ var c=e.target.closest&&e.target.closest(TSEL); if(!c) return;
     if(!c.classList.contains('tilt')){ c.classList.add('tilt'); var g=document.createElement('i'); g.className='glare'; g.setAttribute('aria-hidden','true'); c.appendChild(g);
       c.addEventListener('mouseleave',function(){ c.style.transition='transform .5s cubic-bezier(.2,.9,.2,1)'; c.style.transform=''; }); }
@@ -1747,7 +1783,7 @@ document.getElementById('form').addEventListener('submit',function(e){ e.prevent
   document.addEventListener('mousemove',function(e){ tx=e.clientX; ty=e.clientY; ball.classList.add('on'); ball.classList.toggle('big',!!(e.target.closest&&e.target.closest('a,button'))); },{passive:true});
   document.addEventListener('mouseleave',function(){ ball.classList.remove('on'); });
   (function bl(){ bx+=(tx-bx)*0.18; by+=(ty-by)*0.18; ball.style.transform='translate('+bx+'px,'+by+'px)'; requestAnimationFrame(bl); })();
-  document.addEventListener('click',function(e){ if(!(e.target.closest&&e.target.closest('.btn,.s-tab,.chip,.mem,.pl'))) return;
+  document.addEventListener('click',function(e){ if(!(e.target.closest&&e.target.closest('.btn,.s-tab,.chip,.mcv,.pl'))) return;
     for(var k=0;k<12;k++){ var p=document.createElement('i'); p.className='burst'; var a=k/12*Math.PI*2, d=40+Math.random()*40;
       p.style.left=e.clientX-4+'px'; p.style.top=e.clientY-4+'px'; p.style.background=k%3?'var(--red)':(k%2?'#fff':'var(--gold)');
       p.style.setProperty('--bx',Math.cos(a)*d+'px'); p.style.setProperty('--by',Math.sin(a)*d+'px'); document.body.appendChild(p); setTimeout(function(q){return function(){q.remove();};}(p),750); } });
