@@ -97,3 +97,59 @@ export function parsePlayer(doc) {
   });
   return { name, pos: isG ? 'B' : pos, row: [name, season, career, last] };
 }
+
+/** "TIMKO Samuel (2)" / "MASÁR, Šimon" → "Samuel Timko" */
+export function niceName(s) {
+  const raw = String(s || '').replace(/\(\d+\)/g, '').replace(/,/g, ' ').replace(/\s+/g, ' ').trim();
+  if (!raw) return '';
+  const w = raw.split(' ');
+  const isUp = (x) => x === x.toUpperCase() && /\p{L}{2,}/u.test(x);
+  const sur = w.filter(isUp), first = w.filter((x) => !isUp(x));
+  if (!sur.length) return raw;
+  const cap = (x) => x.toLowerCase().replace(/(^|[-\s])(\p{L})/gu, (m, a, b) => a + b.toUpperCase());
+  return [...first, ...sur.map(cap)].join(' ');
+}
+
+/** Detail zápasu (stránka Prehľad): priebeh – góly s asistenciami, vylúčenia, nájazdy; štatistiky; diváci, rozhodcovia */
+export function parseMatch(doc) {
+  const out = { ev: [], st: {}, per: '' };
+  const tx = T(doc.querySelector('.match-info'));
+  const sp = tx.match(/(\d+)\s*divák/);
+  if (sp) out.sp = +sp[1];
+  out.per = T(doc.querySelector('[data-match-text="scorePeriods"]'));
+  // porovnávacie štatistiky: góly, strely, zákroky, presilovky, oslabenia
+  const vals = [...doc.querySelectorAll('.compare-data-value')].map(T);
+  const labs = ['g', 'sh', 'sv', 'pp', 'pk'];
+  for (let i = 0; i + 1 < vals.length && i / 2 < labs.length; i += 2) out.st[labs[i / 2]] = [vals[i].replace(/\s*\(.*\)/, ''), vals[i + 1].replace(/\s*\(.*\)/, '')];
+  const refs = [...doc.querySelectorAll('a, span, div')].map(T).filter((t) => /^[^()]+\(HR\d\)$/.test(t) && t.length < 50);
+  if (refs.length) out.ref = [...new Set(refs.map((r) => niceName(r.replace(/\s*\(HR\d\)/, ''))))].slice(0, 2);
+  const box = doc.querySelector('[data-match-placeholder="MatchOverviewEvents"]');
+  if (!box) return out;
+  let per = '';
+  box.querySelectorAll('.matchPeriod-title, table.table-comparison').forEach((el) => {
+    if (el.classList.contains('matchPeriod-title')) { per = T(el); return; }
+    ['matchPeriodleft', 'matchPeriodright'].forEach((cls, side) => {
+      const td = el.querySelector('td.' + cls);
+      if (!td || !T(td)) return;
+      const time = T(td.querySelector('.label-time')) || T(el.querySelector('.match-center'));
+      const lab = [...td.querySelectorAll('.label')].find((l) => !l.classList.contains('label-time'));
+      if (!lab) return;
+      const lt = T(lab);
+      const links = [...td.querySelectorAll('a')].map(T);
+      const e = { t: time, s: side, q: per };
+      if (lab.classList.contains('label-danger')) {
+        e.k = 'p'; e.m = lt.replace(/\s*min\.?/, ''); e.p = niceName(links[0] || '');
+        e.r = T(td.querySelector('.faded')).replace(/^\(|\)$/g, '');
+      } else {
+        const m = lt.match(/(\d+:\d+)\s*(.*)$/);
+        e.k = lab.classList.contains('label-orange') ? 'm' : 'g';
+        if (m) { e.sc = m[1]; if (m[2]) e.x = m[2]; }
+        e.p = niceName(links[0] || T(td.querySelector('div > div') || td));
+        const asst = T(td.querySelector('.faded a')) ;
+        if (asst) e.a = niceName(asst);
+      }
+      out.ev.push(e);
+    });
+  });
+  return out;
+}

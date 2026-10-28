@@ -1,12 +1,13 @@
 // Jadro sťahovania – nezávislé od prostredia (Node aj prehliadač).
-import { parseResults, parseStandings, parseLineup, parsePlayer, DAYS } from './szfb-parse.mjs';
+import { parseResults, parseStandings, parseLineup, parsePlayer, parseMatch, DAYS } from './szfb-parse.mjs';
 
 export async function scrapeAll(cfg, get, old) {
   const venueName = (v) => (/M-?Šport|Ostrov/i.test(v) ? 'ARENA OSTROV' : v);
   const dmShort = (iso) => { const [, m, d] = iso.split('-'); return `${+d}.${+m}.`; };
   const dayOf = (iso) => DAYS[new Date(iso + 'T12:00:00Z').getUTCDay()];
 
-  const out = { updated: new Date().toISOString(), season: cfg.season, cats: {}, players: {} };
+  const out = { updated: new Date().toISOString(), season: cfg.season, cats: {}, players: {}, matches: {} };
+  const detailJobs = [];
   let failures = 0;
 
   for (const cat of cfg.categories) {
@@ -34,7 +35,7 @@ export async function scrapeAll(cfg, get, old) {
               const ot = /pp|sn|ss|n/i.test(m.ext);
               const code = (win ? 'V' : 'P') + (ot ? 'pp' : '');
               gf += my; ga += th; anyPlayed = true;
-              c.played.push([dmShort(m.date), opp, `${m.hs}:${m.as}${m.ext ? ' ' + m.ext : ''}`, code, venueName(m.venue), home ? 1 : 0, m.date]);
+              c.played.push([dmShort(m.date), opp, `${m.hs}:${m.as}${m.ext ? ' ' + m.ext : ''}`, code, venueName(m.venue), home ? 1 : 0, m.date, m.id ? `${comp.comp}/${m.id}` : '']);
               if (cat.roster && m.id) {
                 const lu = await get(`/sk/stats/matches/${comp.comp}/x/match/${m.id}/lineup`);
                 const myName = home ? m.home : m.away;
@@ -62,6 +63,7 @@ export async function scrapeAll(cfg, get, old) {
       c.played.sort((a, b) => a[6].localeCompare(b[6]));
       c.next.sort((a, b) => (a[6] + a[2].padStart(5, '0')).localeCompare(b[6] + b[2].padStart(5, '0')));
       c.played = c.played.slice(-6);
+      if (!cat.noEvents) c.played.forEach((p) => { if (p[7]) detailJobs.push([p[7], p[6]]); });
       c.next = c.next.slice(0, 4);
       c.league = [...new Set(leagues)].join(' · ');
       if (placeParts.length) c.place = placeParts.join(' / ');
@@ -84,6 +86,20 @@ export async function scrapeAll(cfg, get, old) {
     }
   }
 
+  // detail zápasov (góly, asistencie, vylúčenia) – len pre posledné odohrané zápasy
+  const DAY = 864e5;
+  for (const [key, date] of detailJobs) {
+    const prev = old?.matches?.[key];
+    if (prev && Date.now() - new Date(date + 'T12:00:00Z') > 5 * DAY) { out.matches[key] = prev; continue; }
+    try {
+      const [comp, id] = key.split('/');
+      out.matches[key] = parseMatch(await get(`/sk/stats/matches/${comp}/x/match/${id}/Overview`));
+    } catch (e) {
+      console.warn('detail', key, e.message);
+      if (prev) out.matches[key] = prev;
+    }
+  }
+  console.log(`✓ detaily zápasov: ${Object.keys(out.matches).length}`);
 
   return { out, failures };
 }
