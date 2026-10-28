@@ -705,6 +705,14 @@
       "text": "Máte chuť na pizzu? Pizza To Go to vyrieši.",
       "cta": "Mám hlad",
       "url": ""
+    },
+    {
+      "name": "Juraj Surma",
+      "logo": "img/l/surma.png",
+      "emoji": "🧭",
+      "text": "Potrebujete posunúť seba, svoj tím či firmu? Transformačný koučing pre manažérov a tímy.",
+      "cta": "Chcem koučing",
+      "url": "https://www.surma.sk"
     }
   ]
 }
