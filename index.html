@@ -1017,6 +1017,23 @@ html.js-rv .rv-l{transform:translateX(-30px)}html.js-rv .rv-r{transform:translat
 .mmi b{display:block;font-size:.88rem;line-height:1.2}.mmi small{display:block;font-size:.72rem;color:var(--muted);line-height:1.25}
 @media (max-width:640px){.mcvs{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:0 -20px;padding:0 20px 8px;scroll-padding:0 20px;scrollbar-width:none}.mcvs::-webkit-scrollbar{display:none}.mcv{flex:0 0 78%;scroll-snap-align:start}.mcv-bd b{font-size:1.8rem}.mmis{grid-template-columns:1fr 1fr}.mmi{border-radius:14px}.mmi-ph{width:36px;height:36px}}
 
+/* ===== v5: medailón – hlavička bez rozťahovania fotky ===== */
+.mdlg .box{width:min(720px,100%);grid-template-columns:1fr}
+.mh{position:relative;overflow:hidden;isolation:isolate;display:flex;align-items:center;gap:24px;padding:30px 34px;background:#1d0a0d;color:#fff}
+.mh-bg{position:absolute;inset:-40px;z-index:-1;background:50% 30%/cover no-repeat;filter:blur(28px) saturate(1.4) brightness(.42);transform:scale(1.1)}
+.mh::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,rgba(29,10,13,.85) 0%,rgba(110,0,20,.35) 60%,rgba(194,31,38,.25) 100%)}
+.mh-ph{flex:none;width:150px;aspect-ratio:4/5;border-radius:16px;overflow:hidden;position:relative;background:linear-gradient(150deg,var(--red-deep),#1d0a0d);box-shadow:0 0 0 3px rgba(255,255,255,.18),0 20px 40px -12px rgba(0,0,0,.7);transform:rotate(-2.5deg);animation:mhin .7s cubic-bezier(.2,.9,.2,1) both}
+@keyframes mhin{from{opacity:0;transform:rotate(-8deg) translateY(16px) scale(.92)}}
+.mh-ph img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block}
+.mh-ph .ini{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:3rem}
+.mh-tx{min-width:0;display:grid;gap:8px;justify-items:start}
+.mh-tx span{font-size:.6rem;font-weight:900;letter-spacing:.22em;text-transform:uppercase;background:var(--gold);color:#1d1517;padding:4px 9px;border-radius:999px}
+.mh-tx h3{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(2.3rem,6vw,3.4rem);line-height:.86;margin:4px 0 0;color:#fff}
+.mh-tx h3 em{font-style:normal;color:#ff4d55}
+.mh-tx small{font-family:var(--serif);font-style:italic;font-size:1.02rem;opacity:.9}
+.mdlg .bd3{padding:26px 34px 32px}
+@media (max-width:700px){.mh{padding:24px 20px 22px;gap:16px}.mh-ph{width:104px}.mh-tx h3{font-size:2.1rem}.mdlg .bd3{padding:20px 20px 28px}}
+
 /* ===== v3: efekty ===== */
 .slide .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
 .slide .w>span{display:inline-block}
@@ -1718,7 +1735,7 @@ function openMem(i){ var m=MEM[i]; if(!m) return; mLast=document.activeElement;
       return '<article class="qi'+cls+'" style="--i:'+j+'"><span class="qn">0'+(j+1)+'</span><div><h5>'+esc(x.q)+'</h5><p>'+esc(x.a)+'</p>'+(j===2?'<div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>':'')+'</div>'+(j===2?'<span class="vinyl" aria-hidden="true"></span>':'')+'</article>'; }).join('')
     :(m.text?'<p>'+esc(m.text)+'</p>':'<p>Medailónik pripravujeme.</p>');
   if(m.url) body+='<a class="web" href="'+esc(m.url)+'"'+(/^https?:/.test(m.url)?' target="_blank" rel="noopener">Navštíviť web '+esc(m.url.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,''))+' →':'>Čítať celý medailónik →')+'</a>';
-  document.getElementById('mbox').innerHTML='<button type="button" class="x" id="mx" aria-label="Zavrieť">×</button><div class="ph3">'+memPh(m)+'<div class="ph3-cap"><span>Medailón</span><h3>'+nm.join(' ')+'<em>'+last+'</em></h3><small>'+esc(m.role||'')+'</small></div></div><div class="bd3">'+body+'</div>';
+  document.getElementById('mbox').innerHTML='<button type="button" class="x" id="mx" aria-label="Zavrieť">×</button><div class="mh">'+(m.photo?'<div class="mh-bg" style="background-image:url(\''+esc(pimg(m.photo))+'\')"></div>':'')+'<div class="mh-ph">'+memPh(m)+'</div><div class="mh-tx"><span>Medailón</span><h3>'+nm.join(' ')+' <em>'+last+'</em></h3><small>'+esc(m.role||'')+'</small></div></div><div class="bd3">'+body+'</div>';
   mdlg.hidden=false; document.getElementById('mx').focus(); }
 function closeMem(){ mdlg.hidden=true; if(mLast&&mLast.focus) mLast.focus(); }
 document.getElementById('inside').addEventListener('click',function(e){ var t=e.target.closest('.mcv,.mmi'); if(t) openMem(+t.dataset.i); });
