@@ -1034,6 +1034,55 @@ html.js-rv .rv-l{transform:translateX(-30px)}html.js-rv .rv-r{transform:translat
 .mdlg .bd3{padding:26px 34px 32px}
 @media (max-width:700px){.mh{padding:24px 20px 22px;gap:16px}.mh-ph{width:104px}.mh-tx h3{font-size:2.1rem}.mdlg .bd3{padding:20px 20px 28px}}
 
+/* ===== Malíkova hádanka o odznak ===== */
+.mal{position:fixed;right:20px;bottom:20px;z-index:110;width:min(420px,calc(100vw - 24px));font-family:var(--body)}
+.mal-card{position:relative;display:grid;grid-template-columns:118px 1fr;gap:0;background:#140a0c;color:#fff;border-radius:22px;overflow:hidden;box-shadow:0 30px 80px -20px rgba(0,0,0,.75),0 0 0 1px rgba(255,255,255,.08);animation:malin .7s cubic-bezier(.2,1.3,.3,1) both}
+@keyframes malin{from{opacity:0;transform:translate(60px,80px) rotate(8deg) scale(.8)}}
+.mal.out .mal-card{animation:malout .45s ease-in forwards}@keyframes malout{to{opacity:0;transform:translate(60px,60px) rotate(6deg) scale(.85)}}
+.mal-ph{position:relative;background:#000;overflow:hidden;min-height:170px}
+.mal-ph img{position:absolute;left:50%;top:0;height:118%;transform:translateX(-50%);transform-origin:50% 20%;max-width:none}
+.mal.talk .mal-ph img{animation:maltalk .22s ease-in-out infinite alternate}
+@keyframes maltalk{from{transform:translateX(-50%) rotate(-1.2deg) scale(1)}to{transform:translateX(-50%) rotate(1.2deg) scale(1.035)}}
+.mal-ph::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 60%,#140a0c)}
+.mal-bd{padding:16px 18px 16px 6px;display:grid;gap:10px;align-content:start;min-width:0}
+.mal-nm{display:flex;align-items:center;gap:8px;font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:1.15rem;letter-spacing:.02em}
+.mal-nm span{font-size:.62rem;font-family:var(--body);letter-spacing:.12em;background:var(--red);padding:2px 7px;border-radius:999px}
+.mal-bub{position:relative;background:#fff;color:#1d1517;border-radius:14px 14px 14px 4px;padding:11px 13px;font-size:.92rem;line-height:1.42;min-height:3em}
+.mal-bub b{color:var(--red)}
+.mal-bub.q{font-family:var(--serif);font-style:italic;font-size:1.08rem;font-weight:500}
+.mal-act{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.mal-act button,.mal-go{border:0;border-radius:999px;padding:10px 16px;font:inherit;font-weight:900;font-size:.85rem;cursor:pointer}
+.mal-go{background:var(--red);color:#fff;box-shadow:0 8px 20px -6px rgba(194,31,38,.8)}
+.mal-go:hover{background:#e0383f}
+.mal-no{background:rgba(255,255,255,.1);color:#fff}
+.mal-x{position:absolute;top:8px;right:10px;z-index:2;width:28px;height:28px;border-radius:50%;border:0;background:rgba(255,255,255,.12);color:#fff;font-size:1rem;cursor:pointer}
+.mal-ans{display:flex;gap:8px;width:100%}
+.mal-ans input{flex:1;min-width:0;border:2px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);color:#fff;border-radius:12px;padding:10px 12px;font:inherit;font-size:1rem;font-weight:700;outline:none}
+.mal-ans input:focus{border-color:var(--gold)}
+.mal-tm{position:relative;width:46px;height:46px;flex:none;display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:1.4rem}
+.mal-tm svg{position:absolute;inset:0;transform:rotate(-90deg)}
+.mal-tm circle{fill:none;stroke-width:4}
+.mal-tm .bgc{stroke:rgba(255,255,255,.15)}.mal-tm .fg{stroke:var(--gold);stroke-dasharray:126;transition:stroke .3s}
+.mal-tm.hot .fg{stroke:#ff4d55}.mal-tm.hot{color:#ff4d55;animation:malpulse .5s ease-in-out infinite alternate}
+@keyframes malpulse{to{transform:scale(1.12)}}
+.mal-code{font-family:var(--display);font-weight:900;font-size:2rem;letter-spacing:.06em;color:var(--gold)}
+.mal-form{display:grid;gap:7px;width:100%}
+.mal-form input{border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);color:#fff;border-radius:10px;padding:9px 11px;font:inherit;font-size:.88rem}
+.mal-small{font-size:.72rem;opacity:.7;line-height:1.35}
+.mal-cf{position:fixed;width:9px;height:14px;z-index:111;pointer-events:none;animation:malcf 1.6s ease-out forwards}
+@keyframes malcf{to{transform:translate(var(--x),var(--y)) rotate(720deg);opacity:0}}
+.mal .mal-ans input,.mal .mal-form input{width:auto;min-width:0;height:auto;margin:0;box-shadow:none;background:rgba(255,255,255,.08)!important;color:#fff!important;border:2px solid rgba(255,255,255,.22)!important;border-radius:12px}
+.mal .mal-form input{width:100%;padding:9px 11px;font-size:.88rem}
+.mal .mal-ans input{flex:1 1 0;width:0;padding:10px 12px;font-size:1rem}
+.mal .mal-ans input::placeholder,.mal .mal-form input::placeholder{color:rgba(255,255,255,.55)}
+.mal .mal-ans input:focus,.mal .mal-form input:focus{border-color:var(--gold)!important;outline:none}
+.mal .mal-ans .mal-go{flex:none;padding:10px 14px}
+.mal-act>*{max-width:100%}
+.mal form.mal-ans{display:flex;background:none;padding:0;border-radius:0;gap:8px;align-items:center;color:#fff}
+.mal form.mal-form{display:grid;background:none;padding:0;border-radius:0;gap:7px;color:#fff}
+@media (max-width:520px){.mal{right:12px;left:12px;bottom:12px;width:auto}.mal-card{grid-template-columns:92px 1fr}.mal-bub{font-size:.86rem}.mal-bub.q{font-size:1rem}}
+@media (prefers-reduced-motion:reduce){.mal-card,.mal.talk .mal-ph img,.mal-tm.hot{animation:none}}
+
 /* ===== v3: efekty ===== */
 .slide .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
 .slide .w>span{display:inline-block}
@@ -1804,6 +1853,58 @@ document.getElementById('form').addEventListener('submit',function(e){ e.prevent
     for(var k=0;k<12;k++){ var p=document.createElement('i'); p.className='burst'; var a=k/12*Math.PI*2, d=40+Math.random()*40;
       p.style.left=e.clientX-4+'px'; p.style.top=e.clientY-4+'px'; p.style.background=k%3?'var(--red)':(k%2?'#fff':'var(--gold)');
       p.style.setProperty('--bx',Math.cos(a)*d+'px'); p.style.setProperty('--by',Math.sin(a)*d+'px'); document.body.appendChild(p); setTimeout(function(q){return function(){q.remove();};}(p),750); } });
+})();
+/* ===== Malíkova hádanka o odznak ===== */
+(function(){
+  var ls=function(k,v){ try{ if(v===undefined) return localStorage.getItem(k); localStorage.setItem(k,v); }catch(e){ return null; } };
+  var day=new Date().toISOString().slice(0,10), KEY='mal:'+day;
+  if(ls(KEY)||/[?&]nohra/.test(location.search)) return;
+  var did=ls('mal:did'); if(!did){ did=(Math.random().toString(36).slice(2)+Date.now().toString(36)); ls('mal:did',did); }
+  var box, bub, act, tmr=null, typing=null, voice=null;
+  function api(o){ return fetch('/api/hra',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(o)}).then(function(r){return r.json();}); }
+  function say(html,cls,cb){ clearInterval(typing); bub.className='mal-bub'+(cls?' '+cls:''); box.classList.add('talk');
+    var tmp=document.createElement('div'); tmp.innerHTML=html; var full=tmp.textContent, i=0; bub.textContent='';
+    typing=setInterval(function(){ i+=2; bub.textContent=full.slice(0,i); if(i>=full.length){ clearInterval(typing); bub.innerHTML=html; box.classList.remove('talk'); if(cb) cb(); } },22); }
+  function speak(t){ try{ if(!window.speechSynthesis) return; var v=speechSynthesis.getVoices().filter(function(x){return /^(sk|cs)/i.test(x.lang);})[0]; if(!v) return; var u=new SpeechSynthesisUtterance(t); u.voice=v; u.lang=v.lang; u.rate=1.12; speechSynthesis.cancel(); speechSynthesis.speak(u); }catch(e){} }
+  function close(){ box.classList.add('out'); clearInterval(tmr); try{speechSynthesis.cancel();}catch(e){} setTimeout(function(){ box.remove(); },450); }
+  function btns(list){ act.innerHTML=''; list.forEach(function(b){ var e=document.createElement('button'); e.type='button'; e.className=b[2]||'mal-go'; e.textContent=b[0]; e.addEventListener('click',b[1]); act.appendChild(e); }); }
+  function confetti(){ for(var k=0;k<60;k++){ var c=document.createElement('i'); c.className='mal-cf'; var r=box.getBoundingClientRect(); c.style.left=(r.left+r.width/2)+'px'; c.style.top=(r.top+20)+'px'; c.style.background=['#c21f26','#f4b400','#fff','#ff4d55'][k%4]; c.style.setProperty('--x',(Math.random()*700-350)+'px'); c.style.setProperty('--y',(Math.random()*-520-80)+'px'); c.style.animationDelay=(Math.random()*.2)+'s'; document.body.appendChild(c); setTimeout(function(x){return function(){x.remove();};}(c),2000); } }
+  function start(){ ls(KEY,'1'); btns([]); say('Super! Pozor, čas beží hneď, ako hádanku uvidíš…');
+    api({action:'start',did:did}).then(function(r){
+      if(r.closed){ say('Dnes sú už oba odznaky rozdané. 🏅 Skús to <b>zajtra</b>, budem tu!'); btns([['Jasné',close,'mal-no']]); return; }
+      if(r.used){ say('Dnes si už svoj pokus mal. Skús to znova <b>zajtra</b>! 💪'); btns([['OK',close,'mal-no']]); return; }
+      if(!r.id){ throw 0; }
+      ask(r);
+    }).catch(function(){ say('Niečo sa pokazilo, skús to prosím neskôr.'); btns([['Zavrieť',close,'mal-no']]); }); }
+  function ask(r){ clearInterval(typing); bub.className='mal-bub q'; bub.textContent=r.q; speak(r.q);
+    act.innerHTML='<form class="mal-ans" id="malf"><div class="mal-tm" id="maltm"><svg viewBox="0 0 46 46"><circle class="bgc" cx="23" cy="23" r="20"/><circle class="fg" id="malring" cx="23" cy="23" r="20"/></svg><span id="malsec">7</span></div><input id="malin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Odpoveď jedným slovom" maxlength="40" aria-label="Tvoja odpoveď"><button class="mal-go" type="submit">OK</button></form>';
+    var inp=document.getElementById('malin'), t0=Date.now(), ms=r.ms||7000, done=false; inp.focus();
+    function send(){ if(done) return; done=true; clearInterval(tmr); var a=inp.value; inp.disabled=true; say('Hmm, pozriem sa…');
+      api({action:'answer',id:r.id,a:a}).then(function(x){
+        if(x.win){ win(x.code); }
+        else if(x.closed){ say('Správne! Ale niekto ťa o chlp predbehol a dnešné odznaky sú rozdané. Skús to zajtra! 🙈'); btns([['Zavrieť',close,'mal-no']]); }
+        else if(x.late){ say('Čas vypršal! ⏱️ Tých 7 sekúnd letí ako moja strela. Skús to <b>zajtra</b>.'); btns([['Zavrieť',close,'mal-no']]); }
+        else { say('Tesne vedľa! 😬 Odznak dnes neputuje k tebe, ale zajtra máš ďalšiu šancu.'); btns([['Zavrieť',close,'mal-no']]); }
+      }).catch(function(){ say('Spojenie zlyhalo, prepáč. Skús to zajtra.'); btns([['Zavrieť',close,'mal-no']]); }); }
+    document.getElementById('malf').addEventListener('submit',function(e){ e.preventDefault(); send(); });
+    var ring=document.getElementById('malring'), sec=document.getElementById('malsec'), tm=document.getElementById('maltm');
+    tmr=setInterval(function(){ var left=Math.max(0,ms-(Date.now()-t0)); ring.style.strokeDashoffset=String(126*(1-left/ms)); sec.textContent=Math.ceil(left/1000); tm.classList.toggle('hot',left<3000); if(left<=0) send(); },50); }
+  function win(code){ confetti(); say('<b>Správne!</b> 🏅 Odznak FBK AS Trenčín je tvoj! Tvoj kód:'); 
+    act.innerHTML='<div class="mal-code">'+code+'</div><form class="mal-form" id="malc"><input name="meno" required maxlength="120" placeholder="Meno a priezvisko"><input name="kontakt" required maxlength="160" placeholder="Telefón alebo e-mail (deti: rodič)"><input name="poznamka" maxlength="300" placeholder="Poznámka (nepovinné)"><button class="mal-go" type="submit">Chcem odznak</button><p class="mal-small">Odznak si vyzdvihneš na domácom zápase v ARENE OSTROV. Kontakt použijeme len na odovzdanie odznaku.</p></form>';
+    document.getElementById('malc').addEventListener('submit',function(e){ e.preventDefault(); var f=e.target, o={action:'claim',code:code}; new FormData(f).forEach(function(v,k){o[k]=v;}); f.querySelector('button').disabled=true;
+      api(o).then(function(x){ if(!x.ok) throw 0;
+        try{ fetch('https://formsubmit.co/ajax/'+(typeof MAILTO!=='undefined'?MAILTO:'patobulko3@gmail.com'),{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({_subject:'🏅 Výherca odznaku – Malíkova hádanka · '+code,_template:'table',_captcha:'false',kod:code,meno:o.meno,kontakt:o.kontakt,poznamka:o.poznamka||''})}).catch(function(){}); }catch(e){}
+        say('Hotovo! 🙌 Ozveme sa ti. Kód <b>'+code+'</b> si odfoť a ukáž ho pri preberaní odznaku.'); btns([['Super, vďaka!',close]]); })
+      .catch(function(){ f.querySelector('button').disabled=false; say('Odoslanie sa nepodarilo, skús to ešte raz. Kód <b>'+code+'</b> si zatiaľ odfoť.'); }); }); }
+  function show(){ if(document.querySelector('.mdlg:not([hidden]),#md:not([hidden]),#pm:not([hidden]),.recruit.as-pop')){ setTimeout(show,8000); return; }
+    box=document.createElement('div'); box.className='mal'; box.setAttribute('role','dialog'); box.setAttribute('aria-label','Malíkova hádanka o odznak');
+    box.innerHTML='<div class="mal-card"><button type="button" class="mal-x" aria-label="Zavrieť">×</button><div class="mal-ph"><img src="img/p26/matus-malik.jpg" alt="Matúš Malík"></div><div class="mal-bd"><div class="mal-nm">Matúš Malík <span>#77</span></div><div class="mal-bub" id="malb"></div><div class="mal-act" id="malact"></div></div></div>';
+    document.body.appendChild(box); bub=box.querySelector('#malb'); act=box.querySelector('#malact');
+    box.querySelector('.mal-x').addEventListener('click',function(){ ls(KEY,'1'); close(); });
+    say('Čau, tu Malík! 👋 Mám pre teba <b>ťažkú hádanku</b>. Kto ju uhádne, vyhrá <b>odznak FBK AS Trenčín</b>. Máš len <b>7 sekúnd</b> a jeden pokus denne. Ideš do toho?',null,function(){
+      btns([['Idem do toho!',start],['Dnes nie',function(){ ls(KEY,'1'); close(); },'mal-no']]); });
+    try{ speechSynthesis.getVoices(); }catch(e){} }
+  setTimeout(show,30000);
 })();
 </script>
 
