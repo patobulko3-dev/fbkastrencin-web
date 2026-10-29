@@ -1877,13 +1877,13 @@ document.getElementById('form').addEventListener('submit',function(e){ e.prevent
       ask(r);
     }).catch(function(){ say('Niečo sa pokazilo, skús to prosím neskôr.'); btns([['Zavrieť',close,'mal-no']]); }); }
   function ask(r){ clearInterval(typing); bub.className='mal-bub q'; bub.textContent=r.q; speak(r.q);
-    act.innerHTML='<form class="mal-ans" id="malf"><div class="mal-tm" id="maltm"><svg viewBox="0 0 46 46"><circle class="bgc" cx="23" cy="23" r="20"/><circle class="fg" id="malring" cx="23" cy="23" r="20"/></svg><span id="malsec">7</span></div><input id="malin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Odpoveď jedným slovom" maxlength="40" aria-label="Tvoja odpoveď"><button class="mal-go" type="submit">OK</button></form>';
-    var inp=document.getElementById('malin'), t0=Date.now(), ms=r.ms||7000, done=false; inp.focus();
+    act.innerHTML='<form class="mal-ans" id="malf"><div class="mal-tm" id="maltm"><svg viewBox="0 0 46 46"><circle class="bgc" cx="23" cy="23" r="20"/><circle class="fg" id="malring" cx="23" cy="23" r="20"/></svg><span id="malsec">10</span></div><input id="malin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Tvoja odpoveď" maxlength="40" aria-label="Tvoja odpoveď"><button class="mal-go" type="submit">OK</button></form>';
+    var inp=document.getElementById('malin'), t0=Date.now(), ms=r.ms||10000, done=false; inp.focus();
     function send(){ if(done) return; done=true; clearInterval(tmr); var a=inp.value; inp.disabled=true; say('Hmm, pozriem sa…');
       api({action:'answer',id:r.id,a:a}).then(function(x){
         if(x.win){ win(x.code); }
         else if(x.closed){ say('Správne! Ale niekto ťa o chlp predbehol a dnešné odznaky sú rozdané. Skús to zajtra! 🙈'); btns([['Zavrieť',close,'mal-no']]); }
-        else if(x.late){ say('Čas vypršal! ⏱️ Tých 7 sekúnd letí ako moja strela. Skús to <b>zajtra</b>.'); btns([['Zavrieť',close,'mal-no']]); }
+        else if(x.late){ say('Čas vypršal! ⏱️ Tých 10 sekúnd letí ako strela z prvej. Skús to <b>zajtra</b>.'); btns([['Zavrieť',close,'mal-no']]); }
         else { say('Tesne vedľa! 😬 Odznak dnes neputuje k tebe, ale zajtra máš ďalšiu šancu.'); btns([['Zavrieť',close,'mal-no']]); }
       }).catch(function(){ say('Spojenie zlyhalo, prepáč. Skús to zajtra.'); btns([['Zavrieť',close,'mal-no']]); }); }
     document.getElementById('malf').addEventListener('submit',function(e){ e.preventDefault(); send(); });
@@ -1896,12 +1896,20 @@ document.getElementById('form').addEventListener('submit',function(e){ e.prevent
         try{ fetch('https://formsubmit.co/ajax/'+(typeof MAILTO!=='undefined'?MAILTO:'patobulko3@gmail.com'),{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({_subject:'🏅 Výherca odznaku – Malíkova hádanka · '+code,_template:'table',_captcha:'false',kod:code,meno:o.meno,kontakt:o.kontakt,poznamka:o.poznamka||''})}).catch(function(){}); }catch(e){}
         say('Hotovo! 🙌 Ozveme sa ti. Kód <b>'+code+'</b> si odfoť a ukáž ho pri preberaní odznaku.'); btns([['Super, vďaka!',close]]); })
       .catch(function(){ f.querySelector('button').disabled=false; say('Odoslanie sa nepodarilo, skús to ešte raz. Kód <b>'+code+'</b> si zatiaľ odfoť.'); }); }); }
+  var esc=function(s){ return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); };
+  var pimg=function(x){ return /[\/.]/.test(x)?x.replace(/^\//,''):'img/p/'+x+'.jpg'; };
+  function pickPerson(){ var pool=[], seen={};
+    try{ (DATA.rosters.teams||[]).forEach(function(t){ (t.players||[]).forEach(function(p){ if(p.photo&&!seen[p.name]){ seen[p.name]=1; pool.push({name:p.name,img:pimg(p.photo),tag:p.no!==''&&p.no!=null?'#'+p.no:'AS'}); } }); });
+      (DATA.site.members||[]).forEach(function(m){ if(m.photo&&!seen[m.name]){ seen[m.name]=1; pool.push({name:m.name,img:pimg(m.photo),tag:(m.role||'AS').split(/[,·–-]/)[0].trim().slice(0,22)}); } }); }catch(e){}
+    if(!pool.length) pool=[{name:'Matúš Malík',img:'img/p26/matus-malik.jpg',tag:'#77'}];
+    var last=ls('mal:last'), p, k=0; do{ p=pool[Math.floor(Math.random()*pool.length)]; }while(p.name===last&&pool.length>1&&++k<9); ls('mal:last',p.name); return p; }
   function show(){ if(document.querySelector('.mdlg:not([hidden]),#md:not([hidden]),#pm:not([hidden]),.recruit.as-pop')){ setTimeout(show,8000); return; }
-    box=document.createElement('div'); box.className='mal'; box.setAttribute('role','dialog'); box.setAttribute('aria-label','Malíkova hádanka o odznak');
-    box.innerHTML='<div class="mal-card"><button type="button" class="mal-x" aria-label="Zavrieť">×</button><div class="mal-ph"><img src="img/p26/matus-malik.jpg" alt="Matúš Malík"></div><div class="mal-bd"><div class="mal-nm">Matúš Malík <span>#77</span></div><div class="mal-bub" id="malb"></div><div class="mal-act" id="malact"></div></div></div>';
+    var P=pickPerson(), first=esc(P.name.split(' ')[0]);
+    box=document.createElement('div'); box.className='mal'; box.setAttribute('role','dialog'); box.setAttribute('aria-label','Hádanka o odznak AS Trenčín');
+    box.innerHTML='<div class="mal-card"><button type="button" class="mal-x" aria-label="Zavrieť">×</button><div class="mal-ph"><img src="'+esc(P.img)+'" alt="'+esc(P.name)+'"></div><div class="mal-bd"><div class="mal-nm">'+esc(P.name)+' <span>'+esc(P.tag)+'</span></div><div class="mal-bub" id="malb"></div><div class="mal-act" id="malact"></div></div></div>';
     document.body.appendChild(box); bub=box.querySelector('#malb'); act=box.querySelector('#malact');
     box.querySelector('.mal-x').addEventListener('click',function(){ ls(KEY,'1'); close(); });
-    say('Čau, tu Malík! 👋 Mám pre teba <b>ťažkú hádanku</b>. Kto ju uhádne, vyhrá <b>odznak FBK AS Trenčín</b>. Máš len <b>7 sekúnd</b> a jeden pokus denne. Ideš do toho?',null,function(){
+    say('Čau, tu '+first+'! 👋 Mám pre teba <b>ťažkú florbalovú hádanku</b>. Kto ju uhádne, vyhrá <b>odznak FBK AS Trenčín</b>. Máš len <b>10 sekúnd</b> a jeden pokus denne. Ideš do toho?',null,function(){
       btns([['Idem do toho!',start],['Dnes nie',function(){ ls(KEY,'1'); close(); },'mal-no']]); });
     try{ speechSynthesis.getVoices(); }catch(e){} }
   setTimeout(show,30000);

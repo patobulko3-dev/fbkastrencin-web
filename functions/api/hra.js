@@ -6,26 +6,45 @@
 import { json } from '../../lib/cf-util.js';
 
 const MAX_WINS = 2;
-const LIMIT_MS = 7000 + 2500; // 7 s na odpoveď + rezerva na pripojenie
+const LIMIT_MS = 10000 + 2500; // 10 s na odpoveď + rezerva na pripojenie
 
 // a: prijaté odpovede (bez diakritiky, malé písmená)
 const RIDDLES = [
+  // florbal – pravidlá a svet
+  { q: 'Koľko dierok má florbalová loptička?', a: ['26', 'dvadsatsest'] },
+  { q: 'Aký priemer v milimetroch má florbalová loptička?', a: ['72'] },
+  { q: 'Koľko gramov váži florbalová loptička?', a: ['23'] },
+  { q: 'Aká široká je florbalová bránka v centimetroch?', a: ['160'] },
+  { q: 'Aká vysoká je florbalová bránka v centimetroch?', a: ['115'] },
+  { q: 'Koľko metrov meria veľké florbalové ihrisko na dĺžku?', a: ['40', 'styridsat'] },
+  { q: 'Koľko minút čistého času trvá jedna tretina zápasu mužov?', a: ['20', 'dvadsat'] },
+  { q: 'Koľko hráčov jedného tímu je naraz na ihrisku vrátane brankára?', a: ['6', 'sest'] },
+  { q: 'Koľko minút trvá menší trest, teda bežné vylúčenie, vo florbale?', a: ['2', 'dve', 'dva'] },
+  { q: 'Čo florbalový brankár na rozdiel od hokejového nemá?', a: ['hokejku', 'hokejka', 'florbalku', 'palicu', 'kij'] },
+  { q: 'V ktorej krajine vznikol florbal?', a: ['svedsko', 'svedsku', 'sweden', 'svedska'] },
+  { q: 'V ktorom meste sídli Medzinárodná florbalová federácia IFF?', a: ['helsinki', 'helsinky'] },
+  { q: 'Aká je skratka Slovenského zväzu florbalu?', a: ['szfb'] },
+  { q: 'Ktorá krajina vyhrala majstrovstvá sveta mužov 2024 v Malmö?', a: ['finsko', 'finland', 'fini', 'finsku'] },
+  { q: 'V ktorom fínskom meste sa hrajú majstrovstvá sveta mužov 2026?', a: ['tampere'] },
+  { q: 'Ako sa volá najvyššia česká florbalová liga mužov? Stačí meno sponzora.', a: ['livesport', 'livesport superliga', 'superliga'] },
+  { q: 'Ktorý pražský klub je rekordným majstrom českej florbalovej superligy?', a: ['tatran', 'strešovice', 'stresovice', 'tatran stresovice'] },
+  { q: 'V ktorej pražskej hale sa hrá superfinále českej florbalovej ligy?', a: ['o2', 'o2 arena', 'o2arena'] },
+  // naše AS
+  { q: 'Aké číslo má na drese Matúš Malík?', a: ['77'] },
+  { q: 'Aké číslo nosí na drese Šimon Ondrášik?', a: ['25'] },
+  { q: 'Kto je kapitánom mužov AS Trenčín? Stačí priezvisko.', a: ['davidek', 'samuel davidek', 'samo davidek'] },
+  { q: 'Ako sa volá domáca hala AS Trenčín?', a: ['ostrov', 'arena ostrov', 'arena'] },
+  { q: 'V ktorom fínskom meste študuje náš junior Timotej Bielik?', a: ['tampere'] },
+  { q: 'Juniori AS vyhrali derby s 1. FBC 8:3. Koľko gólov v ňom dal Michal Fusi?', a: ['2', 'dva', 'dve'] },
+  { q: 'Koľko gólov dal Samuel Dávidek za Muži B v zápase s Dubnicou, ktorý sme vyhrali 8:7?', a: ['3', 'tri', 'hetrik'] },
+  { q: 'Koľko kanadských bodov mal Šimon Ondrášik po prvých siedmich kolách extraligy 2026/27?', a: ['10', 'desat'] },
+  { q: 'Starší žiaci AS zdolali Púchov 9:8. Koľko gólov v tom zápase strelil Peřina?', a: ['2', 'dva', 'dve'] },
+  { q: 'Muži AS otočili zápas so Sabinovom a vyhrali po predĺžení. Akým výsledkom?', a: ['6 5', '65', '6 5 pp'] },
+  { q: 'Mladší žiaci AS mali po štyroch zápasoch skóre 28:10. Koľko z tých zápasov vyhrali?', a: ['4', 'styri', 'vsetky'] },
+  // pár klasických hádaniek
+  { q: 'Má dierky, no vodu neudrží a na ihrisku ju všetci naháňajú. Čo je to?', a: ['lopticka', 'lopticku', 'lopta', 'loptu', 'florbalova lopticka'] },
   { q: 'Čím viac z nej berieš, tým je väčšia. Čo je to?', a: ['jama', 'jamu', 'diera', 'dieru'] },
-  { q: 'Má zuby, ale nikdy nehryzie. Čo je to?', a: ['hreben', 'hrebien', 'pila', 'pilu', 'zips'] },
-  { q: 'Patrí tebe, no ostatní ho používajú oveľa viac než ty. Čo je to?', a: ['meno'] },
-  { q: 'Má krk, ale nemá hlavu. Čo je to?', a: ['flasa', 'flasu', 'flaska', 'flasku'] },
-  { q: 'Stačí ho vysloviť a už je preč. Čo je to?', a: ['ticho'] },
-  { q: 'Má dierky, no vodu neudrží a na ihrisku ju všetci naháňajú. Čo je to?', a: ['lopticka', 'loptu', 'lopta', 'florbalka', 'florbalova lopticka', 'lopticku'] },
-  { q: 'Čím je mokrejší, tým viac suší. Čo je to?', a: ['uterak'] },
   { q: 'Má mestá bez domov, lesy bez stromov a rieky bez vody. Čo je to?', a: ['mapa', 'mapu'] },
-  { q: 'Môžeš ho chytiť, ale nikdy ho nehodíš. Čo je to?', a: ['nadcha', 'nadchu', 'prechladnutie', 'chripka', 'chripku', 'virus'] },
-  { q: 'Má jedno oko, ale nevidí nič. Čo je to?', a: ['ihla', 'ihlu', 'ihlicka', 'hurikan', 'tornado'] },
-  { q: 'Je ľahší ako pierko, no ani najsilnejší chlap ho neudrží dlhšie ako pár minút. Čo je to?', a: ['dych'] },
-  { q: 'Čím viac jej je, tým menej vidíš. Čo je to?', a: ['tma', 'tmu', 'hmla', 'hmlu'] },
-  { q: 'Ide hore aj dole, a pritom sa nepohne z miesta. Čo je to?', a: ['schody', 'schodisko', 'teplota', 'teplomer'] },
-  { q: 'Keď ma potrebuješ, hodíš ma preč. Keď ma už netreba, vytiahneš ma späť. Čo som?', a: ['kotva', 'kotvu'] },
-  { q: 'Čo má hlavu aj chvost, ale nemá telo?', a: ['minca', 'mincu', 'eurominca'] },
-  { q: 'Beží, no nemá nohy. Má posteľ, no nikdy nespí. Čo je to?', a: ['rieka', 'rieku', 'potok', 'voda'] },
   { q: 'Čím viac ich nechávaš za sebou, tým viac ich je. Čo je to?', a: ['kroky', 'stopy', 'krok', 'stopa'] },
 ];
 
@@ -53,7 +72,7 @@ export async function onRequestPost({ request, env }) {
     const r = Math.floor(Math.random() * RIDDLES.length);
     const id = crypto.randomUUID();
     await KV.put('hra:g:' + id, JSON.stringify({ r, t0: Date.now() }), { expirationTtl: 300 });
-    return json({ id, q: RIDDLES[r].q, ms: 7000 });
+    return json({ id, q: RIDDLES[r].q, ms: 10000 });
   }
 
   if (b.action === 'answer') {
