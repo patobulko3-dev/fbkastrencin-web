@@ -1877,13 +1877,13 @@ document.getElementById('form').addEventListener('submit',function(e){ e.prevent
       ask(r);
     }).catch(function(){ say('Niečo sa pokazilo, skús to prosím neskôr.'); btns([['Zavrieť',close,'mal-no']]); }); }
   function ask(r){ clearInterval(typing); bub.className='mal-bub q'; bub.textContent=r.q; speak(r.q);
-    act.innerHTML='<form class="mal-ans" id="malf"><div class="mal-tm" id="maltm"><svg viewBox="0 0 46 46"><circle class="bgc" cx="23" cy="23" r="20"/><circle class="fg" id="malring" cx="23" cy="23" r="20"/></svg><span id="malsec">10</span></div><input id="malin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Tvoja odpoveď" maxlength="40" aria-label="Tvoja odpoveď"><button class="mal-go" type="submit">OK</button></form>';
-    var inp=document.getElementById('malin'), t0=Date.now(), ms=r.ms||10000, done=false; inp.focus();
+    act.innerHTML='<form class="mal-ans" id="malf"><div class="mal-tm" id="maltm"><svg viewBox="0 0 46 46"><circle class="bgc" cx="23" cy="23" r="20"/><circle class="fg" id="malring" cx="23" cy="23" r="20"/></svg><span id="malsec">7</span></div><input id="malin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Tvoja odpoveď" maxlength="40" aria-label="Tvoja odpoveď"><button class="mal-go" type="submit">OK</button></form>';
+    var inp=document.getElementById('malin'), t0=Date.now(), ms=r.ms||7000, done=false; inp.focus();
     function send(){ if(done) return; done=true; clearInterval(tmr); var a=inp.value; inp.disabled=true; say('Hmm, pozriem sa…');
       api({action:'answer',id:r.id,a:a}).then(function(x){
         if(x.win){ win(x.code); }
         else if(x.closed){ say('Správne! Ale niekto ťa o chlp predbehol a dnešné odznaky sú rozdané. Skús to zajtra! 🙈'); btns([['Zavrieť',close,'mal-no']]); }
-        else if(x.late){ say('Čas vypršal! ⏱️ Tých 10 sekúnd letí ako strela z prvej. Skús to <b>zajtra</b>.'); btns([['Zavrieť',close,'mal-no']]); }
+        else if(x.late){ say('Čas vypršal! ⏱️ Tých 7 sekúnd letí ako strela z prvej. Skús to <b>zajtra</b>.'); btns([['Zavrieť',close,'mal-no']]); }
         else { say('Tesne vedľa! 😬 Odznak dnes neputuje k tebe, ale zajtra máš ďalšiu šancu.'); btns([['Zavrieť',close,'mal-no']]); }
       }).catch(function(){ say('Spojenie zlyhalo, prepáč. Skús to zajtra.'); btns([['Zavrieť',close,'mal-no']]); }); }
     document.getElementById('malf').addEventListener('submit',function(e){ e.preventDefault(); send(); });
@@ -1909,7 +1909,7 @@ document.getElementById('form').addEventListener('submit',function(e){ e.prevent
     box.innerHTML='<div class="mal-card"><button type="button" class="mal-x" aria-label="Zavrieť">×</button><div class="mal-ph"><img src="'+esc(P.img)+'" alt="'+esc(P.name)+'"></div><div class="mal-bd"><div class="mal-nm">'+esc(P.name)+' <span>'+esc(P.tag)+'</span></div><div class="mal-bub" id="malb"></div><div class="mal-act" id="malact"></div></div></div>';
     document.body.appendChild(box); bub=box.querySelector('#malb'); act=box.querySelector('#malact');
     box.querySelector('.mal-x').addEventListener('click',function(){ ls(KEY,'1'); close(); });
-    say('Čau, tu '+first+'! 👋 Mám pre teba <b>ťažkú florbalovú hádanku</b>. Kto ju uhádne, vyhrá <b>odznak FBK AS Trenčín</b>. Máš len <b>10 sekúnd</b> a jeden pokus denne. Ideš do toho?',null,function(){
+    say('Čau, tu '+first+'! 👋 Mám pre teba <b>ťažkú florbalovú hádanku</b>. Kto ju uhádne, vyhrá <b>odznak FBK AS Trenčín</b>. Máš len <b>7 sekúnd</b> a jeden pokus denne. Ideš do toho?',null,function(){
       btns([['Idem do toho!',start],['Dnes nie',function(){ ls(KEY,'1'); close(); },'mal-no']]); });
     try{ speechSynthesis.getVoices(); }catch(e){} }
   setTimeout(show,30000);

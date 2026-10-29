@@ -6,46 +6,45 @@
 import { json } from '../../lib/cf-util.js';
 
 const MAX_WINS = 2;
-const LIMIT_MS = 10000 + 2500; // 10 s na odpoveď + rezerva na pripojenie
+const LIMIT_MS = 7000 + 2500; // 7 s na odpoveď + rezerva na pripojenie
 
 // a: prijaté odpovede (bez diakritiky, malé písmená)
 const RIDDLES = [
-  // florbal – pravidlá a svet
-  { q: 'Koľko dierok má florbalová loptička?', a: ['26', 'dvadsatsest'] },
+  // pravidlá IFF (overené v Rules of the Game 2026)
+  { q: 'Koľko milimetrov smie mať najviac zahnutie čepele florbalovej hokejky?', a: ['30'] },
+  { q: 'Najviac koľko sekúnd smie mať brankár loptičku pod kontrolou?', a: ['3', 'tri'] },
+  { q: 'Koľko minút trvá vo florbale väčší (osobný) trest za ťažký faul – dva tresty po sebe?', a: ['4', 'styri'] },
+  { q: 'Akú najmenšiu dĺžku v metroch smie mať florbalové ihrisko podľa pravidiel IFF?', a: ['36'] },
+  { q: 'Koľko metrov od kratšej strany ihriska je vyznačené brankovisko?', a: ['2 85', '285'] },
+  { q: 'Koľko metrov je široké malé brankovisko?', a: ['2 5', '25', '2 50'] },
+  { q: 'Koľko minút trvá predĺženie v zápase podľa pravidiel IFF?', a: ['10', 'desat'] },
+  { q: 'Najmenej koľko hráčov tímu musí byť na ihrisku, aby zápas mohol pokračovať?', a: ['4', 'styria', 'styri'] },
+  { q: 'Koľko sekúnd trvá oddychový čas vo florbale?', a: ['30', 'tridsat'] },
   { q: 'Aký priemer v milimetroch má florbalová loptička?', a: ['72'] },
   { q: 'Koľko gramov váži florbalová loptička?', a: ['23'] },
-  { q: 'Aká široká je florbalová bránka v centimetroch?', a: ['160'] },
-  { q: 'Aká vysoká je florbalová bránka v centimetroch?', a: ['115'] },
-  { q: 'Koľko metrov meria veľké florbalové ihrisko na dĺžku?', a: ['40', 'styridsat'] },
-  { q: 'Koľko minút čistého času trvá jedna tretina zápasu mužov?', a: ['20', 'dvadsat'] },
-  { q: 'Koľko hráčov jedného tímu je naraz na ihrisku vrátane brankára?', a: ['6', 'sest'] },
-  { q: 'Koľko minút trvá menší trest, teda bežné vylúčenie, vo florbale?', a: ['2', 'dve', 'dva'] },
-  { q: 'Čo florbalový brankár na rozdiel od hokejového nemá?', a: ['hokejku', 'hokejka', 'florbalku', 'palicu', 'kij'] },
-  { q: 'V ktorej krajine vznikol florbal?', a: ['svedsko', 'svedsku', 'sweden', 'svedska'] },
-  { q: 'V ktorom meste sídli Medzinárodná florbalová federácia IFF?', a: ['helsinki', 'helsinky'] },
-  { q: 'Aká je skratka Slovenského zväzu florbalu?', a: ['szfb'] },
-  { q: 'Ktorá krajina vyhrala majstrovstvá sveta mužov 2024 v Malmö?', a: ['finsko', 'finland', 'fini', 'finsku'] },
+  { q: 'Koľko dierok má florbalová loptička?', a: ['26'] },
+  // svet, Slovensko, Česko
+  { q: 'V ktorom roku vznikla Medzinárodná florbalová federácia IFF?', a: ['1986'] },
+  { q: 'V ktorom roku sa hrali prvé majstrovstvá sveta mužov vo florbale?', a: ['1996'] },
+  { q: 'Ktorá krajina vyhrala majstrovstvá sveta mužov 2024 v Malmö?', a: ['finsko', 'finland', 'finsku'] },
   { q: 'V ktorom fínskom meste sa hrajú majstrovstvá sveta mužov 2026?', a: ['tampere'] },
-  { q: 'Ako sa volá najvyššia česká florbalová liga mužov? Stačí meno sponzora.', a: ['livesport', 'livesport superliga', 'superliga'] },
-  { q: 'Ktorý pražský klub je rekordným majstrom českej florbalovej superligy?', a: ['tatran', 'strešovice', 'stresovice', 'tatran stresovice'] },
-  { q: 'V ktorej pražskej hale sa hrá superfinále českej florbalovej ligy?', a: ['o2', 'o2 arena', 'o2arena'] },
+  { q: 'Ktorý pražský klub je rekordným majstrom českej florbalovej superligy?', a: ['tatran', 'stresovice', 'tatran stresovice'] },
+  { q: 'V ktorom roku získali českí florbalisti striebro na majstrovstvách sveta?', a: ['2004'] },
   // naše AS
-  { q: 'Aké číslo má na drese Matúš Malík?', a: ['77'] },
-  { q: 'Aké číslo nosí na drese Šimon Ondrášik?', a: ['25'] },
-  { q: 'Kto je kapitánom mužov AS Trenčín? Stačí priezvisko.', a: ['davidek', 'samuel davidek', 'samo davidek'] },
-  { q: 'Ako sa volá domáca hala AS Trenčín?', a: ['ostrov', 'arena ostrov', 'arena'] },
-  { q: 'V ktorom fínskom meste študuje náš junior Timotej Bielik?', a: ['tampere'] },
+  { q: 'Ktorý brankár AS mal po siedmich kolách extraligy najvyššiu úspešnosť zákrokov? Stačí priezvisko.', a: ['liska', 'adam liska'] },
+  { q: 'Aké číslo nosí na drese brankár AS Adam Líška?', a: ['82'] },
+  { q: 'Ktorý obranca je najlepším strelcom mužov AS v sezóne 2026/27? Stačí priezvisko.', a: ['daransky', 'michal daransky'] },
+  { q: 'Koľko gólov dal Michal Daranský v prvých siedmich kolách extraligy 2026/27?', a: ['7', 'sedem'] },
+  { q: 'Koľko trestných minút mal Matúš Malík po siedmich kolách extraligy 2026/27?', a: ['16', 'sestnast'] },
+  { q: 'Ktorý ročník je kapitán mužov AS Samuel Dávidek?', a: ['1998', '98'] },
+  { q: 'Akým výsledkom vyhrali muži AS v Detve na úvod sezóny 2026/27?', a: ['13 3', '133'] },
+  { q: 'Koľko gólov strelil Šimon Ondrášik pri výhre 13:3 v Detve?', a: ['3', 'tri', 'hetrik'] },
+  { q: 'Juniori AS vyhrali derby s 1. FBC 8:3. Fusi a Bielik dali po dva – kto ďalší skóroval? Stačí jedno priezvisko.', a: ['benovic', 'pasqualon', 'oleksak', 'minarik'] },
   { q: 'Juniori AS vyhrali derby s 1. FBC 8:3. Koľko gólov v ňom dal Michal Fusi?', a: ['2', 'dva', 'dve'] },
+  { q: 'Starší žiaci AS zdolali Púchov 9:8. Koľko gólov v tom zápase strelil Peřina?', a: ['2', 'dva', 'dve'] },
   { q: 'Koľko gólov dal Samuel Dávidek za Muži B v zápase s Dubnicou, ktorý sme vyhrali 8:7?', a: ['3', 'tri', 'hetrik'] },
   { q: 'Koľko kanadských bodov mal Šimon Ondrášik po prvých siedmich kolách extraligy 2026/27?', a: ['10', 'desat'] },
-  { q: 'Starší žiaci AS zdolali Púchov 9:8. Koľko gólov v tom zápase strelil Peřina?', a: ['2', 'dva', 'dve'] },
-  { q: 'Muži AS otočili zápas so Sabinovom a vyhrali po predĺžení. Akým výsledkom?', a: ['6 5', '65', '6 5 pp'] },
-  { q: 'Mladší žiaci AS mali po štyroch zápasoch skóre 28:10. Koľko z tých zápasov vyhrali?', a: ['4', 'styri', 'vsetky'] },
-  // pár klasických hádaniek
-  { q: 'Má dierky, no vodu neudrží a na ihrisku ju všetci naháňajú. Čo je to?', a: ['lopticka', 'lopticku', 'lopta', 'loptu', 'florbalova lopticka'] },
-  { q: 'Čím viac z nej berieš, tým je väčšia. Čo je to?', a: ['jama', 'jamu', 'diera', 'dieru'] },
-  { q: 'Má mestá bez domov, lesy bez stromov a rieky bez vody. Čo je to?', a: ['mapa', 'mapu'] },
-  { q: 'Čím viac ich nechávaš za sebou, tým viac ich je. Čo je to?', a: ['kroky', 'stopy', 'krok', 'stopa'] },
+  { q: 'Ako sa volá kondičný tréner AS Trenčín? Stačí priezvisko.', a: ['kravec', 'peter kravec'] },
 ];
 
 const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
@@ -72,7 +71,7 @@ export async function onRequestPost({ request, env }) {
     const r = Math.floor(Math.random() * RIDDLES.length);
     const id = crypto.randomUUID();
     await KV.put('hra:g:' + id, JSON.stringify({ r, t0: Date.now() }), { expirationTtl: 300 });
-    return json({ id, q: RIDDLES[r].q, ms: 10000 });
+    return json({ id, q: RIDDLES[r].q, ms: 7000 });
   }
 
   if (b.action === 'answer') {
