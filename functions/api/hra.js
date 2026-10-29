@@ -29,7 +29,7 @@ const RIDDLES = [
   { q: 'Ktorá krajina vyhrala majstrovstvá sveta mužov 2024 v Malmö?', a: ['finsko', 'finland', 'finsku'] },
   { q: 'V ktorom fínskom meste sa hrajú majstrovstvá sveta mužov 2026?', a: ['tampere'] },
   { q: 'Ktorý pražský klub je rekordným majstrom českej florbalovej superligy?', a: ['tatran', 'stresovice', 'tatran stresovice'] },
-  { q: 'V ktorom roku získali českí florbalisti striebro na majstrovstvách sveta?', a: ['2004'] },
+  { q: 'V ktorom roku získali českí florbalisti svoju prvú striebornú medailu na majstrovstvách sveta?', a: ['2004'] },
   // naše AS
   { q: 'Ktorý brankár AS mal po siedmich kolách extraligy najvyššiu úspešnosť zákrokov? Stačí priezvisko.', a: ['liska', 'adam liska'] },
   { q: 'Aké číslo nosí na drese brankár AS Adam Líška?', a: ['82'] },
