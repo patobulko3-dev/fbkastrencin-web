@@ -3,7 +3,7 @@
 // POST /api/hra {action:'answer', id, a}         -> {win, code} | {win:false, right}
 // POST /api/hra {action:'claim', code, ...údaje} -> {ok}
 // Údaje sú v KV (väzba FORMS). Limit: MAX_WINS výhercov za deň, 1 pokus na zariadenie/IP za deň.
-import { json } from '../../lib/cf-util.js';
+import { json, notify } from '../../lib/cf-util.js';
 
 const MAX_WINS = 2;
 const LIMIT_MS = 7000 + 2500; // 7 s na odpoveď + rezerva na pripojenie
@@ -51,18 +51,6 @@ const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-
 const today = () => new Date(Date.now() + 3600e3).toISOString().slice(0, 10); // približne SK čas
 async function sha(s) { const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)); return [...new Uint8Array(b)].slice(0, 8).map((x) => x.toString(16).padStart(2, '0')).join(''); }
 
-// e-mailové upozornenie cez FormSubmit priamo zo servera (nezávisí od prehliadača výhercu)
-async function notify(env, subject, fields) {
-  const to = env.MAIL_TO || 'patobulko3@gmail.com';
-  try {
-    const r = await fetch('https://formsubmit.co/ajax/' + to, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', Accept: 'application/json', Origin: 'https://www.fbkastrencin.sk', Referer: 'https://www.fbkastrencin.sk/' },
-      body: JSON.stringify(Object.assign({ _subject: subject, _template: 'table', _captcha: 'false' }, fields)),
-    });
-    return (await r.text()).slice(0, 300);
-  } catch (e) { return 'ERR ' + (e && e.message); }
-}
 const code = () => 'AS-' + [...crypto.getRandomValues(new Uint8Array(4))].map((x) => 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'[x % 32]).join('');
 
 export async function onRequestPost({ request, env }) {
@@ -73,10 +61,16 @@ export async function onRequestPost({ request, env }) {
   const d = today();
   const wins = parseInt((await KV.get('hra:wins:' + d)) || '0', 10) || 0;
 
-  if (b.action === 'mailtest') { // dočasné – overenie e-mailu
+  if (b.action === 'mailtest') { // overenie e-mailu + súhrn doterajších záznamov (max raz za 10 min)
     if (await KV.get('hra:mailtest')) return json({ wait: true });
     await KV.put('hra:mailtest', '1', { expirationTtl: 600 });
-    return json({ res: await notify(env, '✅ Test: upozornenia na výhercov odznaku fungujú', { sprava: 'Toto je skúšobný e-mail z webu fbkastrencin.sk. Takto ti prídu údaje o výhercoch odznaku.' }) });
+    const lines = {};
+    for (const pre of ['hra:code:', 'odznak:', 'nabor:', 'odkaz-klubu:']) {
+      const l = await KV.list({ prefix: pre });
+      for (const k of l.keys) { const v = await KV.get(k.name); lines[k.name] = v ? v.slice(0, 600) : ''; }
+    }
+    const res = await notify(env, '✅ Upozornenia z webu fungujú – súhrn doterajších záznamov', Object.keys(lines).length ? lines : { sprava: 'Zatiaľ žiadne záznamy.' });
+    return json({ res, n: Object.keys(lines).length });
   }
   if (b.action === 'start') {
     if (wins >= MAX_WINS) return json({ closed: true });
