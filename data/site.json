@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/gm/sab-51.jpg",
+      "img_pos": "50% 40%",
+      "kicker": "Muži · Extraliga · #77",
+      "title": "Malík",
+      "title_em": "líder s 12 bodmi",
+      "text": "Matúš Malík je po siedmich kolách extraligy najproduktívnejším hráčom mužov: 4 góly a 8 asistencií. Po 10 bodov majú Timotej Kollár a Šimon Ondrášik.",
+      "tab_title": "Matúš Malík",
+      "tab_text": "4 + 8 v extralige",
+      "btn1_text": "Súpiska mužov",
+      "btn1_link": "#supisky",
+      "btn2_text": "Výsledky",
+      "btn2_link": "#vysledky"
+    },
+    {
       "img": "img/h/ondrasik.jpg",
       "img_pos": "62% 22%",
       "kicker": "Muži · Extraliga · #25",
@@ -80,17 +94,6 @@
       "tab_text": "So 31. 10. o 15:00",
       "btn1_text": "Program",
       "btn1_link": "#vysledky"
-    },
-    {
-      "img": "uploads/clanky/bielik-hero.jpg",
-      "kicker": "Z klubu · Rozhovor",
-      "title": "Bielik hlási",
-      "title_em": "návrat z Fínska",
-      "text": "Timotej Bielik študuje v Tampere v rámci Erasmu a tím sleduje z diaľky. Prečítaj si, ako sa mu darí.",
-      "tab_title": "Timotej Bielik",
-      "tab_text": "Návrat z Fínska",
-      "btn1_text": "Čítať článok",
-      "btn1_link": "clanky/bielik-hlasi-navrat-z-finska/"
     },
     {
       "img": "img/h/nabor.jpg",
