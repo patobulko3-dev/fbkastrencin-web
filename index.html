@@ -1647,12 +1647,13 @@ function fmtBorn(b){ var x=parseBorn(b); return x?x.d+'. '+x.m+'.'+(x.y?' '+x.y:
     else parts.push('<div class="cel"><i>🎂</i><span>Najbližšie narodeniny: '+names+' · '+first.nx.getDate()+'. '+(first.nx.getMonth()+1)+'.</span><span class="cd" data-t="'+(+first.nx)+'"></span></div>');
   }
   box.innerHTML=parts.join('');
-  fetch('https://nameday.abalin.net/api/V2/today?country=sk').then(function(r){return r.json();}).then(function(j){
-    var nm=(j&&j.data&&j.data.sk)||''; if(!nm||nm==='n/a') return;
-    var list=nm.split(/,\s*/), fans=[]; ROSTERS.forEach(function(r){ r.players.forEach(function(p){ var f=p.name.split(' ')[0]; if(list.indexOf(f)>-1&&fans.indexOf(p.name)<0) fans.push(p.name); }); });
-    box.insertAdjacentHTML('beforeend','<div class="cel"><i>🌷</i><span>Dnes má meniny <b>'+esc(nm)+'</b>'+(fans.length?' — blahoželáme: '+fans.map(esc).join(', '):'')+'</span></div>');
-    box.hidden=false;
-  }).catch(function(){});
+  var ND=function(dt){ return fetch('https://nameday.abalin.net/api/V2/date?day='+dt.getDate()+'&month='+(dt.getMonth()+1)+'&country=sk').then(function(r){return r.json();}).then(function(j){ var n=(j&&j.data&&j.data.sk)||''; return n==='n/a'?'':n; }).catch(function(){return '';}); };
+  var tmr=new Date(today.getTime()+864e5), allP=[]; ROSTERS.forEach(function(r){ r.players.forEach(function(p){ if(allP.indexOf(p.name)<0) allP.push(p.name); }); }); ((DATA.site&&DATA.site.members)||[]).forEach(function(m){ if(allP.indexOf(m.name)<0) allP.push(m.name); });
+  var fansOf=function(nm){ var list=nm.split(/,\s*/); return allP.filter(function(n){ var f=n.split(' ')[0]; return list.indexOf(f)>-1; }); };
+  Promise.all([ND(today),ND(tmr)]).then(function(r){ var t=r[0], z=r[1], h='';
+    if(t){ var f=fansOf(t); h+='<div class="cel"><i>🌷</i><span>Dnes má meniny <b>'+esc(t)+'</b>'+(f.length?' · blahoželáme: '+f.map(esc).join(', '):'')+(z?' · zajtra '+esc(z):'')+'</span></div>'; }
+    else if(z) h+='<div class="cel"><i>🌷</i><span>Zajtra má meniny <b>'+esc(z)+'</b></span></div>';
+    if(h){ box.insertAdjacentHTML('beforeend',h); box.hidden=false; } });
   if(parts.length) box.hidden=false;
 })();
 /* ---------- match center: najbližší zápas kategórie hore pri odpočítavaní, ďalšie bežia pod ním ---------- */
