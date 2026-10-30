@@ -50,6 +50,19 @@ const RIDDLES = [
 const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
 const today = () => new Date(Date.now() + 3600e3).toISOString().slice(0, 10); // približne SK čas
 async function sha(s) { const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)); return [...new Uint8Array(b)].slice(0, 8).map((x) => x.toString(16).padStart(2, '0')).join(''); }
+
+// e-mailové upozornenie cez FormSubmit priamo zo servera (nezávisí od prehliadača výhercu)
+async function notify(env, subject, fields) {
+  const to = env.MAIL_TO || 'patobulko3@gmail.com';
+  try {
+    const r = await fetch('https://formsubmit.co/ajax/' + to, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json', Origin: 'https://www.fbkastrencin.sk', Referer: 'https://www.fbkastrencin.sk/' },
+      body: JSON.stringify(Object.assign({ _subject: subject, _template: 'table', _captcha: 'false' }, fields)),
+    });
+    return (await r.text()).slice(0, 300);
+  } catch (e) { return 'ERR ' + (e && e.message); }
+}
 const code = () => 'AS-' + [...crypto.getRandomValues(new Uint8Array(4))].map((x) => 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'[x % 32]).join('');
 
 export async function onRequestPost({ request, env }) {
@@ -88,6 +101,8 @@ export async function onRequestPost({ request, env }) {
     await KV.put('hra:wins:' + d, String(w2 + 1), { expirationTtl: 172800 });
     const c = code();
     await KV.put('hra:code:' + c, JSON.stringify({ d, q: R.q, a: b.a, at: new Date().toISOString() }), { expirationTtl: 60 * 86400 });
+    const n1 = notify(env, '🏅 Niekto vyhral odznak! Kód ' + c, { kod: c, datum: d, hadanka: R.q, odpoved: String(b.a || ''), poznamka: 'Výherca ešte vypĺňa kontakt – príde ďalší e-mail.' });
+    try { await n1; } catch (e) {}
     return json({ win: true, code: c });
   }
 
@@ -100,6 +115,8 @@ export async function onRequestPost({ request, env }) {
     rec.claim = data; await KV.put('hra:code:' + c, JSON.stringify(rec), { expirationTtl: 60 * 86400 });
     const at = new Date().toISOString();
     await KV.put(`odznak:${at}:${c}`, JSON.stringify({ form: 'odznak', at, data }));
+    const res = await notify(env, '🏅 Výherca odznaku – ' + data.meno + ' (' + c + ')', data);
+    await KV.put('hra:mail:' + c, res, { expirationTtl: 60 * 86400 });
     return json({ ok: true });
   }
   return json({ error: 'action' }, 400);
