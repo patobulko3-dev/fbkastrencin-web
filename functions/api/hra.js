@@ -62,8 +62,8 @@ export async function onRequestPost({ request, env }) {
   const wins = parseInt((await KV.get('hra:wins:' + d)) || '0', 10) || 0;
 
   if (b.action === 'mailtest') { // overenie e-mailu + súhrn doterajších záznamov (max raz za 10 min)
-    if (await KV.get('hra:mailtest')) return json({ wait: true });
-    await KV.put('hra:mailtest', '1', { expirationTtl: 600 });
+    if (await KV.get('hra:mailtest2')) return json({ wait: true });
+    await KV.put('hra:mailtest2', '1', { expirationTtl: 600 });
     const lines = {};
     for (const pre of ['hra:code:', 'odznak:', 'nabor:', 'odkaz-klubu:']) {
       const l = await KV.list({ prefix: pre });
