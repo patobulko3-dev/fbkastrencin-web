@@ -73,6 +73,11 @@ export async function onRequestPost({ request, env }) {
   const d = today();
   const wins = parseInt((await KV.get('hra:wins:' + d)) || '0', 10) || 0;
 
+  if (b.action === 'mailtest') { // dočasné – overenie e-mailu
+    if (await KV.get('hra:mailtest')) return json({ wait: true });
+    await KV.put('hra:mailtest', '1', { expirationTtl: 600 });
+    return json({ res: await notify(env, '✅ Test: upozornenia na výhercov odznaku fungujú', { sprava: 'Toto je skúšobný e-mail z webu fbkastrencin.sk. Takto ti prídu údaje o výhercoch odznaku.' }) });
+  }
   if (b.action === 'start') {
     if (wins >= MAX_WINS) return json({ closed: true });
     const ip = await sha((request.headers.get('cf-connecting-ip') || '') + d);
