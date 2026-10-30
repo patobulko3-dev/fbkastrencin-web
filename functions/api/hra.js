@@ -61,17 +61,6 @@ export async function onRequestPost({ request, env }) {
   const d = today();
   const wins = parseInt((await KV.get('hra:wins:' + d)) || '0', 10) || 0;
 
-  if (b.action === 'mailtest') { // overenie e-mailu + súhrn doterajších záznamov (max raz za 10 min)
-    if (await KV.get('hra:mailtest2')) return json({ wait: true });
-    await KV.put('hra:mailtest2', '1', { expirationTtl: 600 });
-    const lines = {};
-    for (const pre of ['hra:code:', 'odznak:', 'nabor:', 'odkaz-klubu:']) {
-      const l = await KV.list({ prefix: pre });
-      for (const k of l.keys) { const v = await KV.get(k.name); lines[k.name] = v ? v.slice(0, 600) : ''; }
-    }
-    const res = await notify(env, '✅ Upozornenia z webu fungujú – súhrn doterajších záznamov', Object.keys(lines).length ? lines : { sprava: 'Zatiaľ žiadne záznamy.' });
-    return json({ res, n: Object.keys(lines).length });
-  }
   if (b.action === 'start') {
     if (wins >= MAX_WINS) return json({ closed: true });
     const ip = await sha((request.headers.get('cf-connecting-ip') || '') + d);
