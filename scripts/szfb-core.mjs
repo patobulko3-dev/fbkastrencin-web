@@ -33,7 +33,7 @@ export async function scrapeAll(cfg, get, old) {
               const my = home ? m.hs : m.as, th = home ? m.as : m.hs;
               const win = my > th;
               const ot = /pp|sn|ss|n/i.test(m.ext);
-              const code = (win ? 'V' : 'P') + (ot ? 'pp' : '');
+              const code = cat.noEvents && !m.hs && !m.as ? 'O' : (win ? 'V' : my < th ? 'P' : 'R') + (ot ? 'pp' : '');
               gf += my; ga += th; anyPlayed = true;
               c.played.push([dmShort(m.date), opp, `${m.hs}:${m.as}${m.ext ? ' ' + m.ext : ''}`, code, venueName(m.venue), home ? 1 : 0, m.date, m.id ? `${comp.comp}/${m.id}` : '']);
               if (cat.roster && m.id) {
