@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "uploads/clanky/bielik-hero.jpg",
+      "img_pos": "72% 25%",
+      "kicker": "Klub · Novinky",
+      "title": "Bielik",
+      "title_em": "hlási návrat",
+      "text": "Timotej Bielik, jeden z najproduktívnejších hráčov minulej sezóny, študuje v Tampere v rámci Erasmu a tím sleduje z diaľky. Ako to vo Fínsku zvláda?",
+      "tab_title": "Timotej Bielik",
+      "tab_text": "Návrat z Fínska",
+      "btn1_text": "Celý článok",
+      "btn1_link": "https://www.astrencinflorbal.sk/c/bielik-hlasi-navrat-z-finska-249",
+      "btn2_text": "Novinky",
+      "btn2_link": "#news"
+    },
+    {
       "img": "img/gm/sab-51.jpg",
       "img_pos": "50% 40%",
       "kicker": "Muži · Extraliga · #77",
@@ -41,20 +55,6 @@
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
       "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/tf/mladsi-ziaci.jpg",
-      "img_pos": "50% 62%",
-      "kicker": "Mladší žiaci · Liga Západ",
-      "title": "Štyri zápasy,",
-      "title_em": "štyri výhry",
-      "text": "Mladší žiaci v Dubnici zdolali domácich 5:4 a Tigrov z akadémie 4:3. S plným počtom bodov a skóre 28:10 vedú ligu Západ.",
-      "tab_title": "Mladší žiaci",
-      "tab_text": "1. miesto, 4 z 4",
-      "btn1_text": "Nová súpiska",
-      "btn1_link": "#supisky",
-      "btn2_text": "Výsledky",
-      "btn2_link": "#vysledky"
     },
     {
       "img": "img/gd/derby-108.jpg",
