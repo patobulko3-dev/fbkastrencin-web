@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T17:33:35.447Z",
+ "updated": "2026-10-31T17:59:17.919Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -61,7 +61,7 @@
     [
      "31.10.",
      "FK Florko Košice",
-     "1:0",
+     "3:0",
      "V",
      "ARENA OSTROV",
      1,
@@ -130,6 +130,13 @@
      1
     ],
     [
+     "Tsunami Záhorská Bystrica",
+     8,
+     "41:39",
+     13,
+     0
+    ],
+    [
      "ŠK LIDO Prírodovedec Ružinov",
      8,
      "51:51",
@@ -138,8 +145,8 @@
     ],
     [
      "VŠK FTVŠ UK Hurikán Bratislava",
-     7,
-     "54:46",
+     8,
+     "58:54",
      12,
      0
     ],
@@ -154,13 +161,6 @@
      "FBC Predator Sabinov",
      7,
      "37:39",
-     10,
-     0
-    ],
-    [
-     "Tsunami Záhorská Bystrica",
-     7,
-     "33:35",
      10,
      0
     ],
@@ -194,7 +194,7 @@
     ]
    ],
    "place": "3.",
-   "score": "47:32",
+   "score": "49:32",
    "pts": 14,
    "zones": true
   },
@@ -5356,6 +5356,42 @@
      "sc": "1:0",
      "p": "Timotej Kollár",
      "a": "Matúš Malík"
+    },
+    {
+     "t": "30:37",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Šimon Ondrášik",
+     "a": "Erik Vojtek"
+    },
+    {
+     "t": "32:51",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Matúš Malík",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "35:15",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Viktor Králik",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "36:55",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:0",
+     "p": "Michal Daranský",
+     "a": "Jonáš Bagín"
     }
    ],
    "st": {
@@ -5380,7 +5416,7 @@
      "0/0"
     ]
    },
-   "per": "(1:0, -:-, -:-)",
+   "per": "(1:0, 2:0, -:-)",
    "sp": 52,
    "ref": [
     "Roman Sklenica",
