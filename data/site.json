@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/gm/ts-030.jpg",
+      "img_pos": "50% 30%",
+      "kicker": "Muži · Extraliga · ARENA OSTROV",
+      "title": "Florko",
+      "title_em": "zdolané 8:4",
+      "text": "Košice v tretej tretine vyrovnali na 3:3, potom sme strelili päť gólov. Šimon Ondrášik dal hetrik, presadili sa aj Kollár, Daranský, Krecháč, Bagín a Olekšák. V tabuľke sme tretí.",
+      "tab_title": "Muži",
+      "tab_text": "Výhra 8:4",
+      "btn1_text": "Priebeh zápasu",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska mužov",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "uploads/clanky/bielik-hero.jpg",
       "img_pos": "72% 25%",
       "kicker": "Klub · Novinky",
@@ -57,20 +71,6 @@
       "btn2_link": "#supisky"
     },
     {
-      "img": "img/gd/derby-108.jpg",
-      "img_pos": "50% 35%",
-      "kicker": "Muži · Extraliga · ARENA OSTROV",
-      "title": "Sobota 18:00",
-      "title_em": "Florko doma",
-      "text": "Derby v plnej hale sme prehrali 2:6, góly dali Daranský a Bagín. V sobotu 31. októbra o 18:00 chceme proti Florku Košice doma odpoveď. Príď nás podporiť.",
-      "tab_title": "Muži",
-      "tab_text": "So 31. 10. o 18:00",
-      "btn1_text": "Program zápasov",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska mužov",
-      "btn2_link": "#supisky"
-    },
-    {
       "img": "img/tf/starsi-ziaci.jpg",
       "img_pos": "50% 55%",
       "kicker": "Starší žiaci · Liga Západ",
@@ -83,17 +83,6 @@
       "btn1_link": "#supisky",
       "btn2_text": "Výsledky",
       "btn2_link": "#vysledky"
-    },
-    {
-      "img": "img/h/dorast.jpg",
-      "kicker": "Dorastenci · Liga Západ",
-      "title": "Lídri ligy",
-      "title_em": "v sobotu doma",
-      "text": "Dorastenci vedú ligu Západ so skóre 31:12. V sobotu 31. októbra o 15:00 privítajú v ARENE OSTROV Dubnicu, v nedeľu ich čaká derby s akadémiou.",
-      "tab_title": "Dorastenci",
-      "tab_text": "So 31. 10. o 15:00",
-      "btn1_text": "Program",
-      "btn1_link": "#vysledky"
     },
     {
       "img": "img/h/nabor.jpg",
