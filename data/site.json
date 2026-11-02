@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/c/dorast.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Dorast · Liga dorastencov Západ",
+      "title": "Dorast",
+      "title_em": "4 výhry zo 4",
+      "text": "Po víkende s výhrami 13:1 nad Dubnicou a 10:3 v derby s akadémiou 1. FBC vedú dorastenci tabuľku s plným počtom bodov. Samuel Bielik dal v sobotu hetrik, Daniel Beňovič strelil v oboch zápasoch po dva góly.",
+      "tab_title": "Dorast",
+      "tab_text": "Derby 10:3",
+      "btn1_text": "Výsledky",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/gm/ts-030.jpg",
       "img_pos": "50% 30%",
       "kicker": "Muži · Extraliga · ARENA OSTROV",
