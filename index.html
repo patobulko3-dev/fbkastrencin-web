@@ -1429,7 +1429,7 @@ ROSTERS.forEach(function(r){ var src=SZ[r.id]||[]; r.players.forEach(function(p)
   var parts=p.name.split(' '), key=parts.slice(1).join(' ').toUpperCase()+', '+parts[0];
   var d=src.filter(function(x){return x[0]===key;})[0]; if(!d) return;
   var s=d[1]; p.car=d[2]; p.last=d[3];
-  if(p.pos==='B'){ p.st=null; p.x.gk={gp:+s[0],so:+s[1]||0,sv:s[3],gaa:s[2]}; }
+  if(p.pos==='B'){ p.st=null; p.x.gk={gp:+s[0],so:+s[1]||0,sv:s[3],gaa:s[2],sa:s[4]!=null?+s[4]:null,ga:s[5]!=null?+s[5]:null,svs:s[6]!=null?+s[6]:null,min:s[7]||'',w:s[8]!=null?+s[8]:null}; }
   else p.st=[+s[0],+s[1],+s[2],+s[3],+s[4]];
 }); });
 ROSTERS.forEach(function(r){ if(r.hide) r.players=r.players.filter(function(p){ if(p.show) return true; return p.x.gk?p.x.gk.gp>0:(p.st&&p.st[0]>0); }); });
@@ -1481,7 +1481,7 @@ function openPlayer(name){
   var p=curRoster.players.filter(function(x){return x.name===name;})[0]; if(!p) return;
   var others=ROSTERS.filter(function(r){return r!==curRoster && r.players.some(function(x){return x.name===name;});}).map(function(r){return r.name;});
   var sg, rank='';
-  if(p.x.gk) sg='<div><b>'+p.x.gk.gp+'</b><span>Zápasy</span></div><div><b>'+(p.x.gk.sv==='0,00 %'?'–':p.x.gk.sv.replace(' ',''))+'</b><span>Úspešnosť</span></div><div><b>'+(p.x.gk.gaa==='0,00'?'–':p.x.gk.gaa)+'</b><span>Gólov na zápas</span></div>';
+  if(p.x.gk) sg='<div><b>'+p.x.gk.gp+'</b><span>Zápasy</span></div><div><b>'+(p.x.gk.sv==='0,00 %'?'–':p.x.gk.sv.replace(' ',''))+'</b><span>Úspešnosť</span></div><div><b>'+(p.x.gk.gaa==='0,00'?'–':p.x.gk.gaa)+'</b><span>Gólov na zápas</span></div>'+(p.x.gk.svs!=null&&p.x.gk.gp?'<div><b>'+p.x.gk.svs+'</b><span>Zákroky</span></div><div><b>'+p.x.gk.ga+'</b><span>Obdržané góly</span></div>'+(p.x.gk.w!=null?'<div><b>'+p.x.gk.w+'</b><span>Výhry</span></div>':''):'');
   else if(p.st&&p.st[0]){ var ppg=(p.st[3]/p.st[0]).toFixed(2).replace('.',',');
     sg='<div><b>'+p.st[0]+'</b><span>Zápasy</span></div><div><b>'+p.st[1]+'</b><span>Góly</span></div><div><b>'+p.st[2]+'</b><span>Asistencie</span></div><div><b>'+p.st[3]+'</b><span>Body</span></div><div><b>'+ppg+'</b><span>Body na zápas</span></div><div><b>'+p.st[4]+'</b><span>Trestné min.</span></div>';
     var order=curRoster.players.filter(function(x){return x.st&&x.st[3]>0;}).sort(function(a,b){return b.st[3]-a.st[3];}); var r=order.indexOf(p)+1;

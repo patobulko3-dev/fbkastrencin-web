@@ -84,18 +84,47 @@ export function parsePlayer(doc) {
   const rowsOf = (t) => (t ? [...t.querySelectorAll('tbody tr')].map((tr) => [...tr.children].map(T)) : []);
   const careerT = tables.find((t) => !/Súper/.test(T(t.querySelector('thead'))));
   const lastT = tables.find((t) => /Súper/.test(T(t.querySelector('thead'))));
+  const hdr = (t) => (t ? [...t.querySelectorAll('thead th')].map(T) : []);
+  const col = (h, name) => h.indexOf(name);
+  // SZFB zobrazuje strely na bránu ako čas (97 → „01:37“) – prevedieme späť na číslo
+  const num = (v) => (/^\d+:\d{2}$/.test(v || '') ? String(v.split(':').reduce((a, b) => a * 60 + +b, 0)) : (v || ''));
+  const cH = hdr(careerT), lH = hdr(lastT);
   const career = rowsOf(careerT).map((r) => isG
-    ? [r[0], r[1], r[2], r[3], r[4], ''].join('|')
+    ? [r[0], r[1], num(r[col(cH, 'SOGA')]), r[col(cH, 'GA')], r[col(cH, 'GAA')], r[col(cH, 'SVS_PCT')] || '', r[col(cH, 'SVS')] || '', r[col(cH, 'SO')] || ''].join('|')
     : [r[0], r[1], r[2], r[3], r[4], r[r.length - 1]].join('|'));
-  const last = rowsOf(lastT).slice(0, 5).map((r) => {
+  const iMin = col(lH, 'MIN');
+  const iSa = col(lH, 'SOGA');
+  // brankár: vynechaj zápasy, v ktorých len sedel na lavičke (0 minút aj 0 striel)
+  const lastRows = rowsOf(lastT).filter((r) => !isG || iMin < 0 || !(/^0?0:00$/.test(r[iMin] || '00:00') && !(+r[iSa] > 0)));
+  const last = lastRows.slice(0, 5).map((r) => {
     const dm = (r[1] || '').match(/(\d{2}\.\d{2})/);
     if (isG) {
-      const pct = r.find((x) => /%/.test(x)) || '';
+      const pct = r[col(lH, 'SVS_PCT')] || r.find((x) => /%/.test(x)) || '';
       return [r[0], dm ? dm[1] : r[1], r[2], pct];
     }
     return [r[0], dm ? dm[1] : r[1], r[2], `${r[3] || 0}+${r[4] || 0}`];
   });
   return { name, pos: isG ? 'B' : pos, row: [name, season, career, last] };
+}
+
+/** Oficiálne štatistiky brankárov súťaže (stránka /sk/stats/goalies/…?CompetitorID=…):
+ *  {"PRIEZVISKO, Meno": {gp, w, l, sa, ga, sv, min, so}} – len brankári, ktorí naozaj chytali */
+export function parseGoalies(doc) {
+  const out = {};
+  doc.querySelectorAll('table').forEach((t) => {
+    const h = [...t.querySelectorAll('thead th')].map(T);
+    if (!h.includes('SVS_PCT') || !h.includes('GP')) return;
+    const i = (n) => h.indexOf(n);
+    t.querySelectorAll('tbody tr').forEach((tr) => {
+      const c = [...tr.children].map(T);
+      const name = c[i('Meno')];
+      if (!name) return;
+      const n = (k) => parseInt(c[i(k)], 10) || 0;
+      const [mm, ss] = (c[i('MIN')] || '0:00').split(':').map((x) => parseInt(x, 10) || 0);
+      out[name] = { gp: n('GP'), w: n('V') + n('Vp'), l: n('P') + n('Pp'), sa: n('SOGA'), ga: n('GA'), sv: n('SVS'), min: mm * 60 + ss, so: n('SO') };
+    });
+  });
+  return out;
 }
 
 /** "TIMKO Samuel (2)" / "MASÁR, Šimon" → "Samuel Timko" */

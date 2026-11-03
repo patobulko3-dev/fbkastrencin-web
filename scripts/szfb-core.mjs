@@ -1,5 +1,5 @@
 // Jadro sťahovania – nezávislé od prostredia (Node aj prehliadač).
-import { parseResults, parseStandings, parseLineup, parsePlayer, parseMatch, DAYS } from './szfb-parse.mjs';
+import { parseResults, parseStandings, parseLineup, parsePlayer, parseMatch, parseGoalies, DAYS } from './szfb-parse.mjs';
 
 export async function scrapeAll(cfg, get, old) {
   const venueName = (v) => (/M-?Šport|Ostrov/i.test(v) ? 'ARENA OSTROV' : v);
@@ -75,6 +75,26 @@ export async function scrapeAll(cfg, get, old) {
         for (const href of rosterLinks) {
           try { rows.push(parsePlayer(await get(href)).row); } catch (e) { console.warn('hráč', href, e.message); }
         }
+        // brankári: sezónne čísla z oficiálnej tabuľky brankárov SZFB (profil hráča počíta aj zápasy na lavičke)
+        try {
+          const gk = {};
+          for (const comp of cat.comps) for (const team of comp.teams) {
+            const g = parseGoalies(await get(`/sk/stats/goalies/${comp.comp}/x?CompetitorID=${team.id}`));
+            for (const [nm, v] of Object.entries(g)) {
+              const a = gk[nm] || (gk[nm] = { gp: 0, w: 0, l: 0, sa: 0, ga: 0, sv: 0, min: 0, so: 0 });
+              for (const k of Object.keys(a)) a[k] += v[k];
+            }
+          }
+          if (!Object.keys(gk).length) throw new Error('súťaž nevedie štatistiky brankárov – ponechávam údaje z profilov');
+          const fmt = (x, d) => x.toFixed(d).replace('.', ',');
+          rows.forEach((r) => {
+            if (!Array.isArray(r[1]) || r[1].length !== 4 || !/%/.test(r[1][3])) return; // len brankári
+            const g = gk[r[0]];
+            r[1] = g
+              ? [String(g.gp), String(g.so), fmt(g.min ? (g.ga * 3600) / g.min : 0, 2), fmt(g.sa ? (g.sv * 100) / g.sa : 0, 2) + ' %', String(g.sa), String(g.ga), String(g.sv), `${Math.floor(g.min / 60)}:${String(g.min % 60).padStart(2, '0')}`, String(g.w), String(g.l)]
+              : ['0', '0', '0,00', '0,00 %', '0', '0', '0', '0:00', '0', '0'];
+          });
+        } catch (e) { console.warn('brankári', cat.id, e.message); }
         out.players[cat.id] = rows;
       }
       console.log(`✓ ${cat.name}: ${c.played.length} výsledkov, ${c.next.length} zápasov v programe, hráči: ${out.players[cat.id]?.length ?? '-'}`);
