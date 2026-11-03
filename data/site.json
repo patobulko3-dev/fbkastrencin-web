@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/gm/ts-011.jpg",
+      "img_pos": "45% 30%",
+      "kicker": "Muži · Extraliga · #49",
+      "title": "Daranský",
+      "title_em": "8 gólov z obrany",
+      "text": "Sedemnásťročný obranca Michal Daranský strelil v ôsmich zápasoch extraligy 8 gólov, rovnako ako Timotej Kollár. Viac má v tíme len Šimon Ondrášik (9). Skóroval aj v derby a proti Florku.",
+      "tab_title": "Michal Daranský",
+      "tab_text": "8 + 1 v extralige",
+      "btn1_text": "Súpiska mužov",
+      "btn1_link": "#supisky",
+      "btn2_text": "Výsledky",
+      "btn2_link": "#vysledky"
+    },
+    {
       "img": "img/c/dorast.jpg",
       "img_pos": "50% 35%",
       "kicker": "Dorast · Liga dorastencov Západ",
@@ -83,20 +97,6 @@
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
       "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/tf/starsi-ziaci.jpg",
-      "img_pos": "50% 55%",
-      "kicker": "Starší žiaci · Liga Západ",
-      "title": "Thriller",
-      "title_em": "s Púchovom 9:8",
-      "text": "Doma v ARENE OSTROV sme Púchov zdolali 9:8, góly dalo sedem rôznych hráčov. Peřina a Martiška strelili po dva. S akadémiou Orli sme potom prehrali 4:9.",
-      "tab_title": "Starší žiaci",
-      "tab_text": "Púchov 9:8",
-      "btn1_text": "Súpiska",
-      "btn1_link": "#supisky",
-      "btn2_text": "Výsledky",
-      "btn2_link": "#vysledky"
     },
     {
       "img": "img/h/nabor.jpg",
