@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/h/muzi.jpg",
+      "img_pos": "50% 30%",
+      "kicker": "Muži · Extraliga · Narodeniny",
+      "title": "Oslávenci",
+      "title_em": "Zverbik a Oravec",
+      "text": "Dnes majú narodeniny dvaja hráči mužov: obranca Patrik Zverbik (22) a útočník Šimon Oravec (19). Zverbik odohral v extralige už 111 zápasov, Oravec má v tejto sezóne 3 góly a 2 asistencie. Všetko najlepšie!",
+      "tab_title": "Narodeniny",
+      "tab_text": "Zverbik 22 · Oravec 19",
+      "btn1_text": "Súpiska mužov",
+      "btn1_link": "#supisky",
+      "btn2_text": "Výsledky",
+      "btn2_link": "#vysledky"
+    },
+    {
       "img": "img/c/mladsi-ziaci.jpg",
       "img_pos": "50% 40%",
       "kicker": "Mladší žiaci · Liga mladších žiakov Západ",
@@ -83,20 +97,6 @@
       "btn1_link": "#supisky",
       "btn2_text": "Výsledky",
       "btn2_link": "#vysledky"
-    },
-    {
-      "img": "img/h/ondrasik.jpg",
-      "img_pos": "62% 22%",
-      "kicker": "Muži · Extraliga · #25",
-      "title": "Ondrášik",
-      "title_em": "10 bodov za 7 kôl",
-      "text": "Šimon Ondrášik má po siedmich kolách extraligy 6 gólov a 4 asistencie bez jedinej trestnej minúty. Skóroval v Ružinove, v Žiline aj v Nižnej. Hoci študuje v Žiline, o odchode z Trenčína neuvažoval.",
-      "tab_title": "Šimon Ondrášik",
-      "tab_text": "6 + 4 v extralige",
-      "btn1_text": "Celý rozhovor",
-      "btn1_link": "clanky/ondrasik-minulost-sme-nechali-za-sebou-teraz-chceme-vysledky/",
-      "btn2_text": "Súpiska mužov",
-      "btn2_link": "#supisky"
     },
     {
       "img": "img/h/nabor.jpg",
