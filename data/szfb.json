@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:39:24.307Z",
+ "updated": "2026-11-07T17:59:42.363Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -8,16 +8,6 @@
    "photo": "img/b/muzi.jpg",
    "league": "Florbalová extraliga mužov",
    "played": [
-    [
-     "26.9.",
-     "ŠK LIDO Prírodovedec Ružinov",
-     "6:9",
-     "V",
-     "ŠH Dom Športu Bratislava",
-     0,
-     "2026-09-26",
-     "1241/137197"
-    ],
     [
      "3.10.",
      "Tsunami Záhorská Bystrica",
@@ -67,18 +57,19 @@
      1,
      "2026-10-31",
      "1241/137227"
+    ],
+    [
+     "7.11.",
+     "FaBK ATU Košice",
+     "3:1",
+     "P",
+     "Multihala Košice",
+     0,
+     "2026-11-07",
+     "1241/137234"
     ]
    ],
    "next": [
-    [
-     "7.11.",
-     "So",
-     "17:45",
-     "FaBK ATU Košice",
-     "Multihala Košice",
-     0,
-     "2026-11-07"
-    ],
     [
      "21.11.",
      "So",
@@ -105,6 +96,15 @@
      "t.b.a.",
      1,
      "2026-12-19"
+    ],
+    [
+     "6.1.",
+     "St",
+     "0:00",
+     "FBC Predator Sabinov",
+     "t.b.a.",
+     0,
+     "2027-01-06"
     ]
    ],
    "table": [
@@ -194,7 +194,7 @@
     ]
    ],
    "place": "3.",
-   "score": "54:36",
+   "score": "55:39",
    "pts": 17,
    "zones": true
   },
@@ -312,24 +312,24 @@
      0
     ],
     [
-     "FBC Mikuláš Academy Prešov",
-     6,
-     "32:32",
-     13,
-     0
-    ],
-    [
      "FBC Grasshoppers AC UNIZA Žilina",
-     6,
-     "35:29",
-     12,
+     7,
+     "42:33",
+     15,
      0
     ],
     [
      "Oxdog Snipers Bratislava",
-     6,
-     "48:27",
-     11,
+     7,
+     "66:30",
+     14,
+     0
+    ],
+    [
+     "FBC Mikuláš Academy Prešov",
+     7,
+     "36:39",
+     13,
      0
     ],
     [
@@ -341,8 +341,8 @@
     ],
     [
      "1. FBC Trenčín",
-     6,
-     "29:49",
+     7,
+     "32:67",
      5,
      0
     ],
@@ -365,16 +365,6 @@
    "photo": "img/b/mb.jpg",
    "league": "2. liga mužov Západ",
    "played": [
-    [
-     "26.9.",
-     "DA.DO.SA Dragons Hlohovec",
-     "15:3",
-     "V",
-     "MŠH Partizánske",
-     1,
-     "2026-09-26",
-     "1262/138391"
-    ],
     [
      "10.10.",
      "ŠK Slávia SPU DFA Nitra",
@@ -424,18 +414,19 @@
      0,
      "2026-11-07",
      "1262/138422"
+    ],
+    [
+     "7.11.",
+     "Paradise Zlaté Moravce",
+     "9:4",
+     "V",
+     "Športová hala Senica",
+     1,
+     "2026-11-07",
+     "1262/138424"
     ]
    ],
    "next": [
-    [
-     "7.11.",
-     "So",
-     "13:30",
-     "Paradise Zlaté Moravce",
-     "Športová hala Senica",
-     1,
-     "2026-11-07"
-    ],
     [
      "21.11.",
      "So",
@@ -462,97 +453,106 @@
      "t.b.a.",
      1,
      "2026-12-05"
+    ],
+    [
+     "5.12.",
+     "So",
+     "0:00",
+     "FBC Levice",
+     "t.b.a.",
+     0,
+     "2026-12-05"
     ]
    ],
    "table": [
     [
      "FBC Levice",
-     7,
-     "78:26",
-     21,
+     8,
+     "89:32",
+     24,
      0
     ],
     [
      "FBK Harvard Partizánske",
-     7,
-     "59:33",
-     18,
+     8,
+     "67:39",
+     21,
      0
     ],
     [
      "FBK AS Trenčín - Trenovec",
-     7,
-     "63:51",
-     12,
+     8,
+     "72:55",
+     15,
      1
     ],
     [
-     "FbO Žochár Topoľčany",
-     6,
-     "34:25",
-     12,
-     0
-    ],
-    [
      "FBC Senica",
-     7,
-     "44:50",
-     10,
+     8,
+     "60:51",
+     13,
      0
     ],
     [
-     "ŠK Slávia SPU DFA Nitra",
-     6,
-     "45:36",
-     9,
+     "FbO Žochár Topoľčany",
+     7,
+     "38:29",
+     13,
      0
     ],
     [
      "Wildhogs Horné Sŕnie",
-     7,
-     "47:40",
+     8,
+     "58:50",
+     12,
+     0
+    ],
+    [
+     "ŠK Slávia SPU DFA Nitra",
+     8,
+     "61:55",
      9,
      0
     ],
     [
      "ŠK VICTORY STARS Dubnica nad Váhom",
-     6,
-     "37:35",
+     8,
+     "47:50",
+     8,
+     0
+    ],
+    [
+     "FBK AS Trenčín - Páv",
+     7,
+     "35:51",
+     7,
+     0
+    ],
+    [
+     "DA.DO.SA Dragons Hlohovec",
+     8,
+     "32:64",
      7,
      0
     ],
     [
      "Polar Foxes Sereď",
-     5,
-     "27:37",
      6,
-     0
-    ],
-    [
-     "DA.DO.SA Dragons Hlohovec",
-     7,
-     "27:59",
+     "32:45",
      6,
-     0
-    ],
-    [
-     "FBK AS Trenčín - Páv",
-     5,
-     "22:41",
-     3,
      0
     ],
     [
      "Paradise Zlaté Moravce",
-     6,
-     "22:72",
+     8,
+     "27:97",
      0,
      0
     ]
    ],
    "place": "3.",
-   "score": "63:51",
-   "pts": 12,
+   "score": "72:55",
+   "pts": 15,
    "zones": false
   },
   "dorast": {
@@ -930,30 +930,30 @@
      1
     ],
     [
+     "1. FBC Trenčín akadémia Tigri",
+     6,
+     "39:21",
+     10,
+     0
+    ],
+    [
      "ŠK VICTORY STARS Dubnica nad Váhom",
-     5,
-     "38:18",
+     6,
+     "43:28",
      9,
      0
     ],
     [
-     "1. FBC Trenčín akadémia Tigri",
-     5,
-     "29:16",
-     7,
-     0
-    ],
-    [
      "1. FBC Trenčín akadémia Levi",
-     5,
-     "29:26",
      6,
+     "46:32",
+     9,
      0
     ],
     [
      "FBK Púchov",
-     5,
-     "18:85",
+     6,
+     "24:102",
      0,
      0
     ]
@@ -1138,7 +1138,7 @@
     ],
     [
      "Extraliga|29|203|41|5,53|79,80 %|162|0",
-     "Iné ligy|129|490|131|3,87|73,27 %|359|23",
+     "Iné ligy|130|490|131|3,75|73,27 %|359|24",
      "Turnaje|19|96|26|3,02|72,92 %|70|5"
     ],
     [
@@ -2023,7 +2023,7 @@
     ],
     [
      "Extraliga|58|2|4|6|20",
-     "Iné ligy|104|72|60|132|48"
+     "Iné ligy|105|72|61|133|48"
     ],
     [
      [
@@ -2196,7 +2196,7 @@
     ],
     [
      "Extraliga|25|2|3|5|0",
-     "Iné ligy|202|101|133|234|56",
+     "Iné ligy|203|101|135|236|56",
      "Turnaje|28|8|6|14|6"
     ],
     [
@@ -2616,7 +2616,7 @@
     ],
     [
      "Extraliga|25|2|3|5|0",
-     "Iné ligy|202|101|133|234|56",
+     "Iné ligy|203|101|135|236|56",
      "Turnaje|28|8|6|14|6"
     ],
     [
@@ -4639,213 +4639,6 @@
   ]
  },
  "matches": {
-  "1241/137197": {
-   "v": 2,
-   "ev": [
-    {
-     "t": "01:53",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "0:1",
-     "p": "Timotej Kollár",
-     "a": "Matúš Malík"
-    },
-    {
-     "t": "03:09",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "0:2",
-     "p": "Peter Bednár",
-     "a": "Erik Vojtek"
-    },
-    {
-     "t": "04:00",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:2",
-     "p": "Matúš Šablica",
-     "a": "Martin Vrábel"
-    },
-    {
-     "t": "04:24",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:3",
-     "p": "Šimon Oravec",
-     "a": "František Jaššo"
-    },
-    {
-     "t": "06:34",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:4",
-     "p": "Matúš Malík"
-    },
-    {
-     "t": "10:18",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:5",
-     "p": "Michal Daranský"
-    },
-    {
-     "t": "14:53",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "2:5",
-     "p": "Peter Steller"
-    },
-    {
-     "t": "19:31",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "2:6",
-     "p": "Marek Meliš"
-    },
-    {
-     "t": "22:56",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "3:6",
-     "p": "Martin Bujaki",
-     "a": "Peter Nehila"
-    },
-    {
-     "t": "33:26",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:6",
-     "p": "Martin Vrábel",
-     "a": "Ondrej Kusenda"
-    },
-    {
-     "t": "39:43",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:7",
-     "p": "Gabriel Královič"
-    },
-    {
-     "t": "40:54",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Martin Bujaki",
-     "r": "Opakované priestupky"
-    },
-    {
-     "t": "44:36",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "5:7",
-     "p": "Richard Dluhoš"
-    },
-    {
-     "t": "47:07",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "6:7",
-     "p": "Richard Lelák",
-     "a": "Peter Nehila"
-    },
-    {
-     "t": "54:11",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Peter Bednár",
-     "r": "Priestupky florbalkou"
-    },
-    {
-     "t": "54:11",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Lukáš Hurinský",
-     "r": "Bránenie v hre"
-    },
-    {
-     "t": "57:37",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "6:8",
-     "p": "Michal Daranský",
-     "a": "Gabriel Královič"
-    },
-    {
-     "t": "59:10",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "6:9",
-     "p": "Šimon Ondrášik",
-     "a": "Jonáš Bagín"
-    },
-    {
-     "t": "59:10",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Matúš Malík",
-     "r": "Nešportové správanie"
-    },
-    {
-     "t": "59:10",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "p",
-     "m": "10",
-     "p": "Matúš Malík",
-     "r": "Nešportové správanie"
-    }
-   ],
-   "st": {
-    "g": [
-     "6",
-     "9"
-    ],
-    "sh": [
-     "24",
-     "34"
-    ],
-    "sv": [
-     "25",
-     "18"
-    ],
-    "pp": [
-     "0/1",
-     "0/1"
-    ],
-    "pk": [
-     "1/1",
-     "1/1"
-    ]
-   },
-   "per": "(2:6, 2:1, 2:2)",
-   "sp": 97,
-   "ref": [
-    "Martin Mésaroš",
-    "Timotej Orság"
-   ]
-  },
   "1241/137204": {
    "v": 2,
    "ev": [
@@ -5649,6 +5442,101 @@
    "ref": [
     "Roman Sklenica",
     "Tomáš Beňo"
+   ]
+  },
+  "1241/137234": {
+   "v": 2,
+   "ev": [
+    {
+     "t": "06:51",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Marek Pazsiczký",
+     "a": "Nicolas Fedorčák"
+    },
+    {
+     "t": "18:50",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Marko Šima",
+     "a": "Nicolas Fedorčák"
+    },
+    {
+     "t": "19:23",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:0",
+     "p": "Matej Kender",
+     "a": "Samuel Belovič"
+    },
+    {
+     "t": "19:59",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "4",
+     "p": "Daniel Olekšák",
+     "r": "Hrubosť 2'+2'"
+    },
+    {
+     "t": "19:59",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Erik Vojtek",
+     "r": "Hrubosť"
+    },
+    {
+     "t": "32:12",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:1",
+     "p": "Erik Vojtek",
+     "a": "Peter Bednár"
+    },
+    {
+     "t": "37:48",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Marko Šima",
+     "r": "Nesprávne striedanie"
+    }
+   ],
+   "st": {
+    "g": [
+     "0",
+     "0"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(3:0, 0:1, -:-)",
+   "ref": [
+    "Michal Liško",
+    "Richard Kiraly"
    ]
   },
   "1244/137914": {
@@ -6717,197 +6605,6 @@
     "Samuel Bedecs"
    ]
   },
-  "1262/138391": {
-   "v": 2,
-   "ev": [
-    {
-     "t": "03:11",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:0",
-     "p": "Mário Hanták",
-     "a": "Adam Daniš"
-    },
-    {
-     "t": "05:11",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "2:0",
-     "p": "Nicolas Pasqualon",
-     "a": "Daniel Kupka"
-    },
-    {
-     "t": "09:01",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "3:0",
-     "p": "Mário Hanták"
-    },
-    {
-     "t": "12:38",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "4:0",
-     "p": "Mário Hanták"
-    },
-    {
-     "t": "14:30",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "4:1",
-     "p": "Matej Masaryk",
-     "a": "Martin Voštiar"
-    },
-    {
-     "t": "19:24",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "5:1",
-     "p": "Tobias Konček",
-     "a": "Frederik Hrušovský"
-    },
-    {
-     "t": "20:23",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "6:1",
-     "p": "Marco Olekšák",
-     "a": "Adam Vácval"
-    },
-    {
-     "t": "21:38",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "7:1",
-     "p": "Daniel Kupka",
-     "a": "Adam Vácval"
-    },
-    {
-     "t": "23:00",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "7:2",
-     "p": "Michal Chorvát",
-     "a": "Martin Voštiar"
-    },
-    {
-     "t": "42:34",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "8:2",
-     "p": "Nicolas Pasqualon",
-     "a": "Marco Olekšák"
-    },
-    {
-     "t": "44:55",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "9:2",
-     "p": "Nicolas Pasqualon",
-     "a": "Marco Olekšák"
-    },
-    {
-     "t": "50:39",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "10:2",
-     "p": "Roman Žuffa",
-     "a": "Adam Daniš"
-    },
-    {
-     "t": "51:28",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "11:2",
-     "p": "Tobias Konček",
-     "a": "Frederik Hrušovský"
-    },
-    {
-     "t": "53:03",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "12:2",
-     "p": "Marco Olekšák",
-     "a": "Nicolas Pasqualon"
-    },
-    {
-     "t": "53:34",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "13:2",
-     "p": "Marco Olekšák"
-    },
-    {
-     "t": "55:47",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "14:2",
-     "p": "Adam Daniš",
-     "a": "Mário Hanták"
-    },
-    {
-     "t": "57:15",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "14:3",
-     "p": "Filip Horváth",
-     "a": "Peter Maňo"
-    },
-    {
-     "t": "58:06",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "15:3",
-     "p": "Mário Hanták",
-     "a": "Tobias Konček"
-    }
-   ],
-   "st": {
-    "g": [
-     "15",
-     "3"
-    ],
-    "sh": [
-     "0",
-     "0"
-    ],
-    "sv": [
-     "0",
-     "0"
-    ],
-    "pp": [
-     "0/0",
-     "0/0"
-    ],
-    "pk": [
-     "0/0",
-     "0/0"
-    ]
-   },
-   "per": "(5:1, 2:1, 8:1)",
-   "ref": [
-    "Richard Obert",
-    "Benjamín Chrvala"
-   ]
-  },
   "1262/138398": {
    "v": 2,
    "ev": [
@@ -7834,6 +7531,164 @@
    "per": "(2:5, 1:4, 5:1)",
    "ref": [
     "Adam Fojtík",
+    "Marcel Petráš"
+   ]
+  },
+  "1262/138424": {
+   "v": 2,
+   "ev": [
+    {
+     "t": "11:17",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Ľubomír Drga",
+     "a": "Marco Olekšák"
+    },
+    {
+     "t": "17:46",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Adam Daniš",
+     "a": "Mário Hanták"
+    },
+    {
+     "t": "20:16",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:0",
+     "p": "Frederik Hrušovský",
+     "a": "Samuel Bagin"
+    },
+    {
+     "t": "21:48",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Adam Segíň",
+     "r": "Opakované priestupky"
+    },
+    {
+     "t": "27:37",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:0",
+     "p": "Frederik Hrušovský",
+     "a": "Ľubomír Drga"
+    },
+    {
+     "t": "29:17",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:0",
+     "p": "Ľubomír Drga",
+     "a": "Marco Olekšák"
+    },
+    {
+     "t": "37:05",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:1",
+     "p": "Samuel Ferenc",
+     "a": "Adam Segíň"
+    },
+    {
+     "t": "42:16",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:2",
+     "p": "Samuel Ferenc",
+     "a": "Ján Števlík"
+    },
+    {
+     "t": "44:58",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:2",
+     "p": "Frederik Hrušovský",
+     "a": "Ľubomír Drga"
+    },
+    {
+     "t": "46:19",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "7:2",
+     "p": "Mário Hanták"
+    },
+    {
+     "t": "49:33",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "8:2",
+     "p": "Frederik Hrušovský",
+     "a": "Martin Kučerka"
+    },
+    {
+     "t": "49:42",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "8:3",
+     "p": "Adam Segíň",
+     "a": "Ján Števlík"
+    },
+    {
+     "t": "54:44",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "8:4",
+     "p": "Michal Grolmus",
+     "a": "Roman Laktiš"
+    },
+    {
+     "t": "55:25",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "9:4",
+     "p": "Mário Hanták",
+     "a": "Frederik Hrušovský"
+    }
+   ],
+   "st": {
+    "g": [
+     "9",
+     "4"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/1",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "1/1"
+    ]
+   },
+   "per": "(2:0, 3:1, 4:3)",
+   "sp": 9,
+   "ref": [
+    "Filip Rácik",
     "Marcel Petráš"
    ]
   },
