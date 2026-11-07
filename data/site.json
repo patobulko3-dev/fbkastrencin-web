@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/tf/starsi-ziaci.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Starší žiaci · Liga starších žiakov Západ",
+      "title": "Starší žiaci",
+      "title_em": "zajtra doma",
+      "text": "V nedeľu 8. 11. hrajú starší žiaci v centrálnej hale MŠH Trenčín s Dubnicou (10:10) a akadémiou 1. FBC Jastrabi (13:40). Sú tretí so 7 bodmi, Marek Martiška má zatiaľ 6 gólov a 3 asistencie.",
+      "tab_title": "Starší žiaci",
+      "tab_text": "Ne 8. 11. o 10:10",
+      "btn1_text": "Program",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/gm/ts-066.jpg",
       "img_pos": "55% 25%",
       "kicker": "Muži · Extraliga · Košice",
@@ -83,20 +97,6 @@
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska mužov",
       "btn2_link": "#supisky"
-    },
-    {
-      "img": "uploads/clanky/bielik-hero.jpg",
-      "img_pos": "72% 25%",
-      "kicker": "Klub · Novinky",
-      "title": "Bielik",
-      "title_em": "hlási návrat",
-      "text": "Timotej Bielik, jeden z najproduktívnejších hráčov minulej sezóny, študuje v Tampere v rámci Erasmu a tím sleduje z diaľky. Ako to vo Fínsku zvláda?",
-      "tab_title": "Timotej Bielik",
-      "tab_text": "Návrat z Fínska",
-      "btn1_text": "Celý článok",
-      "btn1_link": "https://www.astrencinflorbal.sk/c/bielik-hlasi-navrat-z-finska-249",
-      "btn2_text": "Novinky",
-      "btn2_link": "#news"
     },
     {
       "img": "img/h/nabor.jpg",
