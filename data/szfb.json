@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T18:18:55.379Z",
+ "updated": "2026-11-08T21:19:24.559Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -3999,15 +3999,27 @@
     "MIŠÁK JANOVIČ, Jakub",
     [
      "6",
-     "0",
+     "2",
      "0,00",
      "0,00 %"
     ],
     [
-     "Iné ligy|34|0|0|0,00|0,00 %|0|5",
+     "Iné ligy|34|0|0|0,00|0,00 %|0|7",
      "Turnaje|36|30|5|3,69|83,33 %|25|2"
     ],
     [
+     [
+      "@ 1. FBC Trenčín akadémia Jastrabi",
+      "08.11",
+      "4:7",
+      "0,00 %"
+     ],
+     [
+      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
+      "08.11",
+      "5:2",
+      "0,00 %"
+     ],
      [
       "vs. ŠK VICTORY STARS Dubnica nad Váhom",
       "11.10",
@@ -6895,6 +6907,7 @@
     ]
    },
    "per": "(4:3, 6:1, 1:2)",
+   "sp": 40,
    "ref": [
     "Ondrej Bihal",
     "Mathias Machotka"
