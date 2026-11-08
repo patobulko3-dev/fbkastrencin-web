@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/gm/sab-25.jpg",
+      "img_pos": "50% 30%",
+      "kicker": "Muži B · 2. liga Západ · Senica",
+      "title": "Trenovec",
+      "title_em": "dve výhry v Senici",
+      "text": "V Senici zdolal Trenovec Horné Sŕnie 10:8 a Zlaté Moravce 9:4. Ľubomír Drga a Mário Hanták dali hetrik, Frederik Hrušovský strelil Zlatým Moravciam štyri góly. V tabuľke sme tretí.",
+      "tab_title": "Muži B",
+      "tab_text": "Výhry 10:8 a 9:4",
+      "btn1_text": "Výsledky",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/tf/starsi-ziaci.jpg",
       "img_pos": "50% 35%",
       "kicker": "Starší žiaci · Liga starších žiakov Západ",
@@ -12,20 +26,6 @@
       "btn1_text": "Program",
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/gm/ts-066.jpg",
-      "img_pos": "55% 25%",
-      "kicker": "Muži · Extraliga · Košice",
-      "title": "Muži",
-      "title_em": "zajtra v Košiciach",
-      "text": "V sobotu 7. 11. o 17:45 hrajú muži v Multihale Košice proti ATU Košice. Sme tretí so 17 bodmi, ATU je desiate s 10 bodmi a na druhý 1. FBC Trenčín strácame tri body.",
-      "tab_title": "Muži",
-      "tab_text": "So 7. 11. o 17:45",
-      "btn1_text": "Program",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska mužov",
       "btn2_link": "#supisky"
     },
     {
@@ -41,20 +41,6 @@
       "btn1_link": "#supisky",
       "btn2_text": "Výsledky",
       "btn2_link": "#vysledky"
-    },
-    {
-      "img": "img/c/mladsi-ziaci.jpg",
-      "img_pos": "50% 40%",
-      "kicker": "Mladší žiaci · Liga mladších žiakov Západ",
-      "title": "Mladší žiaci",
-      "title_em": "4 výhry zo 4",
-      "text": "Mladší žiaci vedú tabuľku s plným počtom 12 bodov a skóre 28:10, náskok na druhé miesto je šesť bodov. V sobotu 7. 11. hrajú v tréningovej hale MŠH Trenčín s akadémiou Tigri (9:00) a Púchovom (11:00).",
-      "tab_title": "Mladší žiaci",
-      "tab_text": "1. miesto · 12 bodov",
-      "btn1_text": "Tabuľka",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
     },
     {
       "img": "img/gm/ts-011.jpg",
