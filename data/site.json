@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/tf/starsi-ziaci.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Starší žiaci · Liga starších žiakov Západ",
+      "title": "Starší žiaci",
+      "title_em": "zdolali Jastrabov",
+      "text": "V nedeľu vyhrali nad Dubnicou 5:2 a nad akadémiou 1. FBC Jastrabi 7:4, keď pri stave 4:4 strelili tri góly v rade. Jakub Peřina mal spolu 3 góly a 3 asistencie. Sú tretí s 13 bodmi, rovnako ako druhí Jastrabi.",
+      "tab_title": "Starší žiaci",
+      "tab_text": "Výhry 5:2 a 7:4",
+      "btn1_text": "Výsledky",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/gm/sab-25.jpg",
       "img_pos": "50% 30%",
       "kicker": "Muži B · 2. liga Západ · Senica",
@@ -10,20 +24,6 @@
       "tab_title": "Muži B",
       "tab_text": "Výhry 10:8 a 9:4",
       "btn1_text": "Výsledky",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/tf/starsi-ziaci.jpg",
-      "img_pos": "50% 35%",
-      "kicker": "Starší žiaci · Liga starších žiakov Západ",
-      "title": "Starší žiaci",
-      "title_em": "zajtra doma",
-      "text": "V nedeľu 8. 11. hrajú starší žiaci v centrálnej hale MŠH Trenčín s Dubnicou (10:10) a akadémiou 1. FBC Jastrabi (13:40). Sú tretí so 7 bodmi, Marek Martiška má zatiaľ 6 gólov a 3 asistencie.",
-      "tab_title": "Starší žiaci",
-      "tab_text": "Ne 8. 11. o 10:10",
-      "btn1_text": "Program",
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
       "btn2_link": "#supisky"
