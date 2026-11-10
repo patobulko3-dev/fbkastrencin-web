@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/tf/mladsi-ziaci.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Mladší žiaci · Liga mladších žiakov Západ",
+      "title": "Mladší žiaci",
+      "title_em": "stále bez prehry",
+      "text": "V sobotu zdolali Púchov 21:8, keď už po prvej tretine viedli 8:1, a s akadémiou Tigri remizovali 3:3 po obrate z 0:2. Po šiestich zápasoch sú prví so 16 bodmi a skóre 52:21.",
+      "tab_title": "Mladší žiaci",
+      "tab_text": "Výhra 21:8",
+      "btn1_text": "Výsledky",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/tf/starsi-ziaci.jpg",
       "img_pos": "50% 35%",
       "kicker": "Starší žiaci · Liga starších žiakov Západ",
