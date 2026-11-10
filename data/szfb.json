@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T23:45:02.553Z",
+ "updated": "2026-11-10T21:15:30.610Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -600,18 +600,19 @@
      0,
      "2026-11-01",
      "1267/137983"
+    ],
+    [
+     "10.11.",
+     "ŠK Slávia SPU DFA Nitra",
+     "6:7",
+     "V",
+     "ŠH Čermáň Nitra",
+     0,
+     "2026-11-10",
+     "1267/137985"
     ]
    ],
    "next": [
-    [
-     "10.11.",
-     "Ut",
-     "18:00",
-     "ŠK Slávia SPU DFA Nitra",
-     "ŠH Čermáň Nitra",
-     0,
-     "2026-11-10"
-    ],
     [
      "16.11.",
      "Po",
@@ -678,7 +679,7 @@
     ]
    ],
    "place": "1.",
-   "score": "54:16",
+   "score": "61:22",
    "pts": 12,
    "zones": false
   },
@@ -8865,6 +8866,176 @@
     "Timotej Orság",
     "Richard Obert"
    ]
+  },
+  "1267/137985": {
+   "v": 2,
+   "ev": [
+    {
+     "t": "02:02",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Tomáš Benko"
+    },
+    {
+     "t": "04:31",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "m",
+     "sc": "1:0",
+     "x": "NTS",
+     "p": "Samuel Bielik"
+    },
+    {
+     "t": "08:06",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "Alex Trtík",
+     "a": "Jakub Minárik"
+    },
+    {
+     "t": "09:56",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Juraj Čulák",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "12:31",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:1",
+     "p": "Oliver Kotúč",
+     "a": "Tobíáš Petrík"
+    },
+    {
+     "t": "17:06",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:1",
+     "p": "Michal Bakoš",
+     "a": "Martin Bakoš"
+    },
+    {
+     "t": "17:57",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:1",
+     "p": "Michal Bakoš",
+     "a": "Martin Bakoš"
+    },
+    {
+     "t": "25:42",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:2",
+     "p": "Andrej Koprda",
+     "a": "Jakub Minárik"
+    },
+    {
+     "t": "26:14",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "m",
+     "sc": "4:2",
+     "x": "NTS",
+     "p": "Alex Trtík"
+    },
+    {
+     "t": "27:02",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:3",
+     "p": "Branislav Kaššák",
+     "a": "Daniel Gabriel"
+    },
+    {
+     "t": "28:45",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:4",
+     "p": "Samuel Bielik",
+     "a": "Alex Oravec"
+    },
+    {
+     "t": "33:58",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:4",
+     "p": "Martin Bakoš",
+     "a": "Michal Bakoš"
+    },
+    {
+     "t": "34:25",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:5",
+     "p": "Alex Kotleba",
+     "a": "Leonard Tatík"
+    },
+    {
+     "t": "42:08",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:5",
+     "p": "Oliver Kotúč"
+    },
+    {
+     "t": "46:27",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:6",
+     "p": "Leonard Tatík",
+     "a": "Andrej Koprda"
+    },
+    {
+     "t": "59:49",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:7",
+     "p": "Alex Trtík"
+    }
+   ],
+   "st": {
+    "g": [
+     "0",
+     "0"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(4:1, 1:4, 1:2)",
+   "sp": 38
   },
   "1278/138685": {
    "v": 2,
