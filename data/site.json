@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/gm/ts-044.jpg",
+      "img_pos": "50% 30%",
+      "kicker": "Muži · Extraliga · Pozvánka",
+      "title": "Hurikán",
+      "title_em": "na Ostrove",
+      "text": "V sobotu 21. 11. o 18:00 privítajú muži v ARENE OSTROV Hurikán Bratislava. Sme tretí so 17 bodmi, súper je ôsmy s 12 bodmi. Príďte nás podporiť!",
+      "tab_title": "Muži",
+      "tab_text": "So 21. 11. o 18:00",
+      "btn1_text": "Program",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/g/d-43.jpg",
       "img_pos": "50% 30%",
       "kicker": "Dorast · Liga dorastencov Západ",
@@ -83,20 +97,6 @@
       "btn1_link": "#supisky",
       "btn2_text": "Výsledky",
       "btn2_link": "#vysledky"
-    },
-    {
-      "img": "img/c/dorast.jpg",
-      "img_pos": "50% 35%",
-      "kicker": "Dorast · Liga dorastencov Západ",
-      "title": "Dorast",
-      "title_em": "4 výhry zo 4",
-      "text": "Po víkende s výhrami 13:1 nad Dubnicou a 10:3 v derby s akadémiou 1. FBC vedú dorastenci tabuľku s plným počtom bodov. Samuel Bielik dal v sobotu hetrik, Daniel Beňovič strelil v oboch zápasoch po dva góly.",
-      "tab_title": "Dorast",
-      "tab_text": "Derby 10:3",
-      "btn1_text": "Výsledky",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
     },
     {
       "img": "img/h/nabor.jpg",
