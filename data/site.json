@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/g/d-75.jpg",
+      "img_pos": "50% 30%",
+      "kicker": "Dorast · Liga dorastencov Západ · Pozvánka",
+      "title": "Dorast",
+      "title_em": "doma s Púchovom",
+      "text": "V pondelok 16. 11. o 17:30 privítajú dorastenci v ARENE OSTROV Púchov. Vedú tabuľku s plným počtom 15 bodov a skóre 61:22, v Púchove vyhrali 17:6. Príďte ich podporiť!",
+      "tab_title": "Dorast",
+      "tab_text": "Po 16. 11. o 17:30",
+      "btn1_text": "Program",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/gm/ts-044.jpg",
       "img_pos": "50% 30%",
       "kicker": "Muži · Extraliga · Pozvánka",
@@ -79,20 +93,6 @@
       "text": "Dnes majú narodeniny dvaja hráči mužov: obranca Patrik Zverbik (22) a útočník Šimon Oravec (19). Zverbik odohral v extralige už 111 zápasov, Oravec má v tejto sezóne 3 góly a 2 asistencie. Všetko najlepšie!",
       "tab_title": "Narodeniny",
       "tab_text": "Zverbik 22 · Oravec 19",
-      "btn1_text": "Súpiska mužov",
-      "btn1_link": "#supisky",
-      "btn2_text": "Výsledky",
-      "btn2_link": "#vysledky"
-    },
-    {
-      "img": "img/gm/ts-011.jpg",
-      "img_pos": "45% 30%",
-      "kicker": "Muži · Extraliga · #49",
-      "title": "Daranský",
-      "title_em": "8 gólov z obrany",
-      "text": "Sedemnásťročný obranca Michal Daranský strelil v ôsmich zápasoch extraligy 8 gólov, rovnako ako Timotej Kollár. Viac má v tíme len Šimon Ondrášik (9). Skóroval aj v derby a proti Florku.",
-      "tab_title": "Michal Daranský",
-      "tab_text": "8 + 1 v extralige",
       "btn1_text": "Súpiska mužov",
       "btn1_link": "#supisky",
       "btn2_text": "Výsledky",
