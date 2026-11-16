@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/c/starsi-ziaci.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Starší žiaci · Liga starších žiakov Západ · Pozvánka",
+      "title": "Starší žiaci",
+      "title_em": "proti lídrovi",
+      "text": "V nedeľu 22. 11. o 11:20 privítajú starší žiaci v ARENE OSTROV lídra tabuľky 1. FBC Trenčín akadémia Orli, ktorý má 18 bodov. Sme tretí s 13 bodmi. O 13:40 nastúpia proti Topoľčanom. Príďte ich podporiť!",
+      "tab_title": "Starší žiaci",
+      "tab_text": "Ne 22. 11. o 11:20",
+      "btn1_text": "Program",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/g/d-03.jpg",
       "img_pos": "50% 40%",
       "kicker": "Dorast · Juniori · Štatistiky",
@@ -79,20 +93,6 @@
       "text": "V sobotu zdolali Púchov 21:8, keď už po prvej tretine viedli 8:1, a s akadémiou Tigri remizovali 3:3 po obrate z 0:2. Po šiestich zápasoch sú prví so 16 bodmi a skóre 52:21.",
       "tab_title": "Mladší žiaci",
       "tab_text": "Výhra 21:8",
-      "btn1_text": "Výsledky",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/tf/starsi-ziaci.jpg",
-      "img_pos": "50% 35%",
-      "kicker": "Starší žiaci · Liga starších žiakov Západ",
-      "title": "Starší žiaci",
-      "title_em": "zdolali Jastrabov",
-      "text": "V nedeľu vyhrali nad Dubnicou 5:2 a nad akadémiou 1. FBC Jastrabi 7:4, keď pri stave 4:4 strelili tri góly v rade. Jakub Peřina mal spolu 3 góly a 3 asistencie. Sú tretí s 13 bodmi, rovnako ako druhí Jastrabi.",
-      "tab_title": "Starší žiaci",
-      "tab_text": "Výhry 5:2 a 7:4",
       "btn1_text": "Výsledky",
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
