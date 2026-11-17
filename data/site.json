@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/g/d-75.jpg",
+      "img_pos": "50% 30%",
+      "kicker": "Dorast · Liga dorastencov Západ",
+      "title": "Alex Trtík",
+      "title_em": "štyri góly",
+      "text": "Dorastenci zdolali doma Púchov 12:4. Alex Trtík strelil štyri góly, Jakub Minárik pridal dva góly a dve asistencie a dvakrát skóroval aj Samuel Bielik. Po šiestich výhrach vedú tabuľku s 18 bodmi.",
+      "tab_title": "Dorast",
+      "tab_text": "Výhra 12:4",
+      "btn1_text": "Výsledky",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/c/starsi-ziaci.jpg",
       "img_pos": "50% 35%",
       "kicker": "Starší žiaci · Liga starších žiakov Západ · Pozvánka",
@@ -41,20 +55,6 @@
       "btn1_link": "#vysledky",
       "btn2_text": "Rozhovor",
       "btn2_link": "clanky/ondrasik-minulost-sme-nechali-za-sebou-teraz-chceme-vysledky/"
-    },
-    {
-      "img": "img/g/d-75.jpg",
-      "img_pos": "50% 30%",
-      "kicker": "Dorast · Liga dorastencov Západ · Pozvánka",
-      "title": "Dorast",
-      "title_em": "doma s Púchovom",
-      "text": "V pondelok 16. 11. o 17:30 privítajú dorastenci v ARENE OSTROV Púchov. Vedú tabuľku s plným počtom 15 bodov a skóre 61:22, v Púchove vyhrali 17:6. Príďte ich podporiť!",
-      "tab_title": "Dorast",
-      "tab_text": "Po 16. 11. o 17:30",
-      "btn1_text": "Program",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
     },
     {
       "img": "img/gm/ts-044.jpg",
