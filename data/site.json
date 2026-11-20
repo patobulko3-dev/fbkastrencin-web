@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/c/mladsi-ziaci.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Mladší žiaci · Liga mladších žiakov Západ",
+      "title": "Mladší žiaci",
+      "title_em": "stále bez prehry",
+      "text": "Mladší žiaci majú po šiestich zápasoch päť výhier a remízu. So 16 bodmi a skóre 52:21 vedú tabuľku o šesť bodov pred akadémiou Tigri. Ďalej hrajú v sobotu 28. 11.",
+      "tab_title": "Mladší žiaci",
+      "tab_text": "1. miesto, 16 bodov",
+      "btn1_text": "Tabuľka",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/g/j-146.jpg",
       "img_pos": "60% 35%",
       "kicker": "Juniori · Extraliga juniorov · Pozvánka",
@@ -69,20 +83,6 @@
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
       "btn2_link": "#supisky"
-    },
-    {
-      "img": "uploads/clanky/ondrasik.jpg",
-      "img_pos": "50% 30%",
-      "kicker": "Muži · Extraliga · Štatistiky",
-      "title": "Ondrášik a Malík",
-      "title_em": "na čele bodovania",
-      "text": "Šimon Ondrášik a Matúš Malík majú po deviatich extraligových zápasoch zhodne 14 bodov. Ondrášik strelil 9 gólov, rovnako ako Timotej Kollár a Michal Daranský, Malík pridal 10 asistencií.",
-      "tab_title": "Muži",
-      "tab_text": "Zhodne 14 bodov",
-      "btn1_text": "Štatistiky",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Rozhovor",
-      "btn2_link": "clanky/ondrasik-minulost-sme-nechali-za-sebou-teraz-chceme-vysledky/"
     },
     {
       "img": "img/gm/ts-044.jpg",
