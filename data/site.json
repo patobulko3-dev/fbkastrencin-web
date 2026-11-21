@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/gm/ts-088.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Muži · Extraliga · Pozvánka",
+      "title": "Snipers",
+      "title_em": "prídu na Ostrov",
+      "text": "V sobotu 28. 11. o 19:00 privítajú muži v ARENE OSTROV Oxdog Snipers Bratislava, ktorí po deviatich kolách vedú tabuľku s 24 bodmi. Sme tretí so 17 bodmi. Príďte nás podporiť!",
+      "tab_title": "Muži",
+      "tab_text": "So 28. 11. o 19:00",
+      "btn1_text": "Program",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/c/mladsi-ziaci.jpg",
       "img_pos": "50% 35%",
       "kicker": "Mladší žiaci · Liga mladších žiakov Západ",
@@ -66,20 +80,6 @@
       "tab_title": "Starší žiaci",
       "tab_text": "Ne 22. 11. o 11:20",
       "btn1_text": "Program",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/g/d-03.jpg",
-      "img_pos": "50% 40%",
-      "kicker": "Dorast · Juniori · Štatistiky",
-      "title": "Samuel Bielik",
-      "title_em": "strelec dvoch líg",
-      "text": "Samuel Bielik strelil v lige dorastencov 13 gólov v piatich zápasoch a so 17 bodmi vedie bodovanie tímu. V extralige juniorov pridal 6 gólov a 6 asistencií a aj tam je náš najproduktívnejší.",
-      "tab_title": "Samuel Bielik",
-      "tab_text": "19 gólov v sezóne",
-      "btn1_text": "Štatistiky",
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
       "btn2_link": "#supisky"
