@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:18:22.570Z",
+ "updated": "2026-11-21T13:23:00.596Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -366,26 +366,6 @@
    "league": "2. liga mužov Západ",
    "played": [
     [
-     "10.10.",
-     "ŠK Slávia SPU DFA Nitra",
-     "6:10",
-     "P",
-     "ARENA OSTROV",
-     1,
-     "2026-10-10",
-     "1262/138398"
-    ],
-    [
-     "10.10.",
-     "Polar Foxes Sereď",
-     "15:2",
-     "V",
-     "ARENA OSTROV",
-     1,
-     "2026-10-10",
-     "1262/138399"
-    ],
-    [
      "24.10.",
      "FBK Harvard Partizánske",
      "12:2",
@@ -424,27 +404,29 @@
      1,
      "2026-11-07",
      "1262/138424"
+    ],
+    [
+     "21.11.",
+     "ŠK Slávia SPU DFA Nitra",
+     "5:5",
+     "R",
+     "MŠH Dubnica nad Váhom",
+     0,
+     "2026-11-21",
+     "1262/138434"
+    ],
+    [
+     "21.11.",
+     "DA.DO.SA Dragons Hlohovec",
+     "6:4",
+     "P",
+     "MŠH Dubnica nad Váhom",
+     0,
+     "2026-11-21",
+     "1262/138435"
     ]
    ],
    "next": [
-    [
-     "21.11.",
-     "So",
-     "8:00",
-     "DA.DO.SA Dragons Hlohovec",
-     "MŠH Dubnica nad Váhom",
-     0,
-     "2026-11-21"
-    ],
-    [
-     "21.11.",
-     "So",
-     "12:30",
-     "ŠK Slávia SPU DFA Nitra",
-     "MŠH Dubnica nad Váhom",
-     0,
-     "2026-11-21"
-    ],
     [
      "5.12.",
      "So",
@@ -462,56 +444,88 @@
      "t.b.a.",
      0,
      "2026-12-05"
+    ],
+    [
+     "9.1.",
+     "So",
+     "0:00",
+     "FBK AS Trenčín - Páv",
+     "t.b.a.",
+     0,
+     "2027-01-09"
+    ],
+    [
+     "9.1.",
+     "So",
+     "0:00",
+     "FbO Žochár Topoľčany",
+     "t.b.a.",
+     1,
+     "2027-01-09"
     ]
    ],
    "table": [
     [
      "FBC Levice",
-     8,
-     "89:32",
-     24,
+     9,
+     "94:33",
+     27,
      0
     ],
     [
      "FBK Harvard Partizánske",
-     8,
-     "67:39",
-     21,
-     0
-    ],
-    [
-     "FbO Žochár Topoľčany",
-     8,
-     "49:32",
-     16,
+     9,
+     "76:45",
+     24,
      0
     ],
     [
      "FBK AS Trenčín - Trenovec",
-     8,
-     "72:55",
-     15,
+     10,
+     "81:66",
+     16,
      1
     ],
     [
-     "FBC Senica",
-     8,
-     "60:51",
-     13,
+     "FbO Žochár Topoľčany",
+     9,
+     "54:39",
+     16,
      0
     ],
     [
      "Wildhogs Horné Sŕnie",
-     8,
-     "58:50",
-     12,
+     9,
+     "65:55",
+     15,
+     0
+    ],
+    [
+     "FBC Senica",
+     9,
+     "61:56",
+     13,
      0
     ],
     [
      "ŠK Slávia SPU DFA Nitra",
+     10,
+     "72:69",
+     10,
+     0
+    ],
+    [
+     "FBK AS Trenčín - Páv",
      8,
-     "61:55",
+     "49:56",
+     10,
+     0
+    ],
+    [
+     "DA.DO.SA Dragons Hlohovec",
      9,
+     "38:68",
+     10,
      0
     ],
     [
@@ -519,20 +533,6 @@
      8,
      "47:50",
      8,
-     0
-    ],
-    [
-     "FBK AS Trenčín - Páv",
-     7,
-     "35:51",
-     7,
-     0
-    ],
-    [
-     "DA.DO.SA Dragons Hlohovec",
-     8,
-     "32:64",
-     7,
      0
     ],
     [
@@ -544,15 +544,15 @@
     ],
     [
      "Paradise Zlaté Moravce",
-     8,
-     "27:97",
+     9,
+     "32:111",
      0,
      0
     ]
    ],
-   "place": "4.",
-   "score": "72:55",
-   "pts": 15,
+   "place": "3.",
+   "score": "81:66",
+   "pts": 16,
    "zones": false
   },
   "dorast": {
@@ -992,26 +992,6 @@
    "league": "Liga staršej prípravky Západ · Liga mladšej prípravky Západ",
    "played": [
     [
-     "18.10.",
-     "St. prípravka červení – FBK Púchov",
-     "0:0",
-     "O",
-     "ARENA OSTROV",
-     0,
-     "2026-10-18",
-     "1286/139487"
-    ],
-    [
-     "18.10.",
-     "St. prípravka červení – FBK Harvard Partizánske",
-     "0:0",
-     "O",
-     "ARENA OSTROV",
-     0,
-     "2026-10-18",
-     "1286/139488"
-    ],
-    [
      "7.11.",
      "Ml. prípravka červení – FBK Púchov",
      "0:0",
@@ -1050,27 +1030,29 @@
      1,
      "2026-11-08",
      "1286/139495"
+    ],
+    [
+     "21.11.",
+     "Ml. prípravka červení – ŠK VICTORY STARS Dubnica nad Váhom",
+     "0:0",
+     "O",
+     "ARENA OSTROV",
+     0,
+     "2026-11-21",
+     "1287/139439"
+    ],
+    [
+     "21.11.",
+     "Ml. prípravka červení – FBK Púchov",
+     "0:0",
+     "O",
+     "ARENA OSTROV",
+     1,
+     "2026-11-21",
+     "1287/139440"
     ]
    ],
    "next": [
-    [
-     "21.11.",
-     "So",
-     "12:20",
-     "Ml. prípravka červení – ŠK VICTORY STARS Dubnica nad Váhom",
-     "ARENA OSTROV",
-     0,
-     "2026-11-21"
-    ],
-    [
-     "21.11.",
-     "So",
-     "14:00",
-     "Ml. prípravka červení – FBK Púchov",
-     "ARENA OSTROV",
-     1,
-     "2026-11-21"
-    ],
     [
      "22.11.",
      "Ne",
@@ -1088,6 +1070,24 @@
      "Hala Pílska Topoľčany",
      0,
      "2026-11-22"
+    ],
+    [
+     "5.12.",
+     "So",
+     "9:00",
+     "Ml. prípravka červení – FBK Trenčianske Teplice",
+     "ARENA OSTROV",
+     1,
+     "2026-12-05"
+    ],
+    [
+     "5.12.",
+     "So",
+     "9:50",
+     "Ml. prípravka červení – 1. FBC Trenčín Piráti",
+     "ARENA OSTROV",
+     0,
+     "2026-12-05"
     ]
    ],
    "table": null,
@@ -2057,7 +2057,7 @@
     ],
     [
      "Extraliga|58|2|4|6|20",
-     "Iné ligy|105|72|61|133|48"
+     "Iné ligy|107|72|62|134|48"
     ],
     [
      [
@@ -7023,388 +7023,6 @@
     "Mathias Machotka"
    ]
   },
-  "1262/138398": {
-   "v": 2,
-   "ev": [
-    {
-     "t": "00:20",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "0:1",
-     "p": "Marek Šedivý",
-     "a": "Juraj Lidik"
-    },
-    {
-     "t": "03:19",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "0:2",
-     "p": "Matúš Packa",
-     "a": "Adrián Čiffáry"
-    },
-    {
-     "t": "04:01",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "0:3",
-     "p": "Adrián Čiffáry",
-     "a": "Juraj Čulák"
-    },
-    {
-     "t": "04:29",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "0:4",
-     "p": "Marek Šedivý",
-     "a": "Jakub Balciar"
-    },
-    {
-     "t": "09:27",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "0:5",
-     "p": "Juraj Čulák"
-    },
-    {
-     "t": "11:48",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:5",
-     "p": "Martin Žilinský",
-     "a": "Daniel Kupka"
-    },
-    {
-     "t": "12:01",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:6",
-     "p": "Juraj Čulák"
-    },
-    {
-     "t": "13:36",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:7",
-     "p": "Adrián Čiffáry",
-     "a": "Juraj Čulák"
-    },
-    {
-     "t": "24:38",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "2:7",
-     "p": "Daniel Kupka"
-    },
-    {
-     "t": "27:09",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "3:7",
-     "p": "Ľubomír Drga"
-    },
-    {
-     "t": "29:51",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:7",
-     "p": "Adam Daniš",
-     "a": "Martin Žilinský"
-    },
-    {
-     "t": "31:34",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:8",
-     "p": "Michal Gráf"
-    },
-    {
-     "t": "44:04",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "m",
-     "sc": "4:8",
-     "x": "NTS",
-     "p": "Martin Žilinský"
-    },
-    {
-     "t": "46:32",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "5:8",
-     "p": "Daniel Kupka",
-     "a": "Adam Daniš"
-    },
-    {
-     "t": "47:33",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "6:8",
-     "p": "Adam Daniš",
-     "a": "Andrej Tremko"
-    },
-    {
-     "t": "52:08",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "6:9",
-     "p": "Michal Gráf",
-     "a": "Michal Decsi"
-    },
-    {
-     "t": "59:18",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "6:10",
-     "p": "Juraj Čulák",
-     "a": "Adrián Čiffáry"
-    }
-   ],
-   "st": {
-    "g": [
-     "6",
-     "10"
-    ],
-    "sh": [
-     "0",
-     "0"
-    ],
-    "sv": [
-     "0",
-     "0"
-    ],
-    "pp": [
-     "0/0",
-     "0/0"
-    ],
-    "pk": [
-     "0/0",
-     "0/0"
-    ]
-   },
-   "per": "(1:7, 3:1, 2:2)",
-   "ref": [
-    "Jakub Žilka",
-    "Mathias Kršiak"
-   ]
-  },
-  "1262/138399": {
-   "v": 2,
-   "ev": [
-    {
-     "t": "00:12",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:0",
-     "p": "Samuel Bagin",
-     "a": "Matúš Jurašek"
-    },
-    {
-     "t": "11:19",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "2:0",
-     "p": "Adam Daniš",
-     "a": "Samuel Bagin"
-    },
-    {
-     "t": "17:00",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "3:0",
-     "p": "Ľubomír Drga",
-     "a": "Patrik Bulko"
-    },
-    {
-     "t": "17:51",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "4:0",
-     "p": "Martin Žilinský",
-     "a": "Adam Daniš"
-    },
-    {
-     "t": "19:24",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "5:0",
-     "p": "Ľubomír Drga"
-    },
-    {
-     "t": "22:41",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "6:0",
-     "p": "Ľubomír Drga"
-    },
-    {
-     "t": "30:16",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "7:0",
-     "p": "Ľubomír Drga",
-     "a": "Patrik Bulko"
-    },
-    {
-     "t": "32:23",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "8:0",
-     "p": "Martin Žilinský",
-     "a": "Milan Stuhl"
-    },
-    {
-     "t": "33:40",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "9:0",
-     "x": "VG",
-     "p": "Kristián Čačala"
-    },
-    {
-     "t": "34:30",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "10:0",
-     "x": "VG",
-     "p": "Andrej Mikuš"
-    },
-    {
-     "t": "34:54",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "11:0",
-     "p": "Ľubomír Drga",
-     "a": "Daniel Kupka"
-    },
-    {
-     "t": "35:50",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Martin Žilinský",
-     "r": "Priestupky florbalkou"
-    },
-    {
-     "t": "37:06",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "12:0",
-     "p": "Matúš Jurašek",
-     "a": "Patrik Bulko"
-    },
-    {
-     "t": "39:41",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "13:0",
-     "p": "Roman Žuffa",
-     "a": "Daniel Kupka"
-    },
-    {
-     "t": "49:49",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "13:1",
-     "p": "Pavol Polák",
-     "a": "Ján Janda"
-    },
-    {
-     "t": "50:25",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "14:1",
-     "p": "Martin Žilinský",
-     "a": "Adam Daniš"
-    },
-    {
-     "t": "53:23",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "15:1",
-     "p": "Ľubomír Drga",
-     "a": "Daniel Kupka"
-    },
-    {
-     "t": "56:10",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Samuel Bagin",
-     "r": "Vysoká florbalka"
-    },
-    {
-     "t": "56:37",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "15:2",
-     "x": "PH1",
-     "p": "Michal Poláš",
-     "a": "Simon Čačaný"
-    }
-   ],
-   "st": {
-    "g": [
-     "15",
-     "2"
-    ],
-    "sh": [
-     "0",
-     "0"
-    ],
-    "sv": [
-     "0",
-     "0"
-    ],
-    "pp": [
-     "0/0",
-     "1/2"
-    ],
-    "pk": [
-     "1/2",
-     "0/0"
-    ]
-   },
-   "per": "(5:0, 8:0, 2:2)",
-   "ref": [
-    "Jakub Žilka",
-    "Adam Fojtík"
-   ]
-  },
   "1262/138418": {
    "v": 2,
    "ev": [
@@ -8108,6 +7726,295 @@
    "ref": [
     "Filip Rácik",
     "Marcel Petráš"
+   ]
+  },
+  "1262/138434": {
+   "v": 2,
+   "ev": [
+    {
+     "t": "01:50",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Adam Daniš",
+     "a": "Frederik Hrušovský"
+    },
+    {
+     "t": "09:43",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "Juraj Čulák"
+    },
+    {
+     "t": "16:41",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:2",
+     "p": "Ľubomír Drga",
+     "a": "Samuel Bagin"
+    },
+    {
+     "t": "17:02",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:2",
+     "p": "Matúš Packa",
+     "a": "Roland Rosa"
+    },
+    {
+     "t": "21:05",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:2",
+     "p": "Michal Decsi",
+     "a": "Matúš Lacuška"
+    },
+    {
+     "t": "29:42",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:3",
+     "p": "Milan Kováč",
+     "a": "Adam Daniš"
+    },
+    {
+     "t": "39:21",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Michal Gráf",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "41:34",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:4",
+     "p": "Adam Daniš",
+     "a": "Mário Hanták"
+    },
+    {
+     "t": "47:54",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:4",
+     "p": "Adrián Čiffáry",
+     "a": "Michal Decsi"
+    },
+    {
+     "t": "52:08",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:4",
+     "p": "Juraj Čulák",
+     "a": "Michal Decsi"
+    },
+    {
+     "t": "57:13",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:5",
+     "p": "Mário Hanták",
+     "a": "Milan Kováč"
+    },
+    {
+     "t": "59:55",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Matej Lidik",
+     "r": "Opakované priestupky"
+    }
+   ],
+   "st": {
+    "g": [
+     "5",
+     "5"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "33",
+     "21"
+    ],
+    "pp": [
+     "0/0",
+     "0/2"
+    ],
+    "pk": [
+     "2/2",
+     "0/0"
+    ]
+   },
+   "per": "(2:2, 1:1, 2:2)",
+   "sp": 25,
+   "ref": [
+    "Mathias Kršiak",
+    "Jakub Žilka"
+   ]
+  },
+  "1262/138435": {
+   "v": 2,
+   "ev": [
+    {
+     "t": "02:23",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Milan Dedík",
+     "a": "Roman Repka"
+    },
+    {
+     "t": "10:02",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:0",
+     "p": "Jakub Ondrášik",
+     "a": "Peter Trnavský"
+    },
+    {
+     "t": "12:51",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Filip Horváth",
+     "r": "Vysoká florbalka"
+    },
+    {
+     "t": "16:47",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:0",
+     "p": "Roman Repka",
+     "a": "Milan Dedík"
+    },
+    {
+     "t": "22:44",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:1",
+     "p": "Milan Kováč",
+     "a": "Roman Žuffa"
+    },
+    {
+     "t": "24:09",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:2",
+     "p": "Tobias Konček",
+     "a": "Mário Hanták"
+    },
+    {
+     "t": "25:52",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:2",
+     "p": "Dominik Klčo",
+     "a": "Filip Lakota"
+    },
+    {
+     "t": "28:37",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:2",
+     "p": "Martin Voštiar",
+     "a": "Filip Horváth"
+    },
+    {
+     "t": "30:13",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "6:2",
+     "p": "Jakub Ondrášik",
+     "a": "Dominik Klčo"
+    },
+    {
+     "t": "50:23",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Vladimír Voštiar",
+     "r": "Priestupky florbalkou"
+    },
+    {
+     "t": "52:41",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:3",
+     "p": "Frederik Hrušovský",
+     "a": "Mário Hanták"
+    },
+    {
+     "t": "59:37",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:4",
+     "p": "Juraj Surma",
+     "a": "Milan Kováč"
+    },
+    {
+     "t": "59:58",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Juraj Surma",
+     "r": "Vysoká florbalka"
+    }
+   ],
+   "st": {
+    "g": [
+     "6",
+     "4"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "19",
+     "15"
+    ],
+    "pp": [
+     "0/1",
+     "0/2"
+    ],
+    "pk": [
+     "2/2",
+     "1/1"
+    ]
+   },
+   "per": "(3:0, 3:2, 0:2)",
+   "ref": [
+    "Timotej Orság",
+    "Adam Žiško"
    ]
   },
   "1267/137978": {
