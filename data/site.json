@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/b/mb.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Muži B · 2. liga mužov Západ",
+      "title": "Muži B",
+      "title_em": "bod v závere",
+      "text": "Muži B remizovali v Dubnici s Nitrou 5:5. Adam Daniš strelil dva góly a Mário Hanták vyrovnal v 58. minúte. S Hlohovcom potom prehrali 4:6 a v tabuľke sú tretí so 16 bodmi.",
+      "tab_title": "Muži B",
+      "tab_text": "Remíza 5:5",
+      "btn1_text": "Výsledky",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Tabuľka",
+      "btn2_link": "#vysledky"
+    },
+    {
       "img": "img/gm/ts-088.jpg",
       "img_pos": "50% 35%",
       "kicker": "Muži · Extraliga · Pozvánka",
@@ -79,20 +93,6 @@
       "text": "V nedeľu 22. 11. o 11:20 privítajú starší žiaci v ARENE OSTROV lídra tabuľky 1. FBC Trenčín akadémia Orli, ktorý má 18 bodov. Sme tretí s 13 bodmi. O 13:40 nastúpia proti Topoľčanom. Príďte ich podporiť!",
       "tab_title": "Starší žiaci",
       "tab_text": "Ne 22. 11. o 11:20",
-      "btn1_text": "Program",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/gm/ts-044.jpg",
-      "img_pos": "50% 30%",
-      "kicker": "Muži · Extraliga · Pozvánka",
-      "title": "Hurikán",
-      "title_em": "na Ostrove",
-      "text": "V sobotu 21. 11. o 18:00 privítajú muži v ARENE OSTROV Hurikán Bratislava. Sme tretí so 17 bodmi, súper je ôsmy s 12 bodmi. Príďte nás podporiť!",
-      "tab_title": "Muži",
-      "tab_text": "So 21. 11. o 18:00",
       "btn1_text": "Program",
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
