@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:52:11.481Z",
+ "updated": "2026-11-22T13:14:42.219Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -319,17 +319,17 @@
      0
     ],
     [
+     "FBC Mikuláš Academy Prešov",
+     9,
+     "47:45",
+     16,
+     0
+    ],
+    [
      "FBC Grasshoppers AC UNIZA Žilina",
      8,
      "49:43",
      15,
-     0
-    ],
-    [
-     "FBC Mikuláš Academy Prešov",
-     8,
-     "40:44",
-     13,
      0
     ],
     [
@@ -348,8 +348,8 @@
     ],
     [
      "ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
-     8,
-     "43:70",
+     9,
+     "44:77",
      3,
      0
     ]
@@ -691,26 +691,6 @@
    "league": "Liga starších žiakov Západ",
    "played": [
     [
-     "11.10.",
-     "FbO Žochár Topoľčany",
-     "4:11",
-     "V",
-     "MŠH Dubnica nad Váhom",
-     0,
-     "2026-10-11",
-     "1278/138685"
-    ],
-    [
-     "11.10.",
-     "ŠK VICTORY STARS Dubnica nad Váhom",
-     "3:3",
-     "R",
-     "MŠH Dubnica nad Váhom",
-     1,
-     "2026-10-11",
-     "1278/138687"
-    ],
-    [
      "25.10.",
      "FBK Púchov",
      "9:8",
@@ -749,27 +729,29 @@
      0,
      "2026-11-08",
      "1278/138715"
+    ],
+    [
+     "22.11.",
+     "1. FBC Trenčín akadémia Orli",
+     "5:7",
+     "P",
+     "ARENA OSTROV",
+     1,
+     "2026-11-22",
+     "1278/138717"
+    ],
+    [
+     "22.11.",
+     "FbO Žochár Topoľčany",
+     "4:4",
+     "R",
+     "ARENA OSTROV",
+     0,
+     "2026-11-22",
+     "1278/138719"
     ]
    ],
    "next": [
-    [
-     "22.11.",
-     "Ne",
-     "11:20",
-     "1. FBC Trenčín akadémia Orli",
-     "ARENA OSTROV",
-     1,
-     "2026-11-22"
-    ],
-    [
-     "22.11.",
-     "Ne",
-     "13:40",
-     "FbO Žochár Topoľčany",
-     "ARENA OSTROV",
-     0,
-     "2026-11-22"
-    ],
     [
      "6.12.",
      "Ne",
@@ -787,42 +769,60 @@
      "Hala Pílska Topoľčany",
      0,
      "2026-12-06"
+    ],
+    [
+     "24.1.",
+     "Ne",
+     "0:00",
+     "FbO Žochár Topoľčany",
+     "t.b.a.",
+     0,
+     "2027-01-24"
+    ],
+    [
+     "24.1.",
+     "Ne",
+     "0:00",
+     "ŠK VICTORY STARS Dubnica nad Váhom",
+     "t.b.a.",
+     1,
+     "2027-01-24"
     ]
    ],
    "table": [
     [
      "1. FBC Trenčín akadémia Orli",
-     6,
-     "64:23",
-     18,
+     8,
+     "84:34",
+     24,
      0
     ],
     [
      "1. FBC Trenčín akadémia Jastrabi",
-     6,
-     "50:28",
+     7,
+     "56:41",
      13,
      0
     ],
     [
      "FBK AS Trenčín",
-     6,
-     "39:30",
+     7,
+     "44:37",
      13,
      1
     ],
     [
-     "ŠK VICTORY STARS Dubnica nad Váhom",
-     8,
-     "27:44",
+     "FbO Žochár Topoľčany",
+     7,
+     "37:53",
      7,
      0
     ],
     [
-     "FbO Žochár Topoľčany",
-     6,
-     "34:51",
-     4,
+     "ŠK VICTORY STARS Dubnica nad Váhom",
+     9,
+     "29:47",
+     7,
      0
     ],
     [
@@ -834,7 +834,7 @@
     ]
    ],
    "place": "3.",
-   "score": "39:30",
+   "score": "48:41",
    "pts": 13,
    "zones": false
   },
@@ -992,26 +992,6 @@
    "league": "Liga staršej prípravky Západ · Liga mladšej prípravky Západ",
    "played": [
     [
-     "7.11.",
-     "Ml. prípravka červení – FBK Púchov",
-     "0:0",
-     "O",
-     "sTC Aréna Púchov",
-     0,
-     "2026-11-07",
-     "1287/139429"
-    ],
-    [
-     "7.11.",
-     "Ml. prípravka červení – FBK Trenčianske Teplice",
-     "0:0",
-     "O",
-     "sTC Aréna Púchov",
-     1,
-     "2026-11-07",
-     "1287/139430"
-    ],
-    [
      "8.11.",
      "St. prípravka červení – 1. FBC Trenčín Draci",
      "0:0",
@@ -1050,27 +1030,29 @@
      1,
      "2026-11-21",
      "1287/139440"
+    ],
+    [
+     "22.11.",
+     "St. prípravka červení – ŠK PB PUSCHKIN",
+     "0:0",
+     "O",
+     "Hala Pílska Topoľčany",
+     0,
+     "2026-11-22",
+     "1286/139501"
+    ],
+    [
+     "22.11.",
+     "St. prípravka červení – FBK Harvard Partizánske",
+     "0:0",
+     "O",
+     "Hala Pílska Topoľčany",
+     1,
+     "2026-11-22",
+     "1286/139502"
     ]
    ],
    "next": [
-    [
-     "22.11.",
-     "Ne",
-     "11:30",
-     "St. prípravka červení – FBK Harvard Partizánske",
-     "Hala Pílska Topoľčany",
-     1,
-     "2026-11-22"
-    ],
-    [
-     "22.11.",
-     "Ne",
-     "13:10",
-     "St. prípravka červení – ŠK PB PUSCHKIN",
-     "Hala Pílska Topoľčany",
-     0,
-     "2026-11-22"
-    ],
     [
      "5.12.",
      "So",
@@ -1088,6 +1070,24 @@
      "ARENA OSTROV",
      0,
      "2026-12-05"
+    ],
+    [
+     "6.12.",
+     "Ne",
+     "9:00",
+     "St. prípravka červení – FBK Púchov",
+     "Multifunkčná športová hala Horné Srnie",
+     1,
+     "2026-12-06"
+    ],
+    [
+     "6.12.",
+     "Ne",
+     "9:50",
+     "St. prípravka červení – FbO Žochár Topoľčany",
+     "Multifunkčná športová hala Horné Srnie",
+     0,
+     "2026-12-06"
     ]
    ],
    "table": null,
@@ -4120,10 +4120,16 @@
    [
     "MIŠÁK JANOVIČ, Jakub",
     [
-     "6",
-     "2",
+     "0",
+     "0",
      "0,00",
-     "0,00 %"
+     "0,00 %",
+     "0",
+     "0",
+     "0",
+     "0:00",
+     "0",
+     "0"
     ],
     [
      "Iné ligy|34|0|0|0,00|0,00 %|0|7",
@@ -4153,16 +4159,28 @@
    [
     "SÝKORČIN, Matúš",
     [
-     "4",
+     "2",
      "0",
-     "0,00",
-     "0,00 %"
+     "4,22",
+     "69,23 %",
+     "13",
+     "4",
+     "9",
+     "56:55",
+     "1",
+     "1"
     ],
     [
-     "Iné ligy|10|0|0|0,00|0,00 %|0|4",
+     "Iné ligy|11|13|4|1,01|69,23 %|9|4",
      "Turnaje|28|33|3|1,94|90,91 %|30|0"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "69,23 %"
+     ],
      [
       "@ FbO Žochár Topoľčany",
       "11.10",
@@ -4174,16 +4192,28 @@
    [
     "UKUŠ, Oliver",
     [
-     "4",
+     "5",
      "2",
-     "0,00",
-     "0,00 %"
+     "1,30",
+     "40,00 %",
+     "5",
+     "3",
+     "2",
+     "138:05",
+     "2",
+     "2"
     ],
     [
-     "Iné ligy|46|0|0|0,00|0,00 %|0|14",
+     "Iné ligy|47|5|3|0,32|40,00 %|2|14",
      "Turnaje|42|96|25|7,38|73,96 %|71|2"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "40,00 %"
+     ],
      [
       "vs. 1. FBC Trenčín akadémia Orli",
       "25.10",
@@ -4213,17 +4243,23 @@
    [
     "BENDA, Alex",
     [
-     "4",
+     "5",
      "1",
      "0",
      "1",
      "0"
     ],
     [
-     "Iné ligy|30|3|2|5|2",
+     "Iné ligy|31|3|2|5|2",
      "Turnaje|24|1|0|1|0"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "vs. 1. FBC Trenčín akadémia Orli",
       "25.10",
@@ -4253,17 +4289,23 @@
    [
     "ĎURIŠKA, Damian",
     [
-     "6",
+     "7",
      "0",
      "0",
      "0",
      "0"
     ],
     [
-     "Iné ligy|8|0|0|0|0",
+     "Iné ligy|9|0|0|0|0",
      "Turnaje|16|0|0|0|0"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4286,12 +4328,6 @@
       "vs. FBK Púchov",
       "25.10",
       "9:8",
-      "0+0"
-     ],
-     [
-      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
-      "11.10",
-      "3:3",
       "0+0"
      ]
     ]
@@ -4299,17 +4335,23 @@
    [
     "DZURŇÁK, Lukáš",
     [
-     "6",
+     "7",
      "1",
      "2",
      "3",
      "2"
     ],
     [
-     "Iné ligy|41|3|15|18|8",
+     "Iné ligy|42|3|15|18|8",
      "Turnaje|30|4|0|4|2"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4333,29 +4375,29 @@
       "25.10",
       "9:8",
       "0+1"
-     ],
-     [
-      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
-      "11.10",
-      "3:3",
-      "0+0"
      ]
     ]
    ],
    [
     "MILO, Adrián",
     [
-     "6",
+     "7",
      "0",
      "1",
      "1",
      "0"
     ],
     [
-     "Iné ligy|10|0|1|1|0",
+     "Iné ligy|11|0|1|1|0",
      "Turnaje|8|0|0|0|0"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4379,29 +4421,29 @@
       "25.10",
       "9:8",
       "0+0"
-     ],
-     [
-      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
-      "11.10",
-      "3:3",
-      "0+1"
      ]
     ]
    ],
    [
     "MOŠKO, Simon",
     [
-     "6",
+     "7",
      "1",
      "0",
      "1",
      "0"
     ],
     [
-     "Iné ligy|37|1|2|3|2",
+     "Iné ligy|38|1|2|3|2",
      "Turnaje|28|0|2|2|2"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4425,29 +4467,29 @@
       "25.10",
       "9:8",
       "1+0"
-     ],
-     [
-      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
-      "11.10",
-      "3:3",
-      "0+0"
      ]
     ]
    ],
    [
     "ORAVEC, Martin",
     [
-     "6",
+     "7",
      "0",
      "1",
      "1",
      "0"
     ],
     [
-     "Iné ligy|8|0|1|1|0",
+     "Iné ligy|9|0|1|1|0",
      "Turnaje|20|2|0|2|0"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4470,12 +4512,6 @@
       "vs. FBK Púchov",
       "25.10",
       "9:8",
-      "0+0"
-     ],
-     [
-      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
-      "11.10",
-      "3:3",
       "0+0"
      ]
     ]
@@ -4483,17 +4519,23 @@
    [
     "BEŇO, Nikolas",
     [
+     "7",
      "6",
-     "5",
      "3",
-     "8",
+     "9",
      "0"
     ],
     [
-     "Iné ligy|31|12|11|23|2",
+     "Iné ligy|32|13|11|24|2",
      "Turnaje|28|3|0|3|2"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "1+0"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4517,29 +4559,29 @@
       "25.10",
       "9:8",
       "0+2"
-     ],
-     [
-      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
-      "11.10",
-      "3:3",
-      "0+0"
      ]
     ]
    ],
    [
     "FERLETJÁK, Kristián",
     [
-     "6",
-     "4",
+     "7",
+     "5",
      "0",
-     "4",
+     "5",
      "0"
     ],
     [
-     "Iné ligy|58|26|28|54|4",
+     "Iné ligy|59|27|28|55|4",
      "Turnaje|21|1|0|1|2"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "1+0"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4563,12 +4605,6 @@
       "25.10",
       "9:8",
       "1+0"
-     ],
-     [
-      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
-      "11.10",
-      "3:3",
-      "0+0"
      ]
     ]
    ],
@@ -4621,17 +4657,23 @@
    [
     "MARTIŠKA, Marek",
     [
-     "6",
-     "6",
-     "3",
-     "9",
+     "7",
+     "8",
+     "4",
+     "12",
      "0"
     ],
     [
-     "Iné ligy|36|22|9|31|10",
+     "Iné ligy|37|24|10|34|10",
      "Turnaje|35|5|2|7|12"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "2+1"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4655,12 +4697,6 @@
       "25.10",
       "9:8",
       "2+0"
-     ],
-     [
-      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
-      "11.10",
-      "3:3",
-      "0+1"
      ]
     ]
    ],
@@ -4713,17 +4749,23 @@
    [
     "PEŘINA, Jakub",
     [
-     "6",
+     "7",
      "8",
      "6",
      "14",
      "0"
     ],
     [
-     "Iné ligy|42|21|16|37|4",
+     "Iné ligy|43|21|16|37|4",
      "Turnaje|33|19|0|19|2"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4747,29 +4789,29 @@
       "25.10",
       "9:8",
       "2+1"
-     ],
-     [
-      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
-      "11.10",
-      "3:3",
-      "1+0"
      ]
     ]
    ],
    [
     "SEDLÁČEK, Samuel",
     [
-     "6",
+     "7",
      "4",
      "0",
      "4",
      "2"
     ],
     [
-     "Iné ligy|6|4|0|4|2",
+     "Iné ligy|7|4|0|4|2",
      "Turnaje|19|0|0|0|0"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4793,29 +4835,29 @@
       "25.10",
       "9:8",
       "1+0"
-     ],
-     [
-      "vs. ŠK VICTORY STARS Dubnica nad Váhom",
-      "11.10",
-      "3:3",
-      "0+0"
      ]
     ]
    ],
    [
     "SPIŠÁK, Teo",
     [
-     "4",
+     "5",
      "1",
      "0",
      "1",
      "0"
     ],
     [
-     "Iné ligy|40|4|1|5|2",
+     "Iné ligy|41|4|1|5|2",
      "Turnaje|25|1|0|1|0"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "vs. 1. FBC Trenčín akadémia Orli",
       "25.10",
@@ -4845,17 +4887,23 @@
    [
     "VARGHA, Filip",
     [
-     "4",
+     "5",
      "0",
      "1",
      "1",
      "0"
     ],
     [
-     "Iné ligy|24|7|5|12|0",
+     "Iné ligy|25|7|5|12|0",
      "Turnaje|8|0|1|1|0"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -4885,17 +4933,23 @@
    [
     "ZVERBÍK, Boris",
     [
-     "5",
+     "6",
      "1",
      "2",
      "3",
      "0"
     ],
     [
-     "Iné ligy|21|1|5|6|2",
+     "Iné ligy|22|1|5|6|2",
      "Turnaje|27|7|0|7|0"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+0"
+     ],
      [
       "vs. ŠK VICTORY STARS Dubnica nad Váhom",
       "08.11",
@@ -4919,29 +4973,29 @@
       "11.10",
       "3:3",
       "0+0"
-     ],
-     [
-      "@ FbO Žochár Topoľčany",
-      "11.10",
-      "4:11",
-      "0+0"
      ]
     ]
    ],
    [
     "VYSKOČ, Matúš",
     [
-     "2",
-     "1",
-     "2",
      "3",
+     "1",
+     "4",
+     "5",
      "0"
     ],
     [
-     "Iné ligy|54|31|20|51|4",
+     "Iné ligy|55|31|22|53|4",
      "Turnaje|38|4|4|8|0"
     ],
     [
+     [
+      "vs. 1. FBC Trenčín akadémia Orli",
+      "22.11",
+      "5:7",
+      "0+2"
+     ],
      [
       "@ 1. FBC Trenčín akadémia Jastrabi",
       "08.11",
@@ -9240,287 +9294,6 @@
     "Michal Ochránek"
    ]
   },
-  "1278/138685": {
-   "v": 2,
-   "ev": [
-    {
-     "t": "02:55",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:0",
-     "p": "Lukáš Hanzlík",
-     "a": "Matúš Sloboda"
-    },
-    {
-     "t": "03:38",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:1",
-     "p": "Jakub Peřina",
-     "a": "Marek Martiška"
-    },
-    {
-     "t": "05:40",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "2:1",
-     "p": "Juraj Mihalovič",
-     "a": "Matúš Kráľ"
-    },
-    {
-     "t": "15:05",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "2:2",
-     "p": "Marek Martiška",
-     "a": "Daniel Michalík"
-    },
-    {
-     "t": "21:06",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "3:2",
-     "p": "Lukáš Hanzlík",
-     "a": "Matúš Sloboda"
-    },
-    {
-     "t": "21:30",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:2",
-     "p": "Matúš Sloboda",
-     "a": "Angelo Novotný"
-    },
-    {
-     "t": "22:24",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:3",
-     "p": "Nikolas Beňo",
-     "a": "Filip Vargha"
-    },
-    {
-     "t": "26:14",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Michal Gríč",
-     "r": "Priestupky florbalkou"
-    },
-    {
-     "t": "27:50",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:4",
-     "x": "PH1",
-     "p": "Marek Martiška",
-     "a": "Lukáš Dzurňák"
-    },
-    {
-     "t": "28:23",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:5",
-     "p": "Samuel Sedláček",
-     "a": "Martin Oravec"
-    },
-    {
-     "t": "29:08",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:6",
-     "p": "Daniel Michalík",
-     "a": "Jakub Peřina"
-    },
-    {
-     "t": "30:42",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:7",
-     "p": "Daniel Michalík"
-    },
-    {
-     "t": "35:20",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:8",
-     "p": "Marek Martiška",
-     "a": "Jakub Peřina"
-    },
-    {
-     "t": "37:48",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:9",
-     "p": "Kristián Ferletják",
-     "a": "Nikolas Beňo"
-    },
-    {
-     "t": "38:17",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "4:10",
-     "p": "Jakub Peřina",
-     "a": "Marek Martiška"
-    },
-    {
-     "t": "42:42",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "4:11",
-     "p": "Samuel Sedláček"
-    }
-   ],
-   "st": {
-    "g": [
-     "4",
-     "11"
-    ],
-    "sh": [
-     "0",
-     "0"
-    ],
-    "sv": [
-     "0",
-     "0"
-    ],
-    "pp": [
-     "0/0",
-     "1/1"
-    ],
-    "pk": [
-     "0/1",
-     "0/0"
-    ]
-   },
-   "per": "(2:2, 2:8, 0:1)",
-   "sp": 35,
-   "ref": [
-    "Mathias Kršiak",
-    "Adam Fojtík"
-   ]
-  },
-  "1278/138687": {
-   "v": 2,
-   "ev": [
-    {
-     "t": "01:47",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:0",
-     "p": "Jakub Peřina",
-     "a": "Daniel Michalík"
-    },
-    {
-     "t": "15:32",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "1:1",
-     "p": "Lukas Mollek",
-     "a": "Marcus Čejka"
-    },
-    {
-     "t": "15:41",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Samuel Sedláček",
-     "r": "Priestupky florbalkou"
-    },
-    {
-     "t": "20:12",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "1:2",
-     "p": "Tomáš Štefanec",
-     "a": "Patrik Lezo"
-    },
-    {
-     "t": "25:54",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "2:2",
-     "p": "Daniel Michalík",
-     "a": "Marek Martiška"
-    },
-    {
-     "t": "29:17",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Jakub Hudcovský",
-     "r": "Priestupky florbalkou"
-    },
-    {
-     "t": "33:07",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "2:3",
-     "p": "Lukas Mišiak",
-     "a": "Patrik Lezo"
-    },
-    {
-     "t": "37:18",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "3:3",
-     "p": "Tomáš Krajčovič",
-     "a": "Adrián Milo"
-    }
-   ],
-   "st": {
-    "g": [
-     "3",
-     "3"
-    ],
-    "sh": [
-     "0",
-     "0"
-    ],
-    "sv": [
-     "0",
-     "0"
-    ],
-    "pp": [
-     "0/1",
-     "0/1"
-    ],
-    "pk": [
-     "1/1",
-     "1/1"
-    ]
-   },
-   "per": "(1:0, 1:2, 1:1)",
-   "sp": 40,
-   "ref": [
-    "Mathias Kršiak",
-    "Adam Fojtík"
-   ]
-  },
   "1278/138697": {
    "v": 2,
    "ev": [
@@ -10113,6 +9886,249 @@
    "ref": [
     "Šimon Štefančík",
     "Nikolaj Žofčin"
+   ]
+  },
+  "1278/138717": {
+   "v": 2,
+   "ev": [
+    {
+     "t": "03:27",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Jakub Lendvay",
+     "a": "Lukáš Kalnássy"
+    },
+    {
+     "t": "05:21",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:2",
+     "p": "Lukáš Kalnássy",
+     "a": "Tomáš Bojda"
+    },
+    {
+     "t": "06:24",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:3",
+     "p": "Tomáš Bojda",
+     "a": "Lukáš Kalnássy"
+    },
+    {
+     "t": "15:21",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:3",
+     "x": "VG",
+     "p": "Gabriel Mateják"
+    },
+    {
+     "t": "16:00",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:4",
+     "p": "Gregor Kováč",
+     "a": "Zoja Štefančíková"
+    },
+    {
+     "t": "16:31",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:4",
+     "p": "Marek Martiška",
+     "a": "Matúš Vyskoč"
+    },
+    {
+     "t": "18:00",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:4",
+     "p": "Marek Martiška",
+     "a": "Matúš Vyskoč"
+    },
+    {
+     "t": "18:47",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:5",
+     "p": "Jakub Hinko",
+     "a": "Zoja Štefančíková"
+    },
+    {
+     "t": "18:53",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "4:5",
+     "p": "Kristián Ferletják",
+     "a": "Marek Martiška"
+    },
+    {
+     "t": "21:26",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "5:5",
+     "p": "Nikolas Beňo"
+    },
+    {
+     "t": "31:11",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:6",
+     "p": "Jakub Lendvay",
+     "a": "Lukáš Kalnássy"
+    },
+    {
+     "t": "44:32",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:7",
+     "p": "Tomáš Bojda",
+     "a": "Adam Majdlen"
+    }
+   ],
+   "st": {
+    "g": [
+     "5",
+     "7"
+    ],
+    "sh": [
+     "21",
+     "16"
+    ],
+    "sv": [
+     "11",
+     "14"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(1:3, 4:2, 0:2)",
+   "ref": [
+    "Samuel Chvojka",
+    "Jakub Žilka"
+   ]
+  },
+  "1278/138719": {
+   "v": 2,
+   "ev": [
+    {
+     "t": "02:35",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:0",
+     "p": "Matúš Kráľ",
+     "a": "Matúš Sloboda"
+    },
+    {
+     "t": "03:32",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:1",
+     "p": "Lukáš Dzurňák",
+     "a": "Teo Spišák"
+    },
+    {
+     "t": "03:44",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:2",
+     "p": "Matúš Vyskoč",
+     "a": "Teo Spišák"
+    },
+    {
+     "t": "07:11",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:3",
+     "p": "Marek Martiška",
+     "a": "Matúš Vyskoč"
+    },
+    {
+     "t": "07:14",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:4",
+     "p": "Marek Martiška",
+     "a": "Matúš Vyskoč"
+    },
+    {
+     "t": "07:54",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "2:4",
+     "p": "Tobias Trtík",
+     "a": "Angelo Novotný"
+    },
+    {
+     "t": "08:55",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "3:4",
+     "p": "Matúš Kráľ",
+     "a": "Matúš Kučerka"
+    },
+    {
+     "t": "13:02",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "4:4",
+     "p": "Lukáš Hanzlík",
+     "a": "Angelo Novotný"
+    }
+   ],
+   "st": {
+    "g": [
+     "0",
+     "0"
+    ],
+    "sh": [
+     "0",
+     "0"
+    ],
+    "sv": [
+     "0",
+     "0"
+    ],
+    "pp": [
+     "0/0",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "0/0"
+    ]
+   },
+   "per": "(4:4, -:-, -:-)",
+   "ref": [
+    "Jakub Žilka",
+    "Samuel Chvojka"
    ]
   },
   "1281/138518": {
