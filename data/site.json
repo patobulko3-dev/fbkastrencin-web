@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/c/starsi-ziaci.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Starší žiaci · Liga starších žiakov Západ",
+      "title": "Jakub Peřina",
+      "title_em": "šesť gólov",
+      "text": "Starší žiaci zdolali Topoľčany 15:5. Jakub Peřina strelil šesť gólov a Marek Martiška pridal hetrik. Po prehre 5:7 s lídrom Orli sú v tabuľke druhí so 16 bodmi.",
+      "tab_title": "Starší žiaci",
+      "tab_text": "Výhra 15:5",
+      "btn1_text": "Výsledky",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/b/mb.jpg",
       "img_pos": "50% 35%",
       "kicker": "Muži B · 2. liga mužov Západ",
@@ -43,20 +57,6 @@
       "btn2_link": "#supisky"
     },
     {
-      "img": "img/g/j-146.jpg",
-      "img_pos": "60% 35%",
-      "kicker": "Juniori · Extraliga juniorov · Pozvánka",
-      "title": "Juniori",
-      "title_em": "odveta v Žiline",
-      "text": "V nedeľu 22. 11. o 16:00 hrajú juniori v Žiline s Grasshoppers, ktorým v októbri doma podľahli 4:5. Žilina je v tabuľke tretia s 15 bodmi, my sme šiesti so 7 bodmi.",
-      "tab_title": "Juniori",
-      "tab_text": "Ne 22. 11. o 16:00",
-      "btn1_text": "Program",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
-    },
-    {
       "img": "img/gm/ts-030.jpg",
       "img_pos": "70% 40%",
       "kicker": "Muži · Extraliga · Štatistiky",
@@ -80,20 +80,6 @@
       "tab_title": "Dorast",
       "tab_text": "Výhra 12:4",
       "btn1_text": "Výsledky",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/c/starsi-ziaci.jpg",
-      "img_pos": "50% 35%",
-      "kicker": "Starší žiaci · Liga starších žiakov Západ · Pozvánka",
-      "title": "Starší žiaci",
-      "title_em": "proti lídrovi",
-      "text": "V nedeľu 22. 11. o 11:20 privítajú starší žiaci v ARENE OSTROV lídra tabuľky 1. FBC Trenčín akadémia Orli, ktorý má 18 bodov. Sme tretí s 13 bodmi. O 13:40 nastúpia proti Topoľčanom. Príďte ich podporiť!",
-      "tab_title": "Starší žiaci",
-      "tab_text": "Ne 22. 11. o 11:20",
-      "btn1_text": "Program",
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
       "btn2_link": "#supisky"
