@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/gm/ts-066.jpg",
+      "img_pos": "60% 30%",
+      "kicker": "Muži · Extraliga · Štatistiky",
+      "title": "Tri deviatky",
+      "title_em": "v extralige",
+      "text": "Po desiatich kolách extraligy majú Timotej Kollár, Šimon Ondrášik aj obranca Michal Daranský zhodne po deväť gólov. Kollár a Ondrášik vedú naše bodovanie so 14 bodmi spolu s Matúšom Malíkom.",
+      "tab_title": "Muži",
+      "tab_text": "3 × 9 gólov",
+      "btn1_text": "Štatistiky",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/c/starsi-ziaci.jpg",
       "img_pos": "50% 35%",
       "kicker": "Starší žiaci · Liga starších žiakov Západ",
