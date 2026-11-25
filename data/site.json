@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/g/d-03.jpg",
+      "img_pos": "50% 35%",
+      "kicker": "Dorast · Liga dorastencov Západ",
+      "title": "Samuel Bielik",
+      "title_em": "15 gólov v dorasti",
+      "text": "Samuel Bielik strelil za šesť zápasov ligy dorastencov 15 gólov a s 19 bodmi vedie naše bodovanie. V extralige juniorov pridal ďalších 6 gólov a 6 asistencií.",
+      "tab_title": "Samuel Bielik",
+      "tab_text": "15 gólov, 19 bodov",
+      "btn1_text": "Štatistiky",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/gm/ts-066.jpg",
       "img_pos": "60% 30%",
       "kicker": "Muži · Extraliga · Štatistiky",
@@ -80,20 +94,6 @@
       "tab_title": "Tomáš Eštok",
       "tab_text": "Úspešnosť 84,56 %",
       "btn1_text": "Štatistiky",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/g/d-75.jpg",
-      "img_pos": "50% 30%",
-      "kicker": "Dorast · Liga dorastencov Západ",
-      "title": "Alex Trtík",
-      "title_em": "štyri góly",
-      "text": "Dorastenci zdolali doma Púchov 12:4. Alex Trtík strelil štyri góly, Jakub Minárik pridal dva góly a dve asistencie a dvakrát skóroval aj Samuel Bielik. Po šiestich výhrach vedú tabuľku s 18 bodmi.",
-      "tab_title": "Dorast",
-      "tab_text": "Výhra 12:4",
-      "btn1_text": "Výsledky",
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
       "btn2_link": "#supisky"
