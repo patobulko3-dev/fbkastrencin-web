@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:43:31.011Z",
+ "updated": "2026-11-26T23:44:22.172Z",
  "season": "2026/27",
  "cats": {
   "muzi": {
@@ -205,16 +205,6 @@
    "league": "Macron Extraliga juniorov",
    "played": [
     [
-     "10.10.",
-     "FBC Mikuláš Academy Prešov",
-     "6:2",
-     "P",
-     "Spojená škola Prešov",
-     0,
-     "2026-10-10",
-     "1244/137926"
-    ],
-    [
      "11.10.",
      "FaBK ATU Košice",
      "12:5",
@@ -263,18 +253,19 @@
      0,
      "2026-11-22",
      "1244/137942"
+    ],
+    [
+     "26.11.",
+     "ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+     "6:7 pp",
+     "Vpp",
+     "Športová hala SHZ",
+     0,
+     "2026-11-26",
+     "1244/137935"
     ]
    ],
    "next": [
-    [
-     "26.11.",
-     "Št",
-     "19:15",
-     "ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
-     "Športová hala SHZ",
-     0,
-     "2026-11-26"
-    ],
     [
      "19.12.",
      "So",
@@ -301,6 +292,15 @@
      "t.b.a.",
      1,
      "2027-01-10"
+    ],
+    [
+     "17.1.",
+     "Ne",
+     "0:00",
+     "ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+     "t.b.a.",
+     1,
+     "2027-01-17"
     ]
    ],
    "table": [
@@ -333,6 +333,13 @@
      0
     ],
     [
+     "Florbalový klub AS Trenčín",
+     9,
+     "51:65",
+     9,
+     1
+    ],
+    [
      "1. FBC Trenčín",
      8,
      "44:74",
@@ -340,23 +347,16 @@
      0
     ],
     [
-     "Florbalový klub AS Trenčín",
-     8,
-     "44:59",
-     7,
-     1
-    ],
-    [
      "ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
-     9,
-     "44:77",
-     3,
+     10,
+     "50:84",
+     4,
      0
     ]
    ],
-   "place": "6.",
-   "score": "44:59",
-   "pts": 7,
+   "place": "5.",
+   "score": "51:65",
+   "pts": 9,
    "zones": false
   },
   "mb": {
@@ -1377,7 +1377,7 @@
     ],
     [
      "Extraliga|11|9|2|11|2",
-     "Iné ligy|204|184|115|299|4",
+     "Iné ligy|205|185|117|302|4",
      "Turnaje|51|30|11|41|4"
     ],
     [
@@ -1424,7 +1424,7 @@
     ],
     [
      "Extraliga|7|0|0|0|0",
-     "Iné ligy|206|48|83|131|8",
+     "Iné ligy|207|49|83|132|8",
      "Turnaje|51|13|10|23|2"
     ],
     [
@@ -1800,7 +1800,7 @@
     ],
     [
      "Extraliga|6|0|1|1|0",
-     "Iné ligy|156|164|146|310|18",
+     "Iné ligy|157|164|146|310|18",
      "Turnaje|21|7|15|22|4"
     ],
     [
@@ -1981,7 +1981,7 @@
     ],
     [
      "Extraliga|6|0|0|0|0",
-     "Iné ligy|138|62|72|134|34",
+     "Iné ligy|139|62|72|134|34",
      "Turnaje|6|1|1|2|2"
     ],
     [
@@ -2219,7 +2219,7 @@
     ],
     [
      "Extraliga|3|0|0|0|0",
-     "Iné ligy|160|106|120|226|8",
+     "Iné ligy|161|106|120|226|8",
      "Turnaje|43|12|5|17|0"
     ],
     [
@@ -2254,7 +2254,7 @@
     ],
     [
      "Extraliga|25|2|3|5|0",
-     "Iné ligy|205|101|135|236|56",
+     "Iné ligy|206|101|135|236|56",
      "Turnaje|28|8|6|14|6"
     ],
     [
@@ -2283,7 +2283,7 @@
      "3"
     ],
     [
-     "Iné ligy|131|303|76|2,02|74,92 %|227|48",
+     "Iné ligy|132|303|76|2,02|74,92 %|227|48",
      "Turnaje|4|0|0|0,00|0,00 %|0|4"
     ],
     [
@@ -2304,12 +2304,6 @@
       "25.10",
       "3:8",
       "87,50 %"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
-      "60,00 %"
      ]
     ]
    ],
@@ -2318,20 +2312,26 @@
     [
      "4",
      "0",
-     "6,04",
-     "80,19 %",
-     "106",
-     "21",
-     "85",
+     "7,76",
+     "79,55 %",
+     "132",
+     "27",
+     "105",
      "208:40",
      "0",
      "4"
     ],
     [
-     "Iné ligy|99|320|71|1,67|77,81 %|249|39",
+     "Iné ligy|100|346|77|1,81|77,75 %|269|39",
      "Turnaje|29|152|30|3,25|80,26 %|122|5"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "76,92 %"
+     ],
      [
       "@ Oxdog Snipers Bratislava",
       "08.11",
@@ -2349,7 +2349,7 @@
    [
     "SLÁVIK, Miroslav",
     [
-     "8",
+     "9",
      "2",
      "2",
      "4",
@@ -2357,10 +2357,16 @@
     ],
     [
      "Extraliga|6|0|0|0|0",
-     "Iné ligy|138|62|72|134|34",
+     "Iné ligy|139|62|72|134|34",
      "Turnaje|6|1|1|2|2"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -2384,12 +2390,6 @@
       "15.10",
       "4:5",
       "0+1"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
-      "1+0"
      ]
     ]
    ],
@@ -2446,17 +2446,23 @@
    [
     "ORAVEC, Tomáš",
     [
-     "8",
+     "9",
      "0",
      "2",
      "2",
      "0"
     ],
     [
-     "Iné ligy|165|40|45|85|14",
+     "Iné ligy|166|40|45|85|14",
      "Turnaje|40|5|0|5|4"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -2480,29 +2486,29 @@
       "15.10",
       "4:5",
       "0+0"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
-      "0+1"
      ]
     ]
    ],
    [
     "KOPRDA, Andrej",
     [
-     "8",
-     "4",
+     "9",
+     "5",
      "2",
-     "6",
-     "4"
+     "7",
+     "6"
     ],
     [
-     "Iné ligy|178|74|70|144|42",
+     "Iné ligy|179|75|70|145|44",
      "Turnaje|19|5|3|8|4"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "1+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -2525,12 +2531,6 @@
       "vs. FBC Grasshoppers AC UNIZA Žilina",
       "15.10",
       "4:5",
-      "0+0"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
       "0+0"
      ]
     ]
@@ -2538,18 +2538,24 @@
    [
     "HUŇA, Tomáš",
     [
-     "8",
+     "9",
      "1",
-     "3",
      "4",
+     "5",
      "0"
     ],
     [
      "Extraliga|23|10|2|12|6",
-     "Iné ligy|214|247|126|373|20",
+     "Iné ligy|215|247|127|374|20",
      "Turnaje|29|31|9|40|2"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+1"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -2572,12 +2578,6 @@
       "vs. FBC Grasshoppers AC UNIZA Žilina",
       "15.10",
       "4:5",
-      "0+1"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
       "0+1"
      ]
     ]
@@ -2585,7 +2585,7 @@
    [
     "KLČO, Oliver",
     [
-     "8",
+     "9",
      "1",
      "1",
      "2",
@@ -2593,10 +2593,16 @@
     ],
     [
      "Extraliga|3|0|0|0|0",
-     "Iné ligy|160|106|120|226|8",
+     "Iné ligy|161|106|120|226|8",
      "Turnaje|43|12|5|17|0"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -2619,12 +2625,6 @@
       "vs. FBC Grasshoppers AC UNIZA Žilina",
       "15.10",
       "4:5",
-      "0+0"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
       "0+0"
      ]
     ]
@@ -2632,17 +2632,23 @@
    [
     "KORDOŠ, Tomáš",
     [
-     "5",
+     "6",
      "0",
      "1",
      "1",
      "0"
     ],
     [
-     "Iné ligy|174|78|98|176|18",
+     "Iné ligy|175|78|98|176|18",
      "Turnaje|43|13|6|19|6"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -2666,19 +2672,13 @@
       "13.09",
       "6:7 pp",
       "0+0"
-     ],
-     [
-      "vs. ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
-      "12.09",
-      "9:7",
-      "0+1"
      ]
     ]
    ],
    [
     "OLEKŠÁK, Marco",
     [
-     "8",
+     "9",
      "4",
      "1",
      "5",
@@ -2686,10 +2686,16 @@
     ],
     [
      "Extraliga|25|2|3|5|0",
-     "Iné ligy|205|101|135|236|56",
+     "Iné ligy|206|101|135|236|56",
      "Turnaje|28|8|6|14|6"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -2713,29 +2719,29 @@
       "15.10",
       "4:5",
       "0+0"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
-      "0+0"
      ]
     ]
    ],
    [
     "REIS, Jakub",
     [
-     "8",
+     "9",
      "0",
      "0",
      "0",
      "4"
     ],
     [
-     "Iné ligy|96|36|23|59|20",
+     "Iné ligy|97|36|23|59|20",
      "Turnaje|20|4|2|6|2"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -2759,29 +2765,29 @@
       "15.10",
       "4:5",
       "0+0"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
-      "0+0"
      ]
     ]
    ],
    [
     "ZVERBÍK, Matej",
     [
-     "5",
+     "6",
      "4",
      "1",
      "5",
      "0"
     ],
     [
-     "Iné ligy|135|84|51|135|16",
+     "Iné ligy|136|84|51|135|16",
      "Turnaje|33|9|2|11|0"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ Oxdog Snipers Bratislava",
       "08.11",
@@ -2805,29 +2811,29 @@
       "13.09",
       "6:7 pp",
       "0+0"
-     ],
-     [
-      "vs. ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
-      "12.09",
-      "9:7",
-      "2+0"
      ]
     ]
    ],
    [
     "TRTÍK, Alex",
     [
-     "8",
+     "9",
      "7",
      "5",
      "12",
-     "4"
+     "6"
     ],
     [
-     "Iné ligy|170|217|147|364|56",
+     "Iné ligy|171|217|147|364|58",
      "Turnaje|4|5|3|8|0"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -2851,29 +2857,29 @@
       "15.10",
       "4:5",
       "2+0"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
-      "0+0"
      ]
     ]
    ],
    [
     "ORAVEC, Alex",
     [
-     "7",
+     "8",
      "2",
      "0",
      "2",
      "12"
     ],
     [
-     "Iné ligy|130|111|76|187|50",
+     "Iné ligy|131|111|76|187|50",
      "Turnaje|52|40|15|55|34"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ Oxdog Snipers Bratislava",
       "08.11",
@@ -2897,29 +2903,29 @@
       "11.10",
       "12:5",
       "2+0"
-     ],
-     [
-      "@ FBC Mikuláš Academy Prešov",
-      "10.10",
-      "6:2",
-      "0+0"
      ]
     ]
    ],
    [
     "BEŇOVIČ, Daniel",
     [
+     "9",
      "8",
-     "5",
-     "2",
-     "7",
+     "3",
+     "11",
      "2"
     ],
     [
-     "Iné ligy|134|128|109|237|38",
+     "Iné ligy|135|131|110|241|38",
      "Turnaje|48|17|19|36|4"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "3+1"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -2943,12 +2949,6 @@
       "15.10",
       "4:5",
       "0+0"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
-      "1+1"
      ]
     ]
    ],
@@ -2977,17 +2977,23 @@
    [
     "MINÁRIK, Jakub",
     [
-     "5",
+     "6",
      "4",
      "0",
      "4",
      "0"
     ],
     [
-     "Iné ligy|77|102|53|155|10",
+     "Iné ligy|78|102|53|155|10",
      "Turnaje|33|17|5|22|2"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -3011,29 +3017,29 @@
       "13.09",
       "6:7 pp",
       "0+0"
-     ],
-     [
-      "vs. ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
-      "12.09",
-      "9:7",
-      "1+0"
      ]
     ]
    ],
    [
     "BIELIK, Samuel",
     [
+     "9",
+     "7",
      "8",
-     "6",
-     "6",
-     "12",
+     "15",
      "0"
     ],
     [
-     "Iné ligy|181|275|210|485|26",
+     "Iné ligy|182|276|212|488|26",
      "Turnaje|46|23|19|42|6"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "1+2"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -3057,30 +3063,30 @@
       "15.10",
       "4:5",
       "1+0"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
-      "1+0"
      ]
     ]
    ],
    [
     "DARANSKÝ, Michal",
     [
+     "6",
+     "2",
      "5",
-     "1",
-     "3",
-     "4",
+     "7",
      "0"
     ],
     [
      "Extraliga|11|9|2|11|2",
-     "Iné ligy|204|184|115|299|4",
+     "Iné ligy|205|185|117|302|4",
      "Turnaje|51|30|11|41|4"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "1+2"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -3104,30 +3110,30 @@
       "15.10",
       "4:5",
       "0+0"
-     ],
-     [
-      "vs. Oxdog Snipers Bratislava",
-      "13.09",
-      "6:7 pp",
-      "0+2"
      ]
     ]
    ],
    [
     "FUSI, Michal",
     [
-     "7",
-     "2",
-     "1",
+     "8",
      "3",
+     "1",
+     "4",
      "0"
     ],
     [
      "Extraliga|7|0|0|0|0",
-     "Iné ligy|206|48|83|131|8",
+     "Iné ligy|207|49|83|132|8",
      "Turnaje|51|13|10|23|2"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "1+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -3150,12 +3156,6 @@
       "vs. FBC Grasshoppers AC UNIZA Žilina",
       "15.10",
       "4:5",
-      "0+0"
-     ],
-     [
-      "@ FaBK ATU Košice",
-      "11.10",
-      "12:5",
       "0+0"
      ]
     ]
@@ -3185,7 +3185,7 @@
    [
     "PASQUALON, Nicolas",
     [
-     "6",
+     "7",
      "1",
      "3",
      "4",
@@ -3193,10 +3193,16 @@
     ],
     [
      "Extraliga|6|0|1|1|0",
-     "Iné ligy|156|164|146|310|18",
+     "Iné ligy|157|164|146|310|18",
      "Turnaje|21|7|15|22|4"
     ],
     [
+     [
+      "@ ŠK LIDO Alfa Business Partnership Prírodovedec Ružinov",
+      "26.11",
+      "6:7 pp",
+      "0+0"
+     ],
      [
       "@ FBC Grasshoppers AC UNIZA Žilina",
       "22.11",
@@ -3220,12 +3226,6 @@
       "11.10",
       "12:5",
       "0+1"
-     ],
-     [
-      "@ FBC Mikuláš Academy Prešov",
-      "10.10",
-      "6:2",
-      "0+0"
      ]
     ]
    ]
@@ -3246,7 +3246,7 @@
      "0"
     ],
     [
-     "Iné ligy|131|303|76|2,02|74,92 %|227|48",
+     "Iné ligy|132|303|76|2,02|74,92 %|227|48",
      "Turnaje|4|0|0|0,00|0,00 %|0|4"
     ],
     [
@@ -3274,7 +3274,7 @@
      "0"
     ],
     [
-     "Iné ligy|178|74|70|144|42",
+     "Iné ligy|179|75|70|145|44",
      "Turnaje|19|5|3|8|4"
     ],
     [
@@ -3320,7 +3320,7 @@
      "0"
     ],
     [
-     "Iné ligy|165|40|45|85|14",
+     "Iné ligy|166|40|45|85|14",
      "Turnaje|40|5|0|5|4"
     ],
     [
@@ -3411,7 +3411,7 @@
      "2"
     ],
     [
-     "Iné ligy|181|275|210|485|26",
+     "Iné ligy|182|276|212|488|26",
      "Turnaje|46|23|19|42|6"
     ],
     [
@@ -3457,7 +3457,7 @@
      "0"
     ],
     [
-     "Iné ligy|134|128|109|237|38",
+     "Iné ligy|135|131|110|241|38",
      "Turnaje|48|17|19|36|4"
     ],
     [
@@ -3503,7 +3503,7 @@
      "0"
     ],
     [
-     "Iné ligy|130|111|76|187|50",
+     "Iné ligy|131|111|76|187|50",
      "Turnaje|52|40|15|55|34"
     ],
     [
@@ -3641,7 +3641,7 @@
      "2"
     ],
     [
-     "Iné ligy|77|102|53|155|10",
+     "Iné ligy|78|102|53|155|10",
      "Turnaje|33|17|5|22|2"
     ],
     [
@@ -3687,7 +3687,7 @@
      "2"
     ],
     [
-     "Iné ligy|170|217|147|364|56",
+     "Iné ligy|171|217|147|364|58",
      "Turnaje|4|5|3|8|0"
     ],
     [
@@ -4115,7 +4115,7 @@
      "0"
     ],
     [
-     "Iné ligy|99|320|71|1,67|77,81 %|249|39",
+     "Iné ligy|100|346|77|1,81|77,75 %|269|39",
      "Turnaje|29|152|30|3,25|80,26 %|122|5"
     ],
     [
@@ -5964,200 +5964,6 @@
     "Ondrej Bihal"
    ]
   },
-  "1244/137926": {
-   "v": 2,
-   "ev": [
-    {
-     "t": "04:35",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "0:1",
-     "p": "Andrej Koprda",
-     "a": "Marco Olekšák"
-    },
-    {
-     "t": "05:38",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "1:1",
-     "p": "Mario Berger",
-     "a": "Samuel Horenský"
-    },
-    {
-     "t": "08:09",
-     "s": 1,
-     "q": "1. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Jakub Reis",
-     "r": "Bránenie v hre"
-    },
-    {
-     "t": "09:12",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "2:1",
-     "x": "PH1",
-     "p": "Jakub Kurečko",
-     "a": "Mario Berger"
-    },
-    {
-     "t": "09:56",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Alex Hasara",
-     "r": "Priestupky florbalkou"
-    },
-    {
-     "t": "11:27",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "3:1",
-     "x": "OS1",
-     "p": "Jakub Jančok",
-     "a": "Bruno Peregrin"
-    },
-    {
-     "t": "19:34",
-     "s": 0,
-     "q": "1. tretina",
-     "k": "g",
-     "sc": "4:1",
-     "p": "Samuel Hajduk"
-    },
-    {
-     "t": "28:18",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "5:1",
-     "p": "Alex Hasara",
-     "a": "Adam Rákoš"
-    },
-    {
-     "t": "28:46",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "g",
-     "sc": "5:2",
-     "p": "Andrej Koprda"
-    },
-    {
-     "t": "37:19",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Jakub Jančok",
-     "r": "Nešportové správanie"
-    },
-    {
-     "t": "37:19",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "p",
-     "m": "10",
-     "p": "Jakub Jančok",
-     "r": "Nešportové správanie / Osobný trest"
-    },
-    {
-     "t": "40:00",
-     "s": 1,
-     "q": "2. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Oliver Klčo",
-     "r": "Hrubosť"
-    },
-    {
-     "t": "40:00",
-     "s": 0,
-     "q": "2. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Tobias Peter Galík",
-     "r": "Hrubosť"
-    },
-    {
-     "t": "41:41",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "René Rusnák",
-     "r": "Priestupky florbalkou"
-    },
-    {
-     "t": "48:52",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Alex Oravec",
-     "r": "Bránenie v hre"
-    },
-    {
-     "t": "50:58",
-     "s": 1,
-     "q": "3. tretina",
-     "k": "p",
-     "m": "4",
-     "p": "Alex Oravec",
-     "r": "Hrubosť 2'+2'"
-    },
-    {
-     "t": "55:58",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "g",
-     "sc": "6:2",
-     "p": "Bruno Peregrin"
-    },
-    {
-     "t": "58:10",
-     "s": 0,
-     "q": "3. tretina",
-     "k": "p",
-     "m": "2",
-     "p": "Miloš Turík",
-     "r": "Hra rukou"
-    }
-   ],
-   "st": {
-    "g": [
-     "6",
-     "2"
-    ],
-    "sh": [
-     "28",
-     "32"
-    ],
-    "sv": [
-     "30",
-     "22"
-    ],
-    "pp": [
-     "1/3",
-     "0/6"
-    ],
-    "pk": [
-     "6/6",
-     "2/3"
-    ]
-   },
-   "per": "(4:1, 1:1, 1:0)",
-   "sp": 44,
-   "ref": [
-    "Michal Horňák",
-    "Jakub Smoroň"
-   ]
-  },
   "1244/137928": {
    "v": 2,
    "ev": [
@@ -7083,6 +6889,174 @@
    "ref": [
     "Martin Mésaroš",
     "Timotej Orság"
+   ]
+  },
+  "1244/137935": {
+   "v": 2,
+   "ev": [
+    {
+     "t": "13:02",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:1",
+     "p": "Daniel Beňovič",
+     "a": "Michal Daranský"
+    },
+    {
+     "t": "19:40",
+     "s": 1,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "0:2",
+     "p": "Michal Fusi",
+     "a": "Samuel Bielik"
+    },
+    {
+     "t": "19:54",
+     "s": 0,
+     "q": "1. tretina",
+     "k": "g",
+     "sc": "1:2",
+     "p": "Matúš Kič",
+     "a": "Ján Cheben"
+    },
+    {
+     "t": "26:37",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "1:3",
+     "p": "Daniel Beňovič",
+     "a": "Samuel Bielik"
+    },
+    {
+     "t": "28:33",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "2:3",
+     "p": "Maroš Glaubic",
+     "a": "Michal Čuban"
+    },
+    {
+     "t": "32:02",
+     "s": 1,
+     "q": "2. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Alex Trtík",
+     "r": "Držanie"
+    },
+    {
+     "t": "34:28",
+     "s": 0,
+     "q": "2. tretina",
+     "k": "g",
+     "sc": "3:3",
+     "p": "Maroš Glaubic"
+    },
+    {
+     "t": "41:15",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "3:4",
+     "p": "Michal Daranský",
+     "a": "Daniel Beňovič"
+    },
+    {
+     "t": "46:58",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "4:4",
+     "p": "Miroslav Varga",
+     "a": "Ján Cheben"
+    },
+    {
+     "t": "52:55",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:4",
+     "p": "Hugo Nagy",
+     "a": "Michal Čuban"
+    },
+    {
+     "t": "56:52",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "5:5",
+     "p": "Andrej Koprda",
+     "a": "Tomáš Huňa"
+    },
+    {
+     "t": "57:56",
+     "s": 0,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:5",
+     "x": "VG",
+     "p": "Andrej Koprda"
+    },
+    {
+     "t": "59:24",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "p",
+     "m": "2",
+     "p": "Andrej Koprda",
+     "r": "Nešportové správanie"
+    },
+    {
+     "t": "59:52",
+     "s": 1,
+     "q": "3. tretina",
+     "k": "g",
+     "sc": "6:6",
+     "x": "OS1",
+     "p": "Samuel Bielik",
+     "a": "Michal Daranský"
+    },
+    {
+     "t": "66:00",
+     "s": 1,
+     "q": "Predĺženie",
+     "k": "g",
+     "sc": "6:7",
+     "x": "TS",
+     "p": "Daniel Beňovič"
+    }
+   ],
+   "st": {
+    "g": [
+     "6",
+     "7"
+    ],
+    "sh": [
+     "26",
+     "39"
+    ],
+    "sv": [
+     "33",
+     "20"
+    ],
+    "pp": [
+     "0/2",
+     "0/0"
+    ],
+    "pk": [
+     "0/0",
+     "2/2"
+    ]
+   },
+   "per": "(1:2, 2:1, 3:3, 0:1)",
+   "sp": 40,
+   "ref": [
+    "Mathias Machotka",
+    "Ondrej Bihal"
    ]
   },
   "1262/138418": {
