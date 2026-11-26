@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/g/d-75.jpg",
+      "img_pos": "50% 30%",
+      "kicker": "Dorast · Liga dorastencov Západ",
+      "title": "Dorast",
+      "title_em": "šesť z šiestich",
+      "text": "Dorastenci vyhrali všetkých šesť zápasov ligy dorastencov Západ so skóre 73:26. Tabuľku vedú s 18 bodmi o osem bodov pred akadémiou 1. FBC Trenčín. Ďalej hrajú 5. 12. v Dubnici.",
+      "tab_title": "Dorast",
+      "tab_text": "6 výhier, 18 bodov",
+      "btn1_text": "Tabuľka",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/g/d-03.jpg",
       "img_pos": "50% 35%",
       "kicker": "Dorast · Liga dorastencov Západ",
@@ -80,20 +94,6 @@
       "tab_title": "Mladší žiaci",
       "tab_text": "1. miesto, 16 bodov",
       "btn1_text": "Tabuľka",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/gm/ts-030.jpg",
-      "img_pos": "70% 40%",
-      "kicker": "Muži · Extraliga · Štatistiky",
-      "title": "Tomáš Eštok",
-      "title_em": "115 zákrokov",
-      "text": "Tomáš Eštok nastúpil v extralige v šiestich zápasoch a zo 136 striel zneškodnil 115. S úspešnosťou zákrokov 84,56 % je zatiaľ najúspešnejším z našich brankárov.",
-      "tab_title": "Tomáš Eštok",
-      "tab_text": "Úspešnosť 84,56 %",
-      "btn1_text": "Štatistiky",
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
       "btn2_link": "#supisky"
