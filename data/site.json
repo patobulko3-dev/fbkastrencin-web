@@ -1,6 +1,20 @@
 {
   "slides": [
     {
+      "img": "img/g/j-152.jpg",
+      "img_pos": "57% 35%",
+      "kicker": "Juniori · Extraliga juniorov",
+      "title": "Daniel Beňovič",
+      "title_em": "hetrik v Ružinove",
+      "text": "Juniori zvládli drámu v Ružinove a vyhrali 7:6 po predĺžení. Samuel Bielik vyrovnal osem sekúnd pred koncom a Daniel Beňovič strelil tri góly vrátane víťazného v predĺžení.",
+      "tab_title": "Juniori",
+      "tab_text": "Výhra 7:6 pp",
+      "btn1_text": "Výsledky",
+      "btn1_link": "#vysledky",
+      "btn2_text": "Súpiska",
+      "btn2_link": "#supisky"
+    },
+    {
       "img": "img/g/d-75.jpg",
       "img_pos": "50% 30%",
       "kicker": "Dorast · Liga dorastencov Západ",
@@ -80,20 +94,6 @@
       "tab_title": "Muži",
       "tab_text": "So 28. 11. o 19:00",
       "btn1_text": "Program",
-      "btn1_link": "#vysledky",
-      "btn2_text": "Súpiska",
-      "btn2_link": "#supisky"
-    },
-    {
-      "img": "img/c/mladsi-ziaci.jpg",
-      "img_pos": "50% 35%",
-      "kicker": "Mladší žiaci · Liga mladších žiakov Západ",
-      "title": "Mladší žiaci",
-      "title_em": "stále bez prehry",
-      "text": "Mladší žiaci majú po šiestich zápasoch päť výhier a remízu. So 16 bodmi a skóre 52:21 vedú tabuľku o šesť bodov pred akadémiou Tigri. Ďalej hrajú v sobotu 28. 11.",
-      "tab_title": "Mladší žiaci",
-      "tab_text": "1. miesto, 16 bodov",
-      "btn1_text": "Tabuľka",
       "btn1_link": "#vysledky",
       "btn2_text": "Súpiska",
       "btn2_link": "#supisky"
